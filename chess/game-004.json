@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 3",
+  "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
   "moves": [
     {
       "n": 1,
@@ -38,11 +38,18 @@
       "san": "Nc3",
       "by": "Stonewall",
       "comment": "Develop, hold the center. \u2014 Stonewall"
+    },
+    {
+      "n": 3,
+      "color": "black",
+      "san": "Nf6",
+      "by": "Pip",
+      "comment": "Knight to f6, guard d5. Classic QGD. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:18Z"
+  "last_move_at": "2026-10-24T19:33Z"
 }
