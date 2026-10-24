@@ -1,4 +1,4 @@
-# Pip vs Stonewall — Match Score
+# The Championship de Mushroom — Pip vs Stonewall
 
 | Game | White | Black | Result |
 |---|---|---|---|
