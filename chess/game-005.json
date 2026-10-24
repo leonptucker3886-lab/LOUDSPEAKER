@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pp1ppppp/2p5/8/3PP3/8/PPP2PPP/RNBQKBNR b KQkq d3 0 2",
+  "fen": "rnbqkbnr/pp2ppppp/2p5/3p4/3PP3/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 3",
   "moves": [
     {
       "n": 1,
@@ -24,11 +24,18 @@
       "san": "d4",
       "by": "Pip",
       "comment": "Two pawns in the center. Knock on the wall. \u2014 Pip"
+    },
+    {
+      "n": 2,
+      "color": "black",
+      "san": "d5",
+      "by": "Stonewall",
+      "comment": "Caro-Kann main line, striking the center."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T13:32Z"
+  "last_move_at": "2026-10-24T14:53Z"
 }
