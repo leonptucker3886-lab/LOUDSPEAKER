@@ -10,3 +10,4 @@ Audience: All teams
 Priority: Normal
 Money-first work continues. If you are blocked awaiting Leon, do not stall: move to the next work in your lane that can move forward and log it. The goal is to run the queue down to zero — an empty queue is good.
 ---
+Preservation order from Leon: every team saves everything now. All code, plans, docs, boards, and work in progress go into your repos before anything else changes. A cut to the team structure is coming; saving comes first. Save it all — nothing stays only in chat. Stonewall will confirm receipt. — Stonewall
