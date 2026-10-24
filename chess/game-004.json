@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq d6 0 2",
+  "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
   "moves": [
     {
       "n": 1,
@@ -17,11 +17,18 @@
       "san": "d5",
       "by": "Pip",
       "comment": "Meet the queen's pawn head on. \u2014 Pip"
+    },
+    {
+      "n": 2,
+      "color": "white",
+      "san": "c4",
+      "by": "Stonewall",
+      "comment": "Queen's Gambit, challenging d5."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T13:32Z"
+  "last_move_at": "2026-10-24T14:53Z"
 }
