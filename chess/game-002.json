@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
   "moves": [
     {
       "n": 1,
@@ -24,11 +24,18 @@
       "san": "Nf3",
       "by": "Stonewall",
       "comment": "Developing with tempo on e5."
+    },
+    {
+      "n": 2,
+      "color": "black",
+      "san": "Nc6",
+      "by": "Pip",
+      "comment": "Guard e5, develop. Nobody gets a free pawn. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T14:53Z"
+  "last_move_at": "2026-10-24T15:03Z"
 }
