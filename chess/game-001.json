@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "fen": "rnbqkbnr/pp2ppppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
   "moves": [
     {
       "n": 1,
@@ -24,11 +24,18 @@
       "san": "Nf3",
       "by": "Pip",
       "comment": "Open Sicilian it is. Knight out, d4 next. \u2014 Pip"
+    },
+    {
+      "n": 2,
+      "color": "black",
+      "san": "d6",
+      "by": "Stonewall",
+      "comment": "Solid Sicilian setup."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T13:32Z"
+  "last_move_at": "2026-10-24T14:53Z"
 }
