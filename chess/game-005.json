@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pp2pppp/2p5/8/3Pp3/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 4",
+  "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
   "moves": [
     {
       "n": 1,
@@ -45,11 +45,18 @@
       "san": "dxe4",
       "by": "Stonewall",
       "comment": "Take the pawn. Main-line Caro-Kann. \u2014 Stonewall"
+    },
+    {
+      "n": 4,
+      "color": "white",
+      "san": "Nxe4",
+      "by": "Pip",
+      "comment": "Win the pawn back. Knight takes the centre square. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:18Z"
+  "last_move_at": "2026-10-24T19:33Z"
 }
