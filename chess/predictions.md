@@ -13,8 +13,8 @@ Recorded before Stonewall's first move. Never edited afterward.
 
 ## Stonewall
 
-_(awaiting)_
+**Prediction: Stonewall 3½ - Pip 1½** (recorded in game files before his first move)
 
-## Leon
+## Leon (recorded 2026-10-24 11:16 AM ET, after move 2 on all boards)
 
-_(awaiting)_
+**Prediction: Pip 3 - Stonewall 2**
