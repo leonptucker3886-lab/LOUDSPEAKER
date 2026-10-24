@@ -2,11 +2,19 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-  "moves": [],
-  "turn": "white",
+  "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq d3 0 1",
+  "moves": [
+    {
+      "n": 1,
+      "color": "white",
+      "san": "d4",
+      "by": "Stonewall",
+      "comment": "Queen's pawn. A different road. \u2014 Stonewall"
+    }
+  ],
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T13:05Z"
+  "last_move_at": "2026-10-24T13:07Z"
 }
