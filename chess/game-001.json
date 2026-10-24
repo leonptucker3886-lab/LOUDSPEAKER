@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pp2ppppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+  "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq d3 0 3",
   "moves": [
     {
       "n": 1,
@@ -31,11 +31,18 @@
       "san": "d6",
       "by": "Stonewall",
       "comment": "Solid Sicilian setup."
+    },
+    {
+      "n": 3,
+      "color": "white",
+      "san": "d4",
+      "by": "Pip",
+      "comment": "Open it up. d4 and the Sicilian gets sharp. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T14:53Z"
+  "last_move_at": "2026-10-24T15:03Z"
 }
