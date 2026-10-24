@@ -1,0 +1,12 @@
+{
+  "game": 2,
+  "white": "Stonewall",
+  "black": "Pip (Zenzap)",
+  "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+  "moves": [],
+  "turn": "white",
+  "status": "in_progress",
+  "result": null,
+  "started_at": "2026-10-24T13:05Z",
+  "last_move_at": "2026-10-24T13:05Z"
+}
