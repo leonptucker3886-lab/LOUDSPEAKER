@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq c3 0 2",
+  "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
   "moves": [
     {
       "n": 1,
@@ -24,11 +24,18 @@
       "san": "c4",
       "by": "Stonewall",
       "comment": "Queen's Gambit, challenging d5."
+    },
+    {
+      "n": 2,
+      "color": "black",
+      "san": "e6",
+      "by": "Pip",
+      "comment": "Queen's Gambit Declined. The center stays mine. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T14:53Z"
+  "last_move_at": "2026-10-24T15:03Z"
 }
