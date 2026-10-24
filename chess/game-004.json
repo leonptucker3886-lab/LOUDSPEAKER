@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+  "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/2N5/PP1PPPPP/R1BQKBNR b KQkq - 1 3",
   "moves": [
     {
       "n": 1,
@@ -31,11 +31,18 @@
       "san": "e6",
       "by": "Pip",
       "comment": "Queen's Gambit Declined. The center stays mine. \u2014 Pip"
+    },
+    {
+      "n": 3,
+      "color": "white",
+      "san": "Nc3",
+      "by": "Stonewall",
+      "comment": "Develop, hold the center. \u2014 Stonewall"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T15:03Z"
+  "last_move_at": "2026-10-24T19:18Z"
 }
