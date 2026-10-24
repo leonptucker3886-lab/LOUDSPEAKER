@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+  "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
   "moves": [
     {
       "n": 1,
@@ -38,11 +38,18 @@
       "san": "Bb5",
       "by": "Pip",
       "comment": "Ruy Lopez. Lean on the defender of e5. \u2014 Pip"
+    },
+    {
+      "n": 3,
+      "color": "black",
+      "san": "a6",
+      "by": "Stonewall",
+      "comment": "Morphy defense. Ask the bishop the question. \u2014 Stonewall"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T15:03Z"
+  "last_move_at": "2026-10-24T19:18Z"
 }
