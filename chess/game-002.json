@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+  "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
   "moves": [
     {
       "n": 1,
@@ -38,11 +38,18 @@
       "san": "Bb5",
       "by": "Stonewall",
       "comment": "Ruy Lopez. Pressure the knight on c6. \u2014 Stonewall"
+    },
+    {
+      "n": 3,
+      "color": "black",
+      "san": "a6",
+      "by": "Pip",
+      "comment": "Morphy Defence. Your turn to answer the question. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:18Z"
+  "last_move_at": "2026-10-24T19:33Z"
 }
