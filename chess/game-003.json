@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+  "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
   "moves": [
     {
       "n": 1,
@@ -45,11 +45,18 @@
       "san": "a6",
       "by": "Stonewall",
       "comment": "Morphy defense. Ask the bishop the question. \u2014 Stonewall"
+    },
+    {
+      "n": 4,
+      "color": "white",
+      "san": "Ba4",
+      "by": "Pip",
+      "comment": "Keep the pin alive. Bishop steps back, pressure stays. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:18Z"
+  "last_move_at": "2026-10-24T19:33Z"
 }
