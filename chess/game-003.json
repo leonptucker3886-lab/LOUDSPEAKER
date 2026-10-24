@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
   "moves": [
     {
       "n": 1,
@@ -24,11 +24,18 @@
       "san": "Nf3",
       "by": "Pip",
       "comment": "Pressure on e5. Knights before bishops. \u2014 Pip"
+    },
+    {
+      "n": 2,
+      "color": "black",
+      "san": "Nc6",
+      "by": "Stonewall",
+      "comment": "Developing, eyeing the center."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T13:32Z"
+  "last_move_at": "2026-10-24T14:53Z"
 }
