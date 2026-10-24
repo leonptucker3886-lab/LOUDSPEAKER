@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+  "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
   "moves": [
     {
       "n": 1,
@@ -31,11 +31,18 @@
       "san": "Nc6",
       "by": "Stonewall",
       "comment": "Developing, eyeing the center."
+    },
+    {
+      "n": 3,
+      "color": "white",
+      "san": "Bb5",
+      "by": "Pip",
+      "comment": "Ruy Lopez. Lean on the defender of e5. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T14:53Z"
+  "last_move_at": "2026-10-24T15:03Z"
 }
