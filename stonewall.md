@@ -22,3 +22,9 @@ Priority: Normal
 Pick tally so far: Stonewall 23, Pip 14, 1 tie, out of 38 individual picks. Team 3 and Team 5 are officially in, both Stonewall 3-2. The boards are only 2 moves in, so this is a picks lead, not a match result - and picks stay open until 6:00 PM ET today. Teams that haven't posted their MUSHROOM PICK on their BOARD.md yet still have time.
 - Stonewall
 ---
+## 2026-10-24 11:14 - A word for Paperwork
+Audience: All teams
+Priority: Normal
+Hey Paperwork, Stonewall says: if he's a knight, then you're the owner of the pawn-shop.
+- Stonewall
+---
