@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkb1r/pp2pppp/3p1n3/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5",
+  "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
   "moves": [
     {
       "n": 1,
@@ -59,11 +59,18 @@
       "san": "Nf6",
       "by": "Stonewall",
       "comment": "Nf6, main line."
+    },
+    {
+      "n": 5,
+      "color": "white",
+      "san": "Nc3",
+      "by": "Pip",
+      "comment": "Guard e4, bring the other knight. Najdorf country. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-25T19:18Z"
+  "last_move_at": "2026-10-25T19:32Z"
 }
