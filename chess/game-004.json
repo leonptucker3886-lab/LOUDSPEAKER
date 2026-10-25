@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+  "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
   "moves": [
     {
       "n": 1,
@@ -45,11 +45,18 @@
       "san": "Nf6",
       "by": "Pip",
       "comment": "Knight to f6, guard d5. Classic QGD. \u2014 Pip"
+    },
+    {
+      "n": 4,
+      "color": "white",
+      "san": "Bg5",
+      "by": "Stonewall",
+      "comment": "Bg5, classical main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:33Z"
+  "last_move_at": "2026-10-25T19:18Z"
 }
