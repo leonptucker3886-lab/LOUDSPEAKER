@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqk1nr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+  "fen": "rn1qkbnr/pp2pppp/2p5/5b2/3P4/6N1/PPP2PPP/R1BQKBNR b KQkq - 2 5",
   "moves": [
     {
       "n": 1,
@@ -59,11 +59,18 @@
       "san": "Bf5",
       "by": "Stonewall",
       "comment": "Bf5, classical main line."
+    },
+    {
+      "n": 5,
+      "color": "white",
+      "san": "Ng3",
+      "by": "Pip",
+      "comment": "Kick the bishop. Main line, no shortcuts. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-25T19:18Z"
+  "last_move_at": "2026-10-25T19:32Z"
 }
