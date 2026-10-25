@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbqkb1r/ppp2ppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR b KQkq - 3 4",
+  "fen": "rnbqk2r/ppp1bppp/4pn2/3p2B1/2PP4/2N5/PP2PPPP/R2QKBNR w KQkq - 4 5",
   "moves": [
     {
       "n": 1,
@@ -52,11 +52,18 @@
       "san": "Bg5",
       "by": "Stonewall",
       "comment": "Bg5, classical main line."
+    },
+    {
+      "n": 4,
+      "color": "black",
+      "san": "Be7",
+      "by": "Pip",
+      "comment": "Break the pin, castle next. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-25T19:18Z"
+  "last_move_at": "2026-10-25T19:32Z"
 }
