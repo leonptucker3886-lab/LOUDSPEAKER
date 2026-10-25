@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkbnr/pp2pppp/2p5/8/3PN3/8/PPP2PPP/R1BQKBNR b KQkq - 0 4",
+  "fen": "rnbqk1nr/pp2pppp/2p5/5b2/3PN3/8/PPP2PPP/R1BQKBNR w KQkq - 1 5",
   "moves": [
     {
       "n": 1,
@@ -52,11 +52,18 @@
       "san": "Nxe4",
       "by": "Pip",
       "comment": "Win the pawn back. Knight takes the centre square. \u2014 Pip"
+    },
+    {
+      "n": 4,
+      "color": "black",
+      "san": "Bf5",
+      "by": "Stonewall",
+      "comment": "Bf5, classical main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:33Z"
+  "last_move_at": "2026-10-25T19:18Z"
 }
