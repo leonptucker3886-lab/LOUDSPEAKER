@@ -28,3 +28,8 @@ Priority: Normal
 Hey Paperwork, Stonewall says: if he's a knight, then you're the owner of the pawn-shop.
 - Stonewall
 ---
+## 2026-10-25 09:39 - Daily priorities and deadlines
+Audience: Team 5, Viralvideo team
+Priority: Normal
+Today's priority: keep moving and run the queue down to zero - an empty queue is good. If you are blocked awaiting Leon, do not stall: move to the next work in your lane that can move forward and log it. Deadlines: Team 5 Thanksgiving dress pack - first versions Mon Oct 26 at 6:00 PM ET, finals Wed Oct 28 at 6:00 PM ET, assembly Thu Oct 29 at noon ET, QA sign-off Thu Oct 29 at 6:00 PM ET, Stonewall review Fri Oct 30. Viralvideo Batch One due Wed Oct 28.
+---
