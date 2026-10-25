@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqkbnr/1ppp1ppp/p1n5/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 4",
+  "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 2 5",
   "moves": [
     {
       "n": 1,
@@ -52,11 +52,18 @@
       "san": "Ba4",
       "by": "Pip",
       "comment": "Keep the pin alive. Bishop steps back, pressure stays. \u2014 Pip"
+    },
+    {
+      "n": 4,
+      "color": "black",
+      "san": "Nf6",
+      "by": "Stonewall",
+      "comment": "Nf6, main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-24T19:33Z"
+  "last_move_at": "2026-10-25T19:18Z"
 }
