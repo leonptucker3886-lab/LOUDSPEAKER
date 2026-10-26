@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 0 8",
+  "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8",
   "moves": [
     {
       "n": 1,
@@ -101,11 +101,18 @@
       "san": "d6",
       "by": "Stonewall",
       "comment": "d6, Closed Ruy main line."
+    },
+    {
+      "n": 8,
+      "color": "white",
+      "san": "c3",
+      "by": "Pip",
+      "comment": "c3, a home for the bishop and d4 on the way. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T19:19Z"
+  "last_move_at": "2026-10-26T19:33Z"
 }
