@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbq1rk1/ppp1bppp/4pn2/3p2B1/2PP4/2N1P3/PP3PPP/R2QKBNR w KQ - 1 6",
+  "fen": "rnbq1rk1/ppp1bppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R b KQ - 2 6",
   "moves": [
     {
       "n": 1,
@@ -73,11 +73,18 @@
       "san": "O-O",
       "by": "Pip",
       "comment": "King to safety. Now the wall holds. \u2014 Pip"
+    },
+    {
+      "n": 6,
+      "color": "white",
+      "san": "Nf3",
+      "by": "Stonewall",
+      "comment": "Nf3, QGD classical main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:32Z"
+  "last_move_at": "2026-10-26T13:25Z"
 }
