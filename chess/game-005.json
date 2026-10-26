@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
+  "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/5NN1/PPP2PP1/R1BQKB1R b KQkq - 1 7",
   "moves": [
     {
       "n": 1,
@@ -87,11 +87,18 @@
       "san": "h6",
       "by": "Stonewall",
       "comment": "h6, Caro-Kann classical main line. h5 stopped."
+    },
+    {
+      "n": 7,
+      "color": "white",
+      "san": "Nf3",
+      "by": "Pip",
+      "comment": "Nf3, developing and eyeing e5 and h4 support. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:25Z"
+  "last_move_at": "2026-10-26T13:32Z"
 }
