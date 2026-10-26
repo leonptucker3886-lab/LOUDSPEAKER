@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbq1rk1/ppp1bppp/4pn2/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R b KQ - 2 6",
+  "fen": "rnbq1rk1/ppp1bpp1/4pn1p/3p2B1/2PP4/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 7",
   "moves": [
     {
       "n": 1,
@@ -80,11 +80,18 @@
       "san": "Nf3",
       "by": "Stonewall",
       "comment": "Nf3, QGD classical main line."
+    },
+    {
+      "n": 6,
+      "color": "black",
+      "san": "h6",
+      "by": "Pip",
+      "comment": "h6, asking the bishop its intentions. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:25Z"
+  "last_move_at": "2026-10-26T13:32Z"
 }
