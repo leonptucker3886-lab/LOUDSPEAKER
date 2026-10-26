@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
+  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7",
   "moves": [
     {
       "n": 1,
@@ -87,11 +87,18 @@
       "san": "b5",
       "by": "Stonewall",
       "comment": "b5, Closed Ruy main line."
+    },
+    {
+      "n": 7,
+      "color": "white",
+      "san": "Bb3",
+      "by": "Pip",
+      "comment": "Bb3, the bishop retreats to the a2-g8 diagonal and eyes f7. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:25Z"
+  "last_move_at": "2026-10-26T13:32Z"
 }
