@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7",
+  "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 0 8",
   "moves": [
     {
       "n": 1,
@@ -94,11 +94,18 @@
       "san": "Bb3",
       "by": "Stonewall",
       "comment": "Bb3, Closed Ruy main line."
+    },
+    {
+      "n": 7,
+      "color": "black",
+      "san": "d6",
+      "by": "Pip",
+      "comment": "d6, shoring up e5; castling comes next. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T19:19Z"
+  "last_move_at": "2026-10-26T19:33Z"
 }
