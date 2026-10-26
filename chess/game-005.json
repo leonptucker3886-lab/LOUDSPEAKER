@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq - 0 6",
+  "fen": "rn1qkbnr/pp2ppp1/2p3bp/8/3P3P/6N1/PPP2PP1/R1BQKBNR w KQkq - 0 7",
   "moves": [
     {
       "n": 1,
@@ -80,11 +80,18 @@
       "san": "h4",
       "by": "Pip",
       "comment": "h4, the classic threat: h5 to trap the bishop. \u2014 Pip"
+    },
+    {
+      "n": 6,
+      "color": "black",
+      "san": "h6",
+      "by": "Stonewall",
+      "comment": "h6, Caro-Kann classical main line. h5 stopped."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:32Z"
+  "last_move_at": "2026-10-26T13:25Z"
 }
