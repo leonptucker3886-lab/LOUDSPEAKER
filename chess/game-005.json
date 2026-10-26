@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P4/6N1/PPP2PPP/R1BQKBNR w KQkq - 3 6",
+  "fen": "rn1qkbnr/pp2pppp/2p3b1/8/3P3P/6N1/PPP2PP1/R1BQKBNR b KQkq - 0 6",
   "moves": [
     {
       "n": 1,
@@ -73,11 +73,18 @@
       "san": "Bg6",
       "by": "Stonewall",
       "comment": "Bg6, classical main line."
+    },
+    {
+      "n": 6,
+      "color": "white",
+      "san": "h4",
+      "by": "Pip",
+      "comment": "h4, the classic threat: h5 to trap the bishop. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:18Z"
+  "last_move_at": "2026-10-26T07:32Z"
 }
