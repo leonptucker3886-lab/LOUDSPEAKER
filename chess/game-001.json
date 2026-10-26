@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkb1r/1pp2ppp/p2p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w KQkq - 3 6",
+  "fen": "rnbqkb1r/1pp2ppp/p2p1n2/8/3NP3/2N1B3/PPP2PPP/R2QKB1R b KQkq - 4 6",
   "moves": [
     {
       "n": 1,
@@ -73,11 +73,18 @@
       "san": "a6",
       "by": "Stonewall",
       "comment": "a6, Najdorf."
+    },
+    {
+      "n": 6,
+      "color": "white",
+      "san": "Be3",
+      "by": "Pip",
+      "comment": "English Attack setup. Bishop to e3, f3 and Qd2 to follow. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:18Z"
+  "last_move_at": "2026-10-26T07:32Z"
 }
