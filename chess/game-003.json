@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
   "moves": [
     {
       "n": 1,
@@ -80,11 +80,18 @@
       "san": "Re1",
       "by": "Pip",
       "comment": "Rook to e1, e4 is guarded for good. (FEN corrected: stray g8 knight removed.) \u2014 Pip"
+    },
+    {
+      "n": 6,
+      "color": "black",
+      "san": "b5",
+      "by": "Stonewall",
+      "comment": "b5, Closed Ruy main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:32Z"
+  "last_move_at": "2026-10-26T13:25Z"
 }
