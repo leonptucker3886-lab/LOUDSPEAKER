@@ -2,28 +2,28 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbqkb1r/1p3ppp/p2p1n2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R b KQkq - 1 7",
+  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1B3/PPP2PPP/R2QKB1R w KQkq - 2 8",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Pip",
-      "comment": "Center first. Hold the line. \u2014 Pip"
+      "comment": "Center first. Hold the line. — Pip"
     },
     {
       "n": 1,
       "color": "black",
       "san": "c5",
       "by": "Stonewall",
-      "comment": "Sicilian. Let's dance. \u2014 Stonewall"
+      "comment": "Sicilian. Let's dance. — Stonewall"
     },
     {
       "n": 2,
       "color": "white",
       "san": "Nf3",
       "by": "Pip",
-      "comment": "Open Sicilian it is. Knight out, d4 next. \u2014 Pip"
+      "comment": "Open Sicilian it is. Knight out, d4 next. — Pip"
     },
     {
       "n": 2,
@@ -37,21 +37,21 @@
       "color": "white",
       "san": "d4",
       "by": "Pip",
-      "comment": "Open it up. d4 and the Sicilian gets sharp. \u2014 Pip"
+      "comment": "Open it up. d4 and the Sicilian gets sharp. — Pip"
     },
     {
       "n": 3,
       "color": "black",
       "san": "cxd4",
       "by": "Stonewall",
-      "comment": "Take the pawn, open the game. \u2014 Stonewall"
+      "comment": "Take the pawn, open the game. — Stonewall"
     },
     {
       "n": 4,
       "color": "white",
       "san": "Nxd4",
       "by": "Pip",
-      "comment": "Take back with the knight. Open Sicilian, centre knight. \u2014 Pip"
+      "comment": "Take back with the knight. Open Sicilian, centre knight. — Pip"
     },
     {
       "n": 4,
@@ -65,7 +65,7 @@
       "color": "white",
       "san": "Nc3",
       "by": "Pip",
-      "comment": "Guard e4, bring the other knight. Najdorf country. \u2014 Pip"
+      "comment": "Guard e4, bring the other knight. Najdorf country. — Pip"
     },
     {
       "n": 5,
@@ -79,7 +79,7 @@
       "color": "white",
       "san": "Be3",
       "by": "Pip",
-      "comment": "English Attack setup. Bishop to e3, f3 and Qd2 to follow. \u2014 Pip"
+      "comment": "English Attack setup. Bishop to e3, f3 and Qd2 to follow. — Pip"
     },
     {
       "n": 6,
@@ -93,12 +93,19 @@
       "color": "white",
       "san": "Nb3",
       "by": "Pip",
-      "comment": "Nb3, the classical retreat; the d5 square stays in my sights. \u2014 Pip"
+      "comment": "Nb3, the classical retreat; the d5 square stays in my sights. — Pip"
+    },
+    {
+      "n": 7,
+      "color": "black",
+      "san": "Be6",
+      "by": "Stonewall",
+      "comment": "Be6, Najdorf English Attack main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:32Z"
+  "last_move_at": "2026-10-26T19:19Z"
 }
