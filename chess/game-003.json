@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bqkb1r/1ppp1ppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 3 5",
+  "fen": "r1bqk1nr/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
   "moves": [
     {
       "n": 1,
@@ -66,11 +66,18 @@
       "san": "O-O",
       "by": "Pip",
       "comment": "King safe first. e4 can wait for the rook. \u2014 Pip"
+    },
+    {
+      "n": 5,
+      "color": "black",
+      "san": "Be7",
+      "by": "Stonewall",
+      "comment": "Be7, closed main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-25T19:32Z"
+  "last_move_at": "2026-10-26T07:18Z"
 }
