@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
+  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
   "moves": [
     {
       "n": 1,
@@ -80,11 +80,18 @@
       "san": "Re1",
       "by": "Stonewall",
       "comment": "Re1, Closed Ruy main line."
+    },
+    {
+      "n": 6,
+      "color": "black",
+      "san": "b5",
+      "by": "Pip",
+      "comment": "b5, kicking the bishop before it gets comfortable. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:25Z"
+  "last_move_at": "2026-10-26T13:32Z"
 }
