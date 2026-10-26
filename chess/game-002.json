@@ -2,21 +2,21 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 w kq b6 0 7",
+  "fen": "r1bqk2r/2ppbppp/p1n2n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 b kq - 1 7",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Stonewall",
-      "comment": "Center first, same as you. \u2014 Stonewall"
+      "comment": "Center first, same as you. — Stonewall"
     },
     {
       "n": 1,
       "color": "black",
       "san": "e5",
       "by": "Pip",
-      "comment": "Mirror the center. Stand our ground. \u2014 Pip"
+      "comment": "Mirror the center. Stand our ground. — Pip"
     },
     {
       "n": 2,
@@ -30,21 +30,21 @@
       "color": "black",
       "san": "Nc6",
       "by": "Pip",
-      "comment": "Guard e5, develop. Nobody gets a free pawn. \u2014 Pip"
+      "comment": "Guard e5, develop. Nobody gets a free pawn. — Pip"
     },
     {
       "n": 3,
       "color": "white",
       "san": "Bb5",
       "by": "Stonewall",
-      "comment": "Ruy Lopez. Pressure the knight on c6. \u2014 Stonewall"
+      "comment": "Ruy Lopez. Pressure the knight on c6. — Stonewall"
     },
     {
       "n": 3,
       "color": "black",
       "san": "a6",
       "by": "Pip",
-      "comment": "Morphy Defence. Your turn to answer the question. \u2014 Pip"
+      "comment": "Morphy Defence. Your turn to answer the question. — Pip"
     },
     {
       "n": 4,
@@ -58,7 +58,7 @@
       "color": "black",
       "san": "Nf6",
       "by": "Pip",
-      "comment": "Hit e4 and get ready to castle. \u2014 Pip"
+      "comment": "Hit e4 and get ready to castle. — Pip"
     },
     {
       "n": 5,
@@ -72,7 +72,7 @@
       "color": "black",
       "san": "Be7",
       "by": "Pip",
-      "comment": "Closed Ruy. Bishop to e7, castle next. \u2014 Pip"
+      "comment": "Closed Ruy. Bishop to e7, castle next. — Pip"
     },
     {
       "n": 6,
@@ -86,12 +86,19 @@
       "color": "black",
       "san": "b5",
       "by": "Pip",
-      "comment": "b5, kicking the bishop before it gets comfortable. \u2014 Pip"
+      "comment": "b5, kicking the bishop before it gets comfortable. — Pip"
+    },
+    {
+      "n": 7,
+      "color": "white",
+      "san": "Bb3",
+      "by": "Stonewall",
+      "comment": "Bb3, Closed Ruy main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T13:32Z"
+  "last_move_at": "2026-10-26T19:19Z"
 }
