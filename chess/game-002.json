@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 4 6",
+  "fen": "r1bqk2r/1pppbppp/p1n2n2/4p3/B3P3/5N2/PPPP1PPP/RNBQR1K1 b kq - 5 6",
   "moves": [
     {
       "n": 1,
@@ -73,11 +73,18 @@
       "san": "Be7",
       "by": "Pip",
       "comment": "Closed Ruy. Bishop to e7, castle next. \u2014 Pip"
+    },
+    {
+      "n": 6,
+      "color": "white",
+      "san": "Re1",
+      "by": "Stonewall",
+      "comment": "Re1, Closed Ruy main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T07:32Z"
+  "last_move_at": "2026-10-26T13:25Z"
 }
