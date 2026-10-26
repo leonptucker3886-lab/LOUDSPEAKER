@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkbnr/pp1nppp1/2p3bp/8/3P3P/5NN1/PPP2PP1/R1BQKB1R w KQkq - 2 8",
+  "fen": "r2qkbnr/pp1nppp1/2p3bp/7P/3P4/5NN1/PPP2PP1/R1BQKB1R b KQkq - 0 8",
   "moves": [
     {
       "n": 1,
@@ -101,11 +101,18 @@
       "san": "Nd7",
       "by": "Stonewall",
       "comment": "Nd7, Caro-Kann classical main line."
+    },
+    {
+      "n": 8,
+      "color": "white",
+      "san": "h5",
+      "by": "Pip",
+      "comment": "h5, chasing the bishop off g6; Bd3 next to trade it. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T19:19Z"
+  "last_move_at": "2026-10-26T19:33Z"
 }
