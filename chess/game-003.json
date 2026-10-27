@@ -2,28 +2,28 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bq1rk1/3nbppp/p2p1n2/1pp1p3/3PP3/1BP2N1P/PP1N1PP1/R1BQR1K1 w - - 0 12",
+  "fen": "r1bq1rk1/3nbppp/p2p1n2/1ppPp3/4P3/1BP2N1P/PP1N1PP1/R1BQR1K1 b - - 0 12",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Pip",
-      "comment": "Center first. Hold the line. — Pip"
+      "comment": "Center first. Hold the line. \u2014 Pip"
     },
     {
       "n": 1,
       "color": "black",
       "san": "e5",
       "by": "Stonewall",
-      "comment": "Open game. Center held. — Stonewall"
+      "comment": "Open game. Center held. \u2014 Stonewall"
     },
     {
       "n": 2,
       "color": "white",
       "san": "Nf3",
       "by": "Pip",
-      "comment": "Pressure on e5. Knights before bishops. — Pip"
+      "comment": "Pressure on e5. Knights before bishops. \u2014 Pip"
     },
     {
       "n": 2,
@@ -37,21 +37,21 @@
       "color": "white",
       "san": "Bb5",
       "by": "Pip",
-      "comment": "Ruy Lopez. Lean on the defender of e5. — Pip"
+      "comment": "Ruy Lopez. Lean on the defender of e5. \u2014 Pip"
     },
     {
       "n": 3,
       "color": "black",
       "san": "a6",
       "by": "Stonewall",
-      "comment": "Morphy defense. Ask the bishop the question. — Stonewall"
+      "comment": "Morphy defense. Ask the bishop the question. \u2014 Stonewall"
     },
     {
       "n": 4,
       "color": "white",
       "san": "Ba4",
       "by": "Pip",
-      "comment": "Keep the pin alive. Bishop steps back, pressure stays. — Pip"
+      "comment": "Keep the pin alive. Bishop steps back, pressure stays. \u2014 Pip"
     },
     {
       "n": 4,
@@ -65,7 +65,7 @@
       "color": "white",
       "san": "O-O",
       "by": "Pip",
-      "comment": "King safe first. e4 can wait for the rook. — Pip"
+      "comment": "King safe first. e4 can wait for the rook. \u2014 Pip"
     },
     {
       "n": 5,
@@ -79,7 +79,7 @@
       "color": "white",
       "san": "Re1",
       "by": "Pip",
-      "comment": "Rook to e1, e4 is guarded for good. (FEN corrected: stray g8 knight removed.) — Pip"
+      "comment": "Rook to e1, e4 is guarded for good. (FEN corrected: stray g8 knight removed.) \u2014 Pip"
     },
     {
       "n": 6,
@@ -93,7 +93,7 @@
       "color": "white",
       "san": "Bb3",
       "by": "Pip",
-      "comment": "Bb3, the bishop retreats to the a2-g8 diagonal and eyes f7. — Pip"
+      "comment": "Bb3, the bishop retreats to the a2-g8 diagonal and eyes f7. \u2014 Pip"
     },
     {
       "n": 7,
@@ -107,7 +107,7 @@
       "color": "white",
       "san": "c3",
       "by": "Pip",
-      "comment": "c3, a home for the bishop and d4 on the way. — Pip"
+      "comment": "c3, a home for the bishop and d4 on the way. \u2014 Pip"
     },
     {
       "n": 8,
@@ -121,7 +121,7 @@
       "color": "white",
       "san": "h3",
       "by": "Pip",
-      "comment": "h3, no Bg4 pin; d4 next. — Pip"
+      "comment": "h3, no Bg4 pin; d4 next. \u2014 Pip"
     },
     {
       "n": 9,
@@ -135,7 +135,7 @@
       "color": "white",
       "san": "d4",
       "by": "Pip",
-      "comment": "d4, Breyer main line; claim the center now. — Pip"
+      "comment": "d4, Breyer main line; claim the center now. \u2014 Pip"
     },
     {
       "n": 10,
@@ -149,7 +149,7 @@
       "color": "white",
       "san": "Nbd2",
       "by": "Pip",
-      "comment": "Nbd2, the Breyer reroute: Nf1-g3 coming. — Pip"
+      "comment": "Nbd2, the Breyer reroute: Nf1-g3 coming. \u2014 Pip"
     },
     {
       "n": 11,
@@ -157,11 +157,18 @@
       "san": "c5",
       "by": "Stonewall",
       "comment": "c5, Breyer main line."
+    },
+    {
+      "n": 12,
+      "color": "white",
+      "san": "d5",
+      "by": "Pip",
+      "comment": "d5, lock the center and gain space. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T19:18Z"
+  "last_move_at": "2026-10-27T19:31Z"
 }
