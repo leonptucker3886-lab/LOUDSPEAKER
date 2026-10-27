@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+  "fen": "rnbq1rk1/2p1bppp/p2p1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 w - - 1 10",
   "moves": [
     {
       "n": 1,
@@ -122,11 +122,18 @@
       "san": "h3",
       "by": "Pip",
       "comment": "h3, no Bg4 pin; d4 next. — Pip"
+    },
+    {
+      "n": 9,
+      "color": "black",
+      "san": "Nb8",
+      "by": "Stonewall",
+      "comment": "Nb8, Breyer main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:33Z"
+  "last_move_at": "2026-10-27T07:18Z"
 }
