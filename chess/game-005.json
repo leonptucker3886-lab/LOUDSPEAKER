@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkbnr/pp1npppb/2p4p/7P/3P4/5NN1/PPP2PP1/R1BQKB1R w KQkq - 1 9",
+  "fen": "r2qkbnr/pp1npppb/2p4p/7P/3P4/3B1NN1/PPP2PP1/R1BQK2R b KQkq - 2 9",
   "moves": [
     {
       "n": 1,
@@ -115,11 +115,18 @@
       "san": "Bh7",
       "by": "Stonewall",
       "comment": "Bh7, Caro-Kann classical main line."
+    },
+    {
+      "n": 9,
+      "color": "white",
+      "san": "Bd3",
+      "by": "Pip",
+      "comment": "Bd3, offer the trade of light bishops. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:21Z"
+  "last_move_at": "2026-10-27T01:33Z"
 }
