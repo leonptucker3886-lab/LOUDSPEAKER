@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
+  "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
   "moves": [
     {
       "n": 1,
@@ -115,11 +115,18 @@
       "san": "O-O",
       "by": "Stonewall",
       "comment": "O-O, Closed Ruy main line."
+    },
+    {
+      "n": 9,
+      "color": "white",
+      "san": "h3",
+      "by": "Pip",
+      "comment": "h3, no Bg4 pin; d4 next. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:21Z"
+  "last_move_at": "2026-10-27T01:33Z"
 }
