@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkbnr/pp1nppp1/2p4p/7P/3P4/3b1NN1/PPP2PP1/R1BQK2R w KQkq - 0 10",
+  "fen": "r2qkbnr/pp1nppp1/2p4p/7P/3P4/3Q1NN1/PPP2PP1/R1B1K2R b KQkq - 0 10",
   "moves": [
     {
       "n": 1,
@@ -129,11 +129,18 @@
       "san": "Bxd3",
       "by": "Stonewall",
       "comment": "Bxd3, Caro-Kann classical main line."
+    },
+    {
+      "n": 10,
+      "color": "white",
+      "san": "Qxd3",
+      "by": "Pip",
+      "comment": "Qxd3, recapture; Bd2 and O-O-O next. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T07:18Z"
+  "last_move_at": "2026-10-27T07:33Z"
 }
