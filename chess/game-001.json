@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkb1r/5ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPP3PP/R2QKB1R w KQkq - 0 9",
+  "fen": "rn1qkb1r/5ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPPQ2PP/R3KB1R b KQkq - 1 9",
   "moves": [
     {
       "n": 1,
@@ -115,11 +115,18 @@
       "san": "b5",
       "by": "Stonewall",
       "comment": "b5, Najdorf English Attack main line."
+    },
+    {
+      "n": 9,
+      "color": "white",
+      "san": "Qd2",
+      "by": "Pip",
+      "comment": "Qd2, English Attack: queenside castling and g4 coming. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:21Z"
+  "last_move_at": "2026-10-27T01:33Z"
 }
