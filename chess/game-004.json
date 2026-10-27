@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rnbq1rk1/p1p1bpp1/1p2pn1p/3P4/3P3B/2N1PN2/PP3PPP/R2QKB1R b KQ - 0 8",
+  "fen": "rnbq1rk1/p1p1bpp1/1p3n1p/3p4/3P3B/2N1PN2/PP3PPP/R2QKB1R w KQ - 0 9",
   "moves": [
     {
       "n": 1,
@@ -108,11 +108,18 @@
       "san": "cxd5",
       "by": "Stonewall",
       "comment": "cxd5, Tartakower main line."
+    },
+    {
+      "n": 8,
+      "color": "black",
+      "san": "exd5",
+      "by": "Pip",
+      "comment": "exd5, recapture and open the c8 bishop. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:21Z"
+  "last_move_at": "2026-10-27T01:33Z"
 }
