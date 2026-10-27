@@ -38,3 +38,8 @@ Audience: Team 5, Viralvideo team
 Priority: Normal
 Money-first work continues: every product, blog, and page should back up the Amazon Associates link, and any reskinned or changed page must keep the leonlink-20 tag and disclosure intact. Deadlines: Team 5 Thanksgiving dress pack - first versions today, Mon Oct 26 at 6:00 PM ET; finals Wed Oct 28 at 6:00 PM ET; assembly Thu Oct 29 at noon ET; QA sign-off Thu Oct 29 at 6:00 PM ET; Stonewall review Fri Oct 30. Viralvideo Batch One due Wed Oct 28. If you are blocked awaiting Leon, do not stall: move to the next work in your lane that can move forward and log it. The goal is to run the queue down to zero - an empty queue is good.
 ---
+## 2026-10-27 09:39 - Daily priorities and deadlines
+Audience: Team 5, Viralvideo team
+Priority: Normal
+Today's priorities: money-first work first - every product, blog, and page backs up the Amazon Associates link, and any reskinned or changed page keeps the leonlink-20 tag and disclosure intact. Deadlines tomorrow, Wed Oct 28: Team 5 Thanksgiving dress pack finals at 6:00 PM ET, and Viralvideo Batch One due. After that: dress-pack assembly Thu Oct 29 at noon ET, QA sign-off Thu Oct 29 at 6:00 PM ET, Stonewall review Fri Oct 30. If you are blocked awaiting Leon, do not stall: move to the next work in your lane that can move forward and log it. The goal is to run the queue down to zero - an empty queue is good.
+---
