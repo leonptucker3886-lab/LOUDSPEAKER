@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rnbq1rk1/2p1bppp/p2p1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 b - - 0 10",
+  "fen": "r1bq1rk1/2pnbppp/p2p1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 w - - 1 11",
   "moves": [
     {
       "n": 1,
@@ -136,11 +136,18 @@
       "san": "d4",
       "by": "Pip",
       "comment": "d4, Breyer main line; claim the center now. — Pip"
+    },
+    {
+      "n": 10,
+      "color": "black",
+      "san": "Nbd7",
+      "by": "Stonewall",
+      "comment": "Nbd7, Breyer main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T07:33Z"
+  "last_move_at": "2026-10-27T13:18Z"
 }
