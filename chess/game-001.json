@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkb1r/3n1ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPPQ2PP/R3KB1R w KQkq - 2 10",
+  "fen": "r2qkb1r/3n1ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPPQ2PP/2KR1B1R b kq - 3 10",
   "moves": [
     {
       "n": 1,
@@ -129,11 +129,18 @@
       "san": "Nbd7",
       "by": "Stonewall",
       "comment": "Nbd7, Najdorf English Attack main line."
+    },
+    {
+      "n": 10,
+      "color": "white",
+      "san": "O-O-O",
+      "by": "Pip",
+      "comment": "O-O-O, opposite castling; g4 and the pawn storm come next. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T07:18Z"
+  "last_move_at": "2026-10-27T07:33Z"
 }
