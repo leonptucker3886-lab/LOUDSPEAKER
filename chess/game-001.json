@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkb1r/1p3ppp/p2pbn2/4p3/4P3/1NN1BP2/PPP3PP/R2QKB1R b KQkq - 0 8",
+  "fen": "rn1qkb1r/5ppp/p2pbn2/1p2p3/4P3/1NN1BP2/PPP3PP/R2QKB1R w KQkq - 0 9",
   "moves": [
     {
       "n": 1,
@@ -108,11 +108,18 @@
       "san": "f3",
       "by": "Pip",
       "comment": "f3, locking e4 down; Qd2 and g4 next. — Pip"
+    },
+    {
+      "n": 8,
+      "color": "black",
+      "san": "b5",
+      "by": "Stonewall",
+      "comment": "b5, Najdorf English Attack main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-26T19:33Z"
+  "last_move_at": "2026-10-27T01:21Z"
 }
