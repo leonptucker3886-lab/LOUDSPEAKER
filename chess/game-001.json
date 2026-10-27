@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkb1r/3n1ppp/p2pbn2/3Np3/1p2P3/1N2BP2/PPPQ2PP/2KR1B1R b kq - 1 11",
+  "fen": "r2qkb1r/3n1ppp/p2pb3/3np3/1p2P3/1N2BP2/PPPQ2PP/2KR1B1R w kq - 0 12",
   "moves": [
     {
       "n": 1,
@@ -150,11 +150,18 @@
       "san": "Nd5",
       "by": "Pip",
       "comment": "Nd5, the knight dodges b4 and plants on the hole. — Pip"
+    },
+    {
+      "n": 11,
+      "color": "black",
+      "san": "Nxd5",
+      "by": "Stonewall",
+      "comment": "Nxd5, Najdorf English Attack main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T13:31Z"
+  "last_move_at": "2026-10-27T19:18Z"
 }
