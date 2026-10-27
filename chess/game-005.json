@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkb1r/pp1nppp1/2p2n1p/7P/3P4/3Q1NN1/PPPB1PP1/R3K2R b KQkq - 2 11",
+  "fen": "r3kb1r/ppqnppp1/2p2n1p/7P/3P4/3Q1NN1/PPPB1PP1/R3K2R w KQkq - 3 12",
   "moves": [
     {
       "n": 1,
@@ -150,11 +150,18 @@
       "san": "Bd2",
       "by": "Pip",
       "comment": "Bd2, clearing the way for O-O-O. — Pip"
+    },
+    {
+      "n": 11,
+      "color": "black",
+      "san": "Qc7",
+      "by": "Stonewall",
+      "comment": "Qc7, Caro-Kann classical main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T13:31Z"
+  "last_move_at": "2026-10-27T19:18Z"
 }
