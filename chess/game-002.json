@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2q1rk1/1bp1bppp/p1np1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 b - - 0 10",
+  "fen": "r2qr1k1/1bp1bppp/p1np1n2/1p2p3/3PP3/1BP2N1P/PP3PP1/RNBQR1K1 w - - 1 11",
   "moves": [
     {
       "n": 1,
@@ -136,11 +136,18 @@
       "san": "d4",
       "by": "Stonewall",
       "comment": "d4, Closed Ruy main line."
+    },
+    {
+      "n": 10,
+      "color": "black",
+      "san": "Re8",
+      "by": "Pip",
+      "comment": "Re8, Zaitsev style; pressure on e4. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T13:18Z"
+  "last_move_at": "2026-10-27T13:31Z"
 }
