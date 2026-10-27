@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r1bq1rk1/2pnbppp/p2p1n2/1p2p3/3PP3/1BP2N1P/PP1N1PP1/R1BQR1K1 b - - 2 11",
+  "fen": "r1bq1rk1/3nbppp/p2p1n2/1pp1p3/3PP3/1BP2N1P/PP1N1PP1/R1BQR1K1 w - - 0 12",
   "moves": [
     {
       "n": 1,
@@ -150,11 +150,18 @@
       "san": "Nbd2",
       "by": "Pip",
       "comment": "Nbd2, the Breyer reroute: Nf1-g3 coming. — Pip"
+    },
+    {
+      "n": 11,
+      "color": "black",
+      "san": "c5",
+      "by": "Stonewall",
+      "comment": "c5, Breyer main line."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T13:31Z"
+  "last_move_at": "2026-10-27T19:18Z"
 }
