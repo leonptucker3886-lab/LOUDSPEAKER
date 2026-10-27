@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8",
+  "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9",
   "moves": [
     {
       "n": 1,
@@ -108,11 +108,18 @@
       "san": "c3",
       "by": "Stonewall",
       "comment": "c3, Closed Ruy main line."
+    },
+    {
+      "n": 8,
+      "color": "black",
+      "san": "O-O",
+      "by": "Pip",
+      "comment": "O-O, king tucked away as promised. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T01:21Z"
+  "last_move_at": "2026-10-27T01:33Z"
 }
