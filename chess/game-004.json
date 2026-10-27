@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "rn1q1rk1/pbp1bpp1/1p3n1p/3p4/3P3B/2NBPN2/PP3PPP/R2QK2R w KQ - 2 10",
+  "fen": "rn1q1rk1/pbp1bpp1/1p3n1p/3p4/3P3B/2NBPN2/PP3PPP/R2Q1RK1 b - - 3 10",
   "moves": [
     {
       "n": 1,
@@ -129,11 +129,18 @@
       "san": "Bb7",
       "by": "Pip",
       "comment": "Bb7, Tartakower bishop on the long diagonal. — Pip"
+    },
+    {
+      "n": 10,
+      "color": "white",
+      "san": "O-O",
+      "by": "Stonewall",
+      "comment": "O-O, Tartakower main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T07:33Z"
+  "last_move_at": "2026-10-27T13:18Z"
 }
