@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2q1rk1/pb2bpp1/5n1p/2pp4/8/2NBPN2/PP3PPP/2RQ1RK1 w - - 0 14",
+  "fen": "r2q1rk1/pb2bpp1/5n1p/2pp4/8/2NBPN2/PPQ2PPP/2R2RK1 b - - 1 14",
   "moves": [
     {
       "n": 1,
@@ -185,11 +185,18 @@
       "san": "Nxf6",
       "by": "Pip",
       "comment": "Nxf6, recapturing with the knight so d5 stays guarded. — Pip"
+    },
+    {
+      "n": 14,
+      "color": "white",
+      "san": "Qc2",
+      "by": "Stonewall",
+      "comment": "Qc2, pressing the hanging c5 pawn."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:33Z"
+  "last_move_at": "2026-10-28T13:22Z"
 }
