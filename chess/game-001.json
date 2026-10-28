@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qk2r/4b1pp/p1npp3/4p3/2Q5/1N2BP2/PPP3PP/2KR1B1R w kq - 3 16",
+  "fen": "r2qk2r/4b1pp/p1npQ3/4p3/8/1N2BP2/PPP3PP/2KR1B1R b kq - 0 16",
   "moves": [
     {
       "n": 1,
@@ -213,11 +213,18 @@
       "san": "Be7",
       "by": "Stonewall",
       "comment": "Be7, clearing f8 so the king can castle."
+    },
+    {
+      "n": 16,
+      "color": "white",
+      "san": "Qxe6",
+      "by": "Pip",
+      "comment": "Free pawn on e6, and the queen eyes c6 and the king. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:19:54Z"
+  "last_move_at": "2026-10-28T19:32:00Z"
 }
