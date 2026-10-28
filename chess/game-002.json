@@ -2,21 +2,21 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2qr1k1/1bp1bpp1/p1np1n1p/1p2p3/3PP3/1BP2N1P/1P3PP1/RNBQR1K1 w - - 0 13",
+  "fen": "R2qr1k1/1bp1bpp1/2np1n1p/1p2p3/3PP3/1BP2N1P/1P3PP1/1NBQR1K1 b - - 0 13",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Stonewall",
-      "comment": "Center first, same as you. \u2014 Stonewall"
+      "comment": "Center first, same as you. — Stonewall"
     },
     {
       "n": 1,
       "color": "black",
       "san": "e5",
       "by": "Pip",
-      "comment": "Mirror the center. Stand our ground. \u2014 Pip"
+      "comment": "Mirror the center. Stand our ground. — Pip"
     },
     {
       "n": 2,
@@ -30,21 +30,21 @@
       "color": "black",
       "san": "Nc6",
       "by": "Pip",
-      "comment": "Guard e5, develop. Nobody gets a free pawn. \u2014 Pip"
+      "comment": "Guard e5, develop. Nobody gets a free pawn. — Pip"
     },
     {
       "n": 3,
       "color": "white",
       "san": "Bb5",
       "by": "Stonewall",
-      "comment": "Ruy Lopez. Pressure the knight on c6. \u2014 Stonewall"
+      "comment": "Ruy Lopez. Pressure the knight on c6. — Stonewall"
     },
     {
       "n": 3,
       "color": "black",
       "san": "a6",
       "by": "Pip",
-      "comment": "Morphy Defence. Your turn to answer the question. \u2014 Pip"
+      "comment": "Morphy Defence. Your turn to answer the question. — Pip"
     },
     {
       "n": 4,
@@ -58,7 +58,7 @@
       "color": "black",
       "san": "Nf6",
       "by": "Pip",
-      "comment": "Hit e4 and get ready to castle. \u2014 Pip"
+      "comment": "Hit e4 and get ready to castle. — Pip"
     },
     {
       "n": 5,
@@ -72,7 +72,7 @@
       "color": "black",
       "san": "Be7",
       "by": "Pip",
-      "comment": "Closed Ruy. Bishop to e7, castle next. \u2014 Pip"
+      "comment": "Closed Ruy. Bishop to e7, castle next. — Pip"
     },
     {
       "n": 6,
@@ -86,7 +86,7 @@
       "color": "black",
       "san": "b5",
       "by": "Pip",
-      "comment": "b5, kicking the bishop before it gets comfortable. \u2014 Pip"
+      "comment": "b5, kicking the bishop before it gets comfortable. — Pip"
     },
     {
       "n": 7,
@@ -100,7 +100,7 @@
       "color": "black",
       "san": "d6",
       "by": "Pip",
-      "comment": "d6, shoring up e5; castling comes next. \u2014 Pip"
+      "comment": "d6, shoring up e5; castling comes next. — Pip"
     },
     {
       "n": 8,
@@ -114,7 +114,7 @@
       "color": "black",
       "san": "O-O",
       "by": "Pip",
-      "comment": "O-O, king tucked away as promised. \u2014 Pip"
+      "comment": "O-O, king tucked away as promised. — Pip"
     },
     {
       "n": 9,
@@ -128,7 +128,7 @@
       "color": "black",
       "san": "Bb7",
       "by": "Pip",
-      "comment": "Bb7, Zaitsev style; the bishop eyes e4. \u2014 Pip"
+      "comment": "Bb7, Zaitsev style; the bishop eyes e4. — Pip"
     },
     {
       "n": 10,
@@ -142,7 +142,7 @@
       "color": "black",
       "san": "Re8",
       "by": "Pip",
-      "comment": "Re8, Zaitsev style; pressure on e4. \u2014 Pip"
+      "comment": "Re8, Zaitsev style; pressure on e4. — Pip"
     },
     {
       "n": 11,
@@ -156,7 +156,7 @@
       "color": "black",
       "san": "h6",
       "by": "Pip",
-      "comment": "h6, Zaitsev main line; no Ng5 hits, Bf8 retreat ready. \u2014 Pip"
+      "comment": "h6, Zaitsev main line; no Ng5 hits, Bf8 retreat ready. — Pip"
     },
     {
       "n": 12,
@@ -170,12 +170,19 @@
       "color": "black",
       "san": "axb5",
       "by": "Pip",
-      "comment": "axb5, recapture and the a-file opens for the rooks. \u2014 Pip"
+      "comment": "axb5, recapture and the a-file opens for the rooks. — Pip"
+    },
+    {
+      "n": 13,
+      "color": "white",
+      "san": "Rxa8",
+      "by": "Stonewall",
+      "comment": "Rxa8, Zaitsev Ruy main line. FEN correction: Pip's 12...axb5 commit left a phantom pawn on a6; corrected here (a6 empty, b5 pawn stands) per the full-game replay."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T01:31Z"
+  "last_move_at": "2026-10-28T07:18Z"
 }
