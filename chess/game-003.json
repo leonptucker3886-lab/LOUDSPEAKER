@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2q1rk1/1b1nbppp/p2p1n2/1p1Pp3/2p1P3/2P2N1P/PPBN1PP1/R1BQR1K1 w - - 2 14",
+  "fen": "r2q1rk1/1b1nbppp/p2p1n2/1p1Pp3/2p1P3/2P2N1P/PPB2PP1/R1BQRNK1 b - - 3 14",
   "moves": [
     {
       "n": 1,
@@ -185,11 +185,18 @@
       "san": "Bb7",
       "by": "Stonewall",
       "comment": "Bb7, Breyer main line."
+    },
+    {
+      "n": 14,
+      "color": "white",
+      "san": "Nf1",
+      "by": "Pip",
+      "comment": "Nf1, the classic Ruy Lopez knight tour heading for g3 or e3. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:18Z"
+  "last_move_at": "2026-10-28T07:33Z"
 }
