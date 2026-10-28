@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/1bp1bpp1/2np1n1p/1p1Pp3/4P3/1BP2N1P/1P3PP1/1NBQR1K1 b - - 0 14",
+  "fen": "q3r1k1/1bp1bpp1/3p1n1p/np1Pp3/4P3/1BP2N1P/1P3PP1/1NBQR1K1 w - - 1 15",
   "moves": [
     {
       "n": 1,
@@ -192,11 +192,18 @@
       "san": "d5",
       "by": "Stonewall",
       "comment": "d5, gaining space and shutting the long diagonal."
+    },
+    {
+      "n": 14,
+      "color": "black",
+      "san": "Na5",
+      "by": "Pip",
+      "comment": "Na5, out of the pawn fork and onto the bishop. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T13:22Z"
+  "last_move_at": "2026-10-28T13:35:00Z"
 }
