@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k1r1b1r/ppqnppp1/2p2n1p/7P/3P4/3Q1NN1/PPPB1PP1/1K1R3R w - - 7 14",
+  "fen": "1k1r1b1r/ppqnppp1/2p2n1p/7P/2PP4/3Q1NN1/PP1B1PP1/1K1R3R b - - 0 14",
   "moves": [
     {
       "n": 1,
@@ -185,11 +185,18 @@
       "san": "Kb8",
       "by": "Stonewall",
       "comment": "Kb8, Caro-Kann classical main line."
+    },
+    {
+      "n": 14,
+      "color": "white",
+      "san": "c4",
+      "by": "Pip",
+      "comment": "c4, grabbing space in the center before Black frees up with e5. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:18Z"
+  "last_move_at": "2026-10-28T07:33Z"
 }
