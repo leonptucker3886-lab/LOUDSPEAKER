@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/1bp1bpp1/3p1n1p/np1Pp3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 b - - 2 15",
+  "fen": "q3r1k1/1b2bpp1/2pp1n1p/np1Pp3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 w - - 0 16",
   "moves": [
     {
       "n": 1,
@@ -206,11 +206,18 @@
       "san": "Bc2",
       "by": "Stonewall",
       "comment": "Bc2, bishop steps off the knight's hit and keeps the diagonal."
+    },
+    {
+      "n": 15,
+      "color": "black",
+      "san": "c6",
+      "by": "Pip",
+      "comment": "Hit the d5 spearhead and open the c-file. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:19:56Z"
+  "last_move_at": "2026-10-28T19:32:00Z"
 }
