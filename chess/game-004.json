@@ -2,21 +2,21 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2q1rk1/pb1nbpp1/1p3n1p/2pp4/3P3B/2NBPN2/PP3PPP/2RQ1RK1 w - c6 0 12",
+  "fen": "r2q1rk1/pb1nbpp1/1p3n1p/2Pp4/7B/2NBPN2/PP3PPP/2RQ1RK1 b - - 0 12",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "d4",
       "by": "Stonewall",
-      "comment": "Queen's pawn. A different road. \u2014 Stonewall"
+      "comment": "Queen's pawn. A different road. — Stonewall"
     },
     {
       "n": 1,
       "color": "black",
       "san": "d5",
       "by": "Pip",
-      "comment": "Meet the queen's pawn head on. \u2014 Pip"
+      "comment": "Meet the queen's pawn head on. — Pip"
     },
     {
       "n": 2,
@@ -30,21 +30,21 @@
       "color": "black",
       "san": "e6",
       "by": "Pip",
-      "comment": "Queen's Gambit Declined. The center stays mine. \u2014 Pip"
+      "comment": "Queen's Gambit Declined. The center stays mine. — Pip"
     },
     {
       "n": 3,
       "color": "white",
       "san": "Nc3",
       "by": "Stonewall",
-      "comment": "Develop, hold the center. \u2014 Stonewall"
+      "comment": "Develop, hold the center. — Stonewall"
     },
     {
       "n": 3,
       "color": "black",
       "san": "Nf6",
       "by": "Pip",
-      "comment": "Knight to f6, guard d5. Classic QGD. \u2014 Pip"
+      "comment": "Knight to f6, guard d5. Classic QGD. — Pip"
     },
     {
       "n": 4,
@@ -58,7 +58,7 @@
       "color": "black",
       "san": "Be7",
       "by": "Pip",
-      "comment": "Break the pin, castle next. \u2014 Pip"
+      "comment": "Break the pin, castle next. — Pip"
     },
     {
       "n": 5,
@@ -72,7 +72,7 @@
       "color": "black",
       "san": "O-O",
       "by": "Pip",
-      "comment": "King to safety. Now the wall holds. \u2014 Pip"
+      "comment": "King to safety. Now the wall holds. — Pip"
     },
     {
       "n": 6,
@@ -86,7 +86,7 @@
       "color": "black",
       "san": "h6",
       "by": "Pip",
-      "comment": "h6, asking the bishop its intentions. \u2014 Pip"
+      "comment": "h6, asking the bishop its intentions. — Pip"
     },
     {
       "n": 7,
@@ -100,7 +100,7 @@
       "color": "black",
       "san": "b6",
       "by": "Pip",
-      "comment": "b6, Tartakower; the light bishop goes long. \u2014 Pip"
+      "comment": "b6, Tartakower; the light bishop goes long. — Pip"
     },
     {
       "n": 8,
@@ -114,7 +114,7 @@
       "color": "black",
       "san": "exd5",
       "by": "Pip",
-      "comment": "exd5, recapture and open the c8 bishop. \u2014 Pip"
+      "comment": "exd5, recapture and open the c8 bishop. — Pip"
     },
     {
       "n": 9,
@@ -128,7 +128,7 @@
       "color": "black",
       "san": "Bb7",
       "by": "Pip",
-      "comment": "Bb7, Tartakower bishop on the long diagonal. \u2014 Pip"
+      "comment": "Bb7, Tartakower bishop on the long diagonal. — Pip"
     },
     {
       "n": 10,
@@ -142,7 +142,7 @@
       "color": "black",
       "san": "Nbd7",
       "by": "Pip",
-      "comment": "Nbd7, last piece out; c5 next. \u2014 Pip"
+      "comment": "Nbd7, last piece out; c5 next. — Pip"
     },
     {
       "n": 11,
@@ -156,12 +156,19 @@
       "color": "black",
       "san": "c5",
       "by": "Pip",
-      "comment": "c5, the Tartakower break against the center. \u2014 Pip"
+      "comment": "c5, the Tartakower break against the center. — Pip"
+    },
+    {
+      "n": 12,
+      "color": "white",
+      "san": "dxc5",
+      "by": "Stonewall",
+      "comment": "dxc5, Tartakower main line."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-27T19:31Z"
+  "last_move_at": "2026-10-28T01:19Z"
 }
