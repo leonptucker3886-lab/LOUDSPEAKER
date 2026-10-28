@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qkb1r/6pp/p1npp3/4p3/1Q6/1N2BP2/PPP3PP/2KR1B1R w kq - 1 15",
+  "fen": "r2qkb1r/6pp/p1npp3/4p3/2Q5/1N2BP2/PPP3PP/2KR1B1R b kq - 2 15",
   "moves": [
     {
       "n": 1,
@@ -199,11 +199,18 @@
       "san": "Nc6",
       "by": "Stonewall",
       "comment": "Nc6, developing with tempo on the queen."
+    },
+    {
+      "n": 15,
+      "color": "white",
+      "san": "Qc4",
+      "by": "Pip",
+      "comment": "Qc4, stepping out of the knight hit and eyeing e6. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T13:22Z"
+  "last_move_at": "2026-10-28T13:35:00Z"
 }
