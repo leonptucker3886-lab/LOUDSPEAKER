@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2q1rk1/1b2bppp/pn1p1n2/1p1Pp3/2p1P3/2P2N1P/PPB2PP1/R1BQRNK1 w - - 4 15",
+  "fen": "r2q1rk1/1b2bppp/pn1p1n2/1p1Pp3/2p1P3/2P2NNP/PPB2PP1/R1BQR1K1 b - - 5 15",
   "moves": [
     {
       "n": 1,
@@ -199,11 +199,18 @@
       "san": "Nb6",
       "by": "Stonewall",
       "comment": "Nb6, hitting c4 and d5."
+    },
+    {
+      "n": 15,
+      "color": "white",
+      "san": "Ng3",
+      "by": "Pip",
+      "comment": "Ng3, the classic reroute toward f5. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T13:22Z"
+  "last_move_at": "2026-10-28T13:35:00Z"
 }
