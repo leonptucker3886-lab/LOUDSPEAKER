@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2q1rk1/pb1nbpp1/5B1p/2pp4/8/2NBPN2/PP3PPP/2RQ1RK1 b - - 0 13",
+  "fen": "r2q1rk1/pb2bpp1/5n1p/2pp4/8/2NBPN2/PP3PPP/2RQ1RK1 w - - 0 14",
   "moves": [
     {
       "n": 1,
@@ -178,11 +178,18 @@
       "san": "Bxf6",
       "by": "Stonewall",
       "comment": "Bxf6, Tartakower main line."
+    },
+    {
+      "n": 13,
+      "color": "black",
+      "san": "Nxf6",
+      "by": "Pip",
+      "comment": "Nxf6, recapturing with the knight so d5 stays guarded. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:18Z"
+  "last_move_at": "2026-10-28T07:33Z"
 }
