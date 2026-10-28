@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "R2qr1k1/1bp1bpp1/2np1n1p/1p2p3/3PP3/1BP2N1P/1P3PP1/1NBQR1K1 b - - 0 13",
+  "fen": "q3r1k1/1bp1bpp1/2np1n1p/1p2p3/3PP3/1BP2N1P/1P3PP1/1NBQR1K1 w - - 0 14",
   "moves": [
     {
       "n": 1,
@@ -178,11 +178,18 @@
       "san": "Rxa8",
       "by": "Stonewall",
       "comment": "Rxa8, Zaitsev Ruy main line. FEN correction: Pip's 12...axb5 commit left a phantom pawn on a6; corrected here (a6 empty, b5 pawn stands) per the full-game replay."
+    },
+    {
+      "n": 13,
+      "color": "black",
+      "san": "Qxa8",
+      "by": "Pip",
+      "comment": "Qxa8, taking the rook back and keeping my bishop on the long diagonal. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:18Z"
+  "last_move_at": "2026-10-28T07:33Z"
 }
