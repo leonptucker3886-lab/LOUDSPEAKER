@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k1r1b1r/ppqn1pp1/4pn1p/2pP3P/2P5/3Q1NN1/PP1B1PP1/1K1R3R w - - 0 16",
+  "fen": "1k1r1b1r/ppqn1pp1/4Pn1p/2p4P/2P5/3Q1NN1/PP1B1PP1/1K1R3R b - - 0 16",
   "moves": [
     {
       "n": 1,
@@ -213,11 +213,18 @@
       "san": "e6",
       "by": "Stonewall",
       "comment": "e6, the Caro break \u2014 fighting for the center."
+    },
+    {
+      "n": 16,
+      "color": "white",
+      "san": "dxe6",
+      "by": "Pip",
+      "comment": "Break it open: e6 forks d7 and f7. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:20:02Z"
+  "last_move_at": "2026-10-28T19:32:00Z"
 }
