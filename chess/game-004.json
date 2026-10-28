@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r4rk1/pb2bpp1/1q3n1p/2pp4/8/2NBPN2/PPQ2PPP/2RR2K1 b - - 3 15",
+  "fen": "3r1rk1/pb2bpp1/1q3n1p/2pp4/8/2NBPN2/PPQ2PPP/2RR2K1 w - - 4 16",
   "moves": [
     {
       "n": 1,
@@ -206,11 +206,18 @@
       "san": "Rfd1",
       "by": "Stonewall",
       "comment": "Rfd1, rook to the open file, pressing d5."
+    },
+    {
+      "n": 15,
+      "color": "black",
+      "san": "Rad8",
+      "by": "Pip",
+      "comment": "Rook behind the hanging pawns, d5 stays guarded. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:20:00Z"
+  "last_move_at": "2026-10-28T19:32:00Z"
 }
