@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/1bp1bpp1/2np1n1p/1p2p3/3PP3/1BP2N1P/1P3PP1/1NBQR1K1 w - - 0 14",
+  "fen": "q3r1k1/1bp1bpp1/2np1n1p/1p1Pp3/4P3/1BP2N1P/1P3PP1/1NBQR1K1 b - - 0 14",
   "moves": [
     {
       "n": 1,
@@ -185,11 +185,18 @@
       "san": "Qxa8",
       "by": "Pip",
       "comment": "Qxa8, taking the rook back and keeping my bishop on the long diagonal. — Pip"
+    },
+    {
+      "n": 14,
+      "color": "white",
+      "san": "d5",
+      "by": "Stonewall",
+      "comment": "d5, gaining space and shutting the long diagonal."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:33Z"
+  "last_move_at": "2026-10-28T13:22Z"
 }
