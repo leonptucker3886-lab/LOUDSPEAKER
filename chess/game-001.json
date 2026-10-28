@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rn1qkb1r/6pp/p2pp3/4p3/1Q6/1N2BP2/PPP3PP/2KR1B1R b kq - 0 14",
+  "fen": "r2qkb1r/6pp/p1npp3/4p3/1Q6/1N2BP2/PPP3PP/2KR1B1R w kq - 1 15",
   "moves": [
     {
       "n": 1,
@@ -192,11 +192,18 @@
       "san": "Qxb4",
       "by": "Pip",
       "comment": "Qxb4, the b4 pawn was loose; now the queen and Rd1 both eye d6. — Pip"
+    },
+    {
+      "n": 14,
+      "color": "black",
+      "san": "Nc6",
+      "by": "Stonewall",
+      "comment": "Nc6, developing with tempo on the queen."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T07:33Z"
+  "last_move_at": "2026-10-28T13:22Z"
 }
