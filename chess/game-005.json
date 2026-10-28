@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k1r1b1r/ppqnppp1/5n1p/2p4P/2PP4/3Q1NN1/PP1B1PP1/1K1R3R w - - 0 15",
+  "fen": "1k1r1b1r/ppqnppp1/5n1p/2pP3P/2P5/3Q1NN1/PP1B1PP1/1K1R3R b - - 0 15",
   "moves": [
     {
       "n": 1,
@@ -199,11 +199,18 @@
       "san": "c5",
       "by": "Stonewall",
       "comment": "c5, the Caro break — fighting for the center."
+    },
+    {
+      "n": 15,
+      "color": "white",
+      "san": "d5",
+      "by": "Pip",
+      "comment": "d5, grabbing space and locking in the c5 pawn. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T13:22Z"
+  "last_move_at": "2026-10-28T13:35:00Z"
 }
