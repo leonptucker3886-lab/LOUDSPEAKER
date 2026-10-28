@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "r2q1rk1/pb2bpp1/5n1p/2pp4/8/2NBPN2/PPQ2PPP/2R2RK1 b - - 1 14",
+  "fen": "r4rk1/pb2bpp1/1q3n1p/2pp4/8/2NBPN2/PPQ2PPP/2R2RK1 w - - 2 15",
   "moves": [
     {
       "n": 1,
@@ -192,11 +192,18 @@
       "san": "Qc2",
       "by": "Stonewall",
       "comment": "Qc2, pressing the hanging c5 pawn."
+    },
+    {
+      "n": 14,
+      "color": "black",
+      "san": "Qb6",
+      "by": "Pip",
+      "comment": "Qb6, guarding c5 and leaning on b2. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T13:22Z"
+  "last_move_at": "2026-10-28T13:35:00Z"
 }
