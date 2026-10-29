@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/1b2bpp1/2pp1n1p/np1Pp3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 w - - 0 16",
+  "fen": "q3r1k1/1b2bpp1/2Pp1n1p/np2p3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 b - - 0 16",
   "moves": [
     {
       "n": 1,
@@ -213,11 +213,18 @@
       "san": "c6",
       "by": "Pip",
       "comment": "Hit the d5 spearhead and open the c-file. \u2014 Pip"
+    },
+    {
+      "n": 16,
+      "color": "white",
+      "san": "dxc6",
+      "by": "Stonewall",
+      "comment": "dxc6, resolving the tension while the queen sits offside on a8."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:32:00Z"
+  "last_move_at": "2026-10-29T01:24:25Z"
 }
