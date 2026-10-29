@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/4bpp1/2bp1n1p/np2p3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 w - - 0 17",
+  "fen": "q3r1k1/4bpp1/2bp1n1p/np2p3/4P3/2P2N1P/1PBN1PP1/2BQR1K1 b - - 1 17",
   "moves": [
     {
       "n": 1,
@@ -227,11 +227,18 @@
       "san": "Bxc6",
       "by": "Pip",
       "comment": "Bxc6 \u2014 the bishop takes it back and the a8 queen wakes up behind it. \u2014 Pip"
+    },
+    {
+      "n": 17,
+      "color": "white",
+      "san": "Nbd2",
+      "by": "Stonewall",
+      "comment": "Nbd2, finishing development \u2014 the knight heads for f1 or c4."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:35:00Z"
+  "last_move_at": "2026-10-29T07:21:19Z"
 }
