@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k1r1b1r/ppqn2p1/4pn1p/2p4P/2P5/3Q1NN1/PP1B1PP1/1K1R3R w - - 0 17",
+  "fen": "1k1r1b1r/ppqn2p1/4pnQp/2p4P/2P5/5NN1/PP1B1PP1/1K1R3R b - - 1 17",
   "moves": [
     {
       "n": 1,
@@ -227,11 +227,18 @@
       "san": "fxe6",
       "by": "Stonewall",
       "comment": "fxe6, taking back and keeping the king safe."
+    },
+    {
+      "n": 17,
+      "color": "white",
+      "san": "Qg6",
+      "by": "Pip",
+      "comment": "Qg6, eyeing e6 and g7 from a square nothing black touches. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:24:31Z"
+  "last_move_at": "2026-10-29T01:35:00Z"
 }
