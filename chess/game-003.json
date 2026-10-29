@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r4rk1/1b1qbppp/pn1p1n2/1p1PpN2/2p1P3/2P2N1P/PPB2PP1/R1BQR1K1 b - - 7 16",
+  "fen": "r4rk1/1b1qbp1p/pn1p1np1/1p1PpN2/2p1P3/2P2N1P/PPB2PP1/R1BQR1K1 w - - 0 17",
   "moves": [
     {
       "n": 1,
@@ -220,11 +220,18 @@
       "san": "Nf5",
       "by": "Pip",
       "comment": "The Ruy knight lands on f5, eyeing d6 and g7. \u2014 Pip"
+    },
+    {
+      "n": 16,
+      "color": "black",
+      "san": "g6",
+      "by": "Stonewall",
+      "comment": "g6, kicking the knight and gaining kingside space."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:32:00Z"
+  "last_move_at": "2026-10-29T01:24:27Z"
 }
