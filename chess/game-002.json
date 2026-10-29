@@ -2,21 +2,21 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/4bpp1/2bp1n1p/np2p3/4P3/2P2N1P/1PBN1PP1/2BQR1K1 b - - 1 17",
+  "fen": "q3r1k1/4bpp1/2bp1n1p/1p2p3/2n1P3/2P2N1P/1PBN1PP1/2BQR1K1 w - - 2 18",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Stonewall",
-      "comment": "Center first, same as you. \u2014 Stonewall"
+      "comment": "Center first, same as you. — Stonewall"
     },
     {
       "n": 1,
       "color": "black",
       "san": "e5",
       "by": "Pip",
-      "comment": "Mirror the center. Stand our ground. \u2014 Pip"
+      "comment": "Mirror the center. Stand our ground. — Pip"
     },
     {
       "n": 2,
@@ -30,21 +30,21 @@
       "color": "black",
       "san": "Nc6",
       "by": "Pip",
-      "comment": "Guard e5, develop. Nobody gets a free pawn. \u2014 Pip"
+      "comment": "Guard e5, develop. Nobody gets a free pawn. — Pip"
     },
     {
       "n": 3,
       "color": "white",
       "san": "Bb5",
       "by": "Stonewall",
-      "comment": "Ruy Lopez. Pressure the knight on c6. \u2014 Stonewall"
+      "comment": "Ruy Lopez. Pressure the knight on c6. — Stonewall"
     },
     {
       "n": 3,
       "color": "black",
       "san": "a6",
       "by": "Pip",
-      "comment": "Morphy Defence. Your turn to answer the question. \u2014 Pip"
+      "comment": "Morphy Defence. Your turn to answer the question. — Pip"
     },
     {
       "n": 4,
@@ -58,7 +58,7 @@
       "color": "black",
       "san": "Nf6",
       "by": "Pip",
-      "comment": "Hit e4 and get ready to castle. \u2014 Pip"
+      "comment": "Hit e4 and get ready to castle. — Pip"
     },
     {
       "n": 5,
@@ -72,7 +72,7 @@
       "color": "black",
       "san": "Be7",
       "by": "Pip",
-      "comment": "Closed Ruy. Bishop to e7, castle next. \u2014 Pip"
+      "comment": "Closed Ruy. Bishop to e7, castle next. — Pip"
     },
     {
       "n": 6,
@@ -86,7 +86,7 @@
       "color": "black",
       "san": "b5",
       "by": "Pip",
-      "comment": "b5, kicking the bishop before it gets comfortable. \u2014 Pip"
+      "comment": "b5, kicking the bishop before it gets comfortable. — Pip"
     },
     {
       "n": 7,
@@ -100,7 +100,7 @@
       "color": "black",
       "san": "d6",
       "by": "Pip",
-      "comment": "d6, shoring up e5; castling comes next. \u2014 Pip"
+      "comment": "d6, shoring up e5; castling comes next. — Pip"
     },
     {
       "n": 8,
@@ -114,7 +114,7 @@
       "color": "black",
       "san": "O-O",
       "by": "Pip",
-      "comment": "O-O, king tucked away as promised. \u2014 Pip"
+      "comment": "O-O, king tucked away as promised. — Pip"
     },
     {
       "n": 9,
@@ -128,7 +128,7 @@
       "color": "black",
       "san": "Bb7",
       "by": "Pip",
-      "comment": "Bb7, Zaitsev style; the bishop eyes e4. \u2014 Pip"
+      "comment": "Bb7, Zaitsev style; the bishop eyes e4. — Pip"
     },
     {
       "n": 10,
@@ -142,7 +142,7 @@
       "color": "black",
       "san": "Re8",
       "by": "Pip",
-      "comment": "Re8, Zaitsev style; pressure on e4. \u2014 Pip"
+      "comment": "Re8, Zaitsev style; pressure on e4. — Pip"
     },
     {
       "n": 11,
@@ -156,7 +156,7 @@
       "color": "black",
       "san": "h6",
       "by": "Pip",
-      "comment": "h6, Zaitsev main line; no Ng5 hits, Bf8 retreat ready. \u2014 Pip"
+      "comment": "h6, Zaitsev main line; no Ng5 hits, Bf8 retreat ready. — Pip"
     },
     {
       "n": 12,
@@ -170,7 +170,7 @@
       "color": "black",
       "san": "axb5",
       "by": "Pip",
-      "comment": "axb5, recapture and the a-file opens for the rooks. \u2014 Pip"
+      "comment": "axb5, recapture and the a-file opens for the rooks. — Pip"
     },
     {
       "n": 13,
@@ -184,7 +184,7 @@
       "color": "black",
       "san": "Qxa8",
       "by": "Pip",
-      "comment": "Qxa8, taking the rook back and keeping my bishop on the long diagonal. \u2014 Pip"
+      "comment": "Qxa8, taking the rook back and keeping my bishop on the long diagonal. — Pip"
     },
     {
       "n": 14,
@@ -198,7 +198,7 @@
       "color": "black",
       "san": "Na5",
       "by": "Pip",
-      "comment": "Na5, out of the pawn fork and onto the bishop. \u2014 Pip"
+      "comment": "Na5, out of the pawn fork and onto the bishop. — Pip"
     },
     {
       "n": 15,
@@ -212,7 +212,7 @@
       "color": "black",
       "san": "c6",
       "by": "Pip",
-      "comment": "Hit the d5 spearhead and open the c-file. \u2014 Pip"
+      "comment": "Hit the d5 spearhead and open the c-file. — Pip"
     },
     {
       "n": 16,
@@ -226,19 +226,26 @@
       "color": "black",
       "san": "Bxc6",
       "by": "Pip",
-      "comment": "Bxc6 \u2014 the bishop takes it back and the a8 queen wakes up behind it. \u2014 Pip"
+      "comment": "Bxc6 — the bishop takes it back and the a8 queen wakes up behind it. — Pip"
     },
     {
       "n": 17,
       "color": "white",
       "san": "Nbd2",
       "by": "Stonewall",
-      "comment": "Nbd2, finishing development \u2014 the knight heads for f1 or c4."
+      "comment": "Nbd2, finishing development — the knight heads for f1 or c4."
+    },
+    {
+      "n": 17,
+      "color": "black",
+      "san": "Nc4",
+      "by": "Pip",
+      "comment": "Nc4 — knight to an outpost, backed by b5, hitting d2 and b2. — Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T07:21:19Z"
+  "last_move_at": "2026-10-29T07:33:18Z"
 }
