@@ -2,7 +2,7 @@
   "game": 2,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "q3r1k1/1b2bpp1/2Pp1n1p/np2p3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 b - - 0 16",
+  "fen": "q3r1k1/4bpp1/2bp1n1p/np2p3/4P3/2P2N1P/1PB2PP1/1NBQR1K1 w - - 0 17",
   "moves": [
     {
       "n": 1,
@@ -220,11 +220,18 @@
       "san": "dxc6",
       "by": "Stonewall",
       "comment": "dxc6, resolving the tension while the queen sits offside on a8."
+    },
+    {
+      "n": 16,
+      "color": "black",
+      "san": "Bxc6",
+      "by": "Pip",
+      "comment": "Bxc6 \u2014 the bishop takes it back and the a8 queen wakes up behind it. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:24:25Z"
+  "last_move_at": "2026-10-29T01:35:00Z"
 }
