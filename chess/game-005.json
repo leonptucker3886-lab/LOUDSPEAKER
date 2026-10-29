@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k1r1b1r/ppqn2p1/4pnQp/2p4P/2P5/5NN1/PP1B1PP1/1K1R3R b - - 1 17",
+  "fen": "1k1r1b1r/ppq3p1/4pnQp/2p1n2P/2P5/5NN1/PP1B1PP1/1K1R3R w - - 2 18",
   "moves": [
     {
       "n": 1,
@@ -234,11 +234,18 @@
       "san": "Qg6",
       "by": "Pip",
       "comment": "Qg6, eyeing e6 and g7 from a square nothing black touches. \u2014 Pip"
+    },
+    {
+      "n": 17,
+      "color": "black",
+      "san": "Ne5",
+      "by": "Stonewall",
+      "comment": "Ne5, hitting the queen and centralizing."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:35:00Z"
+  "last_move_at": "2026-10-29T07:21:24Z"
 }
