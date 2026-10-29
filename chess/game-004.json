@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "3r1rk1/pb2bpp1/1q3n1p/3pN3/2p5/2NBP3/PPQ2PPP/2RR2K1 w - - 0 17",
+  "fen": "3r1rk1/pb2bpp1/1q3n1p/3pN3/2p5/2N1P3/PPQ1BPPP/2RR2K1 b - - 1 17",
   "moves": [
     {
       "n": 1,
@@ -227,11 +227,18 @@
       "san": "c4",
       "by": "Pip",
       "comment": "c4, kicking the d3 bishop off the b1-h7 diagonal. \u2014 Pip"
+    },
+    {
+      "n": 17,
+      "color": "white",
+      "san": "Be2",
+      "by": "Stonewall",
+      "comment": "Be2, the bishop steps off the pawn's hit."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:35:00Z"
+  "last_move_at": "2026-10-29T07:21:22Z"
 }
