@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "3r1rk1/pb2bpp1/1q3n1p/2pp4/8/2NBPN2/PPQ2PPP/2RR2K1 w - - 4 16",
+  "fen": "3r1rk1/pb2bpp1/1q3n1p/2ppN3/8/2NBP3/PPQ2PPP/2RR2K1 b - - 5 16",
   "moves": [
     {
       "n": 1,
@@ -213,11 +213,18 @@
       "san": "Rad8",
       "by": "Pip",
       "comment": "Rook behind the hanging pawns, d5 stays guarded. \u2014 Pip"
+    },
+    {
+      "n": 16,
+      "color": "white",
+      "san": "Ne5",
+      "by": "Stonewall",
+      "comment": "Ne5, centralizing and keeping both hanging pawns under fire."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:32:00Z"
+  "last_move_at": "2026-10-29T01:24:30Z"
 }
