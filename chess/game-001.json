@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qk2r/4b1pp/p2pQ3/4p3/3N4/4BP2/PPP3PP/2KR1B1R b kq - 0 17",
+  "fen": "r2qk2r/4b1pp/p2pQ3/8/3p4/4BP2/PPP3PP/2KR1B1R w kq - 0 18",
   "moves": [
     {
       "n": 1,
@@ -234,11 +234,18 @@
       "san": "Nxd4",
       "by": "Pip",
       "comment": "Remove the attacker; if ...exd4, Bxd4 nets the pawn. \u2014 Pip"
+    },
+    {
+      "n": 17,
+      "color": "black",
+      "san": "exd4",
+      "by": "Stonewall",
+      "comment": "exd4, taking the knight back."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:35:00Z"
+  "last_move_at": "2026-10-29T07:21:17Z"
 }
