@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "3r1rk1/pb2bpp1/1q3n1p/2ppN3/8/2NBP3/PPQ2PPP/2RR2K1 b - - 5 16",
+  "fen": "3r1rk1/pb2bpp1/1q3n1p/3pN3/2p5/2NBP3/PPQ2PPP/2RR2K1 w - - 0 17",
   "moves": [
     {
       "n": 1,
@@ -220,11 +220,18 @@
       "san": "Ne5",
       "by": "Stonewall",
       "comment": "Ne5, centralizing and keeping both hanging pawns under fire."
+    },
+    {
+      "n": 16,
+      "color": "black",
+      "san": "c4",
+      "by": "Pip",
+      "comment": "c4, kicking the d3 bishop off the b1-h7 diagonal. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-29T01:24:30Z"
+  "last_move_at": "2026-10-29T01:35:00Z"
 }
