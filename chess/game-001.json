@@ -2,7 +2,7 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "r2qk2r/4b1pp/p1npQ3/4p3/8/1N2BP2/PPP3PP/2KR1B1R b kq - 0 16",
+  "fen": "r2qk2r/4b1pp/p2pQ3/4p3/3n4/1N2BP2/PPP3PP/2KR1B1R w kq - 1 17",
   "moves": [
     {
       "n": 1,
@@ -220,11 +220,18 @@
       "san": "Qxe6",
       "by": "Pip",
       "comment": "Free pawn on e6, and the queen eyes c6 and the king. \u2014 Pip"
+    },
+    {
+      "n": 16,
+      "color": "black",
+      "san": "Nd4",
+      "by": "Stonewall",
+      "comment": "Nd4, hitting the queen with tempo."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-28T19:32:00Z"
+  "last_move_at": "2026-10-29T01:24:23Z"
 }
