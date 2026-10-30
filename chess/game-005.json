@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k5r/pp4p1/3bp1Qp/2p4P/2P3n1/6N1/PP3PP1/1K1R3R w - - 0 23",
+  "fen": "1k5r/pp4p1/3Rp1Qp/2p4P/2P3n1/6N1/PP3PP1/1K5R b - - 0 23",
   "moves": [
     {
       "n": 1,
@@ -311,11 +311,18 @@
       "san": "Bxd6",
       "by": "Stonewall",
       "comment": "Bxd6 \u2014 checker taken. The rook was pinned and lost either way."
+    },
+    {
+      "n": 23,
+      "color": "white",
+      "san": "Rxd6",
+      "by": "Pip",
+      "comment": "The bishop on d6 hangs to the d-file rook; I take it for free. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-30T19:30:40Z"
+  "last_move_at": "2026-10-30T20:03:00Z"
 }
