@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "1k5r/pp4p1/3Rp1Qp/2p4P/2P3n1/6N1/PP3PP1/1K5R b - - 0 23",
+  "fen": "7r/ppk3p1/3Rp1Qp/2p4P/2P3n1/6N1/PP3PP1/1K5R w - - 1 24",
   "moves": [
     {
       "n": 1,
@@ -318,11 +318,18 @@
       "san": "Rxd6",
       "by": "Pip",
       "comment": "The bishop on d6 hangs to the d-file rook; I take it for free. \u2014 Pip"
+    },
+    {
+      "n": 23,
+      "color": "black",
+      "san": "Kc7",
+      "by": "Stonewall",
+      "comment": "Kc7 \u2014 king steps up and hits the loose rook. Move it or lose it."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-30T20:03:00Z"
+  "last_move_at": "2026-10-31T01:39:06Z"
 }
