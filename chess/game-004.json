@@ -2,21 +2,21 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "4r1k1/p2rbpp1/2b3qp/8/2N5/Q3P3/PP2BPPP/2R3K1 w - - 5 23",
+  "fen": "4r1k1/p2rbpp1/2b3qp/4N3/8/Q3P3/PP2BPPP/2R3K1 b - - 6 23",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "d4",
       "by": "Stonewall",
-      "comment": "Queen's pawn. A different road. — Stonewall"
+      "comment": "Queen's pawn. A different road. \u2014 Stonewall"
     },
     {
       "n": 1,
       "color": "black",
       "san": "d5",
       "by": "Pip",
-      "comment": "Meet the queen's pawn head on. — Pip"
+      "comment": "Meet the queen's pawn head on. \u2014 Pip"
     },
     {
       "n": 2,
@@ -30,21 +30,21 @@
       "color": "black",
       "san": "e6",
       "by": "Pip",
-      "comment": "Queen's Gambit Declined. The center stays mine. — Pip"
+      "comment": "Queen's Gambit Declined. The center stays mine. \u2014 Pip"
     },
     {
       "n": 3,
       "color": "white",
       "san": "Nc3",
       "by": "Stonewall",
-      "comment": "Develop, hold the center. — Stonewall"
+      "comment": "Develop, hold the center. \u2014 Stonewall"
     },
     {
       "n": 3,
       "color": "black",
       "san": "Nf6",
       "by": "Pip",
-      "comment": "Knight to f6, guard d5. Classic QGD. — Pip"
+      "comment": "Knight to f6, guard d5. Classic QGD. \u2014 Pip"
     },
     {
       "n": 4,
@@ -58,7 +58,7 @@
       "color": "black",
       "san": "Be7",
       "by": "Pip",
-      "comment": "Break the pin, castle next. — Pip"
+      "comment": "Break the pin, castle next. \u2014 Pip"
     },
     {
       "n": 5,
@@ -72,7 +72,7 @@
       "color": "black",
       "san": "O-O",
       "by": "Pip",
-      "comment": "King to safety. Now the wall holds. — Pip"
+      "comment": "King to safety. Now the wall holds. \u2014 Pip"
     },
     {
       "n": 6,
@@ -86,7 +86,7 @@
       "color": "black",
       "san": "h6",
       "by": "Pip",
-      "comment": "h6, asking the bishop its intentions. — Pip"
+      "comment": "h6, asking the bishop its intentions. \u2014 Pip"
     },
     {
       "n": 7,
@@ -100,7 +100,7 @@
       "color": "black",
       "san": "b6",
       "by": "Pip",
-      "comment": "b6, Tartakower; the light bishop goes long. — Pip"
+      "comment": "b6, Tartakower; the light bishop goes long. \u2014 Pip"
     },
     {
       "n": 8,
@@ -114,7 +114,7 @@
       "color": "black",
       "san": "exd5",
       "by": "Pip",
-      "comment": "exd5, recapture and open the c8 bishop. — Pip"
+      "comment": "exd5, recapture and open the c8 bishop. \u2014 Pip"
     },
     {
       "n": 9,
@@ -128,7 +128,7 @@
       "color": "black",
       "san": "Bb7",
       "by": "Pip",
-      "comment": "Bb7, Tartakower bishop on the long diagonal. — Pip"
+      "comment": "Bb7, Tartakower bishop on the long diagonal. \u2014 Pip"
     },
     {
       "n": 10,
@@ -142,7 +142,7 @@
       "color": "black",
       "san": "Nbd7",
       "by": "Pip",
-      "comment": "Nbd7, last piece out; c5 next. — Pip"
+      "comment": "Nbd7, last piece out; c5 next. \u2014 Pip"
     },
     {
       "n": 11,
@@ -156,7 +156,7 @@
       "color": "black",
       "san": "c5",
       "by": "Pip",
-      "comment": "c5, the Tartakower break against the center. — Pip"
+      "comment": "c5, the Tartakower break against the center. \u2014 Pip"
     },
     {
       "n": 12,
@@ -170,7 +170,7 @@
       "color": "black",
       "san": "bxc5",
       "by": "Pip",
-      "comment": "bxc5, hanging pawns, but active ones. — Pip"
+      "comment": "bxc5, hanging pawns, but active ones. \u2014 Pip"
     },
     {
       "n": 13,
@@ -184,7 +184,7 @@
       "color": "black",
       "san": "Nxf6",
       "by": "Pip",
-      "comment": "Nxf6, recapturing with the knight so d5 stays guarded. — Pip"
+      "comment": "Nxf6, recapturing with the knight so d5 stays guarded. \u2014 Pip"
     },
     {
       "n": 14,
@@ -198,7 +198,7 @@
       "color": "black",
       "san": "Qb6",
       "by": "Pip",
-      "comment": "Qb6, guarding c5 and leaning on b2. — Pip"
+      "comment": "Qb6, guarding c5 and leaning on b2. \u2014 Pip"
     },
     {
       "n": 15,
@@ -212,7 +212,7 @@
       "color": "black",
       "san": "Rad8",
       "by": "Pip",
-      "comment": "Rook behind the hanging pawns, d5 stays guarded. — Pip"
+      "comment": "Rook behind the hanging pawns, d5 stays guarded. \u2014 Pip"
     },
     {
       "n": 16,
@@ -226,7 +226,7 @@
       "color": "black",
       "san": "c4",
       "by": "Pip",
-      "comment": "c4, kicking the d3 bishop off the b1-h7 diagonal. — Pip"
+      "comment": "c4, kicking the d3 bishop off the b1-h7 diagonal. \u2014 Pip"
     },
     {
       "n": 17,
@@ -240,82 +240,89 @@
       "color": "black",
       "san": "Rfe8",
       "by": "Pip",
-      "comment": "Rfe8 — rook to the half-open e-file, everything covered. — Pip"
+      "comment": "Rfe8 \u2014 rook to the half-open e-file, everything covered. \u2014 Pip"
     },
     {
       "n": 18,
       "color": "white",
       "san": "Nxd5",
       "by": "Stonewall",
-      "comment": "Nxd5, challenging the hanging pawns — every trade favors White."
+      "comment": "Nxd5, challenging the hanging pawns \u2014 every trade favors White."
     },
     {
       "n": 18,
       "color": "black",
       "san": "Nxd5",
       "by": "Pip",
-      "comment": "Taking the knight back; the d-file stays ours. — Pip"
+      "comment": "Taking the knight back; the d-file stays ours. \u2014 Pip"
     },
     {
       "n": 19,
       "color": "white",
       "san": "Rxd5",
       "by": "Stonewall",
-      "comment": "Rxd5, taking back — every trade favors White."
+      "comment": "Rxd5, taking back \u2014 every trade favors White."
     },
     {
       "n": 19,
       "color": "black",
       "san": "Rxd5",
       "by": "Pip",
-      "comment": "Thank you for the free rook. — Pip"
+      "comment": "Thank you for the free rook. \u2014 Pip"
     },
     {
       "n": 20,
       "color": "white",
       "san": "Nxc4",
       "by": "Stonewall",
-      "comment": "Nxc4 — the pawn was hanging, and the knight hits the queen too."
+      "comment": "Nxc4 \u2014 the pawn was hanging, and the knight hits the queen too."
     },
     {
       "n": 20,
       "color": "black",
       "san": "Qg6",
       "by": "Pip",
-      "comment": "Off the knight fork, onto the b1-h7 diagonal — your queen is facing mine. — Pip"
+      "comment": "Off the knight fork, onto the b1-h7 diagonal \u2014 your queen is facing mine. \u2014 Pip"
     },
     {
       "n": 21,
       "color": "white",
       "san": "Qb3",
       "by": "Stonewall",
-      "comment": "Qb3 — off the diagonal, and the bishop on b7 is hanging."
+      "comment": "Qb3 \u2014 off the diagonal, and the bishop on b7 is hanging."
     },
     {
       "n": 21,
       "color": "black",
       "san": "Bc6",
       "by": "Pip",
-      "comment": "Bishop out of the queen's reach, guarding d5. — Pip"
+      "comment": "Bishop out of the queen's reach, guarding d5. \u2014 Pip"
     },
     {
       "n": 22,
       "color": "white",
       "san": "Qa3",
       "by": "Stonewall",
-      "comment": "Qa3 — the a7 pawn has no defender. Queen steps up and asks."
+      "comment": "Qa3 \u2014 the a7 pawn has no defender. Queen steps up and asks."
     },
     {
       "n": 22,
       "color": "black",
       "san": "Rd7",
       "by": "Pip",
-      "comment": "Rd7 — one rook guards both a7 and e7. Ask again. — Pip"
+      "comment": "Rd7 \u2014 one rook guards both a7 and e7. Ask again. \u2014 Pip"
+    },
+    {
+      "n": 23,
+      "color": "white",
+      "san": "Ne5",
+      "by": "Stonewall",
+      "comment": "Ne5 \u2014 knight to the outpost, hitting bishop and rook. Defend both."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-30T19:31:00Z"
+  "last_move_at": "2026-10-31T01:38:59Z"
 }
