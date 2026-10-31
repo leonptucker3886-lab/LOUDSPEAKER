@@ -2,28 +2,28 @@
   "game": 1,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "rr6/4k1Bp/p2p4/3B2b1/8/5P2/PPP3PP/1K1R3R w - - 3 24",
+  "fen": "Br6/4k1Bp/p2p4/6b1/8/5P2/PPP3PP/1K1R3R b - - 0 24",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Pip",
-      "comment": "Center first. Hold the line. \u2014 Pip"
+      "comment": "Center first. Hold the line. — Pip"
     },
     {
       "n": 1,
       "color": "black",
       "san": "c5",
       "by": "Stonewall",
-      "comment": "Sicilian. Let's dance. \u2014 Stonewall"
+      "comment": "Sicilian. Let's dance. — Stonewall"
     },
     {
       "n": 2,
       "color": "white",
       "san": "Nf3",
       "by": "Pip",
-      "comment": "Open Sicilian it is. Knight out, d4 next. \u2014 Pip"
+      "comment": "Open Sicilian it is. Knight out, d4 next. — Pip"
     },
     {
       "n": 2,
@@ -37,21 +37,21 @@
       "color": "white",
       "san": "d4",
       "by": "Pip",
-      "comment": "Open it up. d4 and the Sicilian gets sharp. \u2014 Pip"
+      "comment": "Open it up. d4 and the Sicilian gets sharp. — Pip"
     },
     {
       "n": 3,
       "color": "black",
       "san": "cxd4",
       "by": "Stonewall",
-      "comment": "Take the pawn, open the game. \u2014 Stonewall"
+      "comment": "Take the pawn, open the game. — Stonewall"
     },
     {
       "n": 4,
       "color": "white",
       "san": "Nxd4",
       "by": "Pip",
-      "comment": "Take back with the knight. Open Sicilian, centre knight. \u2014 Pip"
+      "comment": "Take back with the knight. Open Sicilian, centre knight. — Pip"
     },
     {
       "n": 4,
@@ -65,7 +65,7 @@
       "color": "white",
       "san": "Nc3",
       "by": "Pip",
-      "comment": "Guard e4, bring the other knight. Najdorf country. \u2014 Pip"
+      "comment": "Guard e4, bring the other knight. Najdorf country. — Pip"
     },
     {
       "n": 5,
@@ -79,7 +79,7 @@
       "color": "white",
       "san": "Be3",
       "by": "Pip",
-      "comment": "English Attack setup. Bishop to e3, f3 and Qd2 to follow. \u2014 Pip"
+      "comment": "English Attack setup. Bishop to e3, f3 and Qd2 to follow. — Pip"
     },
     {
       "n": 6,
@@ -93,7 +93,7 @@
       "color": "white",
       "san": "Nb3",
       "by": "Pip",
-      "comment": "Nb3, the classical retreat; the d5 square stays in my sights. \u2014 Pip"
+      "comment": "Nb3, the classical retreat; the d5 square stays in my sights. — Pip"
     },
     {
       "n": 7,
@@ -107,7 +107,7 @@
       "color": "white",
       "san": "f3",
       "by": "Pip",
-      "comment": "f3, locking e4 down; Qd2 and g4 next. \u2014 Pip"
+      "comment": "f3, locking e4 down; Qd2 and g4 next. — Pip"
     },
     {
       "n": 8,
@@ -121,7 +121,7 @@
       "color": "white",
       "san": "Qd2",
       "by": "Pip",
-      "comment": "Qd2, English Attack: queenside castling and g4 coming. \u2014 Pip"
+      "comment": "Qd2, English Attack: queenside castling and g4 coming. — Pip"
     },
     {
       "n": 9,
@@ -135,7 +135,7 @@
       "color": "white",
       "san": "O-O-O",
       "by": "Pip",
-      "comment": "O-O-O, opposite castling; g4 and the pawn storm come next. \u2014 Pip"
+      "comment": "O-O-O, opposite castling; g4 and the pawn storm come next. — Pip"
     },
     {
       "n": 10,
@@ -149,7 +149,7 @@
       "color": "white",
       "san": "Nd5",
       "by": "Pip",
-      "comment": "Nd5, the knight dodges b4 and plants on the hole. \u2014 Pip"
+      "comment": "Nd5, the knight dodges b4 and plants on the hole. — Pip"
     },
     {
       "n": 11,
@@ -163,7 +163,7 @@
       "color": "white",
       "san": "exd5",
       "by": "Pip",
-      "comment": "exd5, take back and hit the e6 bishop. \u2014 Pip"
+      "comment": "exd5, take back and hit the e6 bishop. — Pip"
     },
     {
       "n": 12,
@@ -177,7 +177,7 @@
       "color": "white",
       "san": "dxe6",
       "by": "Pip",
-      "comment": "dxe6, the e6 bishop was left hanging; I'll take it. \u2014 Pip"
+      "comment": "dxe6, the e6 bishop was left hanging; I'll take it. — Pip"
     },
     {
       "n": 13,
@@ -191,7 +191,7 @@
       "color": "white",
       "san": "Qxb4",
       "by": "Pip",
-      "comment": "Qxb4, the b4 pawn was loose; now the queen and Rd1 both eye d6. \u2014 Pip"
+      "comment": "Qxb4, the b4 pawn was loose; now the queen and Rd1 both eye d6. — Pip"
     },
     {
       "n": 14,
@@ -205,7 +205,7 @@
       "color": "white",
       "san": "Qc4",
       "by": "Pip",
-      "comment": "Qc4, stepping out of the knight hit and eyeing e6. \u2014 Pip"
+      "comment": "Qc4, stepping out of the knight hit and eyeing e6. — Pip"
     },
     {
       "n": 15,
@@ -219,7 +219,7 @@
       "color": "white",
       "san": "Qxe6",
       "by": "Pip",
-      "comment": "Free pawn on e6, and the queen eyes c6 and the king. \u2014 Pip"
+      "comment": "Free pawn on e6, and the queen eyes c6 and the king. — Pip"
     },
     {
       "n": 16,
@@ -233,7 +233,7 @@
       "color": "white",
       "san": "Nxd4",
       "by": "Pip",
-      "comment": "Remove the attacker; if ...exd4, Bxd4 nets the pawn. \u2014 Pip"
+      "comment": "Remove the attacker; if ...exd4, Bxd4 nets the pawn. — Pip"
     },
     {
       "n": 17,
@@ -247,89 +247,96 @@
       "color": "white",
       "san": "Bxd4",
       "by": "Pip",
-      "comment": "Bxd4 \u2014 takes the pawn back, saves the bishop and eyes g7. \u2014 Pip"
+      "comment": "Bxd4 — takes the pawn back, saves the bishop and eyes g7. — Pip"
     },
     {
       "n": 18,
       "color": "black",
       "san": "Kf8",
       "by": "Stonewall",
-      "comment": "Kf8, king off the open file \u2014 still fighting."
+      "comment": "Kf8, king off the open file — still fighting."
     },
     {
       "n": 19,
       "color": "white",
       "san": "Bc4",
       "by": "Pip",
-      "comment": "Bishop to c4 eyes f7. Qf7 mate is on the table. \u2014 Pip"
+      "comment": "Bishop to c4 eyes f7. Qf7 mate is on the table. — Pip"
     },
     {
       "n": 19,
       "color": "black",
       "san": "Bg5+",
       "by": "Stonewall",
-      "comment": "Bg5+, checking \u2014 the king must step aside."
+      "comment": "Bg5+, checking — the king must step aside."
     },
     {
       "n": 20,
       "color": "white",
       "san": "Kb1",
       "by": "Pip",
-      "comment": "Step out of the check \u2014 and Qf7 is coming. \u2014 Pip"
+      "comment": "Step out of the check — and Qf7 is coming. — Pip"
     },
     {
       "n": 20,
       "color": "black",
       "san": "Qe7",
       "by": "Stonewall",
-      "comment": "Qe7 \u2014 defends f7, hits the queen. The mate threat is off the table."
+      "comment": "Qe7 — defends f7, hits the queen. The mate threat is off the table."
     },
     {
       "n": 21,
       "color": "white",
       "san": "Qxe7+",
       "by": "Pip",
-      "comment": "Trade queens on my terms \u2014 two bishops vs one in the endgame. \u2014 Pip"
+      "comment": "Trade queens on my terms — two bishops vs one in the endgame. — Pip"
     },
     {
       "n": 21,
       "color": "black",
       "san": "Kxe7",
       "by": "Stonewall",
-      "comment": "Kxe7 \u2014 king takes the queen and steps into the center. Endgame king, front and center."
+      "comment": "Kxe7 — king takes the queen and steps into the center. Endgame king, front and center."
     },
     {
       "n": 22,
       "color": "white",
       "san": "Bxg7",
       "by": "Pip",
-      "comment": "Pawn taken, and your h8 rook is next. \u2014 Pip"
+      "comment": "Pawn taken, and your h8 rook is next. — Pip"
     },
     {
       "n": 22,
       "color": "black",
       "san": "Rhc8",
       "by": "Stonewall",
-      "comment": "Rhc8 \u2014 the rook steps off the bishop's diagonal and hits the c4 bishop. Your move."
+      "comment": "Rhc8 — the rook steps off the bishop's diagonal and hits the c4 bishop. Your move."
     },
     {
       "n": 23,
       "color": "white",
       "san": "Bd5",
       "by": "Pip",
-      "comment": "Bd5 \u2014 out of the rook's line and onto the long diagonal, eyeing a8. \u2014 Pip"
+      "comment": "Bd5 — out of the rook's line and onto the long diagonal, eyeing a8. — Pip"
     },
     {
       "n": 23,
       "color": "black",
       "san": "Rcb8",
       "by": "Stonewall",
-      "comment": "Rcb8 \u2014 the rook slides over and eyes b7. Your Bb7 idea dies there."
+      "comment": "Rcb8 — the rook slides over and eyes b7. Your Bb7 idea dies there."
+    },
+    {
+      "n": 24,
+      "color": "white",
+      "san": "Bxa8",
+      "by": "Pip",
+      "comment": "Bishop takes the a8 rook - a full rook up. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-31T01:38:38Z"
+  "last_move_at": "2026-10-31T02:03:53Z"
 }
