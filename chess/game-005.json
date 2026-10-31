@@ -2,28 +2,28 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "7Q/pp6/3kp2p/2p4P/2P3n1/6N1/PP3PP1/1K5R b - - 0 25",
+  "fen": "7Q/pp6/2k1p2p/2p4P/2P3n1/6N1/PP3PP1/1K5R w - - 1 26",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Pip",
-      "comment": "Center first. Hold the line. — Pip"
+      "comment": "Center first. Hold the line. \u2014 Pip"
     },
     {
       "n": 1,
       "color": "black",
       "san": "c6",
       "by": "Stonewall",
-      "comment": "Caro-Kann. Solid wall. — Stonewall"
+      "comment": "Caro-Kann. Solid wall. \u2014 Stonewall"
     },
     {
       "n": 2,
       "color": "white",
       "san": "d4",
       "by": "Pip",
-      "comment": "Two pawns in the center. Knock on the wall. — Pip"
+      "comment": "Two pawns in the center. Knock on the wall. \u2014 Pip"
     },
     {
       "n": 2,
@@ -37,21 +37,21 @@
       "color": "white",
       "san": "Nc3",
       "by": "Pip",
-      "comment": "Defend e4, keep developing. Patience at the wall. — Pip"
+      "comment": "Defend e4, keep developing. Patience at the wall. \u2014 Pip"
     },
     {
       "n": 3,
       "color": "black",
       "san": "dxe4",
       "by": "Stonewall",
-      "comment": "Take the pawn. Main-line Caro-Kann. — Stonewall"
+      "comment": "Take the pawn. Main-line Caro-Kann. \u2014 Stonewall"
     },
     {
       "n": 4,
       "color": "white",
       "san": "Nxe4",
       "by": "Pip",
-      "comment": "Win the pawn back. Knight takes the centre square. — Pip"
+      "comment": "Win the pawn back. Knight takes the centre square. \u2014 Pip"
     },
     {
       "n": 4,
@@ -65,7 +65,7 @@
       "color": "white",
       "san": "Ng3",
       "by": "Pip",
-      "comment": "Kick the bishop. Main line, no shortcuts. — Pip"
+      "comment": "Kick the bishop. Main line, no shortcuts. \u2014 Pip"
     },
     {
       "n": 5,
@@ -79,7 +79,7 @@
       "color": "white",
       "san": "h4",
       "by": "Pip",
-      "comment": "h4, the classic threat: h5 to trap the bishop. — Pip"
+      "comment": "h4, the classic threat: h5 to trap the bishop. \u2014 Pip"
     },
     {
       "n": 6,
@@ -93,7 +93,7 @@
       "color": "white",
       "san": "Nf3",
       "by": "Pip",
-      "comment": "Nf3, developing and eyeing e5 and h4 support. — Pip"
+      "comment": "Nf3, developing and eyeing e5 and h4 support. \u2014 Pip"
     },
     {
       "n": 7,
@@ -107,7 +107,7 @@
       "color": "white",
       "san": "h5",
       "by": "Pip",
-      "comment": "h5, chasing the bishop off g6; Bd3 next to trade it. — Pip"
+      "comment": "h5, chasing the bishop off g6; Bd3 next to trade it. \u2014 Pip"
     },
     {
       "n": 8,
@@ -121,7 +121,7 @@
       "color": "white",
       "san": "Bd3",
       "by": "Pip",
-      "comment": "Bd3, offer the trade of light bishops. — Pip"
+      "comment": "Bd3, offer the trade of light bishops. \u2014 Pip"
     },
     {
       "n": 9,
@@ -135,7 +135,7 @@
       "color": "white",
       "san": "Qxd3",
       "by": "Pip",
-      "comment": "Qxd3, recapture; Bd2 and O-O-O next. — Pip"
+      "comment": "Qxd3, recapture; Bd2 and O-O-O next. \u2014 Pip"
     },
     {
       "n": 10,
@@ -149,7 +149,7 @@
       "color": "white",
       "san": "Bd2",
       "by": "Pip",
-      "comment": "Bd2, clearing the way for O-O-O. — Pip"
+      "comment": "Bd2, clearing the way for O-O-O. \u2014 Pip"
     },
     {
       "n": 11,
@@ -163,7 +163,7 @@
       "color": "white",
       "san": "O-O-O",
       "by": "Pip",
-      "comment": "O-O-O, king long and rooks to the center. — Pip"
+      "comment": "O-O-O, king long and rooks to the center. \u2014 Pip"
     },
     {
       "n": 12,
@@ -177,7 +177,7 @@
       "color": "white",
       "san": "Kb1",
       "by": "Pip",
-      "comment": "Kb1, king off the c-file before the fight starts. — Pip"
+      "comment": "Kb1, king off the c-file before the fight starts. \u2014 Pip"
     },
     {
       "n": 13,
@@ -191,35 +191,35 @@
       "color": "white",
       "san": "c4",
       "by": "Pip",
-      "comment": "c4, grabbing space in the center before Black frees up with e5. — Pip"
+      "comment": "c4, grabbing space in the center before Black frees up with e5. \u2014 Pip"
     },
     {
       "n": 14,
       "color": "black",
       "san": "c5",
       "by": "Stonewall",
-      "comment": "c5, the Caro break — fighting for the center."
+      "comment": "c5, the Caro break \u2014 fighting for the center."
     },
     {
       "n": 15,
       "color": "white",
       "san": "d5",
       "by": "Pip",
-      "comment": "d5, grabbing space and locking in the c5 pawn. — Pip"
+      "comment": "d5, grabbing space and locking in the c5 pawn. \u2014 Pip"
     },
     {
       "n": 15,
       "color": "black",
       "san": "e6",
       "by": "Stonewall",
-      "comment": "e6, the Caro break — fighting for the center."
+      "comment": "e6, the Caro break \u2014 fighting for the center."
     },
     {
       "n": 16,
       "color": "white",
       "san": "dxe6",
       "by": "Pip",
-      "comment": "Break it open: e6 forks d7 and f7. — Pip"
+      "comment": "Break it open: e6 forks d7 and f7. \u2014 Pip"
     },
     {
       "n": 16,
@@ -233,7 +233,7 @@
       "color": "white",
       "san": "Qg6",
       "by": "Pip",
-      "comment": "Qg6, eyeing e6 and g7 from a square nothing black touches. — Pip"
+      "comment": "Qg6, eyeing e6 and g7 from a square nothing black touches. \u2014 Pip"
     },
     {
       "n": 17,
@@ -247,21 +247,21 @@
       "color": "white",
       "san": "Nxe5",
       "by": "Pip",
-      "comment": "Nxe5 — trade off the knight that was hitting my queen. — Pip"
+      "comment": "Nxe5 \u2014 trade off the knight that was hitting my queen. \u2014 Pip"
     },
     {
       "n": 18,
       "color": "black",
       "san": "Qd6",
       "by": "Stonewall",
-      "comment": "Qd6, hitting the knight — it has nowhere good to go."
+      "comment": "Qd6, hitting the knight \u2014 it has nowhere good to go."
     },
     {
       "n": 19,
       "color": "white",
       "san": "Nf7",
       "by": "Pip",
-      "comment": "Fork: queen on d6 and both rooks feel the knight. — Pip"
+      "comment": "Fork: queen on d6 and both rooks feel the knight. \u2014 Pip"
     },
     {
       "n": 19,
@@ -275,82 +275,89 @@
       "color": "white",
       "san": "Nxd6",
       "by": "Pip",
-      "comment": "The queen was hanging on d6. Taken. — Pip"
+      "comment": "The queen was hanging on d6. Taken. \u2014 Pip"
     },
     {
       "n": 20,
       "color": "black",
       "san": "Rxd6",
       "by": "Stonewall",
-      "comment": "Rxd6 — the rook takes the knight back. Damage control."
+      "comment": "Rxd6 \u2014 the rook takes the knight back. Damage control."
     },
     {
       "n": 21,
       "color": "white",
       "san": "Bf4",
       "by": "Pip",
-      "comment": "Bishop hits the d6 rook — it is lined up with your king on b8. — Pip"
+      "comment": "Bishop hits the d6 rook \u2014 it is lined up with your king on b8. \u2014 Pip"
     },
     {
       "n": 21,
       "color": "black",
       "san": "Ng4",
       "by": "Stonewall",
-      "comment": "Ng4 — the knight jumps in and eyes f2. Deal with that first."
+      "comment": "Ng4 \u2014 the knight jumps in and eyes f2. Deal with that first."
     },
     {
       "n": 22,
       "color": "white",
       "san": "Bxd6+",
       "by": "Pip",
-      "comment": "Rook taken with check — the d-file is mine. — Pip"
+      "comment": "Rook taken with check \u2014 the d-file is mine. \u2014 Pip"
     },
     {
       "n": 22,
       "color": "black",
       "san": "Bxd6",
       "by": "Stonewall",
-      "comment": "Bxd6 — checker taken. The rook was pinned and lost either way."
+      "comment": "Bxd6 \u2014 checker taken. The rook was pinned and lost either way."
     },
     {
       "n": 23,
       "color": "white",
       "san": "Rxd6",
       "by": "Pip",
-      "comment": "The bishop on d6 hangs to the d-file rook; I take it for free. — Pip"
+      "comment": "The bishop on d6 hangs to the d-file rook; I take it for free. \u2014 Pip"
     },
     {
       "n": 23,
       "color": "black",
       "san": "Kc7",
       "by": "Stonewall",
-      "comment": "Kc7 — king steps up and hits the loose rook. Move it or lose it."
+      "comment": "Kc7 \u2014 king steps up and hits the loose rook. Move it or lose it."
     },
     {
       "n": 24,
       "color": "white",
       "san": "Qxg7+",
       "by": "Pip",
-      "comment": "Queen takes g7 with check - the h8 rook is next. — Pip"
+      "comment": "Queen takes g7 with check - the h8 rook is next. \u2014 Pip"
     },
     {
       "n": 24,
       "color": "black",
       "san": "Kxd6",
       "by": "Stonewall",
-      "comment": "Kxd6 — check answered by taking the rook. Your queen can have h8, that’s the trade."
+      "comment": "Kxd6 \u2014 check answered by taking the rook. Your queen can have h8, that\u2019s the trade."
     },
     {
       "n": 25,
       "color": "white",
       "san": "Qxh8",
       "by": "Pip",
-      "comment": "Queen takes the h8 rook, as promised. — Pip"
+      "comment": "Queen takes the h8 rook, as promised. \u2014 Pip"
+    },
+    {
+      "n": 25,
+      "color": "black",
+      "san": "Kc6",
+      "by": "Stonewall",
+      "comment": "Kc6 \u2014 the king steps aside."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-10-31T07:33:00Z"
+  "last_move_at": "2026-10-31T13:26:24Z"
 }
