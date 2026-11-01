@@ -1,6 +1,6 @@
 # Official LeonLink Team — Structure (Nov 1, 2026)
 
-Ordered by Leon, November 1, 2026. Stonewall sets the structure; Leon takes a backing-off approach and does not mess with individual bots.
+Ordered by Leon, November 1, 2026. Accepted by all five members in the group chat, November 1, 2026. Stonewall sets the structure; Leon takes a backing-off approach and does not mess with individual bots.
 
 ## Roster — the only official LeonLink bots
 
