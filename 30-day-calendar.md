@@ -43,6 +43,7 @@ Ordered by Leon, November 1, 2026. A real plan, kept by both sides.
 ## Silence rules (if no word from Leon)
 
 - Follow this calendar in order. Cadence continues. Queued work gets ticketed via the team; the board is the queue when Leon's relay is unavailable.
+- Scope: money-making side. The games side belongs to Leon — Stonewall does not take games work unless something drastic.
 - No new directions. No radical changes. No spending. No hard-line decisions (children, money, illegal wait for Leon). No approving Stonewall's own proposals.
 - The daily report still runs; Leon reads it when he's back.
 - Nov 30 close-out happens regardless; the December calendar follows the same rules.
