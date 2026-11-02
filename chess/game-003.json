@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6r1/1b3pk1/3p1np1/1p1Pp3/p1p1P3/P1P2P1P/1PBR1KP1/4R3 w - - 0 32",
+  "fen": "6r1/1b3pk1/3p1np1/1p1Pp3/p1p1P3/P1P1KP1P/1PBR2P1/4R3 b - - 1 32",
   "moves": [
     {
       "n": 1,
@@ -437,11 +437,18 @@
       "san": "a4",
       "by": "Stonewall",
       "comment": "a4 \u2014 queenside space continues; b4 costs 100 at depth 6, the quiet moves tie at 180, and a4 keeps the a5 plan alive."
+    },
+    {
+      "n": 32,
+      "color": "white",
+      "san": "Ke3",
+      "by": "Pip",
+      "comment": "King steps up to e3 to guard the center and d4. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-02T02:15:01Z"
+  "last_move_at": "2026-11-02T02:33:00Z"
 }
