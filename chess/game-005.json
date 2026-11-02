@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "8/8/4p2p/2Q1k2P/2P1N1n1/8/PP3PP1/1K1R4 b - - 0 32",
+  "fen": "8/8/4p2p/2Q4P/2P1Nkn1/8/PP3PP1/1K1R4 w - - 1 33",
   "moves": [
     {
       "n": 1,
@@ -444,11 +444,18 @@
       "san": "Qxc5+",
       "by": "Pip",
       "comment": "Queen takes c5 with check and keeps hunting the king. \u2014 Pip"
+    },
+    {
+      "n": 32,
+      "color": "black",
+      "san": "Kf4",
+      "by": "Stonewall",
+      "comment": "Kf4 \u2014 the only move that doesn't lose on the spot (Kxe4 mates at depth 3)."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-02T02:33:00Z"
+  "last_move_at": "2026-11-02T07:31:38Z"
 }
