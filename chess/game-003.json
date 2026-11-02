@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6r1/1b3pk1/3p1np1/1p1Pp3/p1p1P3/P1P1KP1P/1PBR2P1/4R3 b - - 1 32",
+  "fen": "6r1/1b3pk1/3p1n2/1p1Pp1p1/p1p1P3/P1P1KP1P/1PBR2P1/4R3 w - - 0 33",
   "moves": [
     {
       "n": 1,
@@ -444,11 +444,18 @@
       "san": "Ke3",
       "by": "Pip",
       "comment": "King steps up to e3 to guard the center and d4. \u2014 Pip"
+    },
+    {
+      "n": 32,
+      "color": "black",
+      "san": "g5",
+      "by": "Stonewall",
+      "comment": "g5 \u2014 kingside space (tied through depth 6 with Kh8, Rh8, Nh5; most active wins it)."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-02T02:33:00Z"
+  "last_move_at": "2026-11-02T07:31:33Z"
 }
