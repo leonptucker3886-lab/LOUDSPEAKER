@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "4r3/R5p1/3k3p/8/2B5/4P3/Pb3PPP/3r2K1 w - - 1 32",
+  "fen": "4r3/R5p1/3k3p/8/8/4P3/Pb3PPP/3r1BK1 b - - 2 32",
   "moves": [
     {
       "n": 1,
@@ -437,11 +437,18 @@
       "san": "Rd1+",
       "by": "Pip",
       "comment": "Rook to the back rank with check; Ree1 is coming. \u2014 Pip"
+    },
+    {
+      "n": 32,
+      "color": "white",
+      "san": "Bf1",
+      "by": "Stonewall",
+      "comment": "Bf1 \u2014 the only answer to the back-rank check, bishop blocks on f1."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-02T02:33:00Z"
+  "last_move_at": "2026-11-02T07:31:35Z"
 }
