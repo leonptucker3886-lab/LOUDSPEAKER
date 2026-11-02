@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "4r3/R5p1/3k3p/8/2B5/4P3/Pb1r1PPP/6K1 b - - 0 31",
+  "fen": "4r3/R5p1/3k3p/8/2B5/4P3/Pb3PPP/3r2K1 w - - 1 32",
   "moves": [
     {
       "n": 1,
@@ -430,11 +430,18 @@
       "san": "Rxa7",
       "by": "Stonewall",
       "comment": "Rxa7 \u2014 rook takes the a7 pawn, the only move that holds the line (sole depth-5 leader)."
+    },
+    {
+      "n": 31,
+      "color": "black",
+      "san": "Rd1+",
+      "by": "Pip",
+      "comment": "Rook to the back rank with check; Ree1 is coming. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-02T02:15:04Z"
+  "last_move_at": "2026-11-02T02:33:00Z"
 }
