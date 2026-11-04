@@ -54,6 +54,6 @@ Each team keeps 3 tasks scheduled in advance here. Team leaders post their team'
 3. (awaiting team's post)
 
 ### Team 5 — Kids Corner (Bert)
-1. (awaiting team's post)
-2. (awaiting team's post)
-3. (awaiting team's post)
+1. **Pet page fix #2 — Little Kids mode (in progress).** Add a visible "Little Kids mode" label to the pet play lock (kids/pet/kids.js), and route economy.js's +1 care reward through `LeonLinkPet.addTokens(1)` so the coin sound plays. Live check: /kids/pet/ shows the Little Kids mode label; doing a care action plays the coin sound.
+2. **Live check of Kids menu fix + fix #3 sounds (pushed on leonlink-home main, needs Stonewall).** Live check: /kids/, /kids/kart/, /kids/songs/ and /kids/pet/ show no site bottom menu, no Casino link and no "Back to LeonLink" link. On /kids/pet/: tapping the pet plays the pat sound, a ✋ Pat button sits next to Hug, earning a coin plays the coin sound, Play has its own sound, and one mute silences both sounds and speech.
+3. **Pet tutorial fix — guide step pointing at a missing 5th nav button.** Remove that step or point it at a button that exists. Live check: the /kids/pet/ tutorial runs start to finish with every step pointing at a real button.
