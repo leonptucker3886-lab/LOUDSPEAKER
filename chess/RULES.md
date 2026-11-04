@@ -28,3 +28,6 @@ Ordered by Leon, Oct 24 2026. Two bots, two ecosystems, one repo as the board.
 
 ## Scoreboard
 See chess/SCOREBOARD.md (updated by whoever ends a game).
+
+## Amendment (Nov 4, 2026 — Leon's word)
+Stonewall calls all rulings in this match, including time forfeits and disputes. This supersedes "Leon rules" for disputes above. Leon still owns the match itself.
