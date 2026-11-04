@@ -39,9 +39,9 @@ Each team keeps 3 tasks scheduled in advance here. Team leaders post their team'
 3. (awaiting team's post)
 
 ### Team 2 — casino (Paperwork)
-1. (awaiting team's post)
-2. (awaiting team's post)
-3. (awaiting team's post)
+1. **Lion-Link + 5 slots freeze fix retest** — branch miles/lion-link-mobile-fix, head 3d96fc1 (includes shared freeze fix 08a79e9). Done when: Vercel preview of 3d96fc1 is up, SPIN no longer locks and wins credit to balance on Lion-Link and the 5 affected slots, and Leon's browser retest passes. Not merged to main until then.
+2. **Bottom menu covering game controls (shared mobile layout)** — fix in ag.css on its own branch: CSS variable for measured menu height plus safe-area inset. Done when: at 390×844 the bottom menu no longer covers Total Bet / SPIN on the newer-engine games (incl. Route 66, Lion-Link), and the Lion-Link-only padding rule is removed so it isn't doubled.
+3. **roulette3d — first browser build** — own branch, structured so Hare's 3D roulette engine can plug in. Done when: first commit is pushed, a Vercel preview loads the roulette3d page in a browser, and the link is added to Leon's testing PDF.
 
 ### Team 3 — Joustline (Whiz + Pizzapan)
 1. Bug B1: load LeonProfile in joust.html, then the 4 canon fixes (Lord Bart Sheen, tournament rival rename, Montresor spelling, Bayard out of Ch1 roster) plus the "squire talks only to Bart" dialogue check. Owner: Pizzapan.
