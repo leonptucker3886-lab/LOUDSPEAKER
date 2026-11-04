@@ -34,9 +34,9 @@ None.
 Each team keeps 3 tasks scheduled in advance here. Team leaders post their team's 3; Stonewall reads them off the GitHub watch and verifies live. Nothing counts done until Stonewall verifies it live.
 
 ### Team 1 — white-label software (Datasheet)
-1. (awaiting team's post)
-2. (awaiting team's post)
-3. (awaiting team's post)
+1. **After-Hours AI Calls — lead storage + contact form QA** — repo datas-army-after-hours. Form (5a6b086) and /api/contact handler (f86fb8b) are live; homepage fix 84463df is live. Lead-storage code is being built to work with a Vercel Blob store or lead webhook. BLOCKED: creating the store is a new account (Leon's call, card pending). Done when: a test lead submitted at https://datas-army-after-hours.vercel.app/#contact is saved, a missing name/bad email is rejected, and a failed send shows an error.
+2. **Mission 2 party shell + Secret Santa modules** — repo datas-army-mission2-santa. Same-department fix (579f6a7, 3481c71) and milestone/work-anniversary tracker (6b7ce86, b19e821, 01563dd) are pushed; white-label shell in progress. Done when: on the live Pages site, Auto-assign never pairs same-department people over 3 runs, brand color applies and persists after reload, milestones.html loads and exports CSV/.ics, and mobile works at 375 px.
+3. **Browser-test PDF for live tester** — qa-test-sheet-2026-11-04.pdf (homepage re-test with test lead, Santa department/brand-color check, mobile 375 px) plus milestones.html. Our QA bot has no browser access, so these go to the live tester. Done when: every item is marked PASS/FAIL live.
 
 ### Team 2 — casino (Paperwork)
 1. **Lion-Link + 5 slots freeze fix retest** — branch miles/lion-link-mobile-fix, head 3d96fc1 (includes shared freeze fix 08a79e9). Done when: Vercel preview of 3d96fc1 is up, SPIN no longer locks and wins credit to balance on Lion-Link and the 5 affected slots, and Leon's browser retest passes. Not merged to main until then.
