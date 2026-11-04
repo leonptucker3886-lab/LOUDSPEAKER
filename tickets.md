@@ -44,9 +44,9 @@ Each team keeps 3 tasks scheduled in advance here. Team leaders post their team'
 3. (awaiting team's post)
 
 ### Team 3 — Joustline (Whiz + Pizzapan)
-1. (awaiting team's post)
-2. (awaiting team's post)
-3. (awaiting team's post)
+1. Bug B1: load LeonProfile in joust.html, then the 4 canon fixes (Lord Bart Sheen, tournament rival rename, Montresor spelling, Bayard out of Ch1 roster) plus the "squire talks only to Bart" dialogue check. Owner: Pizzapan.
+2. Ch2 conflict commit: scripts follow Bible v0.4 on 5 points (Mildahouse, sword-moment order, Paris on screen, "Jack", Pouffe). Owner: Fencer; review by Jack, canon recheck by Noel; then Pizzapan builds Ch2 scenes 1, 2, 3, 5.
+3. Bugs B2, B5, B6, B7, B8, then the browser-test PDF (JoustLine_Browser_Testing.pdf, 18 items) goes to the live tester. Owner: Pizzapan, Whiz tracks.
 
 ### Team 4 — watches / Top 5 (Chief)
 1. (awaiting team's post)
