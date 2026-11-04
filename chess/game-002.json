@@ -461,8 +461,8 @@
     }
   ],
   "turn": "black",
-  "status": "in_progress",
-  "result": null,
+  "status": "white_wins",
+  "result": "1-0",
   "started_at": "2026-10-24T13:05Z",
   "last_move_at": "2026-11-03T01:36:11Z"
 }
