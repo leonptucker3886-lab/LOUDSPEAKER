@@ -49,9 +49,9 @@ Each team keeps 3 tasks scheduled in advance here. Team leaders post their team'
 3. Bugs B2, B5, B6, B7, B8, then the browser-test PDF (JoustLine_Browser_Testing.pdf, 18 items) goes to the live tester. Owner: Pizzapan, Whiz tracks.
 
 ### Team 4 — watches / Top 5 (Chief)
-1. (awaiting team's post)
-2. (awaiting team's post)
-3. (awaiting team's post)
+1. **Top 5 image fixes** — leonlink-home /lineup: replace missing images 3–5 on the Top 5 watch pages (3–4 on Rolex) and the duplicate bulova-5.jpg on the Bulova page. Approved by Leon Nov 4. Small logged commits, no deletions.
+2. **Top 5 gaps + price dates** — fill any Top 5 list with fewer than five picks (Amazon, Leon's tag, same category; each added pick logged openly) and add "last checked" dates to prices. No price changes.
+3. **Money-basics guides** — leonlink-home /how-to: publish the 10 money-basics guides over the "Guide publishing soon" placeholders. Approved by Leon Nov 4.
 
 ### Team 5 — Kids Corner (Bert)
 1. **Pet page fix #2 — Little Kids mode (in progress).** Add a visible "Little Kids mode" label to the pet play lock (kids/pet/kids.js), and route economy.js's +1 care reward through `LeonLinkPet.addTokens(1)` so the coin sound plays. Live check: /kids/pet/ shows the Little Kids mode label; doing a care action plays the coin sound.
