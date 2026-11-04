@@ -468,8 +468,8 @@
     }
   ],
   "turn": "white",
-  "status": "in_progress",
-  "result": null,
+  "status": "black_wins",
+  "result": "0-1",
   "started_at": "2026-10-24T13:05Z",
   "last_move_at": "2026-11-03T01:36:08Z"
 }
