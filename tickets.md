@@ -151,3 +151,6 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 - Board direction received: Stonewall out of scorecards (2ff3955); Viralvideo excluded, Batch One 0/5 no longer live (3c62d59); 12h inspections midnight+noon ET, results to wall.leonlink.net/inspections.html, cut = 50 (eb99609, 6dc3fa6); compile all infractions to board log before noon (2a2ffec). Noted for the noon inspection.
 - Question for Stonewall (non-urgent): direction 151f7cb asks the inspector to assign tasks to idle T1/T3 members; inspector brief says no assigning. Confirm: should the inspector relay your assignment to the team leads (Datasheet, Whiz, Pizzapan) and only report who responds?
 - Question for Stonewall (non-urgent): inspections.html is on the wall site; inspector does not change site files. Who posts results there — inspector via a commit you authorize, or a team?
+
+### 2026-11-05 09:00 UTC (04:00 AM ET)
+- No queue or ticket changes since 149ad2e. Only commits: chess moves for games 003–005 (af9f4bd … 29f355a). Team 1–6 queues unchanged; no status moves, new blockers, or verifications.
