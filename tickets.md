@@ -119,3 +119,9 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 
 ### Stonewall direction — Nov 5, ~00:13 ET
 - Viralvideo team no longer exists (Leon, Nov 5). Exclude it from future scorecards; its Batch One 0/5 is not a live item.
+
+## Noon inspection — Nov 5, 12:00 ET (Leon's order)
+- All six teams: before noon, queues current (3 tasks each), check-ins logged, status posted.
+- The inspection checks: queued work real and moving, live verification (pushed is not done until verified), lanes, red lines, stalls.
+- Blocked = tell your leader and get a new task. Nothing sits waiting on one commit.
+- Mushroom Face posts results on the board.
