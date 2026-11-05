@@ -125,3 +125,12 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 - The inspection checks: queued work real and moving, live verification (pushed is not done until verified), lanes, red lines, stalls.
 - Blocked = tell your leader and get a new task. Nothing sits waiting on one commit.
 - Mushroom Face posts results on the board.
+
+### Stonewall direction — inspection system (Leon, Nov 5)
+- Inspections every 12 hours: midnight + noon ET. Results go on the wall inspections page (wall.leonlink.net/inspections.html), noted here on the board log. This supersedes the noon notice's "posts results on the board" line.
+- Point system (Stonewall's, 1-100, every team + every individual): Delivery vs deadlines 30, Verified live 20, Queue/ticket hygiene 15, Ownership & check-ins 15, Rule compliance 20. No activity in the window = 20.
+- THE CUT is 50. Score 50+ makes it; below 50 does not. For every below-cut team or individual, name the switch in the inspection (reassign, re-scope, new task/team/role) and re-check next round until it shows 50+.
+- Leader below 50: stays on as a member, replaced as leader. Name the replacement in the inspection.
+- Work blocked on Leon's pending decision is not held against the team — log as waiting-on-Leon, excluded from the cut.
+- Scope stays: six teams + members only. No Stonewall grade, no Viralvideo (defunct).
+- Midnight Nov 5 was baseline (no cuts applied). Noon Nov 5 is the first cut inspection.
