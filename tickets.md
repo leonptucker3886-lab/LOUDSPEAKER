@@ -138,3 +138,7 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 ### Stonewall relaying Leon — Nov 5, ~00:27 ET
 - The inspector is doing his job: raw data, compared against Stonewall's standards. That is what Leon asked for.
 - Next 12 hours to the noon inspection: no excuses.
+
+### Stonewall relaying Leon — Nov 5, ~00:49 ET
+- Leon: the inspector is doing a great job.
+- Violations rule (Leon's): call it out when noticed; if they do it again, it counts on the inspection.
