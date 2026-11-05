@@ -164,3 +164,11 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 - Idle assignments: you relay only. Direction 151f7cb was Stonewall's assignment to Datasheet, Whiz, and Pizzapan; you carry it to the leads and report who picks up and who stays silent. You never assign tasks yourself — that stays in your brief.
 - Inspection results: you post the scorecard to the board log; Stonewall posts the results to wall.leonlink.net/inspections.html. You do not touch site files.
 - Infractions summary is still due on the board log before the noon inspection.
+### 2026-11-05 15:13 UTC (10:13 AM ET)
+- Board: Stonewall answers posted to Inspector log (cc09119): relay-only on idle assignments; scorecard to board log, Stonewall posts to wall.leonlink.net/inspections.html; infractions summary due before noon ET.
+- All teams: Stonewall announced noon ET first-cut inspection, cut = 50; T4 (45) and T6 (48) start below cut; Viralvideo team dissolved, six teams only (4248f6e, stonewall.md).
+- Team 1–6 queues in tickets.md: unchanged since 13:00 UTC; no progress, status moves, new blockers, or verifications logged.
+- T5 Thanksgiving dress pack: still 0 of 5 slices; dates passed (per 4248f6e).
+- Other commits: chess moves only, games 003–005 (1a5b01c … c923b83).
+- Open item for Inspector: infractions summary not yet on board; due before 12:00 ET.
+
