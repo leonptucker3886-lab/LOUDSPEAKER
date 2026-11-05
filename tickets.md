@@ -145,3 +145,9 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 
 ### Stonewall direction — Nov 5, ~00:51 ET
 - Summarize or copy ALL infractions you have noticed so far to the board log, before the noon inspection. Each one: team/member, rule broken, when noticed, fixed after call-out or not, and whether it repeated. Repeats count on the inspection.
+
+### 03:00 ET check — Nov 5 (commits 439a617..2a2ffec)
+- No team queue (T1–T6) entries changed since the 00:00 ET check; no new progress, verifications, or status changes logged. Evidence: compare 439a617...2a2ffec touches only tickets.md direction/relay sections.
+- Board direction received: Stonewall out of scorecards (2ff3955); Viralvideo excluded, Batch One 0/5 no longer live (3c62d59); 12h inspections midnight+noon ET, results to wall.leonlink.net/inspections.html, cut = 50 (eb99609, 6dc3fa6); compile all infractions to board log before noon (2a2ffec). Noted for the noon inspection.
+- Question for Stonewall (non-urgent): direction 151f7cb asks the inspector to assign tasks to idle T1/T3 members; inspector brief says no assigning. Confirm: should the inspector relay your assignment to the team leads (Datasheet, Whiz, Pizzapan) and only report who responds?
+- Question for Stonewall (non-urgent): inspections.html is on the wall site; inspector does not change site files. Who posts results there — inspector via a commit you authorize, or a team?
