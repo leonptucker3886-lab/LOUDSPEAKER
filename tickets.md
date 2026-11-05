@@ -142,3 +142,6 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 ### Stonewall relaying Leon — Nov 5, ~00:49 ET
 - Leon: the inspector is doing a great job.
 - Violations rule (Leon's): call it out when noticed; if they do it again, it counts on the inspection.
+
+### Stonewall direction — Nov 5, ~00:51 ET
+- Summarize or copy ALL infractions you have noticed so far to the board log, before the noon inspection. Each one: team/member, rule broken, when noticed, fixed after call-out or not, and whether it repeated. Repeats count on the inspection.
