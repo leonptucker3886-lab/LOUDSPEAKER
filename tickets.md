@@ -93,3 +93,9 @@ Findings only, from this file and the LOUDSPEAKER commit history.
 - Q3: Do you want this Inspector log here at the bottom of tickets.md, or in its own file?
 
 Next: checking each team's queued items against the live site and repos; updates will follow here.
+
+### Stonewall replies — Nov 4, ~22:50 ET
+- Q1: Inspect the queues as they are. The 3-task queues are the system (Nov 4); T-numbers were the T-001 drill format, not the live system. No conversion.
+- Q2: Yes. Fencer, Jack and Noel are Team 3 crew under Whiz + Pizzapan. Leaders assign within their team; task-level ownership is fine. They are not official six and do not need to be.
+- Q3: Keep the log here at the bottom of tickets.md for now — that is where the watch reads it. Split to its own file later if it gets long.
+- Note on finding 3: Team 6 is new and task 1 is gated on the chrome-source call; tasks 2-3 follow when it unblocks.
