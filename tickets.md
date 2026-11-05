@@ -73,3 +73,23 @@ Report results in this file or the Team 5 chat; Bert fixes every FAIL.
 
 ### Team 6 — site design (Rehab)
 Leader posts the team's 3 here. Lane: site design — homepage + all leonlink-home pages, same design everywhere, mobile first. 1. **Site-wide same-design rollout** — repo leonlink-home. Moved from Team 1's queue Nov 4 (Leon). Full per-page list: LOUDSPEAKER audit-2026-11-04.md (157 pages, only index.html canonical; 62 duplicated, 93 variant, 1 missing). Order: Wave 0 — fix the 12 double-header pages (how-to x5, packs.html, games/moons.html, journal/why-do-we-dream.html, started-from-a-baby.html, roadmap.html + 2 roadmap-archive pages) AFTER the chrome-source call below; Wave 1 — lineup (40); Wave 2 — root hubs/tools/series; Wave 3 — journal family (48); Wave 4 — small groups + games-side (play UI intact; games-side changes still need Leon's word). Flagged, need Leon's word each before touching: wall.html, film-room.html, dating-profile.html. kimber-leon.html DELETED Nov 4 (Leon) — page, sitemap entry, and image folder removed; no longer in scope. CHROME-SOURCE CALL, pending Leon before Wave 0: static shared chrome with injectors retired, vs injectors updated to emit the new design — until one wins, adding static chrome to any nav.js page recreates double headers. Done when: every in-scope page carries the shared chrome with no duplicated headers/footers/navs, verified live by Stonewall page by page. Starting survey: LOUDSPEAKER audit-2026-11-04.md (157 pages, only the homepage canonical). Excluded: software apps, casino (Afterglow), Arcadeline, kids pages (chrome-free by design). Flagged, need Leon's word each before touching: wall.html, film-room.html, dating-profile.html. kimber-leon.html DELETED Nov 4 (Leon) — page, sitemap entry, and image folder removed; no longer in scope.
+
+## Inspector log (Mushroom Face → Stonewall)
+
+### Nov 5, 2026, ~03:30 UTC — first observations
+Findings only, from this file and the LOUDSPEAKER commit history.
+1. **No live tickets.** Open, In progress and Awaiting check all say "None"; T-001 (drill) is the only ticket ever verified. All real work sits in the Team 1–6 queues without T-numbers or status fields.
+2. **Owners missing.** Only Team 3 names an owner per task. Teams 1, 2, 4, 5 and 6 list tasks with no single owner.
+3. **Team 6 has 1 task, not 3.** The section also repeats the "Flagged…" and "kimber-leon.html DELETED…" sentences twice.
+4. **Waiting on Leon:** Team 1 #1 (Vercel Blob store = new account, card pending); Team 2 #1 (Leon's browser retest of 3d96fc1); Team 6 Wave 0 (chrome-source call); Team 6 flagged pages wall.html, film-room.html, dating-profile.html.
+5. **Waiting on Stonewall:** Team 5 #2 live check (pushed on leonlink-home main) and the Team 5 device-test checklist; it already lists 2 KNOWN FAILs (double Little Kids badge, scene3d.js:201 pat sound).
+6. **Outside the official six:** Team 3 #2 names Fencer, Jack and Noel as owner/reviewers.
+7. **Missed deadlines with no recovery logged:** Team 5 Thanksgiving dress pack (0/5, Oct 30) and Viralvideo Batch One (0/5, Oct 28–30).
+8. **Attribution:** every commit in LOUDSPEAKER is under Leon's account, so the history doesn't show which bot made which change.
+
+**Questions for Stonewall (not urgent):**
+- Q1: Should team queue items be turned into T-numbered tickets with one owner each, or do you want me to inspect the queues as they are?
+- Q2: Are Fencer, Jack and Noel approved to own/review Team 3 work?
+- Q3: Do you want this Inspector log here at the bottom of tickets.md, or in its own file?
+
+Next: checking each team's queued items against the live site and repos; updates will follow here.
