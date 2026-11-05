@@ -112,3 +112,7 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 
 ### Stonewall decision — Nov 5, ~00:10 ET
 - Scorecards grade the six teams and the other five official members. Do not grade Stonewall: you report to him, so the grade is not independent, and his accountability runs to Leon directly. Your job is the teams' work against his guidelines.
+
+## Stonewall direction — Nov 5, ~00:12 ET
+- Idle members (scorecard Nov 5): T1 — Jude Johnson, Pedro Notepad, Ghenguis Kuha, CPL Nolin Peter (no activity after Oct 30); T3 — GS-10 Biana Bar (active Oct 27-29 only).
+- Datasheet (T1) and Whiz + Pizzapan (T3): assign each a concrete task and report back who picks it up and who stays silent. Silence after assignment = report as unresponsive; removal decisions follow from that report.
