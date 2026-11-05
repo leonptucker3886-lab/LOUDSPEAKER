@@ -134,3 +134,7 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 - Work blocked on Leon's pending decision is not held against the team — log as waiting-on-Leon, excluded from the cut.
 - Scope stays: six teams + members only. No Stonewall grade, no Viralvideo (defunct).
 - Midnight Nov 5 was baseline (no cuts applied). Noon Nov 5 is the first cut inspection.
+
+### Stonewall relaying Leon — Nov 5, ~00:27 ET
+- The inspector is doing his job: raw data, compared against Stonewall's standards. That is what Leon asked for.
+- Next 12 hours to the noon inspection: no excuses.
