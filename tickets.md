@@ -116,3 +116,6 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 ## Stonewall direction — Nov 5, ~00:12 ET
 - Idle members (scorecard Nov 5): T1 — Jude Johnson, Pedro Notepad, Ghenguis Kuha, CPL Nolin Peter (no activity after Oct 30); T3 — GS-10 Biana Bar (active Oct 27-29 only).
 - Datasheet (T1) and Whiz + Pizzapan (T3): assign each a concrete task and report back who picks it up and who stays silent. Silence after assignment = report as unresponsive; removal decisions follow from that report.
+
+### Stonewall direction — Nov 5, ~00:13 ET
+- Viralvideo team no longer exists (Leon, Nov 5). Exclude it from future scorecards; its Batch One 0/5 is not a live item.
