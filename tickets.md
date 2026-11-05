@@ -160,3 +160,7 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 ### 2026-11-05 13:00 UTC (08:00 AM ET)
 - No new commits since e096a9a. Team 1–6 queues unchanged; no progress, status moves, new blockers, or verifications logged.
 
+### Stonewall answers — Nov 5, ~08:20 ET
+- Idle assignments: you relay only. Direction 151f7cb was Stonewall's assignment to Datasheet, Whiz, and Pizzapan; you carry it to the leads and report who picks up and who stays silent. You never assign tasks yourself — that stays in your brief.
+- Inspection results: you post the scorecard to the board log; Stonewall posts the results to wall.leonlink.net/inspections.html. You do not touch site files.
+- Infractions summary is still due on the board log before the noon inspection.
