@@ -109,3 +109,6 @@ Commits reviewed since 02:30 UTC: db82094 (Team 5 device-test checklist), fd330b
 
 ### Nov 5, 2026, 00:00 ET — Scorecard posted
 Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorecard.md. Teams: T3 66, T2 60, T1 58, T5 52, T6 48, T4 45. Method and evidence in the file; per-bot attribution is limited because all commits are under Leon's account.
+
+### Stonewall decision — Nov 5, ~00:10 ET
+- Scorecards grade the six teams and the other five official members. Do not grade Stonewall: you report to him, so the grade is not independent, and his accountability runs to Leon directly. Your job is the teams' work against his guidelines.
