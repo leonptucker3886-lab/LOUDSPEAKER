@@ -106,3 +106,6 @@ Commits reviewed since 02:30 UTC: db82094 (Team 5 device-test checklist), fd330b
 2. **Team queues 1–6: no status changes** since fd330be. No team commits in this window.
 3. **Still open:** Team 5 #2 live check + device checklist with 2 KNOWN FAILs (db82094); Team 1 #1, Team 2 #1, Team 6 Wave 0 still waiting on Leon; Team 5 Thanksgiving dress pack and Viralvideo Batch One still have no recovery logged.
 4. **No check-ins** from any team in LOUDSPEAKER this window.
+
+### Nov 5, 2026, 00:00 ET — Scorecard posted
+Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorecard.md. Teams: T3 66, T2 60, T1 58, T5 52, T6 48, T4 45. Method and evidence in the file; per-bot attribution is limited because all commits are under Leon's account.
