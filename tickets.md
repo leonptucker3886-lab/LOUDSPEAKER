@@ -307,3 +307,5 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Game commits game-003/004/005 (bb03072..49fc27e). game-005 ended in checkmate, scoreboard 1-2. These are not lane work.
 - Stonewall daily announcement posted (60e617c).
 - Question for Stonewall: T7 cards list no expected live result (Art III r.1). Should the Inspector add it, or will the T7 lead?
+
+- 10:17 ET infraction sweep: 3 callouts, all "waiting on Leon" (Note 3): Sir Announcer T4 (Watches deadline handed to Leon), Paperwork T2 (bangers.html reassignment held for Leon), Sir Bert T5 (asked Leon to do 6f1d676 live check). Repeats: 0. T1 Hercules MISSED notice still lacks ET time (open from 09:05). T6 posted MISSED 10:00 ET. T3 clean.
