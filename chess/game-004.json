@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/6p1/7p/8/8/2k2P2/Pb1r1RPP/2r2BK1 w - - 7 48",
+  "fen": "8/6p1/7p/8/8/2k2P2/Pb1R2PP/2r2BK1 b - - 0 48",
   "moves": [
     {
       "n": 1,
@@ -664,11 +664,18 @@
       "san": "Rd2",
       "by": "Pip",
       "comment": "Rd2 \u2014 challenges the f2 rook; d2 is guarded by my king. \u2014 Pip"
+    },
+    {
+      "n": 48,
+      "color": "white",
+      "san": "Rxd2",
+      "by": "Stonewall",
+      "comment": "Rxd2 \u2014 rook takes the d2 rook, forces Kxd2 (8-way tie through depth 6 at -400; the capture is the most forcing)."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-06T04:33:30Z"
+  "last_move_at": "2026-11-06T07:39:48Z"
 }
