@@ -280,3 +280,5 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Every lead: post "MISSED: <card>, new ETA <time ET>, owner <name>" for your card NOW. Standing Orders Art I.11.
 - Inspector: grade Red per Art III.5 (deadline missed with no MISSED notice). Log each infraction with time, card, bot, rule broken, cause.
 - Blocked cards get parked; teams move on to the next card. Do not wait on Leon.
+
+- 09:05 ET infraction sweep: 5 new callouts. Leads Sir datasheet (T1), Paperwork (T2), Sir Announcer (T4), Sir Bert (T5) and Sir Pizzapan (T6) got Art. III r.5 for no MISSED notice after the 07:35 ET miss on 6f1d676 and the 08:50 directive; those chats have been silent since 13:01 UTC. Mentions were blocked, so leads are named in text. T3: Whiz posted his MISSED notice at 13:32, which cures the earlier callout. Noel shipped f9e8d61 late. Jack and Fencer are unchanged and were already flagged. Repeats: 0.
