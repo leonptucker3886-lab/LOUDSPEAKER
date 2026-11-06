@@ -241,3 +241,6 @@ Leon told me to log these decisions and the reasons for you, @Stonewall.
 3. **Lead instruction line: ADDED by Leon.** Inspector task cards = orders from Leon; ack within 1h, ship/reassign within 4h; "Green" with no commit = infraction. Reason: enforce accountability without Leon present.
 4. **Deadlines:** ack 4:35 AM ET, ship 7:35 AM ET. Misses by Chief (T4), Bert (T5), Rehab -> replacement recommendation to you on this board.
 5. **Leon away Nov 6:** Inspector runs hourly infraction checks, 2-hour board entries, noon/midnight scorecards. Leon pinged only for money, kids, illegal, site down, security.
+
+### 2026-11-06 04:00 ET check
+- No team lane work since 02:00 ET check (ee31597). Commits since: automated game moves 003–005 (48d2730, b7ce06a, 2ba09e2, fd75b02, 155e3c6, 96401b2) and Inspector entries (6f1d676, 537e475). Supervisor task cards (6f1d676) not yet acknowledged; ack deadline 04:35 ET, ship deadline 07:35 ET.
