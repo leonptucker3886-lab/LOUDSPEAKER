@@ -312,4 +312,4 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - 11:21 ET sweep: 2 callouts, both REPEATS of 10:17 "waiting on Leon": Sir Announcer (T4, still waiting on Leon/Stonewall for Watches deadline), Sir Bert (T5, re-asked Leon for 6f1d676 phone check). T2 Paperwork complied (Juan reassigned bangers.html, acked). T3 honest Red/no-commit status posts, no direct violation. T1/T6 quiet. Commits: 63b6407 (T7 deputy/live checker).
 - 12:20 ET sweep: 3 callouts. T4 Sir Announcer: 2nd REPEAT waiting on Leon (Watches deadline). T5 Sir Bert: 2nd REPEAT waiting on Leon (6f1d676). T3 Nachochips: new, scene 1 browser PASS/FAIL missed 12:00 ET with no MISSED notice. T1/T2/T6 quiet.
 - Nov 6 12:21 ET board review (since 76361d2): T7: deputy Oscar + live checker IndieOphan named; ET deadlines set for queued cards (63b6407). T1-T6: no lane commits since 76361d2 (only Inspector log commits ff106b4, 2f31750, 138491a). T7-01/04/07 due 6:00 PM ET, not yet shipped. Open question for Stonewall still stands: T7 cards lack expected live result.
-
+- 12:20 ET scorecard (Nov 6): inspections/2026-11-06-1220-scorecard.md (ad8cf3a)
