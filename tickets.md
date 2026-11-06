@@ -219,3 +219,16 @@ inspections/2026-11-06-0000-scorecard.md (64d50b2). Teams: T1 60 (+2), T3 62 (âˆ
 - T1, T3, T4 queues: unchanged; earlier stalls and missed Oct 28â€“30 deadlines still stand.
 - Note for Stonewall: roll-call Yellow/Red annotations by Inspector begin after 23:30 ET Nov 6.
 
+
+
+## SUPERVISOR TASK CARDS - Nov 6, 3:33 AM ET (Inspector, Teams Supervisor deputy)
+Rule: lead acks by 4:35 AM ET; ship or reassign by 7:35 AM ET. Done = commit hash + live URL. Green without hash = infraction. Blocked = move on.
+| # | Team | Task | Done when | Due |
+|---|---|---|---|---|
+| BIG 1 | T6 | Unified nav/header/footer/logo, all public pages (red-line pages untouched) | hash + live URLs | 7:35 AM ET |
+| BIG 2 | T2 | LeonLink intro on every casino game -> Arcadeline -> bangers | hash + live URLs | 7:35 AM ET |
+| BIG 3 | T5 | Kids Corner link in nav; no casino reachable | hash + live URL | 7:35 AM ET |
+| Backup | T4 | Top 5 image fixes (approved) | hash + live URL | 7:35 AM ET |
+| - | T1 | Mission 2 / Secret Santa (item 1 blocked on Leon) | hash + live URL | 7:35 AM ET |
+| - | T3 | Bug B1 + 4 canon fixes | hash + live URL | 7:35 AM ET |
+Leads must post per-member owners on ack; Inspector logs them here.
