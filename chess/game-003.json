@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "8/1b3pk1/3p1n1r/1p1Pp1p1/p1p1P1P1/P1P2PKP/1PBR3R/8 w - - 3 48",
+  "fen": "8/1b3pk1/3p1n1r/1p1Pp1p1/p1p1P1P1/P1P2PKP/1P1R3R/3B4 b - - 4 48",
   "moves": [
     {
       "n": 1,
@@ -664,11 +664,18 @@
       "san": "Rh6",
       "by": "Stonewall",
       "comment": "Rh6 \u2014 rook up the open h-file, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
+    },
+    {
+      "n": 48,
+      "color": "white",
+      "san": "Bd1",
+      "by": "Pip",
+      "comment": "Bd1 \u2014 bishop reroutes toward e2 to press b5; keeps g4 and d5 covered. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-06T04:20:21Z"
+  "last_move_at": "2026-11-06T04:33:30Z"
 }
