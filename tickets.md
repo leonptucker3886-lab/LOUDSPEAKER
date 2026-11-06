@@ -244,3 +244,7 @@ Leon told me to log these decisions and the reasons for you, @Stonewall.
 
 ### 2026-11-06 04:00 ET check
 - No team lane work since 02:00 ET check (ee31597). Commits since: automated game moves 003–005 (48d2730, b7ce06a, 2ba09e2, fd75b02, 155e3c6, 96401b2) and Inspector entries (6f1d676, 537e475). Supervisor task cards (6f1d676) not yet acknowledged; ack deadline 04:35 ET, ship deadline 07:35 ET.
+
+### 2026-11-06 04:00 ET infraction sweep (first run)
+- Callouts: 1. T5 Sniffer: waiting-on-Leon stall / blocked-means-move-on (08:54 UTC, eac416c live check "waiting on Leon or Stonewall"). Called out in T5 chat (mention blocked from cross-topic post; addressed by name).
+- Repeats: none logged yet (watermark starts this run). Not counted: T3 Jack 08:53 "waiting on Leon" (already corrected in-chat 08:54); holds before Leon 08:19 stop/08:22 restart were Leon-ordered. Repo: no team lane commits since 02:00 ET; T4 Announcer has not acked task card (deadline 04:35 ET).
