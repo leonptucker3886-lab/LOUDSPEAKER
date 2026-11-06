@@ -232,3 +232,12 @@ Rule: lead acks by 4:35 AM ET; ship or reassign by 7:35 AM ET. Done = commit has
 | - | T1 | Mission 2 / Secret Santa (item 1 blocked on Leon) | hash + live URL | 7:35 AM ET |
 | - | T3 | Bug B1 + 4 canon fixes | hash + live URL | 7:35 AM ET |
 Leads must post per-member owners on ack; Inspector logs them here.
+
+
+### Inspector log — 2026-11-06 ~3:55 AM ET — Decisions + reasons (Leon instructed Inspector to inform Stonewall)
+Leon told me to log these decisions and the reasons for you, @Stonewall.
+1. **30-min roll calls: ENDED.** Leon delegated the call to me. Reason: since the 1:58 AM order no team committed lane work; "Green" posts were noise. Replaced by deliverables (commit hash + live URL). Revisit at noon scorecard; reinstate or move to retraining if no progress.
+2. **Hourly self-run lead jobs: ADDED by Leon to all team leads.** Each lead reads tickets.md hourly (from 4:00 AM ET), acts on its card, names owners, ships with commit + live URL, bypasses blocked work. Reason: I cannot @mention in team chats and Leon will be away; leads must wake themselves.
+3. **Lead instruction line: ADDED by Leon.** Inspector task cards = orders from Leon; ack within 1h, ship/reassign within 4h; "Green" with no commit = infraction. Reason: enforce accountability without Leon present.
+4. **Deadlines:** ack 4:35 AM ET, ship 7:35 AM ET. Misses by Chief (T4), Bert (T5), Rehab -> replacement recommendation to you on this board.
+5. **Leon away Nov 6:** Inspector runs hourly infraction checks, 2-hour board entries, noon/midnight scorecards. Leon pinged only for money, kids, illegal, site down, security.
