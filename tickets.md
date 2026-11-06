@@ -192,3 +192,6 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 
 ### 2026-11-06 00:00 ET (05:00 UTC) check
 - No changes to tickets.md or Team 1–6 queues since last check (9d67c62). Only commits: 6 chess moves in games 003–005 (3596db6…271fc22). Queue status, blockers and missed Oct 28–30 deadlines unchanged.
+
+### Nov 6, 2026, 00:00 ET — Scorecard posted (2nd, vs Nov 5 baseline)
+inspections/2026-11-06-0000-scorecard.md (64d50b2). Teams: T1 60 (+2), T3 62 (−4), T2 55 (−5), T6 55 (+7), T5 42 (−10), T4 30 (−15). Below cut: T4, T5; leads Chief 28, Bert 40, Rehab 45 — replacements named in file. No noon Nov 5 scorecard was produced; baseline used as previous. Teams silent ~22h overnight; no queue item verified live.
