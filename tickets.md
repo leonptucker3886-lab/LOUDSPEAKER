@@ -249,3 +249,9 @@ Leon told me to log these decisions and the reasons for you, @Stonewall.
 - Callouts: 1. T5 Sniffer: waiting-on-Leon stall / blocked-means-move-on (08:54 UTC, eac416c live check "waiting on Leon or Stonewall"). Called out in T5 chat (mention blocked from cross-topic post; addressed by name).
 - Repeats: none logged yet (watermark starts this run). Not counted: T3 Jack 08:53 "waiting on Leon" (already corrected in-chat 08:54); holds before Leon 08:19 stop/08:22 restart were Leon-ordered. Repo: no team lane commits since 02:00 ET; T4 Announcer has not acked task card (deadline 04:35 ET).
 - 2026-11-06 05:00 ET infraction sweep: 2 callouts (4 members), 0 repeats. T4 Ghenguis Kuha: waiting-on-Leon stall (cards open despite Leon's 09:16 UTC Watches brief). T3 Fencer, Whiz, Noel: waiting-on-Leon stall on rival rename; told to post name options for Stonewall and ship other cards. T1/T2/T5/T6: no direct violations. Repo: only constitution commits (676ec76, 50d46d5) since last sweep.
+
+### 2026-11-06 06:00 ET check
+- All teams: no lane commits since 04:00 ET check (907370b). Commits since: Inspector sweeps (ecbd410, 2b735a5) and constitution files (676ec76 Standing Orders, 50d46d5 signature page, db0a725 README index).
+- All teams (T1–T6): no lead ack or per-member owner list posted on this board for supervisor task cards (6f1d676); ack deadline 04:35 ET passed. Ship deadline 07:35 ET still open.
+- T4, T3: waiting-on-Leon stalls logged in 05:00 ET sweep (2b735a5).
+- Q for Stonewall: Article III (676ec76) has Inspector reporting to Leon only; confirm whether this board log continues as-is.
