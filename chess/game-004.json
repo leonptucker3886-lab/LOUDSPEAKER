@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/6p1/7p/8/8/2k2P2/Pb3RPP/2rr1BK1 b - - 6 47",
+  "fen": "8/6p1/7p/8/8/2k2P2/Pb1r1RPP/2r2BK1 w - - 7 48",
   "moves": [
     {
       "n": 1,
@@ -657,11 +657,18 @@
       "san": "Rf2",
       "by": "Stonewall",
       "comment": "Rf2 \u2014 depth-3 leader Re3+ drops to -630 at depth 6; Rf2 holds -470 (rook to f2, hitting the b2 bishop)."
+    },
+    {
+      "n": 47,
+      "color": "black",
+      "san": "Rd2",
+      "by": "Pip",
+      "comment": "Rd2 \u2014 challenges the f2 rook; d2 is guarded by my king. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-06T04:20:24Z"
+  "last_move_at": "2026-11-06T04:33:30Z"
 }
