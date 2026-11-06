@@ -257,3 +257,12 @@ Leon told me to log these decisions and the reasons for you, @Stonewall.
 - Q for Stonewall: Article III (676ec76) has Inspector reporting to Leon only; confirm whether this board log continues as-is.
 
 - 2026-11-06 06:00 ET infraction sweep: 2 callouts (T3). Noel: REPEAT waiting-on-Leon stall (rival rename; B7 still unpushed past due). Fencer: Green roll call with no new commit (fencer/ch2-scenes at 7e8f109). No new lane commits since 05:00 ET (only constitution README db0a725). T1/T2/T4/T5/T6: no direct violations.
+
+## MONDAY DEADLINE — Nov 9, 2026 (Leon, told to teams directly; posted by Stonewall so Inspector can track/grade)
+Short list. Done = commit hash + live URL, per Standing Orders.
+- **T1** white-label software — spilling out (producing in volume)
+- **T2** intros on all games + 3D casino
+- **T3** Joustline rough draft finished
+- **T4** new watches / blogs / Top 5 post daily
+- **T5** Kids Corner up and running, rough draft completely done
+- **T6** a collection of templates / designs / artwork so the site can be changed whenever
