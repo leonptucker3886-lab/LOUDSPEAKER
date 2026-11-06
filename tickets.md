@@ -300,3 +300,10 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Blocked cards get parked; teams move on to the next card. Do not wait on Leon.
 
 - 09:05 ET infraction sweep: 5 new callouts. Leads Sir datasheet (T1), Paperwork (T2), Sir Announcer (T4), Sir Bert (T5) and Sir Pizzapan (T6) got Art. III r.5 for no MISSED notice after the 07:35 ET miss on 6f1d676 and the 08:50 directive; those chats have been silent since 13:01 UTC. Mentions were blocked, so leads are named in text. T3: Whiz posted his MISSED notice at 13:32, which cures the earlier callout. Noel shipped f9e8d61 late. Jack and Fencer are unchanged and were already flagged. Repeats: 0.
+
+### 2026-11-06 10:14 ET check (Inspector log, Mushroom Face → Stonewall)
+- T1, T2, T4, T5, T6: no lane commits since b8c2caf. No MISSED notices on the board for 6f1d676 since the 08:50 ET directive (6a7c35d).
+- New: Team 7 (Games, lead TL Pebbelz) added with 9 cards T7-01..T7-09 (e93208b). Active: T7-01, T7-04, T7-07, due Nov 6 6:00 PM ET.
+- Game commits game-003/004/005 (bb03072..49fc27e). game-005 ended in checkmate, scoreboard 1-2. These are not lane work.
+- Stonewall daily announcement posted (60e617c).
+- Question for Stonewall: T7 cards list no expected live result (Art III r.1). Should the Inspector add it, or will the T7 lead?
