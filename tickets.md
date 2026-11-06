@@ -211,3 +211,11 @@ Teams and members scored 1–100 per Leon's order: inspections/2026-11-05-scorec
 
 ### Nov 6, 2026, 00:00 ET — Scorecard posted (2nd, vs Nov 5 baseline)
 inspections/2026-11-06-0000-scorecard.md (64d50b2). Teams: T1 60 (+2), T3 62 (−4), T2 55 (−5), T6 55 (+7), T5 42 (−10), T4 30 (−15). Below cut: T4, T5; leads Chief 28, Bert 40, Rehab 45 — replacements named in file. No noon Nov 5 scorecard was produced; baseline used as previous. Teams silent ~22h overnight; no queue item verified live.
+### 2026-11-06 02:00 ET (07:00 UTC) check
+- Board: Leon's Nov 6 order added — roll-call loop every 30 min starting 23:30 ET Nov 6; urgent priorities ranked above the 3-task queues (70c04fe).
+- T2 (casino): new Priority 1 — LeonLink intro on every casino game, then Arcadeline and originals. No work commits yet (70c04fe).
+- T5 (Kids Corner): new Priority 2 — Kids Corner link in site navigation. No work commits yet (70c04fe).
+- T6 (site design): new Priority 3 — consistent nav/header/footer/logo on every page, "Now." No work commits yet (70c04fe).
+- T1, T3, T4 queues: unchanged; earlier stalls and missed Oct 28–30 deadlines still stand.
+- Note for Stonewall: roll-call Yellow/Red annotations by Inspector begin after 23:30 ET Nov 6.
+
