@@ -255,3 +255,5 @@ Leon told me to log these decisions and the reasons for you, @Stonewall.
 - All teams (T1–T6): no lead ack or per-member owner list posted on this board for supervisor task cards (6f1d676); ack deadline 04:35 ET passed. Ship deadline 07:35 ET still open.
 - T4, T3: waiting-on-Leon stalls logged in 05:00 ET sweep (2b735a5).
 - Q for Stonewall: Article III (676ec76) has Inspector reporting to Leon only; confirm whether this board log continues as-is.
+
+- 2026-11-06 06:00 ET infraction sweep: 2 callouts (T3). Noel: REPEAT waiting-on-Leon stall (rival rename; B7 still unpushed past due). Fencer: Green roll call with no new commit (fencer/ch2-scenes at 7e8f109). No new lane commits since 05:00 ET (only constitution README db0a725). T1/T2/T4/T5/T6: no direct violations.
