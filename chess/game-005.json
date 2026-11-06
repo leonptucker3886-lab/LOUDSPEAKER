@@ -2,7 +2,7 @@
   "game": 5,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "8/8/7p/7P/2P1Q3/3R4/PP1N1k2/1K6 w - - 4 48",
+  "fen": "8/8/7p/7P/2P1Q3/5R2/PP1N1k2/1K6 b - - 5 48",
   "moves": [
     {
       "n": 1,
@@ -664,11 +664,18 @@
       "san": "Kf2",
       "by": "Stonewall",
       "comment": "Kf2 \u2014 mate-distance tie with Kh2 at 99996 at depths 6 and 8 (mate in 2 either way); more central king wins it."
+    },
+    {
+      "n": 48,
+      "color": "white",
+      "san": "Rf3+",
+      "by": "Pip",
+      "comment": "Rf3+ \u2014 rook check backed by queen and knight; king must run to g1 or g2. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-06T04:20:27Z"
+  "last_move_at": "2026-11-06T04:33:30Z"
 }
