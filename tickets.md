@@ -268,3 +268,9 @@ Short list. Done = commit hash + live URL, per Standing Orders.
 - **T6** a collection of templates / designs / artwork so the site can be changed whenever
 - 2026-11-06 07:00 ET infraction sweep: 0 new callouts, 0 repeats. T1/T2/T4/T5/T6 silent since last sweep. T3: Noel parked rival rename (complied after repeat); B7 now blocked on missing definition (board gap, not a stall); Fencer posting Yellow with reasons (no Green-without-commit repeat). Jack still no scene 3/5 commits (grade matter, not callout).
 - 2026-11-06 08:00 ET infraction sweep: 1 callout (T3 Whiz: B1/scene 1 PASS/FAIL missed noon + own 12:30 UTC ETA, no MISSED notice). Repeats: 0. T1/T2/T4/T5/T6 silent since last sweep; no new team commits.
+
+### 2026-11-06 08:05 ET check
+- All teams (T1–T6): no lane commits since 06:00 ET check (1da774d). Commits since: Inspector sweeps (975f2d6, e1781a3, 0cce161), Stonewall Monday Nov 9 short list (14daf09), Amendment 001 / Note 3 instruction changes (8f8a56c).
+- All teams: supervisor task cards (6f1d676) ship deadline 07:35 ET passed with no commit hash or live URL posted on this board; no MISSED notices on board.
+- New: Monday Nov 9 deadline list added per team (14daf09); tracking against it from this check.
+- T3 Whiz: B1/scene 1 missed ETA, no MISSED notice (0cce161). T3 B7 blocked on missing definition (e1781a3).
