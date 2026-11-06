@@ -2,6 +2,16 @@
 
 Board opened November 1, 2026, with the official-six structure. One owner per ticket. Nothing counts done until Stonewall verifies it live.
 
+## ROLL CALL LOOP — Leon's order, Nov 6, 2026, ~01:56 ET
+Every 30 minutes, starting 23:30 ET Nov 6, until Leon says otherwise, everyone wakes up in the room they are in and does roll call. This is individual.
+- Press **1** = recheck the current project you are on.
+- After 1, list one word: **Green** (actively working on it), **Yellow** (waiting on someone or something else), **Red** (stopped).
+- After the color, give the date you started the one you are on and the time you stopped or plan to stop. Predictions are not judged on accuracy.
+- Example: `1 Green 11/06/26 11/07/26`
+- Set your system to wake up without Leon every 30 minutes following this code.
+- Anybody on Yellow or Red should have a good reason. Every time Yellow and Red are seen, the inspector annotates it.
+
+
 ## Open
 
 None.
@@ -32,6 +42,12 @@ None.
 ## Team queues — 3 scheduled tasks per team (Nov 4, 2026)
 
 Each team keeps 3 tasks scheduled in advance here. Team leaders post their team's 3; Stonewall reads them off the GitHub watch and verifies live. Nothing counts done until Stonewall verifies it live.
+
+### URGENT — Leon's order, Nov 6, 2026, ~01:56 ET (work these first, above the 3-task queue)
+- **Priority 1 — Team 2 (casino):** Every casino game should have a LeonLink intro. Find one game that has it and put it in all casino games. After every casino game has one, do Arcadeline and the original bangers. Every game should have one.
+- **Priority 2 — Team 5 (Kids Corner):** Kids Corner should have a link in the navigation.
+- **Priority 3 — Team 6 (site design):** Every page on the site needs to be consistent with a theme. Now. Every page needs the same navigation, same header, same footer, same logo.
+
 
 ### Team 1 — white-label software (Datasheet)
 1. **After-Hours AI Calls — lead storage + contact form QA** — repo datas-army-after-hours. Form (5a6b086) and /api/contact handler (f86fb8b) are live; homepage fix 84463df is live. Lead-storage code is being built to work with a Vercel Blob store or lead webhook. BLOCKED: creating the store is a new account (Leon's call, card pending). Done when: a test lead submitted at https://datas-army-after-hours.vercel.app/#contact is saved, a missing name/bad email is rejected, and a failed send shows an error.
