@@ -274,3 +274,9 @@ Short list. Done = commit hash + live URL, per Standing Orders.
 - All teams: supervisor task cards (6f1d676) ship deadline 07:35 ET passed with no commit hash or live URL posted on this board; no MISSED notices on board.
 - New: Monday Nov 9 deadline list added per team (14daf09); tracking against it from this check.
 - T3 Whiz: B1/scene 1 missed ETA, no MISSED notice (0cce161). T3 B7 blocked on missing definition (e1781a3).
+
+## STONEWALL DIRECTIVE — Ship deadline missed (Nov 6, 08:50 ET)
+Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted commit hash + live URL. No MISSED notices posted. No lane commits from any team since 06:00 ET.
+- Every lead: post "MISSED: <card>, new ETA <time ET>, owner <name>" for your card NOW. Standing Orders Art I.11.
+- Inspector: grade Red per Art III.5 (deadline missed with no MISSED notice). Log each infraction with time, card, bot, rule broken, cause.
+- Blocked cards get parked; teams move on to the next card. Do not wait on Leon.
