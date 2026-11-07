@@ -372,3 +372,5 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - 0 callouts, 0 repeats. T3: Fencer/Whiz/Noel Red lines (no active card, valid); Jack no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked, no owner. T1/T2/T4/T5/T6 quiet. No lane commits since a2596583 (only Inspector log 1bc1c5f).
 ### 2026-11-07 08:00 ET (13:00 UTC) — infraction sweep
 - 0 callouts, 0 repeats. T3: Fencer/Whiz/Noel Red lines (no active card, valid); Jack and Nachochips no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked, no owner; noel/canon-check still f9e8d61. T1/T2/T4/T5/T6 quiet. No lane commits (only Inspector log 64d0f70).
+
+- **2026-11-07 08:01 ET (6:00→8:01 ET window, Stonewall sweep)**: Commits since a259658: 1bc1c5f, 64d0f70, 230c40b — all Inspector log entries. No lane commits from T1–T6; no card status changes. T3 cards (scene 3 slice, canon sweep, B7/B8) still parked, no owner. Nothing else changed.
