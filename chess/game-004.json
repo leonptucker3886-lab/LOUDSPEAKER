@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/6p1/7p/3B4/3b2P1/4kP2/P5KP/1r6 w - - 7 53",
+  "fen": "8/6p1/7p/3B4/3b2PP/4kP2/P5K1/1r6 b - - 0 53",
   "moves": [
     {
       "n": 1,
@@ -734,11 +734,18 @@
       "san": "Rb1",
       "by": "Pip",
       "comment": "Rb1 \u2014 rook swings to the b-file, eyeing Rb2+ (Rxa2+ hangs to Bxa2). \u2014 Pip"
+    },
+    {
+      "n": 53,
+      "color": "white",
+      "san": "h4",
+      "by": "Stonewall",
+      "comment": "h4 \u2014 pawn to h4, hitting the g5 pawn (3-way tie at depth-6 -300; most forcing wins it)."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-07T04:31:00Z"
+  "last_move_at": "2026-11-07T07:33:08Z"
 }
