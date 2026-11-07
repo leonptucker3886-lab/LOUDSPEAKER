@@ -365,3 +365,6 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 
 ### 2026-11-07 06:00 ET (11:00 UTC) sweep
 - No change since last sweep. Only new commits are Inspector log entries (58feaf3, 1cc17ee); no lane work from Teams 1-6. T3 cards (scene 3 slice, canon sweep, B7/B8) remain parked with no owner.
+
+### 2026-11-07 06:02 ET (11:02 UTC) — infraction sweep
+- 0 callouts, 0 repeats. T3: Whiz, Fencer, Noel posted Red lines with no active cards (valid); Jack and Nachochips withheld status lines (no card, no commit — per Note 3). Scene 3 slice, canon sweep, B7/B8 still parked with no owner; noel/canon-check still f9e8d61. T1/T2/T4/T5/T6 quiet; only new commit is Inspector log a259658, no lane work.
