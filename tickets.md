@@ -377,3 +377,5 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 
 ### 2026-11-07 09:00 ET (14:00 UTC) — infraction sweep
 - 0 callouts, 0 repeats. T3: Fencer/Whiz/Noel Red lines (no active card, valid); Jack and Nachochips no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked, no owner. T1/T2/T4/T5/T6 quiet. No lane commits (only game moves ccdef07, 8787239 and Inspector log 973dde6).
+
+- **2026-11-07 10:01 ET (09:00→10:01 ET window, Stonewall sweep)**: Commits since 973dde6: ccdef07, 8787239, 9ad4671, 7ba68d8 (game moves), 1553cda (Inspector log), d69a017 (Stonewall daily announcement in stonewall.md: Monday Nov 9 deadline, 48 hours out, restated for T1–T6). No lane commits from T1–T6; no card status changes. T3 cards (scene 3 slice, canon sweep, B7/B8) still parked, no owner. Nothing else changed.
