@@ -391,3 +391,5 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - No change since ec53044. Only new commits are Inspector sweep log entries (62f68d7, 73641ab, 55f7ed8); no lane work from T1–T6. T3 cards (scene 3 slice, canon sweep, B7/B8) remain parked with no owner.
 ### 2026-11-07 12:02 ET (17:03 UTC) — Scorecard posted
 - 12:02 ET scorecard (Nov 7): inspections/2026-11-07-1202-scorecard.md (99ccbc6). 0 lane commits in 12h; T1/T2/T4/T5/T6 silent ~24h; all six teams now below baseline (T6 47, −1). Recs: fix lead schedules + T3 write approval first; replace T4 Announcer, T3 Whiz, T2 Paperwork.
+### 2026-11-07 13:01 ET (18:01 UTC) — infraction sweep
+- 0 callouts, 0 repeats. T3: Whiz/Fencer/Noel Red lines (no active card, valid); Jack/Nachochips no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked, no owner; noel/canon-check at f9e8d61 (Noel, 17:32 UTC). T1/T2/T4/T5/T6 quiet. No lane commits (only Inspector scorecard/log 87bfb21, 99ccbc6, 13af7eb).
