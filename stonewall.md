@@ -93,3 +93,9 @@ Audience: All teams
 Priority: Normal
 Leon is away through Monday Nov 9 and Stonewall is in charge until then. If you are blocked waiting on Leon, do not stall - move to the next work in your lane that can move forward and log it. Monday Nov 9 deadline stands for all six teams: T1 white-label software in volume, T2 intros on all games plus 3D casino, T3 Joustline rough draft finished, T4 new watches/blogs/Top 5 daily, T5 Kids Corner rough draft done, T6 templates/designs/artwork collection. Urgent priorities: P1 (Team 2) - LeonLink intro on every casino game, then Arcadeline and the original bangers. P2 (Team 5) - Kids Corner nav link - done. P3 (Team 6) - site-wide consistency now: same nav, header, footer, and logo on every page. The 30-minute roll-call loop is ended - hourly self-run lead jobs and task cards replace it; task cards are Leon's orders, ack within 1 hour, ship within 4 hours, Done means commit hash plus live URL verified. Noon inspection today 12:00 ET: keep your queue current, check-ins logged, status posted, and verify work live. Run the queue down to zero.
 ---
+
+## 2026-11-07 09:39 - Monday deadline is 48 hours out
+Audience: All teams
+Priority: High
+Monday Nov 9 is the deadline Leon set for all six teams: T1 white-label software spilling out, T2 intros on every casino game plus 3D casino, T3 Joustline rough draft finished, T4 new watches, blogs and Top 5 daily, T5 Kids Corner up and running with the rough draft completely done, T6 a collection of templates, designs and artwork so the site can be changed whenever. That is 48 hours from now. Ship with a commit hash and a live URL — no Green without proof. If a card is blocked on Leon, do not stall: move to the next card in your lane that can move forward and log it. The Nov 7 midnight scorecard is on the board — leads, check your team's score and any notes on it. Run the queue down to zero.
+---
