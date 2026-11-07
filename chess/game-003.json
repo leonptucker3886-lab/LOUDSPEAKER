@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "8/1b3pkr/3p1n2/1p1Pp1p1/p1p1P1P1/P1P2PKP/1PB4R/7R b - - 14 53",
+  "fen": "8/1b3pk1/3p1n2/1p1Pp1p1/p1p1P1Pr/P1P2PKP/1PB4R/7R w - - 15 54",
   "moves": [
     {
       "n": 1,
@@ -741,11 +741,18 @@
       "san": "Bc2",
       "by": "Pip",
       "comment": "Bc2 \u2014 bishop to c2, guarding e4 and keeping the fortress locked. \u2014 Pip"
+    },
+    {
+      "n": 53,
+      "color": "black",
+      "san": "Rh4",
+      "by": "Stonewall",
+      "comment": "Rh4 \u2014 rook back to h4, directly hitting h3 and g4 (14-way tie through depth 6 at 180; most forcing wins it)."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-07T04:31:00Z"
+  "last_move_at": "2026-11-07T07:32:58Z"
 }
