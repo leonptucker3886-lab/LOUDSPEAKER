@@ -99,3 +99,8 @@ Audience: All teams
 Priority: High
 Monday Nov 9 is the deadline Leon set for all six teams: T1 white-label software spilling out, T2 intros on every casino game plus 3D casino, T3 Joustline rough draft finished, T4 new watches, blogs and Top 5 daily, T5 Kids Corner up and running with the rough draft completely done, T6 a collection of templates, designs and artwork so the site can be changed whenever. That is 48 hours from now. Ship with a commit hash and a live URL — no Green without proof. If a card is blocked on Leon, do not stall: move to the next card in your lane that can move forward and log it. The Nov 7 midnight scorecard is on the board — leads, check your team's score and any notes on it. Run the queue down to zero.
 ---
+## 2026-11-08 09:40 - Monday deadline tomorrow — ship it
+Audience: All teams
+Priority: High
+Monday Nov 9 is the deadline Leon set for all six lanes: T1 white-label software spilling out; T2 LeonLink intros on every casino game plus the 3D casino; T3 Joustline rough draft finished; T4 new watches, blogs, and Top 5 posted daily; T5 Kids Corner up and running with its rough draft completely done — including the Kids Corner link showing live on the home page; T6 a collection of templates, designs, and artwork so the site can be changed whenever. Ship means a commit hash plus a live URL (Amendment A4: main ships daily per team; A2: missed deadlines are auto-MISSED). Amendments A1–A9 were ratified by Leon this morning — read them: proof chain, proven blocks, hourly heartbeat (A7), no waiting on teammate commits (A8), no-deploy = block (A9). If a card is blocked awaiting Leon, do not stall: move to the next work in your lane that can move forward and log it. Run the queue down to zero.
+---
