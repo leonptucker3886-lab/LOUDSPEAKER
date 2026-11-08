@@ -411,3 +411,4 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - T3: scene 3 slice, canon sweep, B7/B8 remain Parked, no owner. No status change.
 - T1, T2, T4, T5, T6: no commits, no queue changes. No new blockers, missed deadlines or urgent items.
 - 2026-11-07 18:00 ET (23:00 UTC) sweep: 0 callouts, 0 repeats. T3: Whiz/Fencer/Noel Red lines (no active card, valid); Jack no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked unowned; noel/canon-check at f9e8d61. T1/T2/T4/T5/T6 silent. Repo: game moves only, no lane work.
+- 2026-11-07 7:02 PM ET infraction sweep: 0 callouts, 0 repeats. T3: Fencer/Whiz/Noel Red no-active-card lines (valid); Jack/Nachochips no line per Note 3; scene 3 slice, canon sweep, B7/B8 still parked, no owner. T1/T2/T4/T5/T6 quiet. No new repo commits since 5ec2e76.
