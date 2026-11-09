@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "8/1b3pk1/3p1n2/1p1Pp1p1/p1p1P1Pr/P1P2PKP/1P5R/3B3R w - - 33 63",
+  "fen": "8/1b3pk1/3p1n2/1p1Pp1p1/p1p1P1Pr/P1P2PKP/1P2B2R/7R b - - 34 63",
   "moves": [
     {
       "n": 1,
@@ -874,11 +874,18 @@
       "san": "Rh4",
       "by": "Stonewall",
       "comment": "Rh4 \u2014 rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+    },
+    {
+      "n": 63,
+      "color": "white",
+      "san": "Be2",
+      "by": "Pip",
+      "comment": "Bishop to e2: covers the king side and keeps every rook defended. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-09T00:04:46Z"
+  "last_move_at": "2026-11-09T00:31:00Z"
 }
