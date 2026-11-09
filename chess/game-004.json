@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/6p1/7p/3B3P/3b2P1/4kP1K/P7/r7 b - - 12 62",
+  "fen": "8/6p1/7p/3B3P/3b2P1/5P1K/P4k2/r7 w - - 13 63",
   "moves": [
     {
       "n": 1,
@@ -867,11 +867,18 @@
       "san": "Kh3",
       "by": "Stonewall",
       "comment": "Kh3 \u2014 king steps to h3, most active king move (4-way tie at depth-6 -300 with Kh2, Kg2, f4; most active wins it; f4 gives the pawn to Kxf4)."
+    },
+    {
+      "n": 62,
+      "color": "black",
+      "san": "Kf2",
+      "by": "Pip",
+      "comment": "King to f2 boxes in White's king; Rh1 is next. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-09T00:04:57Z"
+  "last_move_at": "2026-11-09T00:31:00Z"
 }
