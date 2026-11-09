@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/6p1/7p/3B3P/3b2P1/5P1K/P4k2/r7 w - - 13 63",
+  "fen": "8/6p1/7p/3B3P/3b1PP1/7K/P4k2/r7 b - - 0 63",
   "moves": [
     {
       "n": 1,
@@ -874,11 +874,18 @@
       "san": "Kf2",
       "by": "Pip",
       "comment": "King to f2 boxes in White's king; Rh1 is next. \u2014 Pip"
+    },
+    {
+      "n": 63,
+      "color": "white",
+      "san": "f4",
+      "by": "Stonewall",
+      "comment": "f4 \u2014 pawn steps to f4 (depth-3 tie with Kh2 at -400; depth-6 winner at -300)."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-09T00:31:00Z"
+  "last_move_at": "2026-11-09T01:31:48Z"
 }
