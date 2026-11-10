@@ -1150,3 +1150,26 @@ Repo leonptucker3886-lab/joustline · branch main · live checker: Sir Announcer
 - **Expected live result:** hero, tile per game (incl. L29, L30), single "White-label this, $99 deposit" button → /white-label/#deposit, desktop+mobile
 - **Deadline:** first verified slice 6:00 PM ET Nov 10 (internal 5:00 PM ET); full page 8:00 PM ET Nov 10 (internal 7:00 PM ET)
 - **Parked while active:** HOME-WL-2, WL-GAMETILES
+
+## ESC: Escape Sun n Fun (lead Paperwork, deputy Announcer, live checker Announcer). Added 2026-11-10 4:55 PM ET.
+Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.com/leonptucker3886-labs-projects/escape-for-vercel-1). Source: Leon's escape-for-vercel.zip + index-1.html.
+
+### ESC-00 | Team ESC | Lead: Paperwork | Owner: Paperwork
+- Repo/branch/files: to be identified by this card
+- Expected live result: repo, branch, file list + bug list posted; current build loaded desktop+mobile: Start works, opening runs (Ax blackjack/dice, pond party, wolves, Curtsey's tent), first Skins save shows
+- Deadline: 5:45 PM ET 2026-11-10 (internal 4:45 PM ET)
+
+### ESC-01 | Team ESC | Lead: Paperwork | Owner: Paperwork
+- Repo/branch/files: from ESC-00
+- Expected live result: Tina's grudge answers and Accuse scene each visibly change 3 Ties links; ESC-00 story-path blockers fixed; signed [Paperwork] hash + preview URL
+- Deadline: first slice 8:00 PM ET 2026-11-10 (internal 7:00 PM ET)
+
+### ESC-02 | Team ESC | Lead: Paperwork | Owner: Datasheet | QUEUED (starts when LL-REBUILD ships)
+- Repo/branch/files: from ESC-00
+- Expected live result: Bambie distress as full playable scene; separate confrontation scene for each snitch (Big Bird, Skins, Spud, Wampum)
+- Deadline: first slice 10:00 PM ET 2026-11-10 (internal 9:00 PM ET)
+
+### ESC-03 | Team ESC | Lead: Paperwork | Owner: Announcer | ALTERNATE (after JOUST checks)
+- Repo/branch/files: from ESC-00
+- Expected live result: short day plan on screen so players see goals without opening Notes
+- Deadline: 9:00 PM ET 2026-11-10 (internal 8:00 PM ET)
