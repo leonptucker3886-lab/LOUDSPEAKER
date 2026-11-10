@@ -34,6 +34,14 @@ None.
 - **Deadline:** 00:16 ET Nov 10, 2026
 - **Status:** claimed, entry committed; build not started.
 
+### I01 — Inspection App (store and file every inspection)
+- **Team:** Inspections · **Lead/owner:** Inspector Juan I Ezekiel · **Builder:** Inspectra gadget · **Grader:** Mushroom face INSPECTOR (no self-approval)
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** i01-inspection-app
+- **Files:** /inspections-app/ (index.html, app.js, style.css; Juan owns index.html + style.css, Inspectra owns app.js)
+- **Expected live result:** at its Vercel preview URL, a page where an inspector files an inspection (card ID, team, owner, hash, URL, Vercel SHA match, desktop PASS/FAIL, mobile PASS/FAIL, grade, infraction note) and sees a filterable list of filed inspections; works on desktop and mobile. Storage: Vercel Blob (Leon approved Blob 23:45 ET) — if Blob is not wired by deadline, v1 ships with browser-local storage and Blob becomes card I02.
+- **Deadline:** 02:30 ET Nov 10, 2026
+- **Status:** claimed, entry committed; build not started.
+
 ## Done — awaiting Stonewall's check
 
 None.
