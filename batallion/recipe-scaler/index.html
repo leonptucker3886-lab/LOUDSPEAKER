@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recipe Scaler · B02</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#faf9f7;color:#18181b}
+main{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem;margin:.5rem 0 1rem}
+label{font-weight:600;display:block;margin:.75rem 0 .25rem}
+textarea{width:100%;min-height:160px;padding:10px;font:inherit;border:1px solid #ccc;border-radius:8px}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end}
+.row>div{flex:1 1 140px}
+input,select{width:100%;padding:10px;font:inherit;border:1px solid #ccc;border-radius:8px;background:#fff}
+button{padding:10px 14px;font:inherit;border:0;border-radius:8px;background:#2a78d6;color:#fff;cursor:pointer}
+table{width:100%;border-collapse:collapse;margin-top:1rem;background:#fff;border-radius:8px;overflow:hidden}
+th,td{padding:8px;border-bottom:1px solid #eee;text-align:left;vertical-align:top}
+th{background:#f0efec}
+.muted{color:#666;font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Recipe Scaler</h1>
+<label for="ing">Paste ingredients (one per line)</label>
+<textarea id="ing">2 cups flour
+1 1/2 tsp salt
+3 tbsp butter
+250 g sugar
+2 eggs</textarea>
+<div class="row">
+<div><label for="from">Original servings</label><input id="from" type="number" min="1" value="4"></div>
+<div><label for="to">New servings</label><input id="to" type="number" min="1" value="8"></div>
+<div><label for="sys">Units</label><select id="sys"><option value="orig">Keep original</option><option value="metric">Convert to metric</option><option value="us">Convert to US</option></select></div>
+<div><button id="go" type="button">Scale</button></div>
+</div>
+<table><thead><tr><th>Scaled</th><th>Original</th></tr></thead><tbody id="out"></tbody></table>
+<p class="muted">Volumes convert to ml, weights to g (and back). Lines without a number are passed through.</p>
+</main>
+<script>
+(function(){
+var U={tsp:['v',4.92892],teaspoon:['v',4.92892],teaspoons:['v',4.92892],tbsp:['v',14.7868],tablespoon:['v',14.7868],tablespoons:['v',14.7868],cup:['v',236.588],cups:['v',236.588],'fl oz':['v',29.5735],ml:['v',1],l:['v',1000],liter:['v',1000],liters:['v',1000],oz:['w',28.3495],ounce:['w',28.3495],ounces:['w',28.3495],lb:['w',453.592],lbs:['w',453.592],pound:['w',453.592],pounds:['w',453.592],g:['w',1],gram:['w',1],grams:['w',1],kg:['w',1000]};
+function parseNum(s){s=s.trim();var m;
+if(m=s.match(/^(\d+)\s+(\d+)\/(\d+)$/))return +m[1]+m[2]/m[3];
+if(m=s.match(/^(\d+)\/(\d+)$/))return m[1]/m[2];
+return parseFloat(s);}
+function fmt(n){if(Math.abs(n-Math.round(n))<0.02)return String(Math.round(n));
+var w=Math.floor(n),f=n-w,fr=[[.25,'1/4'],[1/3,'1/3'],[.5,'1/2'],[2/3,'2/3'],[.75,'3/4']];
+for(var i=0;i<fr.length;i++)if(Math.abs(f-fr[i][0])<0.03)return (w?w+' ':'')+fr[i][1];
+return n.toFixed(n<10?2:0).replace(/\.?0+$/,'');}
+function conv(q,unit,sys){var u=U[unit.toLowerCase()];if(!u||sys==='orig')return [q,unit];
+var base=q*u[1];
+if(sys==='metric'){if(u[0]==='v')return base>=1000?[base/1000,'l']:[base,'ml'];return base>=1000?[base/1000,'kg']:[base,'g'];}
+if(u[0]==='v'){if(base>=59)return [base/236.588,'cups'];if(base>=14)return [base/14.7868,'tbsp'];return [base/4.92892,'tsp'];}
+return base>=453?[base/453.592,'lb']:[base/28.3495,'oz'];}
+function esc(s){return s.replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
+function run(){var f=+document.getElementById('from').value||1,t=+document.getElementById('to').value||1,k=t/f,sys=document.getElementById('sys').value;
+var rows=document.getElementById('ing').value.split('\n').filter(function(l){return l.trim();}).map(function(l){
+var m=l.match(/^\s*(\d+\s+\d+\/\d+|\d+\/\d+|\d*\.?\d+)\s*(fl oz|[a-zA-Z]+)?\s*(.*)$/);
+if(!m)return '<tr><td>'+esc(l)+'</td><td>'+esc(l)+'</td></tr>';
+var q=parseNum(m[1])*k,unit=m[2]||'',rest=m[3]||'';
+if(unit&&!U[unit.toLowerCase()]){rest=unit+' '+rest;unit='';}
+var c=unit?conv(q,unit,sys):[q,''];
+return '<tr><td>'+esc((fmt(c[0])+' '+c[1]+' '+rest).replace(/\s+/g,' ').trim())+'</td><td>'+esc(l)+'</td></tr>';});
+document.getElementById('out').innerHTML=rows.join('');}
+['go'].forEach(function(id){document.getElementById(id).addEventListener('click',run);});
+['ing','from','to','sys'].forEach(function(id){document.getElementById(id).addEventListener('input',run);});
+run();})();
+</script>
+</body>
+</html>
