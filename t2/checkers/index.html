@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Checkers vs. Computer · LeonLink T2</title>
+<style>body{margin:0;font-family:system-ui,sans-serif;background:#1b1b1f;color:#eee;display:flex;flex-direction:column;align-items:center;padding:16px}
+h1{font-size:1.4rem;margin:8px 0}#b{display:grid;grid-template-columns:repeat(8,1fr);width:min(92vw,480px);aspect-ratio:1;border:4px solid #6b3e1f}
+.c{display:flex;align-items:center;justify-content:center;cursor:pointer}.l{background:#e8d0a9}.d{background:#8a5a33}.s{outline:3px solid #ffd400;outline-offset:-3px}.t{box-shadow:inset 0 0 0 4px #4caf50}
+.p{width:78%;height:78%;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold}.r{background:#c62828;border:2px solid #7f0000}.k{background:#222;border:2px solid #000;color:#fff}.r.K::after,.k.K::after{content:"♛";color:#ffd400}
+#st{margin:10px;min-height:1.4em}button,select{font-size:1rem;margin:4px;padding:6px 12px}</style></head><body>
+<h1>Checkers vs. Computer</h1><div><select id="lv"><option value="1">Easy</option><option value="3" selected>Medium</option><option value="5">Hard</option></select><button id="ng">New game</button><button id="un">Undo</button></div>
+<div id="st"></div><div id="b"></div><p style="font-size:.85rem;opacity:.7">You play red. Captures are mandatory, multi-jumps continue. Free play, no money.</p>
+<script>
+let B,turn,sel,hist,forced=null;const E=0,R=1,K=2;
+function init(){B=[];for(let r=0;r<8;r++){B.push([]);for(let c=0;c<8;c++)B[r].push((r+c)%2&&r<3?{c:K,k:0}:(r+c)%2&&r>4?{c:R,k:0}:null)}turn=R;sel=null;hist=[];forced=null;draw()}
+const cp=b=>b.map(r=>r.map(x=>x&&{...x}));
+function dirs(p){return p.k?[[1,1],[1,-1],[-1,1],[-1,-1]]:p.c==R?[[-1,1],[-1,-1]]:[[1,1],[1,-1]]}
+function caps(b,r,c){const p=b[r][c],o=[];for(const[dr,dc]of dirs(p)){const r1=r+dr,c1=c+dc,r2=r+2*dr,c2=c+2*dc;if(r2>=0&&r2<8&&c2>=0&&c2<8&&b[r1][c1]&&b[r1][c1].c!=p.c&&!b[r2][c2])o.push([r,c,r2,c2,r1,c1])}return o}
+function moves(b,col,only){let cs=[],ss=[];for(let r=0;r<8;r++)for(let c=0;c<8;c++){const p=b[r][c];if(!p||p.c!=col)continue;if(only&&(only[0]!=r||only[1]!=c))continue;cs.push(...caps(b,r,c));if(!only)for(const[dr,dc]of dirs(p)){const a=r+dr,d=c+dc;if(a>=0&&a<8&&d>=0&&d<8&&!b[a][d])ss.push([r,c,a,d])}}return cs.length?cs:only?[]:ss}
+function apply(b,m){const p=b[m[0]][m[1]];b[m[2]][m[3]]=p;b[m[0]][m[1]]=null;let cap=m.length>4;if(cap)b[m[4]][m[5]]=null;let crown=!p.k&&((p.c==R&&m[2]==0)||(p.c==K&&m[2]==7));if(crown)p.k=1;return cap&&!crown&&caps(b,m[2],m[3]).length}
+function ev(b){let s=0;for(const r of b)for(const p of r)if(p)s+=(p.c==K?1:-1)*(p.k?3:1);return s}
+function seqs(b,col){const out=[];const go=(bb,ms,only)=>{for(const m of moves(bb,col,only)){const b2=cp(bb);const more=apply(b2,m);if(more)go(b2,[...ms,m],[m[2],m[3]]);else out.push([b2,[...ms,m]])}};go(b,[],null);return out}
+function mm(b,d,col,a,be){const s=seqs(b,col);if(!s.length)return col==K?-99:99;if(!d)return ev(b);if(col==K){let v=-1e9;for(const[b2]of s){v=Math.max(v,mm(b2,d-1,R,a,be));a=Math.max(a,v);if(a>=be)break}return v}let v=1e9;for(const[b2]of s){v=Math.min(v,mm(b2,d-1,K,a,be));be=Math.min(be,v);if(a>=be)break}return v}
+function ai(){const s=seqs(B,K);if(!s.length){draw();return}const d=+lv.value;let best=null,bv=-1e9;for(const x of s){const v=mm(x[0],d-1,R,-1e9,1e9)+(d==1?Math.random()*4:Math.random()*.1);if(v>bv){bv=v;best=x}}B=best[0];turn=R;draw()}
+function click(r,c){if(turn!=R)return;const legal=moves(B,R,forced);const t=sel&&legal.find(m=>m[0]==sel[0]&&m[1]==sel[1]&&m[2]==r&&m[3]==c);if(t){if(!forced)hist.push(cp(B));const more=apply(B,t);if(more){forced=[r,c];sel=[r,c]}else{forced=null;sel=null;turn=K;draw();setTimeout(ai,250);return}}else if(!forced&&B[r][c]&&B[r][c].c==R&&legal.some(m=>m[0]==r&&m[1]==c))sel=[r,c];draw()}
+function draw(){const b=document.getElementById('b');b.innerHTML='';const legal=turn==R?moves(B,R,forced):[];for(let r=0;r<8;r++)for(let c=0;c<8;c++){const d=document.createElement('div');d.className='c '+((r+c)%2?'d':'l');if(sel&&sel[0]==r&&sel[1]==c)d.classList.add('s');if(sel&&legal.some(m=>m[0]==sel[0]&&m[1]==sel[1]&&m[2]==r&&m[3]==c))d.classList.add('t');const p=B[r][c];if(p){const e=document.createElement('div');e.className='p '+(p.c==R?'r':'k')+(p.k?' K':'');d.appendChild(e)}d.onclick=()=>click(r,c);b.appendChild(d)}
+const st=document.getElementById('st');if(!seqs(B,turn).length)st.textContent=turn==R?'Computer wins.':'You win!';else st.textContent=turn==R?(forced?'Keep jumping!':'Your move (red).'):'Computer is thinking…'}
+ng.onclick=init;un.onclick=()=>{if(hist.length&&turn==R){B=hist.pop();sel=null;forced=null;draw()}};init();
+</script></body></html>
