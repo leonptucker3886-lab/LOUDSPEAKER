@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karaoke Lyric Scroller</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#111;color:#fafafa}
+header{padding:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:#1b1b1f}
+h1{font-size:18px;margin:0 8px 0 0}button{font-size:16px;padding:10px 14px;border:0;border-radius:8px;background:#2a78d6;color:#fff;min-height:44px}
+label{display:flex;align-items:center;gap:6px;font-size:14px}input[type=range]{width:120px}
+textarea{width:100%;height:30vh;padding:12px;font-size:16px;background:#222;color:#fff;border:0}
+#stage{height:55vh;overflow:hidden;position:relative;background:#000}
+#lyrics{padding:40vh 16px;font-size:28px;line-height:1.6;text-align:center;white-space:pre-wrap}
+#stage:fullscreen{height:100vh}#stage:fullscreen #lyrics{font-size:44px}
+</style></head><body>
+<header><h1>Lyric Scroller</h1>
+<button id="play">Play</button><button id="reset">Reset</button><button id="fs">Fullscreen</button>
+<label>Speed <input id="speed" type="range" min="10" max="200" value="50"><span id="sv">50</span></label></header>
+<textarea id="input" placeholder="Paste lyrics here..."></textarea>
+<div id="stage"><div id="lyrics"></div></div>
+<script>
+const $=id=>document.getElementById(id);const input=$('input'),lyr=$('lyrics'),stage=$('stage');
+let playing=false,last=0,pos=0;
+function sync(){lyr.textContent=input.value||'Paste lyrics above, then press Play.'}
+input.addEventListener('input',sync);sync();
+$('speed').addEventListener('input',e=>$('sv').textContent=e.target.value);
+function frame(t){if(!playing)return;const dt=(t-last)/1000;last=t;pos+=dt*Number($('speed').value);
+const max=stage.scrollHeight-stage.clientHeight;if(pos>=max){pos=max;toggle(false)}stage.scrollTop=pos;requestAnimationFrame(frame)}
+function toggle(on){playing=on;$('play').textContent=on?'Pause':'Play';if(on){last=performance.now();requestAnimationFrame(frame)}}
+$('play').onclick=()=>toggle(!playing);
+$('reset').onclick=()=>{toggle(false);pos=0;stage.scrollTop=0};
+$('fs').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen();else if(stage.requestFullscreen)stage.requestFullscreen();else stage.classList.toggle('fsfallback')};
+</script></body></html>
