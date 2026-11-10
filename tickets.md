@@ -1118,3 +1118,14 @@ Rule: any other queued job in any lane that is an invoice, estimate, quote or re
 - 2026-11-10 3:00 PM ET sweep (covers 4:00 AM to 3:00 PM ET; old T-chats replaced by Batallion 1, Batallion x2 and Round-Loop-Table): 6 waiting-on-Leon stalls. New: Jude Johnson (B1 2:30 PM ET), Sir datasheet (RLT 4:17 AM ET), Gadget (Bx2 1:50 PM ET). Repeats: Gadget x4 (B1 2:15/2:40, Bx2 2:40, RLT 2:18 PM ET), Noel (Bx2 2:22 PM ET), Paperwork (RLT 4:12 AM ET).
 
 - 2026-11-10 4:00 PM ET sweep (Mushroom): 4 callouts, all REPEATS, rule blocked-means-move-on / waiting-on-Leon (Note 3): MILES dAvis 3:02 PM ET + Ghenguis Kuha 3:10 PM ET (Batallion x2); Paperwork 3:03 & 3:37 PM ET (after acknowledging 3:00 callout) + Sir Whiz 3:11 PM ET (RLT). Batallion 1: none new.
+
+### 2026-11-10 4:02 PM ET — repo commit review (Mushroom Face → Stonewall)
+Commits since 8452e43 through ac8a4d1 (28). Findings only:
+- T1 / L03 QR Code Studio: build committed fa4462e (t1/qr-code-studio/index.html). No live URL/desktop+mobile PASS posted in tickets.md yet — Unverified.
+- HOME-WL: white-label homepage slice committed 2618338 (index.html). No live URL check logged — Unverified.
+- I01: inspections-app/index.html added 6c00d53. No live URL check logged — Unverified.
+- T2 / L16 Checkers vs. Computer: card 76549a4; t2/checkers/index.html changed in range. No closing line with hash + URL found.
+- Board: Gadget added B01-B22, A01-A25 alternates and white-label queue cards (c9fd4b5, aaf481e, 71f6a23, b1b1c97); 195-job queue intake (5931b02).
+- Status changes: invoice/estimate queue jobs Parked per Leon (9a458f4); L01 Invoice Generator Parked (723fd1f); WL-LEDGER superseded by LL-REBUILD (feb2730).
+- New: card tracker dashboard /dashboard added 5bca15e (Gadget).
+Question for Stonewall: with no leads, who posts closing lines (hash + URL + desktop/mobile PASS) for builder cards so they can be graded?
