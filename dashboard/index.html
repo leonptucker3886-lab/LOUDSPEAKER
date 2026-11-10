@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LeonLink Card Tracker</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#FAFAF9;color:#18181B;margin:0;padding:16px}
+h1{font-size:1.4rem;margin:0 0 4px}.sub{color:#555;font-size:.85rem;margin-bottom:12px}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}.stat{background:#fff;border:1px solid #DEDDD8;border-radius:8px;padding:8px 12px;cursor:pointer}
+.stat b{display:block;font-size:1.3rem}.stat.on{outline:2px solid #2A78D6}
+input{padding:8px;width:100%;max-width:360px;border:1px solid #DEDDD8;border-radius:6px;margin-bottom:10px;box-sizing:border-box}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:.85rem}th,td{border-bottom:1px solid #DEDDD8;padding:6px;text-align:left;vertical-align:top}
+th{background:#f1f0ec;position:sticky;top:0}.pill{padding:2px 8px;border-radius:10px;font-size:.75rem;white-space:nowrap;font-weight:600}
+.main{background:#d8f0d8;color:#005c00}.preview{background:#fff1c2;color:#7a5600}.open{background:#e3eefb;color:#1d5aa3}.missed{background:#fbdada;color:#9b1c1c}.parked{background:#e7e7e7;color:#444}.alt{background:#efe6fb;color:#5b2a9b}
+a{color:#2A78D6}code{font-size:.8rem}
+@media(max-width:700px){thead{display:none}tr{display:block;border:1px solid #DEDDD8;border-radius:8px;margin-bottom:8px;background:#fff}td{display:block;border:0;padding:3px 8px}td:before{content:attr(data-l)": ";font-weight:600;color:#666}}
+@media print{tr{break-inside:avoid}}
+</style></head><body>
+<h1>LeonLink Card Tracker</h1>
+<div class="sub" id="sub">Loading tickets.md and GitHub…</div>
+<div class="stats" id="stats"></div>
+<input id="q" placeholder="Filter by card, owner, team, branch…">
+<table><thead><tr><th>Card</th><th>Owner</th><th>Team</th><th>Deadline (ET)</th><th>Board status</th><th>Tracked status</th><th>Commit</th><th>Branch</th></tr></thead><tbody id="rows"></tbody></table>
+<script>
+const R='leonptucker3886-lab/LOUDSPEAKER',API='https://api.github.com/repos/'+R;
+let cards=[],filt='all';
+const j=u=>fetch(u).then(r=>{if(!r.ok)throw new Error(u+' '+r.status);return r.json()});
+function parseDeadline(s){const m=s&&s.match(/(\d{1,2}):(\d{2})\s*ET\s*([A-Za-z]{3})\w*\s+(\d{1,2}),?\s*(\d{4})/);if(!m)return null;
+ const mo={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11}[m[3]];if(mo==null)return null;
+ const off=(mo>=10||mo<=1)?5:4;return new Date(Date.UTC(+m[5],mo,+m[4],+m[1]+off,+m[2]));}
+function parse(md){const out=[],re=/^### ([A-Z][A-Z0-9]*(?:-[A-Z0-9]+)*) — (.+)$/gm;let m,idx=[];
+ while((m=re.exec(md)))idx.push({id:m[1],title:m[2],at:m.index});
+ idx.forEach((c,i)=>{const body=md.slice(c.at,i+1<idx.length?idx[i+1].at:md.length).split(/\n## /)[0];
+  const f=k=>{const x=body.match(new RegExp('\\*\\*'+k+':\\*\\*\\s*([^·\\n]+)'));return x?x[1].trim():''};
+  if(!f('Deadline')&&!f('Branch'))return;
+  out.push({id:c.id,title:c.title,team:f('Team'),owner:f('Lead/owner'),branch:f('Branch').replace(/`/g,''),deadline:f('Deadline'),status:f('Status')});});
+ const seen={};return out.reverse().filter(c=>seen[c.id]?0:(seen[c.id]=1)).reverse();}
+async function load(){
+ try{
+ const md=await fetch('https://raw.githubusercontent.com/'+R+'/main/tickets.md?t='+Date.now()).then(r=>r.text());
+ cards=parse(md);
+ let branches=[];for(let p=1;p<=5;p++){const b=await j(API+'/branches?per_page=100&page='+p);branches=branches.concat(b);if(b.length<100)break;}
+ const main=await j(API+'/commits?sha=main&per_page=100');
+ const mainSet=new Set(main.map(c=>c.sha)),bmap={};branches.forEach(b=>bmap[b.name]=b.commit.sha);
+ const now=new Date();
+ cards.forEach(c=>{const st=c.status.toLowerCase(),dl=parseDeadline(c.deadline);c.dl=dl;
+  const hit=main.find(x=>new RegExp('\\b'+c.id.replace(/-/g,'\\-')+'\\b').test(x.commit.message));
+  const bs=bmap[c.branch];
+  if(hit){c.t='main';c.sha=hit.sha;}
+  else if(bs&&mainSet.has(bs)){c.t='main';c.sha=bs;}
+  else if(/park/.test(st)){c.t='parked';}
+  else if(bs){c.t='preview';c.sha=bs;}
+  else if(/alternate/.test(st)){c.t='alt';}
+  else if(dl&&dl<now||/missed/.test(st)){c.t='missed';}
+  else c.t='open';});
+ document.getElementById('sub').textContent=cards.length+' cards · repo '+R+' · refreshed '+now.toLocaleString('en-US',{timeZone:'America/New_York'})+' ET · auto-refresh 5 min';
+ render();}catch(e){document.getElementById('sub').textContent='Load error: '+e.message+' (GitHub allows 60 unauthenticated checks per hour per visitor)';}}
+const L={all:'All',main:'Shipped on main',preview:'Branch only (not merged)',open:'Open',alt:'Alternate (queued)',missed:'Past deadline',parked:'Parked'};
+function render(){const cnt={all:cards.length};cards.forEach(c=>cnt[c.t]=(cnt[c.t]||0)+1);
+ document.getElementById('stats').innerHTML=Object.keys(L).map(k=>`<div class="stat ${filt==k?'on':''}" onclick="filt='${k}';render()"><b>${cnt[k]||0}</b>${L[k]}</div>`).join('');
+ const q=document.getElementById('q').value.toLowerCase();
+ document.getElementById('rows').innerHTML=cards.filter(c=>(filt=='all'||c.t==filt)&&JSON.stringify(c).toLowerCase().includes(q)).map(c=>`<tr>
+ <td data-l="Card"><b>${c.id}</b><br>${c.title}</td><td data-l="Owner">${c.owner}</td><td data-l="Team">${c.team}</td><td data-l="Deadline">${c.deadline}</td>
+ <td data-l="Board status">${c.status}</td><td data-l="Tracked"><span class="pill ${c.t}">${L[c.t]}</span></td>
+ <td data-l="Commit">${c.sha?`<a href="https://github.com/${R}/commit/${c.sha}" target="_blank"><code>${c.sha.slice(0,7)}</code></a>`:'—'}</td>
+ <td data-l="Branch">${c.branch?`<a href="https://github.com/${R}/tree/${encodeURIComponent(c.branch)}" target="_blank">${c.branch}</a>`:'—'}</td></tr>`).join('');}
+document.getElementById('q').oninput=render;load();setInterval(load,300000);
+</script></body></html>
