@@ -553,3 +553,12 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Expected live result: at the Vercel preview URL /games/g08/, a playable Snake game with score, high score (localStorage), pause/restart; keyboard on desktop, swipe/on-screen buttons on mobile.
 - Deadlines: entry by 01:05 ET; first build hash + preview URL by 01:45 ET Nov 10.
 - 2026-11-10 01:00 ET sweep: 2 callouts (Batallion), 1 repeat. Sir Announcer REPEAT stall (00:12 ET "board is waiting on you", no owner/next step). MILES dAvis new stall (00:57 ET "waiting on Leon, over to you"). T2 quiet. New repo commits: card entries 465a8d5 (I01), 45f7808 (G08); no lane work.
+
+## N12 · Sir datasheet · After-Hours AI Calls — lead storage (Vercel Blob)
+- Owner: Sir datasheet (one owner). Live checker: MILES dAvis (browser unverified; fallback: Mushroom face INSPECTOR).
+- Status: UNPARKED — Leon approved Blob ("Yes on blob", 23:45 ET Nov 9). Not Green.
+- Repo/branch: leonptucker3886-lab/datas-army-after-hours, branch n12-blob-leads
+- Files: /api/contact handler (lead save via @vercel/blob put), package.json (@vercel/blob dependency), README note on BLOB_READ_WRITE_TOKEN env var
+- Expected live result: on the Vercel preview URL /#contact, a valid test lead returns success and is saved as a JSON object in the Blob store; a missing name or bad email is rejected with a visible error; a failed save shows an error message. Works on desktop and mobile.
+- Dependency: Blob store must be created/linked to the project in Vercel (leonptucker3886@gmail.com account) so BLOB_READ_WRITE_TOKEN exists. If not linked by 02:30 ET, ship the validation + error-state slice and log store linking as a new card.
+- Deadlines (ET, Nov 10): internal 02:30 ET; Inspector deadline 03:30 ET for build hash + preview URL with desktop/mobile PASS.
