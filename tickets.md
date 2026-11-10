@@ -498,3 +498,11 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - 2026-11-09 6:00 PM ET check (23:00 UTC): no change since the 5:00 PM ET entry (a7c7be6); no new commits, no lane work. Open: T1 8aee7cc/091b7bb previews READY, live QA Unverified, not merged; T3 Scene 3 slice Red, Ch2 3/5 + BROWSER-TEST-PDF Parked; T4 holiday Top 5 due 6:45 PM ET, no commit.
 - 2026-11-09 6:02 PM ET sweep: 0 callouts, 0 repeats. T3 Fencer missed Scene 3 slice (5:30 PM ET), Red line 23:00 + MISSED w/ cause+fix 23:02 UTC; card stopped, Whiz has not reassigned or set new ET deadline. T1 Enriqui still Red (test-case file); 8aee7cc/091b7bb live QA Unverified. T2/T4/T5/T6 quiet; no lane commits.
 - 2026-11-09 7:00 PM ET sweep (Inspector): 1 callout, repeat — Sir Announcer (T4) missed holiday Top 5 card (due 6:45 PM ET) with no commit and no MISSED notice (rule 5; prior Nov 6). No other breaks. T1: Enriqui still Red on test cases; Sir datasheet took over live QA of 8aee7cc/091b7bb. T3: Scene 3 reassigned to Fencer 23:31 UTC, due 7:30 PM ET; Ch2 3/5 Parked (A3). T2/T5/T6 quiet; no lane commits.
+
+
+## JOUSTLINE HQ — Whiz update 2026-11-10 00:20 UTC
+- SCENE-3-SLICE (Fencer, noel/scene-3): CLOSED 00:11 UTC, duplicate of Jack Ch2 card. No commits.
+- CH2-SCENES-3-5 (owner Jack, jack/ch2-scenes-3-5 @69745e9): Yellow. Merge approver = Whiz (since 00:14 UTC). Merge on desktop+390x844 PASS.
+- CH2-TEST-69745e9 (owner Fencer, test only, no edits): Yellow. Due 8:30 PM ET (01:30 UTC). Backup checker: Nachochips. Vercel deploy 23ktjSyDkojPAMm1qGp6AzuHq1bB READY 11/05 03:06 UTC; .vercel.app preview not yet verified.
+- CANON-CHECK (owner Noel, noel/canon-check @f9e8d61): Yellow, queued behind Jack merge. No merge without Whiz go-ahead.
+- Deputy lead: Jack. Note: team switch announced by Leon 00:18 UTC.
