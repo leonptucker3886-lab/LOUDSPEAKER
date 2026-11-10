@@ -672,3 +672,167 @@ Rules: repo leonptucker3886-lab/LOUDSPEAKER unless lane owner names another; one
 ### 2026-11-10 04:00 ET sweep
 - No change: no new LOUDSPEAKER commits since 54b85c2 (03:00 ET log). No new cards, status changes, hashes or preview URLs in tickets.md since last entry.
 - 04:00 ET sweep (09:01Z): 1 callout, 1 repeat. Sir Announcer (Batallion) - stall/blocked-means-move-on, "Over to you to decide" at 03:23 and 03:28 ET with no next step (REPEAT). Batallion otherwise Vercel account confirmations and T7 card acceptances; no hashes/preview URLs. Repo since 54b85c2: board-check log + L16 card (76549a4), no lane work. T2 quiet.
+
+## BATALLION CARDS — every member carded (Gadget, keeper of cards, 2026-11-10 ~13:45 ET, Leon's order)
+One owner per card, one ACTIVE card each. Already carded and unchanged: Juan I Ezekiel I01, Hercules G08, Oscar N13, Rehab N06. Inspectors (Mr. Mushroom face Inspector, MILES dAvis) carry inspection duty, not a build card. Ack within 1h of this commit; done = commit hash + live Vercel URL, desktop+mobile PASS.
+
+### B01 — Tide & Moon Calendar
+- **Team:** Batallion · **Lead/owner:** Jude Johnson
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b01-tide-moon-calendar
+- **Files:** /batallion/tide-moon-calendar/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/tide-moon-calendar/): moon phase for any date, monthly calendar view; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B02 — Recipe Scaler
+- **Team:** Batallion · **Lead/owner:** Matu May
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b02-recipe-scaler
+- **Files:** /batallion/recipe-scaler/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/recipe-scaler/): paste ingredients, scale servings, unit conversion; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B03 — Markdown Notepad
+- **Team:** Batallion · **Lead/owner:** Pedro Notepad
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b03-markdown-notepad
+- **Files:** /batallion/markdown-notepad/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/markdown-notepad/): live markdown preview, saves to localStorage, copy/clear; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B04 — Dog Age & Care Calculator
+- **Team:** Batallion · **Lead/owner:** Dogwater
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b04-dog-age-calculator
+- **Files:** /batallion/dog-age-calculator/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/dog-age-calculator/): dog-to-human age by size, care checklist by age; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B05 — Reaction Time Tester
+- **Team:** Batallion · **Lead/owner:** Jack
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b05-reaction-tester
+- **Files:** /batallion/reaction-tester/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/reaction-tester/): tap-when-green test, 5-try average, best score saved; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B06 — Flashcard Maker
+- **Team:** Batallion · **Lead/owner:** Enriqui
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b06-flashcard-maker
+- **Files:** /batallion/flashcard-maker/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/flashcard-maker/): create deck, flip cards, shuffle, saved locally; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B07 — Typing Speed Test
+- **Team:** Batallion · **Lead/owner:** Ernie
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b07-typing-test
+- **Files:** /batallion/typing-test/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/typing-test/): 60-second WPM + accuracy, results history; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B08 — Color Mixer
+- **Team:** Batallion · **Lead/owner:** Loly
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b08-color-mixer
+- **Files:** /batallion/color-mixer/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/color-mixer/): mix two colors, show HEX/RGB, copy button; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B09 — Simon Says Memory Game
+- **Team:** Batallion · **Lead/owner:** IndieOphan
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b09-simon-says
+- **Files:** /batallion/simon-says/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/simon-says/): 4-pad sequence game with sound, high score; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B10 — Jose Banditas game (formalize G-JB)
+- **Team:** Batallion · **Lead/owner:** Jose Banditas
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** games/jose-banditas
+- **Files:** /games/jose-banditas/
+- **Expected live result:** at its Vercel preview URL (/games/jose-banditas/): existing game on branch games/jose-banditas (f0ee71e) reaches desktop+mobile PASS; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B11 — World Clock Board
+- **Team:** Batallion x2 · **Lead/owner:** Ghenguis Kuha
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b11-world-clock
+- **Files:** /batallion/world-clock/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/world-clock/): 5 editable city clocks, 12/24h toggle; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B12 — Loan/Savings Calculator (info only)
+- **Team:** Batallion x2 · **Lead/owner:** Nolin Peter
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b12-savings-calculator
+- **Files:** /batallion/savings-calculator/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/savings-calculator/): monthly savings growth chart, no money handling; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B13 — Hidden Object Sniff Game
+- **Team:** Batallion x2 · **Lead/owner:** Sniffer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b13-sniffer
+- **Files:** /batallion/sniffer/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/sniffer/): find 5 hidden items per scene, timer, 3 scenes; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B14 — Karaoke Lyric Scroller
+- **Team:** Batallion x2 · **Lead/owner:** Singer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b14-lyric-scroller
+- **Files:** /batallion/lyric-scroller/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/lyric-scroller/): paste lyrics, auto-scroll with speed control, fullscreen; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B15 — Daily Journal Prompts
+- **Team:** Batallion x2 · **Lead/owner:** Noel
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b15-journal-prompts
+- **Files:** /batallion/journal-prompts/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/journal-prompts/): random prompt, write entry, entries saved locally; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B16 — Fencing Score Keeper
+- **Team:** Batallion x2 · **Lead/owner:** Fencer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b16-score-keeper
+- **Files:** /batallion/score-keeper/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/score-keeper/): two-player score/timer board with reset, mobile-first buttons; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B17 — Arcade Space Shooter (replaces stale T7-09)
+- **Team:** Batallion x2 · **Lead/owner:** Zelda
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b17-space-shooter
+- **Files:** /batallion/space-shooter/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/space-shooter/): playable shooter, touch + keyboard, score, game over/restart; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B18 — Snack Picker Wheel
+- **Team:** Batallion x2 · **Lead/owner:** Nachochips
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b18-snack-wheel
+- **Files:** /batallion/snack-wheel/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/snack-wheel/): editable spin wheel, animated spin, result shown; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B19 — Tarot-style Card Draw (fun only)
+- **Team:** Batallion x2 · **Lead/owner:** Pebbelz witch doctor
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b19-card-draw
+- **Files:** /batallion/card-draw/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/card-draw/): draw 3 cards with flip animation and meanings; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B20 — Don Javk game (formalize preview)
+- **Team:** Batallion x2 · **Lead/owner:** Don Javk
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** games/don-javk
+- **Files:** /games/don-javk/
+- **Expected live result:** at its Vercel preview URL (/games/don-javk/): existing build on branch games/don-javk (e9b6644) reaches desktop+mobile PASS; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
