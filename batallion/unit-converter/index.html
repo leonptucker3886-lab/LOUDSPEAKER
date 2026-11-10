@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit Converter</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f4f5f7;color:#18181b;display:flex;justify-content:center;padding:24px 12px}
+.card{background:#fff;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.08);padding:20px;width:100%;max-width:440px}
+h1{font-size:1.4rem;margin:0 0 14px}.tabs{display:flex;gap:6px;margin-bottom:16px}
+.tabs button{flex:1;padding:10px;border:1px solid #ccd;border-radius:8px;background:#fff;font-size:1rem;cursor:pointer}
+.tabs button.on{background:#2a78d6;color:#fff;border-color:#2a78d6}
+label{display:block;font-size:.85rem;margin:10px 0 4px;color:#555}
+input,select{width:100%;padding:10px;font-size:1.05rem;border:1px solid #ccd;border-radius:8px}
+.row{display:flex;gap:8px}.row>*{flex:1}
+#swap{display:block;margin:14px auto;padding:8px 18px;border:none;border-radius:20px;background:#008300;color:#fff;font-size:1rem;cursor:pointer}
+#out{margin-top:16px;padding:14px;background:#eef4fc;border-radius:8px;font-size:1.25rem;font-weight:600;text-align:center;word-break:break-word}
+</style></head><body>
+<div class="card"><h1>Unit Converter</h1>
+<div class="tabs"><button data-c="length" class="on">Length</button><button data-c="weight">Weight</button><button data-c="temp">Temp</button></div>
+<label for="val">Value</label><input id="val" type="number" value="1" step="any">
+<div class="row"><div><label for="from">From</label><select id="from"></select></div><div><label for="to">To</label><select id="to"></select></div></div>
+<button id="swap" type="button">⇅ Swap</button>
+<div id="out" aria-live="polite"></div></div>
+<script>
+const U={length:{m:1,km:1000,cm:0.01,mm:0.001,mi:1609.344,yd:0.9144,ft:0.3048,"in":0.0254},
+weight:{kg:1,g:0.001,mg:0.000001,lb:0.45359237,oz:0.028349523125,t:1000},
+temp:{"°C":0,"°F":0,K:0}};
+let cat="length";const $=id=>document.getElementById(id);
+function toC(v,u){return u==="°C"?v:u==="°F"?(v-32)*5/9:v-273.15}
+function fromC(c,u){return u==="°C"?c:u==="°F"?c*9/5+32:c+273.15}
+function fill(){const k=Object.keys(U[cat]);["from","to"].forEach((s,i)=>{$(s).innerHTML=k.map(x=>`<option>${x}</option>`).join("");$(s).selectedIndex=Math.min(i,k.length-1)});calc()}
+function calc(){const v=parseFloat($("val").value),f=$("from").value,t=$("to").value;
+if(isNaN(v)){$("out").textContent="Enter a number";return}
+const r=cat==="temp"?fromC(toC(v,f),t):v*U[cat][f]/U[cat][t];
+$("out").textContent=`${v} ${f} = ${+r.toPrecision(8)} ${t}`}
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("on"));b.classList.add("on");cat=b.dataset.c;fill()});
+$("swap").onclick=()=>{const a=$("from").value;$("from").value=$("to").value;$("to").value=a;calc()};
+["val","from","to"].forEach(i=>$(i).addEventListener("input",calc));
+fill();
+</script></body></html>
