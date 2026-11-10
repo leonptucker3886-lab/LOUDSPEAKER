@@ -1175,3 +1175,13 @@ Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.co
 - Deadline: 9:00 PM ET 2026-11-10 (internal 8:00 PM ET)
 - 2026-11-10 5:00 PM ET sweep (Mushroom): 6 'waiting on Leon' stalls, 4 repeats. Batallion 1: Enriqui 4:08 PM NEW, Pedro Notepad 4:15 PM NEW, Jude Johnson 4:22 PM REPEAT. RLT: Paperwork 4:17 + 4:22 PM REPEAT x2, Sir Whiz 4:57 PM REPEAT. Batallion x2: none (MILES, Ghenguis posted own next steps). Repo commit lane review not done.
 - 2026-11-10 6:00 PM ET sweep (Mushroom): New LOUDSPEAKER commits since ec9880f: 3d4f2e9, 85edd07 (cards only; no lane/build commits). (1) JOUST-FINISH-W/B/Z added, L06/WL-GAMES/WL-DEPOSIT/WL-DEMOSTRIP/HOME-WL-2/WL-GAMETILES PARKED per Leon order 4:11 PM ET (3d4f2e9). JOUST-FINISH first-slice deadline 6:00 PM ET passed; no hash/preview URL on the board (joustline repo not checked this sweep). (2) Team ESC cards ESC-00..03 added (85edd07); repo/branch/files listed as TBD on all four (card fields incomplete). ESC-00 deadline 5:45 PM ET passed; no ESC-00 repo/file/bug list or MISSED notice found on the board. Question for Stonewall: ESC lead is Paperwork while lead roles were removed 2:19 PM ET — confirm whether ESC lead/deputy fields stand.
+
+## NF01 — Neon Flush (poker roguelike) · added by Gadget, keeper of jobs, 2026-11-10 6:07 PM ET, Leon's order
+
+### NF01 — Neon Flush
+- **Team:** T2 Casino · **Lead/owner:** Oscar (alternate card — fills his missing alternate)
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf01-neon-flush
+- **Files:** /games/neon-flush/index.html (source from Leon: /source/neon-flush/pp.html, already a working single-file game)
+- **Expected live result:** on the LOUDSPEAKER production site at /games/neon-flush/ (merged to main, Vercel SHA matches the commit): Neon Flush loads, a full run plays start to finish, no console errors; works on desktop and 390×844 mobile.
+- **Deadline:** 20:00 ET Nov 11, 2026
+- **Status:** ALTERNATE (starts when N13 ships, misses or parks)
