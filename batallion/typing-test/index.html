@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>B07 Typing Speed Test</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#111827;color:#f3f4f6}
+main{max-width:640px;margin:0 auto;padding:16px}h1{font-size:1.4rem;margin:.2em 0}
+.stats{display:flex;gap:8px;margin:12px 0}.stat{flex:1;background:#1f2937;border-radius:10px;padding:10px;text-align:center}.stat b{display:block;font-size:1.5rem}
+#text{background:#1f2937;border-radius:10px;padding:12px;line-height:1.7;font-size:1.05rem;min-height:120px;word-wrap:break-word}
+.ok{color:#34d399}.bad{color:#f87171;background:#7f1d1d}.cur{border-bottom:2px solid #60a5fa}
+textarea{width:100%;margin-top:10px;font-size:1rem;padding:10px;border-radius:10px;border:1px solid #374151;background:#0b1220;color:#f3f4f6;min-height:80px}
+button{margin-top:10px;padding:12px 18px;font-size:1rem;border:0;border-radius:10px;background:#2563eb;color:#fff;cursor:pointer}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:.9rem}td,th{padding:6px;border-bottom:1px solid #374151;text-align:left}
+</style></head><body><main>
+<h1>Typing Speed Test</h1><p>Type the text below. The 60-second timer starts on your first keystroke.</p>
+<div class="stats"><div class="stat">Time<b id="time">60</b></div><div class="stat">WPM<b id="wpm">0</b></div><div class="stat">Accuracy<b id="acc">100%</b></div></div>
+<div id="text"></div>
+<textarea id="input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Start typing here..."></textarea>
+<button id="reset">Restart</button>
+<h2 style="font-size:1.1rem">Results history</h2>
+<table><thead><tr><th>Date</th><th>WPM</th><th>Accuracy</th></tr></thead><tbody id="hist"></tbody></table>
+<button id="clear" style="background:#4b5563">Clear history</button>
+</main><script>
+(function(){
+var W="the quick brown fox jumps over the lazy dog while a bright sun rises over calm water people often type faster when they relax and keep their eyes on the screen practice every day and your speed will grow steadily good habits make hard tasks feel simple over time".split(" ");
+var K="b07-typing-history",T=60,target="",left=T,timer=null,done=false;
+var $=function(i){return document.getElementById(i)};
+function gen(){var a=[];for(var i=0;i<60;i++)a.push(W[Math.floor(Math.random()*W.length)]);return a.join(" ")}
+function load(){try{return JSON.parse(localStorage.getItem(K))||[]}catch(e){return[]}}
+function hist(){var h=load(),b=$("hist");b.innerHTML="";h.slice().reverse().forEach(function(r){var tr=document.createElement("tr");tr.innerHTML="<td>"+new Date(r.t).toLocaleString()+"</td><td>"+r.wpm+"</td><td>"+r.acc+"%</td>";b.appendChild(tr)})}
+function calc(){var v=$("input").value,c=0;for(var i=0;i<v.length;i++)if(v[i]===target[i])c++;var el=(T-left)||1;return{wpm:Math.round((c/5)/(el/60)),acc:v.length?Math.round(c/v.length*100):100}}
+function render(){var v=$("input").value,h="";for(var i=0;i<target.length;i++){var ch=target[i]===" "?" ":target[i].replace("<","&lt;");var cl=i<v.length?(v[i]===target[i]?"ok":"bad"):(i===v.length?"cur":"");h+=cl?'<span class="'+cl+'">'+ch+"</span>":ch}$("text").innerHTML=h;var s=calc();$("wpm").textContent=s.wpm;$("acc").textContent=s.acc+"%"}
+function finish(){done=true;clearInterval(timer);$("input").disabled=true;var s=calc(),h=load();h.push({t:Date.now(),wpm:s.wpm,acc:s.acc});localStorage.setItem(K,JSON.stringify(h.slice(-20)));hist()}
+function reset(){clearInterval(timer);timer=null;done=false;left=T;target=gen();$("time").textContent=T;$("input").value="";$("input").disabled=false;render();$("input").focus()}
+$("input").addEventListener("input",function(){if(done)return;if(!timer){timer=setInterval(function(){left--;$("time").textContent=left;render();if(left<=0)finish()},1000)}render();if($("input").value.length>=target.length)finish()});
+$("reset").addEventListener("click",reset);$("clear").addEventListener("click",function(){localStorage.removeItem(K);hist()});
+reset();hist();
+})();
+</script></body></html>
