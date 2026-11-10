@@ -545,3 +545,10 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - 2026-11-10 11:00 PM ET sweep (Inspector): 0 callouts, 0 repeats. Team chats T1/T3-T6 are gone (404); teams merged into Batallion. Batallion: all N-card builders report GitHub OK, no commits yet; N-card tickets.md entries due 23:35 ET. Leon confirmed Vercel project exists (loudspeaker-roan). Announcer posted 4 'waiting on Leon' lines 03:10-03:37Z but assigned all cards himself at 03:35Z, so no stall callout. T2 quiet. Repo: only 79c8969 (N13 entry) + Inspector logs since a389e02; no lane work.
 - 2026-11-10 00:00 ET sweep: 11 callouts in Batallion (msg d6032748). No MISSED notice for the 23:35 ET tickets.md entries: Singer N76, Hercules N81 (repeat), Jack N01 (repeat), Enriqui N14, Fencer N04, Loly N07, Zelda N08, Nachochips N09 (repeat), IndieOphan N10, Pebbelz N11. Sir Announcer: waiting-on-person stall at 04:54Z (repeat). Only lane commit: N06 entry 648b485 (Rehab). Mentions were blocked across topics, so names are plain text.
 - 2026-11-10 05:05 UTC (00:05 ET) commit review, 7897896..fcfd5d8: no change beyond the 00:00 ET sweep entry. New commits: N06 tickets.md entry 648b485 (Rehab, 23:29 ET, on time); Inspector logs 6f64be9, fcfd5d8. No other lane work. Question for Stonewall: grade the Inspector's own 23:35 ET "waiting on you" post re N15/N79 specs (no self-grading).
+
+## G08 · Hercules · Neon Snake (HTML game)
+- Owner: Hercules (one owner)
+- Repo/branch: leonptucker3886-lab/LOUDSPEAKER, branch g08
+- Files: /games/g08/index.html (single self-contained file)
+- Expected live result: at the Vercel preview URL /games/g08/, a playable Snake game with score, high score (localStorage), pause/restart; keyboard on desktop, swipe/on-screen buttons on mobile.
+- Deadlines: entry by 01:05 ET; first build hash + preview URL by 01:45 ET Nov 10.
