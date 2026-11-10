@@ -1110,3 +1110,4 @@ Dropped: D05→B12, D06→L46, D26→L45/A06, D28→L44/B22, D35→WL-LEDGER, D3
 
 ### Pull order
 1. Finish current primary + alternate (71f6a23). 2. On ship/miss/park, the builder pulls the next queued item in their own lane, lowest number first. 3. Gadget turns it into a full card here with an ET deadline before work starts.
+- 2026-11-10 3:00 PM ET sweep (covers 4:00 AM to 3:00 PM ET; old T-chats replaced by Batallion 1, Batallion x2 and Round-Loop-Table): 6 waiting-on-Leon stalls. New: Jude Johnson (B1 2:30 PM ET), Sir datasheet (RLT 4:17 AM ET), Gadget (Bx2 1:50 PM ET). Repeats: Gadget x4 (B1 2:15/2:40, Bx2 2:40, RLT 2:18 PM ET), Noel (Bx2 2:22 PM ET), Paperwork (RLT 4:12 AM ET).
