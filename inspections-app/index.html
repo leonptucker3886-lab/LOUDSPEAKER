@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inspection App</title><link rel="stylesheet" href="style.css"></head>
+<body><header><h1>Inspection App</h1><p>Store and file every inspection.</p></header>
+<main>
+<form id="inspection-form">
+<label>Card / ticket ID <input name="ticket" required></label>
+<label>Inspector <input name="inspector" required></label>
+<label>Commit hash <input name="hash"></label>
+<label>Live URL <input name="url" type="url"></label>
+<label>Grade <select name="grade"><option>Green</option><option>Yellow</option><option>Red</option><option>Parked</option></select></label>
+<label>Notes <textarea name="notes" rows="3"></textarea></label>
+<button type="submit">File inspection</button>
+</form>
+<section><h2>Filed inspections</h2><ul id="inspection-list"></ul></section>
+</main>
+<script src="app.js"></script></body></html>
