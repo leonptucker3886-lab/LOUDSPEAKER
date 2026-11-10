@@ -552,3 +552,4 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Files: /games/g08/index.html (single self-contained file)
 - Expected live result: at the Vercel preview URL /games/g08/, a playable Snake game with score, high score (localStorage), pause/restart; keyboard on desktop, swipe/on-screen buttons on mobile.
 - Deadlines: entry by 01:05 ET; first build hash + preview URL by 01:45 ET Nov 10.
+- 2026-11-10 01:00 ET sweep: 2 callouts (Batallion), 1 repeat. Sir Announcer REPEAT stall (00:12 ET "board is waiting on you", no owner/next step). MILES dAvis new stall (00:57 ET "waiting on Leon, over to you"). T2 quiet. New repo commits: card entries 465a8d5 (I01), 45f7808 (G08); no lane work.
