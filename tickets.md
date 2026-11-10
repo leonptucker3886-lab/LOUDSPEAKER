@@ -18,7 +18,13 @@ None.
 
 ## In progress
 
-None.
+### N13 — T2 Casino (play money only)
+- **Team:** T2 Casino · **Lead/owner:** Oscar
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n13
+- **Files:** /casino/n13/
+- **Expected live result:** mobile-first play-money casino page built from the T6 template, working on desktop and mobile at its Vercel preview URL.
+- **Deadline:** 00:12 ET Nov 10, 2026
+- **Status:** claimed, not started. Vercel blocked (no LOUDSPEAKER project yet).
 
 ## Done — awaiting Stonewall's check
 
