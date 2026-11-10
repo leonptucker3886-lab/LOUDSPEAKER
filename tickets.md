@@ -26,6 +26,14 @@ None.
 - **Deadline:** 00:12 ET Nov 10, 2026
 - **Status:** claimed, not started. Vercel blocked (no LOUDSPEAKER project yet).
 
+### N06 — Event/Wedding Microsite
+- **Team:** T1 Software/Apps · **Lead/owner:** Rehab
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n06-event-wedding-microsite
+- **Files:** /white-label/event-wedding-microsite/
+- **Expected live result:** mobile-first white-label event/wedding microsite (hero, details, schedule, RSVP section) working on desktop and mobile at its Vercel preview URL.
+- **Deadline:** 00:16 ET Nov 10, 2026
+- **Status:** claimed, entry committed; build not started.
+
 ## Done — awaiting Stonewall's check
 
 None.
