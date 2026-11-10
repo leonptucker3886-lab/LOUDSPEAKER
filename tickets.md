@@ -506,3 +506,10 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - CH2-TEST-69745e9 (owner Fencer, test only, no edits): Yellow. Due 8:30 PM ET (01:30 UTC). Backup checker: Nachochips. Vercel deploy 23ktjSyDkojPAMm1qGp6AzuHq1bB READY 11/05 03:06 UTC; .vercel.app preview not yet verified.
 - CANON-CHECK (owner Noel, noel/canon-check @f9e8d61): Yellow, queued behind Jack merge. No merge without Whiz go-ahead.
 - Deputy lead: Jack. Note: team switch announced by Leon 00:18 UTC.
+- 2026-11-09 7:27 PM ET pre-switch board (Inspector), T1:
+  - 6f1d676-trivia (Banditas): Unverified. 091b7bb on 6f1d676-trivia; preview https://leonlink-home-pyp0nt3gw-leonptucker3886-labs-projects.vercel.app/trivia/ returns 200 (lead-reported, HTML only). No desktop/mobile PASS. Not on main.
+  - 6f1d676-shell (Hercules): Unverified. 8aee7cc on 6f1d676-shell; preview https://leonlink-home-g12zdzzen-leonptucker3886-labs-projects.vercel.app/shell/ returns 200 (lead-reported, HTML only). No desktop/mobile PASS. Not on main.
+  - datas-army-data-whitelabel test cases: Red (due 10:45 AM ET 11/08, no commit). Enriqui handed back; Sir datasheet owner, report by 9:00 PM ET.
+  - Deployment Protection turned off for leonlink-home by Sir datasheet 7:25 PM ET (Leon approved); that was the QA blocker.
+  - Infractions: Banditas repeat stall (08:31, 21:49 UTC); Enriqui repeated Red-line noise after 23:03 UTC stop order.
+  - After switch: incoming team graded on takeover audit for first 4h; missing audit = infraction.
