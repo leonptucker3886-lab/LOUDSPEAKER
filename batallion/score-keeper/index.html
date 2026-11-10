@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fencing Score Keeper</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#111;color:#fff;display:flex;flex-direction:column;min-height:100vh}
+header{text-align:center;padding:10px}h1{margin:0;font-size:1.3rem}
+#timer{font-size:3.5rem;font-variant-numeric:tabular-nums;text-align:center;margin:8px 0}
+.ctrl{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;padding:0 8px}
+.board{display:flex;flex:1;gap:8px;padding:8px}
+.p{flex:1;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px}
+.l{background:#b91c1c}.r{background:#15803d}
+.p input{background:transparent;border:none;color:#fff;font-size:1.2rem;text-align:center;width:100%}
+.s{font-size:5rem;font-weight:700}
+button{font-size:1.4rem;min-height:56px;min-width:56px;padding:8px 16px;border-radius:10px;border:none;background:#fff;color:#111;font-weight:700;cursor:pointer}
+.p button{width:100%;margin:4px 0}
+@media(max-width:500px){.s{font-size:4rem}}
+</style></head><body>
+<header><h1>Fencing Score Keeper</h1></header>
+<div id="timer">3:00</div>
+<div class="ctrl"><button id="go">Start</button><button id="rst">Reset</button></div>
+<div class="board">
+<div class="p l"><input id="n0" value="Left" aria-label="Left fencer name"><div class="s" id="s0">0</div><button data-p="0" data-d="1">+1</button><button data-p="0" data-d="-1">−1</button></div>
+<div class="p r"><input id="n1" value="Right" aria-label="Right fencer name"><div class="s" id="s1">0</div><button data-p="1" data-d="1">+1</button><button data-p="1" data-d="-1">−1</button></div>
+</div>
+<script>
+var sc=[0,0],t=180,iv=null,T=document.getElementById('timer'),G=document.getElementById('go');
+function draw(){for(var i=0;i<2;i++)document.getElementById('s'+i).textContent=sc[i];T.textContent=Math.floor(t/60)+':'+String(t%60).padStart(2,'0');}
+document.querySelectorAll('.p button').forEach(function(b){b.onclick=function(){var p=+b.dataset.p;sc[p]=Math.max(0,sc[p]+ +b.dataset.d);draw();};});
+function stop(){clearInterval(iv);iv=null;G.textContent='Start';}
+G.onclick=function(){if(iv){stop();return;}if(t<=0)return;G.textContent='Pause';iv=setInterval(function(){t--;draw();if(t<=0)stop();},1000);};
+document.getElementById('rst').onclick=function(){stop();sc=[0,0];t=180;draw();};
+draw();
+</script></body></html>
