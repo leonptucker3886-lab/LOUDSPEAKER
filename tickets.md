@@ -836,3 +836,119 @@ One owner per card, one ACTIVE card each. Already carded and unchanged: Juan I E
 - **Deadline:** 20:00 ET Nov 10, 2026
 - **Status:** ACTIVE
 
+
+
+## GAP FILL + ALTERNATES (Gadget, keeper of cards, 2026-11-10 14:05 ET, Leon's queue order)
+B01–B20 above stand as primaries. B21 (Botme) and B22 (Juan, I01 already shipped) fill the two gaps among builders in Batallion 1. A-cards are each builder's ALTERNATE: start only after the primary ships, misses or parks. Ack/ship windows start at this commit's time (rule 25). Done = commit hash + live Vercel URL running that commit, desktop + mobile PASS.
+
+### B21 — Pomodoro Focus Timer
+- **Team:** Batallion · **Lead/owner:** Botme
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b21-pomodoro-timer
+- **Files:** /batallion/pomodoro-timer/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/pomodoro-timer/): 25/5 timer with start/pause/reset, session count, audio beep; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### B22 — Unit Converter
+- **Team:** Batallion · **Lead/owner:** Juan I Ezekiel
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** b22-unit-converter
+- **Files:** /batallion/unit-converter/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/unit-converter/): length/weight/temp conversion, swap button, instant results; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 20:00 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### A01 — Grocery List
+- **Team:** Batallion · **Lead/owner:** Matu May
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a01-grocery-list
+- **Files:** /batallion/grocery-list/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/grocery-list/): add/check/remove items, localStorage persistence; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A02 — Word Counter
+- **Team:** Batallion · **Lead/owner:** Pedro Notepad
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a02-word-counter
+- **Files:** /batallion/word-counter/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/word-counter/): live word/char/sentence count and reading time; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A03 — Pet Feeding Log
+- **Team:** Batallion · **Lead/owner:** Dogwater
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a03-pet-feeding-log
+- **Files:** /batallion/pet-feeding-log/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/pet-feeding-log/): log feedings with time, list history, clear, localStorage; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A04 — Whack-a-Mole
+- **Team:** Batallion · **Lead/owner:** Jack
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a04-whack-a-mole
+- **Files:** /batallion/whack-a-mole/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/whack-a-mole/): 30s round, score, high score in localStorage, tap support; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A05 — Quiz Builder
+- **Team:** Batallion · **Lead/owner:** Enriqui
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a05-quiz-builder
+- **Files:** /batallion/quiz-builder/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/quiz-builder/): create multiple-choice questions, take quiz, show score; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A06 — Tip Calculator
+- **Team:** Batallion · **Lead/owner:** Ernie
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a06-tip-calculator
+- **Files:** /batallion/tip-calculator/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/tip-calculator/): bill, tip %, split by people, per-person total; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A07 — Gradient Generator
+- **Team:** Batallion · **Lead/owner:** Loly
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a07-gradient-generator
+- **Files:** /batallion/gradient-generator/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/gradient-generator/): two colors + angle, live preview, copy CSS; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A08 — Tic-Tac-Toe
+- **Team:** Batallion · **Lead/owner:** IndieOphan
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a08-tic-tac-toe
+- **Files:** /batallion/tic-tac-toe/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/tic-tac-toe/): 2-player and vs-CPU modes, win/draw detection, restart; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A09 — Memory Match
+- **Team:** Batallion · **Lead/owner:** Jose Banditas
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a09-memory-match
+- **Files:** /batallion/memory-match/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/memory-match/): 16-card flip game, move counter, timer, restart; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A10 — Habit Tracker
+- **Team:** Batallion · **Lead/owner:** Pebbelz witch doctor
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a10-habit-tracker
+- **Files:** /batallion/habit-tracker/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/habit-tracker/): add habits, tick days of week, streak count, localStorage; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A11 — Dice Roller
+- **Team:** Batallion · **Lead/owner:** Botme
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a11-dice-roller
+- **Files:** /batallion/dice-roller/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/dice-roller/): pick d4–d20 and count, roll, show total and history; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A12 — Countdown Timer
+- **Team:** Batallion · **Lead/owner:** Juan I Ezekiel
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a12-countdown-timer
+- **Files:** /batallion/countdown-timer/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/countdown-timer/): set target date/time, live d/h/m/s countdown; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
