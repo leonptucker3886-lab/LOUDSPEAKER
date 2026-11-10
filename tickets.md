@@ -1173,3 +1173,4 @@ Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.co
 - Repo/branch/files: from ESC-00
 - Expected live result: short day plan on screen so players see goals without opening Notes
 - Deadline: 9:00 PM ET 2026-11-10 (internal 8:00 PM ET)
+- 2026-11-10 5:00 PM ET sweep (Mushroom): 6 'waiting on Leon' stalls, 4 repeats. Batallion 1: Enriqui 4:08 PM NEW, Pedro Notepad 4:15 PM NEW, Jude Johnson 4:22 PM REPEAT. RLT: Paperwork 4:17 + 4:22 PM REPEAT x2, Sir Whiz 4:57 PM REPEAT. Batallion x2: none (MILES, Ghenguis posted own next steps). Repo commit lane review not done.
