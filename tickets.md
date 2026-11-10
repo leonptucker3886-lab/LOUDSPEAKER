@@ -664,3 +664,4 @@ Rules: repo leonptucker3886-lab/LOUDSPEAKER unless lane owner names another; one
 
 ### 2026-11-10 02:02 ET (board check)
 - All teams: no new commits since 10335fb beyond those already logged in the 02:00 ET sweep (465a8d5 I01 card, 45f7808 G08 card, 3cdf4b7 N12 card, 057bf68 L01-L82 cards). No build hashes or preview URLs posted; no lane work in repo.
+- 03:00 ET sweep (08:01Z): 1 callout, 0 repeats. Hercules (Batallion) - no card claimed after Leon's 02:34 ET ruling, no blocker named (02:51 ET). Batallion builders moved to T7/claim-or-assign; repo since 10335fb: L15 card (9c14c01) + game moves, no lane work. T2 quiet.
