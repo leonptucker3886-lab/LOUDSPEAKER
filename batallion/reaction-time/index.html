@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B05 Reaction Time Tester</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#111;color:#fff;display:flex;flex-direction:column;align-items:center;min-height:100vh}
+h1{font-size:1.4rem;margin:16px}#pad{width:min(92vw,560px);height:320px;border-radius:16px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:1.4rem;cursor:pointer;user-select:none;background:#2A78D6;padding:12px}
+.wait{background:#c0392b!important}.go{background:#27ae60!important}
+#stats{width:min(92vw,560px);margin:16px 0}#stats p{margin:6px 0}ol{padding-left:20px}button{margin-top:8px;padding:8px 14px;border:0;border-radius:8px}
+</style></head><body>
+<h1>Reaction Time Tester</h1>
+<div id="pad" role="button" tabindex="0">Tap or click to start</div>
+<div id="stats"><p>Last: <span id="last">–</span></p><p>Best: <span id="best">–</span></p><p>Average (last 5): <span id="avg">–</span></p><ol id="hist"></ol><button id="reset">Reset best</button></div>
+<script>
+const pad=document.getElementById('pad');let state='idle',t0=0,timer=null,hist=[];
+let best=Number(localStorage.getItem('b05best'))||null;
+function show(){document.getElementById('best').textContent=best?best+' ms':'–';
+const h=hist.slice(-5);document.getElementById('avg').textContent=h.length?Math.round(h.reduce((a,b)=>a+b,0)/h.length)+' ms':'–';
+document.getElementById('hist').innerHTML=h.slice().reverse().map(x=>'<li>'+x+' ms</li>').join('');}
+function act(){if(state==='idle'||state==='done'){state='wait';pad.className='wait';pad.textContent='Wait for green…';
+timer=setTimeout(()=>{state='go';pad.className='go';pad.textContent='TAP!';t0=performance.now();},1500+Math.random()*2500);}
+else if(state==='wait'){clearTimeout(timer);state='done';pad.className='';pad.textContent='Too soon! Tap to try again';}
+else if(state==='go'){const ms=Math.round(performance.now()-t0);hist.push(ms);if(!best||ms<best){best=ms;localStorage.setItem('b05best',ms);}
+document.getElementById('last').textContent=ms+' ms';state='done';pad.className='';pad.textContent=ms+' ms — tap to go again';show();}}
+pad.addEventListener('pointerdown',e=>{e.preventDefault();act();});
+pad.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();act();}});
+document.getElementById('reset').onclick=()=>{best=null;localStorage.removeItem('b05best');show();};show();
+</script></body></html>
