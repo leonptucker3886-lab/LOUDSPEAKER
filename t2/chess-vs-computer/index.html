@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chess vs. Computer — LeonLink T2</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif;background:#18181b;color:#fafaf9;display:flex;flex-direction:column;align-items:center}
+h1{font-size:1.4rem;margin:16px 0 4px}#st{margin:6px 0 10px;min-height:1.3em}
+#bd{display:grid;grid-template-columns:repeat(8,1fr);width:min(94vw,520px);aspect-ratio:1;border:4px solid #3f3f46}
+.q{display:flex;align-items:center;justify-content:center;font-size:min(9vw,52px);cursor:pointer;user-select:none}
+.l{background:#eed9b6}.d{background:#b58863}.s{outline:4px solid #2a78d6;outline-offset:-4px}.m{box-shadow:inset 0 0 0 6px rgba(0,131,0,.6)}
+.w{color:#fff;text-shadow:0 0 2px #000,0 0 2px #000}.b{color:#111}
+.bar{margin:12px;display:flex;gap:8px}button,select{background:#2a78d6;color:#fff;border:0;border-radius:8px;padding:10px 14px;font-size:1rem}
+small{opacity:.6;margin:8px}
+</style></head><body>
+<h1>Chess vs. Computer</h1><div id="st">You play White.</div><div id="bd"></div>
+<div class="bar"><button id="nw">New game</button><button id="un">Undo</button>
+<select id="lv"><option value="1">Easy</option><option value="2" selected>Medium</option><option value="3">Hard</option></select></div>
+<small>LeonLink · T2 · L15 · free play, no money</small>
+<script>
+const G={K:'♚',Q:'♛',R:'♜',B:'♝',N:'♞',P:'♟'},V={P:100,N:320,B:330,R:500,Q:900,K:0};
+const KN=[[1,2],[2,1],[-1,2],[-2,1],[1,-2],[2,-1],[-1,-2],[-2,-1]],RD=[[1,0],[-1,0],[0,1],[0,-1]],BD=[[1,1],[1,-1],[-1,1],[-1,-1]],QD=RD.concat(BD);
+let S,H,sel=null;
+function init(){const r='RNBQKBNR';S={b:Array(64).fill(null),t:'w'};for(let f=0;f<8;f++){S.b[f]={c:'b',p:r[f]};S.b[8+f]={c:'b',p:'P'};S.b[48+f]={c:'w',p:'P'};S.b[56+f]={c:'w',p:r[f]}}H=[];sel=null}
+const on=(r,f)=>r>=0&&r<8&&f>=0&&f<8;
+function att(s,i,by){const r=i>>3,f=i&7,b=s.b,d=by=='w'?1:-1;
+for(const c of[-1,1])if(on(r+d,f+c)){const q=b[(r+d)*8+f+c];if(q&&q.c==by&&q.p=='P')return 1}
+for(const[a,c]of KN)if(on(r+a,f+c)){const q=b[(r+a)*8+f+c];if(q&&q.c==by&&q.p=='N')return 1}
+for(const[a,c]of QD){let y=r+a,x=f+c,n=1;while(on(y,x)){const q=b[y*8+x];if(q){if(q.c==by){const dg=a&&c;if(q.p=='Q'||(q.p=='K'&&n==1)||(dg&&q.p=='B')||(!dg&&q.p=='R'))return 1}break}y+=a;x+=c;n++}}return 0}
+function pm(s){const m=[],b=s.b,t=s.t,o=t=='w'?'b':'w';
+for(let i=0;i<64;i++){const q=b[i];if(!q||q.c!=t)continue;const r=i>>3,f=i&7,A=j=>m.push({f:i,t:j});
+if(q.p=='P'){const d=t=='w'?-1:1,j=i+8*d;if(on(r+d,f)&&!b[j]){A(j);if(r==(t=='w'?6:1)&&!b[j+8*d])A(j+8*d)}
+for(const c of[-1,1])if(on(r+d,f+c)){const k=(r+d)*8+f+c;if(b[k]&&b[k].c==o)A(k)}}
+else{const D=q.p=='N'?KN:q.p=='B'?BD:q.p=='R'?RD:QD,sl=q.p!='N'&&q.p!='K';
+for(const[a,c]of D){let y=r+a,x=f+c;while(on(y,x)){const j=y*8+x;if(b[j]){if(b[j].c==o)A(j);break}A(j);if(!sl)break;y+=a;x+=c}}}}return m}
+function ap(s,m){const b=s.b.slice(),q=b[m.f];b[m.t]=(q.p=='P'&&(m.t<8||m.t>55))?{c:q.c,p:'Q'}:q;b[m.f]=null;return{b,t:s.t=='w'?'b':'w'}}
+const kg=(s,c)=>s.b.findIndex(q=>q&&q.c==c&&q.p=='K');
+function lg(s){return pm(s).filter(m=>{const n=ap(s,m);return!att(n,kg(n,s.t),n.t)})}
+function ev(s){let v=0;s.b.forEach((q,i)=>{if(!q)return;const r=i>>3,f=i&7;let x=V[q.p];if(q.p!='K'&&q.p!='Q')x+=(3.5-Math.abs(3.5-f))*4+(3.5-Math.abs(3.5-r))*3;if(q.p=='P')x+=(q.c=='w'?6-r:r-1)*8;v+=q.c=='b'?x:-x});return v}
+function se(s,d,a,z){const ms=lg(s);if(!ms.length)return att(s,kg(s,s.t),s.t=='w'?'b':'w')?(s.t=='b'?-1e5-d:1e5+d):0;if(!d)return ev(s);
+ms.sort((x,y)=>(s.b[y.t]?V[s.b[y.t].p]:0)-(s.b[x.t]?V[s.b[x.t].p]:0));
+if(s.t=='b'){let B=-1e9;for(const m of ms){B=Math.max(B,se(ap(s,m),d-1,a,z));a=Math.max(a,B);if(a>=z)break}return B}
+let B=1e9;for(const m of ms){B=Math.min(B,se(ap(s,m),d-1,a,z));z=Math.min(z,B);if(a>=z)break}return B}
+function ai(){let B=-1e9,bm=null;for(const m of lg(S)){const v=se(ap(S,m),+lv.value-1,-1e9,1e9)+Math.random()*8;if(v>B){B=v;bm=m}}return bm}
+function stat(){const ms=lg(S),ch=att(S,kg(S,S.t),S.t=='w'?'b':'w');
+if(!ms.length){st.textContent=ch?(S.t=='w'?'Checkmate — Computer wins.':'Checkmate — You win!'):'Stalemate — draw.';return 0}
+st.textContent=S.t=='w'?(ch?'Check! Your move.':'Your move.'):'Computer is thinking…';return 1}
+function draw(){bd.innerHTML='';const tg=sel!=null?lg(S).filter(m=>m.f==sel).map(m=>m.t):[];
+for(let i=0;i<64;i++){const e=document.createElement('div'),q=S.b[i];e.className='q '+(((i>>3)+(i&7))%2?'d':'l')+(i==sel?' s':'')+(tg.includes(i)?' m':'');
+if(q){e.textContent=G[q.p];e.classList.add(q.c)}e.onclick=()=>tap(i);bd.appendChild(e)}}
+function tap(i){if(S.t!='w')return;const q=S.b[i];
+if(sel!=null){const m=lg(S).find(m=>m.f==sel&&m.t==i);if(m){H.push(S);S=ap(S,m);sel=null;draw();if(stat())setTimeout(()=>{const a=ai();if(a){S=ap(S,a)}draw();stat()},60);return}}
+sel=q&&q.c=='w'?i:null;draw()}
+nw.onclick=()=>{init();draw();stat()};un.onclick=()=>{if(H.length){S=H.pop();sel=null;draw();stat()}};
+init();draw();stat();
+</script></body></html>
