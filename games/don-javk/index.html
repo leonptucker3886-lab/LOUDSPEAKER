@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Don Javk's Pizza Idle</title>
+<style>body{font-family:system-ui,sans-serif;background:#1b1b1f;color:#fafaf9;text-align:center;margin:0;padding:20px}
+#pz{font-size:120px;cursor:pointer;user-select:none;transition:transform .08s}#pz:active{transform:scale(.9)}
+button{display:block;margin:8px auto;padding:12px;width:90%;max-width:360px;border:0;border-radius:10px;background:#2A78D6;color:#fff;font-size:16px}
+button:disabled{background:#555}</style></head><body>
+<h1>DON JAVK'S PIZZA IDLE</h1><div id="c">0 pizzas</div><div id="r">0 / sec</div><div id="pz">🍕</div><div id="shop"></div>
+<script>
+let s=JSON.parse(localStorage.getItem('djpi')||'{"p":0,"o":[0,0,0]}');
+const U=[["Oven",15,1],["Chef",100,5],["Pizzeria",1000,40]];
+const cost=i=>Math.floor(U[i][1]*Math.pow(1.15,s.o[i]));
+const rate=()=>U.reduce((a,u,i)=>a+u[2]*s.o[i],0);
+function draw(){c.textContent=Math.floor(s.p)+' pizzas';r.textContent=rate()+' / sec';
+shop.innerHTML=U.map((u,i)=>`<button ${s.p<cost(i)?'disabled':''} onclick="buy(${i})">${u[0]} (${s.o[i]}) — ${cost(i)} 🍕, +${u[2]}/s</button>`).join('')}
+function buy(i){if(s.p>=cost(i)){s.p-=cost(i);s.o[i]++;draw()}}
+pz.onclick=()=>{s.p++;draw()};
+setInterval(()=>{s.p+=rate()/10;draw();localStorage.setItem('djpi',JSON.stringify(s))},100);draw();
+</script></body></html>
