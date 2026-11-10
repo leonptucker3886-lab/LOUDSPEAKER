@@ -960,3 +960,118 @@ B01–B20 above stand as primaries. B21 (Botme) and B22 (Juan, I01 already shipp
 - **Expected live result:** at its Vercel preview URL (/batallion/countdown-timer/): set target date/time, live d/h/m/s countdown; works on desktop and 390×844 mobile, no console errors.
 - **Deadline:** 22:00 ET Nov 10, 2026
 - **Status:** ALTERNATE
+
+## BOARD CHECK 2 — every member carded (Gadget, keeper of cards, 2026-11-10 14:25 ET, Leon's order)
+All primaries verified on board (B01–B22, G08, N06, N13, T7-01, T7-05). Leon 13:40 ET: no team leads, only cards + Gadget + Inspector, so MILES now carries a build card. MISSED re-deadlines from the owners' notices: T7-01 Pebbelz → 17:30 ET Nov 10; G08 Hercules → 17:45 ET Nov 10; N06 Rehab → 17:49 ET Nov 10. A13–A25 are ALTERNATES: start only after the primary ships, misses or parks. Windows start at this commit (rule 25).
+
+### T2-1 — Lion-Link + 5 slots freeze fix retest
+- **Team:** Team 2 · **Lead/owner:** MILES dAvis
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** miles/lion-link-mobile-fix
+- **Files:** Lion-Link + 5 affected slot files (fix 08a79e9, head 3d96fc1)
+- **Expected live result:** Vercel preview of the graded commit: SPIN no longer locks and wins credit to the balance on Lion-Link + 5 slots; desktop + 390×844 mobile. Stays off main until Leon's browser retest.
+- **Deadline:** 18:45 ET Nov 10, 2026
+- **Status:** ACTIVE
+
+### A13 — Pixel Art Pad
+- **Team:** Batallion · **Lead/owner:** Jude Johnson
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a13-pixel-art-pad
+- **Files:** /batallion/pixel-art-pad/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/pixel-art-pad/): 16×16 grid, color pick, clear, PNG export; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A14 — Time Zone Meeting Planner
+- **Team:** Batallion · **Lead/owner:** Ghenguis Kuha
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a14-tz-planner
+- **Files:** /batallion/tz-planner/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/tz-planner/): pick 3 cities, shows overlapping work hours; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A15 — Budget Splitter
+- **Team:** Batallion · **Lead/owner:** Nolin Peter
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a15-budget-splitter
+- **Files:** /batallion/budget-splitter/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/budget-splitter/): split a bill among N people with custom shares; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A16 — Spot the Difference
+- **Team:** Batallion · **Lead/owner:** Sniffer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a16-spot-difference
+- **Files:** /batallion/spot-difference/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/spot-difference/): 2 scenes, 5 differences each, tap to mark; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A17 — Metronome
+- **Team:** Batallion · **Lead/owner:** Singer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a17-metronome
+- **Files:** /batallion/metronome/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/metronome/): BPM slider, tap tempo, start/stop with click sound; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A18 — Gratitude Log
+- **Team:** Batallion · **Lead/owner:** Noel
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a18-gratitude-log
+- **Files:** /batallion/gratitude-log/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/gratitude-log/): 3 entries/day, history list, localStorage; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A19 — Tournament Bracket
+- **Team:** Batallion · **Lead/owner:** Fencer
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a19-bracket
+- **Files:** /batallion/bracket/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/bracket/): 8-player bracket, tap winner to advance, reset; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A20 — Brick Breaker
+- **Team:** Batallion · **Lead/owner:** Zelda
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a20-brick-breaker
+- **Files:** /batallion/brick-breaker/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/brick-breaker/): paddle/ball/bricks, score, lives, touch + keyboard; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A21 — Random Team Picker
+- **Team:** Batallion · **Lead/owner:** Nachochips
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a21-team-picker
+- **Files:** /batallion/team-picker/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/team-picker/): paste names, split into N random teams; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A22 — Pizza Order Builder
+- **Team:** Batallion · **Lead/owner:** Don Javk
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a22-pizza-builder
+- **Files:** /batallion/pizza-builder/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/pizza-builder/): pick size/toppings, live price total (info only); works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A23 — 2048
+- **Team:** Batallion · **Lead/owner:** Hercules
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a23-g2048
+- **Files:** /batallion/g2048/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/g2048/): 2048 game with score, swipe + arrow keys, restart; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A24 — RSVP Guest List Manager
+- **Team:** Batallion · **Lead/owner:** Rehab
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a24-rsvp-manager
+- **Files:** /batallion/rsvp-manager/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/rsvp-manager/): add guests, yes/no/maybe counts, localStorage; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
+
+### A25 — Slot Payout Table Viewer
+- **Team:** Batallion · **Lead/owner:** MILES dAvis
+- **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** a25-payout-table
+- **Files:** /batallion/payout-table/index.html
+- **Expected live result:** at its Vercel preview URL (/batallion/payout-table/): static payout table page for Lion-Link symbols; works on desktop and 390×844 mobile, no console errors.
+- **Deadline:** 22:00 ET Nov 10, 2026
+- **Status:** ALTERNATE
