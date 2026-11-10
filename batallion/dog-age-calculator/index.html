@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B04 · Dog Age &amp; Care Calculator</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#faf9f6;color:#18181b}
+main{max-width:560px;margin:0 auto;padding:20px 16px}h1{font-size:1.5rem;margin:0 0 4px}p.sub{margin:0 0 16px;color:#555}
+.card{background:#fff;border:1px solid #e3e1dc;border-radius:12px;padding:16px;margin-bottom:16px}
+label{display:block;font-weight:600;margin:10px 0 6px}input,select{width:100%;padding:10px;font-size:1rem;border:1px solid #ccc;border-radius:8px}
+.big{font-size:2.2rem;font-weight:700;color:#2a78d6;margin:4px 0}.stage{display:inline-block;background:#e8f1fb;color:#1d5aa3;padding:3px 10px;border-radius:999px;font-size:.85rem}
+ul{padding-left:0;list-style:none;margin:8px 0 0}li{padding:8px 0;border-bottom:1px solid #eee;display:flex;gap:8px;align-items:flex-start}li:last-child{border:0}
+input[type=checkbox]{width:auto;margin-top:3px}
+</style>
+</head>
+<body>
+<main>
+<h1>🐶 Dog Age &amp; Care Calculator</h1>
+<p class="sub">Convert your dog's age to human years by size, and get a care checklist for their life stage.</p>
+<div class="card">
+<label for="age">Dog's age (years)</label>
+<input id="age" type="number" min="0" max="25" step="0.5" value="3">
+<label for="size">Size</label>
+<select id="size">
+<option value="small">Small (under 20 lb)</option>
+<option value="medium" selected>Medium (21–50 lb)</option>
+<option value="large">Large (51–90 lb)</option>
+<option value="giant">Giant (over 90 lb)</option>
+</select>
+</div>
+<div class="card" aria-live="polite">
+<div>Human-equivalent age</div>
+<div class="big" id="human">–</div>
+<span class="stage" id="stage">–</span>
+</div>
+<div class="card">
+<strong>Care checklist</strong>
+<ul id="list"></ul>
+</div>
+</main>
+<script>
+(function(){
+  var perYear={small:4,medium:5,large:6,giant:7};
+  var seniorAt={small:10,medium:8,large:7,giant:6};
+  function human(a,s){
+    if(a<=0)return 0;
+    if(a<=1)return 15*a;
+    if(a<=2)return 15+9*(a-1);
+    return 24+perYear[s]*(a-2);
+  }
+  function stage(a,s){
+    if(a<1)return"Puppy";
+    if(a<3)return"Young adult";
+    if(a<seniorAt[s])return"Adult";
+    return"Senior";
+  }
+  var care={
+    "Puppy":["Core vaccines (DHPP) every 3–4 weeks until 16 weeks","Rabies vaccine","Deworming and flea/tick prevention","Socialization and basic training","Puppy food, 3–4 small meals a day","Discuss spay/neuter with your vet"],
+    "Young adult":["Annual vet checkup and booster vaccines","Monthly heartworm, flea and tick prevention","Daily exercise and play","Switch to adult food, 2 meals a day","Brush teeth several times a week"],
+    "Adult":["Annual vet checkup and vaccines","Dental cleaning as advised by your vet","Keep a healthy weight; measure meals","Daily exercise and mental enrichment","Monthly parasite prevention"],
+    "Senior":["Vet checkups every 6 months with bloodwork","Watch for joint stiffness; ask about joint support","Senior diet; monitor weight","Gentler, shorter, more frequent walks","Check for lumps, vision and hearing changes","Soft bedding and non-slip floors"]
+  };
+  var ageEl=document.getElementById("age"),sizeEl=document.getElementById("size");
+  function render(){
+    var a=parseFloat(ageEl.value);if(isNaN(a)||a<0)a=0;
+    var s=sizeEl.value,h=human(a,s),st=stage(a,s);
+    document.getElementById("human").textContent=Math.round(h)+" human years";
+    document.getElementById("stage").textContent=st;
+    var ul=document.getElementById("list");ul.innerHTML="";
+    care[st].forEach(function(t,i){
+      var li=document.createElement("li"),cb=document.createElement("input"),lb=document.createElement("label");
+      cb.type="checkbox";cb.id="c"+i;lb.htmlFor="c"+i;lb.textContent=t;lb.style.cssText="font-weight:400;margin:0";
+      li.appendChild(cb);li.appendChild(lb);ul.appendChild(li);
+    });
+  }
+  ageEl.addEventListener("input",render);sizeEl.addEventListener("change",render);render();
+})();
+</script>
+</body>
+</html>
