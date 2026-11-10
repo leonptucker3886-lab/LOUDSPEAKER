@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Taco Heist</title>
+<style>body{margin:0;font-family:system-ui,sans-serif;background:#1b1b2f;color:#fff;text-align:center}h1{color:#ffb703}#taco{font-size:120px;cursor:pointer;user-select:none}button{display:block;width:90%;max-width:360px;margin:8px auto;padding:12px;border:0;border-radius:10px;background:#fb8500;color:#fff;font-size:16px}button:disabled{background:#555}</style></head>
+<body><h1>TACO HEIST</h1><div>Tacos: <b id="t">0</b> · per sec: <b id="ps">0</b></div><div id="taco" onclick="tap()">🌮</div><div id="shop"></div>
+<script>
+var s=JSON.parse(localStorage.getItem('th')||'null')||{t:0,b:[0,0,0]};
+var B=[{n:'Bandito',c:15,p:1},{n:'Food truck',c:120,p:8},{n:'Cartel kitchen',c:900,p:50}];
+function cost(i){return Math.floor(B[i].c*Math.pow(1.15,s.b[i]))}
+function ps(){return B.reduce(function(a,x,i){return a+x.p*s.b[i]},0)}
+function tap(){s.t+=1;draw()}
+function buy(i){if(s.t>=cost(i)){s.t-=cost(i);s.b[i]++;draw()}}
+function draw(){document.getElementById('t').textContent=Math.floor(s.t);document.getElementById('ps').textContent=ps();
+document.getElementById('shop').innerHTML=B.map(function(x,i){return '<button onclick="buy('+i+')" '+(s.t<cost(i)?'disabled':'')+'>'+x.n+' ('+s.b[i]+') · '+cost(i)+' tacos · +'+x.p+'/s</button>'}).join('');localStorage.setItem('th',JSON.stringify(s))}
+setInterval(function(){s.t+=ps()/10;draw()},100);draw();
+</script></body></html>
