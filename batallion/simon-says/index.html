@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simon Says Memory Game</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#18181b;color:#fafaf9;display:flex;flex-direction:column;align-items:center;min-height:100vh;padding:16px}
+h1{font-size:1.5rem;margin:8px 0}.stats{display:flex;gap:24px;margin:8px 0 16px}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:min(90vw,380px);aspect-ratio:1}
+.pad{border:none;border-radius:20px;opacity:.45;cursor:pointer;touch-action:manipulation;transition:opacity .1s}
+.pad.on{opacity:1;box-shadow:0 0 24px #fff8}.g{background:#16a34a}.r{background:#dc2626}.y{background:#eab308}.b{background:#2563eb}
+#start{margin-top:20px;padding:12px 32px;font-size:1.1rem;border:none;border-radius:999px;background:#fafaf9;color:#18181b;cursor:pointer}
+#msg{min-height:1.5em;margin-top:12px}
+</style></head><body>
+<h1>Simon Says</h1>
+<div class="stats"><div>Score: <b id="score">0</b></div><div>High score: <b id="high">0</b></div></div>
+<div class="board">
+<button class="pad g" data-i="0" aria-label="green"></button><button class="pad r" data-i="1" aria-label="red"></button>
+<button class="pad y" data-i="2" aria-label="yellow"></button><button class="pad b" data-i="3" aria-label="blue"></button>
+</div>
+<button id="start">Start</button><div id="msg">Press Start, then repeat the sequence.</div>
+<script>
+const pads=[...document.querySelectorAll('.pad')],freqs=[392,330,262,196];
+const $=id=>document.getElementById(id);let seq=[],pos=0,accept=false,ctx=null;
+let high=+(localStorage.getItem('simonHigh')||0);$('high').textContent=high;
+function tone(i,ms){try{ctx=ctx||new (window.AudioContext||window.webkitAudioContext)();const o=ctx.createOscillator(),g=ctx.createGain();o.frequency.value=i<0?110:freqs[i];o.type=i<0?'sawtooth':'sine';g.gain.value=.15;o.connect(g);g.connect(ctx.destination);o.start();o.stop(ctx.currentTime+ms/1000);}catch(e){}}
+function flash(i,ms){pads[i].classList.add('on');tone(i,ms);return new Promise(r=>setTimeout(()=>{pads[i].classList.remove('on');setTimeout(r,120)},ms));}
+async function play(){accept=false;$('msg').textContent='Watch…';const ms=Math.max(250,600-seq.length*20);await new Promise(r=>setTimeout(r,500));for(const i of seq)await flash(i,ms);pos=0;accept=true;$('msg').textContent='Your turn';}
+function next(){seq.push(Math.floor(Math.random()*4));play();}
+function over(){accept=false;tone(-1,500);const s=seq.length-1;$('msg').textContent='Game over! Score '+s+'. Press Start.';if(s>high){high=s;localStorage.setItem('simonHigh',high);$('high').textContent=high;}}
+pads.forEach(p=>p.addEventListener('pointerdown',e=>{e.preventDefault();if(!accept)return;const i=+p.dataset.i;flash(i,200);
+if(i!==seq[pos])return over();pos++;if(pos===seq.length){accept=false;$('score').textContent=seq.length;setTimeout(next,600);}}));
+$('start').addEventListener('click',()=>{seq=[];$('score').textContent=0;next();});
+</script></body></html>
