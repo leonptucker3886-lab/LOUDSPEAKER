@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Journal Prompts</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#faf9f6;color:#1c1c1e}
+main{max-width:640px;margin:0 auto;padding:20px 16px 40px}h1{font-size:1.6rem;margin:.2em 0 .6em}
+.card{background:#fff;border:1px solid #e3e1da;border-radius:14px;padding:16px;margin-bottom:16px}
+#prompt{font-size:1.2rem;line-height:1.4;min-height:3em}
+button{font:inherit;font-weight:600;border:0;border-radius:10px;padding:12px 16px;min-height:44px;cursor:pointer;background:#2a78d6;color:#fff}
+button.sec{background:#e8e6df;color:#1c1c1e}textarea{width:100%;min-height:160px;font:inherit;padding:12px;border:1px solid #d6d3ca;border-radius:10px;resize:vertical}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.entry{border-top:1px solid #eee;padding:10px 0}.entry small{color:#666}.entry p{white-space:pre-wrap;margin:.3em 0}
+.entry .q{font-style:italic;color:#444}#msg{color:#008300;min-height:1.2em}
+</style>
+</head>
+<body>
+<main>
+<h1>Daily Journal Prompts</h1>
+<section class="card"><div id="prompt"></div><div class="row"><button id="newp" class="sec">New prompt</button></div></section>
+<section class="card"><label for="entry"><strong>Your entry</strong></label><textarea id="entry" placeholder="Start writing..."></textarea>
+<div class="row"><button id="save">Save entry</button><button id="clear" class="sec">Clear</button></div><div id="msg"></div></section>
+<section class="card"><strong>Saved entries</strong><div id="list"></div></section>
+</main>
+<script>
+var P=["What made you smile today?","Describe a small win from this week.","What is something you want to let go of?","Who are you grateful for, and why?","What would make tomorrow great?","Write about a place where you feel calm.","What did you learn recently?","What is a challenge you are facing, and one step forward?","Describe your ideal morning.","What advice would you give your younger self?","What are three things you are proud of?","What is on your mind right now?"];
+var K="b15-journal-entries",cur="";
+function load(){try{return JSON.parse(localStorage.getItem(K))||[]}catch(e){return[]}}
+function store(a){try{localStorage.setItem(K,JSON.stringify(a))}catch(e){}}
+function pick(){var n;do{n=P[Math.floor(Math.random()*P.length)]}while(n===cur&&P.length>1);cur=n;document.getElementById("prompt").textContent=n}
+function render(){var l=document.getElementById("list"),a=load();l.innerHTML="";if(!a.length){l.innerHTML="<p><small>No entries yet.</small></p>";return}
+a.slice().reverse().forEach(function(e){var d=document.createElement("div");d.className="entry";var s=document.createElement("small");s.textContent=new Date(e.t).toLocaleString();var q=document.createElement("p");q.className="q";q.textContent=e.p;var t=document.createElement("p");t.textContent=e.x;var b=document.createElement("button");b.className="sec";b.textContent="Delete";b.onclick=function(){store(load().filter(function(z){return z.t!==e.t}));render()};d.append(s,q,t,b);l.appendChild(d)})}
+document.getElementById("newp").onclick=pick;
+document.getElementById("clear").onclick=function(){document.getElementById("entry").value=""};
+document.getElementById("save").onclick=function(){var v=document.getElementById("entry").value.trim(),m=document.getElementById("msg");if(!v){m.textContent="Write something first.";return}var a=load();a.push({t:Date.now(),p:cur,x:v});store(a);document.getElementById("entry").value="";m.textContent="Saved.";render()};
+pick();render();
+</script>
+</body>
+</html>
