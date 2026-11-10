@@ -513,3 +513,4 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
   - Deployment Protection turned off for leonlink-home by Sir datasheet 7:25 PM ET (Leon approved); that was the QA blocker.
   - Infractions: Banditas repeat stall (08:31, 21:49 UTC); Enriqui repeated Red-line noise after 23:03 UTC stop order.
   - After switch: incoming team graded on takeover audit for first 4h; missing audit = infraction.
+- 2026-11-10 01:00Z (8:00 PM ET) sweep: 4 callouts, 3 repeats, all waiting-on-Leon / blocked-means-move-on. T3 Noel (00:32Z, repeat), T3 Fencer (00:15Z+00:38Z, repeat), T4 Ghenguis Kuha (00:03Z, repeat), T1 Enriqui (00:31Z, new). Context: Leon ordered team switch 00:16Z; T1-T5 leads posted HALT 00:42-00:43Z. LOUDSPEAKER commits since 534542a are logs/notes only (no lane code). T4 IndieOphan List 2 merged in leonlink-home (f41b99c).
