@@ -1116,3 +1116,5 @@ Rule: any other queued job in any lane that is an invoice, estimate, quote or re
 ### Pull order
 1. Finish current primary + alternate (71f6a23). 2. On ship/miss/park, the builder pulls the next queued item in their own lane, lowest number first. 3. Gadget turns it into a full card here with an ET deadline before work starts.
 - 2026-11-10 3:00 PM ET sweep (covers 4:00 AM to 3:00 PM ET; old T-chats replaced by Batallion 1, Batallion x2 and Round-Loop-Table): 6 waiting-on-Leon stalls. New: Jude Johnson (B1 2:30 PM ET), Sir datasheet (RLT 4:17 AM ET), Gadget (Bx2 1:50 PM ET). Repeats: Gadget x4 (B1 2:15/2:40, Bx2 2:40, RLT 2:18 PM ET), Noel (Bx2 2:22 PM ET), Paperwork (RLT 4:12 AM ET).
+
+- 2026-11-10 4:00 PM ET sweep (Mushroom): 4 callouts, all REPEATS, rule blocked-means-move-on / waiting-on-Leon (Note 3): MILES dAvis 3:02 PM ET + Ghenguis Kuha 3:10 PM ET (Batallion x2); Paperwork 3:03 & 3:37 PM ET (after acknowledging 3:00 callout) + Sir Whiz 3:11 PM ET (RLT). Batallion 1: none new.
