@@ -1075,3 +1075,38 @@ All primaries verified on board (B01–B22, G08, N06, N13, T7-01, T7-05). Leon 1
 - **Expected live result:** at its Vercel preview URL (/batallion/payout-table/): static payout table page for Lion-Link symbols; works on desktop and 390×844 mobile, no console errors.
 - **Deadline:** 22:00 ET Nov 10, 2026
 - **Status:** ALTERNATE
+
+## QUEUE LOG — 236-job intake (Gadget, keeper of jobs, 2026-11-10 2:55 PM ET, Leon's order)
+Source: lane lists posted in team chat 2:50–2:53 PM ET by Paperwork, Whiz, Bert, Announcer, Pizzapan, Datasheet.
+Checked against L01–L82, WL-*/HOME-WL-*, A01–A25, B01–B22 on this board.
+**Result: 236 submitted → 41 duplicates dropped → 195 queued.**
+IDs use a Q- prefix (Q-P, Q-W, Q-B, Q-A, Q-Z, Q-D) because A##/B## are already taken on this board. Original numbers kept.
+Queue entries are NOT cards. Each becomes a card (owner, repo, branch, files, expected live result, ET deadline) only when pulled. Default: repo leonptucker3886-lab/LOUDSPEAKER, branch main; Q-D31–Q-D38 go to leonptucker3886-lab/ledgerline, main, front end only (api/index.js untouched).
+House rules: demo data, mobile-first, print/PDF or export where it fits, no prices except the $99 deposit link (lead capture until a Payment Link exists).
+Hub pages (Q-P40, Q-W39, Q-B39, Q-A40, Q-Z39, Q-D39) link only queued items, not dropped ones, and are pulled last in each lane.
+
+### Q-P — Paperwork (back-office docs): 40 queued, 0 dropped
+Queued: P01–P40 all.
+
+### Q-W — Whiz (games/embeds): 20 queued, 19 dropped
+Queued: W02 Scratch-Off Coupon, W08 Snake, W10 Flappy-style Tap, W17 Hangman, W18 Slider Puzzle, W19 Jigsaw from Photo, W20 Bingo + Caller, W22 Poll/Vote Widget, W23 Personality Quiz, W24 Product Finder Quiz, W25 Before/After Slider, W26 Menu Flipbook, W27 Loyalty Punch Card, W28 Giveaway Picker, W32 Emoji Pictionary, W33 Streak Check-in, W34 Leaderboard Widget, W35 FAQ Accordion Embed, W38 Kids' Coloring Page, W39 Arcade Hub.
+Dropped (dup of): W01→B18 Picker Wheel, W03→A05 Quiz Builder, W04→A09, W05→L20, W06→L21, W07→L19, W09→A20, W11→A04, W12→A08, W13→L24, W14→L16, W15→L18, W16→A23, W21→A12/L52, W29→A11, W30→B07, W31→B05, W36→L06/L11, W37→L05.
+
+### Q-B — Bert (QR/print/local): 34 queued, 5 dropped
+Queued: B01–B03, B05, B06, B08, B10–B23, B26–B39.
+Dropped: B04→L03, B07→L03, B09→L05, B24→L08, B25→L13.
+
+### Q-A — Announcer (marketing): 36 queued, 4 dropped
+Queued: A01, A03–A05, A07, A09–A28, A30–A40.
+Dropped: A02→L52, A06→Q-B15 Poster, A08→A24 RSVP, A29→L69 Changelog.
+
+### Q-Z — Pizzapan (funnels/landing kits): 32 queued, 7 dropped
+Queued: Z01, Z03–Z07, Z10–Z22, Z26, Z27, Z29–Z39.
+Dropped: Z02→WL-DEPOSIT, Z08→L09, Z09→L10, Z23→Q-A27, Z24→HOME-WL-2, Z25→HOME-WL-2, Z28→Q-A38.
+
+### Q-D — Datasheet (finance/data/LedgerLine): 33 queued, 6 dropped
+Queued: D01–D04, D07–D25, D27, D29–D34, D36, D38, D39.
+Dropped: D05→B12, D06→L46, D26→L45/A06, D28→L44/B22, D35→WL-LEDGER, D37→WL-LEDGER-2.
+
+### Pull order
+1. Finish current primary + alternate (71f6a23). 2. On ship/miss/park, the builder pulls the next queued item in their own lane, lowest number first. 3. Gadget turns it into a full card here with an ET deadline before work starts.
