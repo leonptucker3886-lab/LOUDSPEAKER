@@ -562,3 +562,101 @@ Supervisor task cards (6f1d676) ship deadline 07:35 ET PASSED. No team posted co
 - Expected live result: on the Vercel preview URL /#contact, a valid test lead returns success and is saved as a JSON object in the Blob store; a missing name or bad email is rejected with a visible error; a failed save shows an error message. Works on desktop and mobile.
 - Dependency: Blob store must be created/linked to the project in Vercel (leonptucker3886@gmail.com account) so BLOB_READ_WRITE_TOKEN exists. If not linked by 02:30 ET, ship the validation + error-state slice and log store linking as a new card.
 - Deadlines (ET, Nov 10): internal 02:30 ET; Inspector deadline 03:30 ET for build hash + preview URL with desktop/mobile PASS.
+
+## ALL-NEW 82 PROJECT CARDS (L01–L82) — Sir Announcer, 2026-11-10 01:20 AM ET
+Replaces the N01–N82 PDF list per Leon ("all new list", "not the ones in the batallion"). No card repeats current Batallion work (white-label kits, casino table games, Joustline, watches/Top 5, Kids, Ashfall, shared nav/redesign, AI calls, G-games).
+Rules: repo leonptucker3886-lab/LOUDSPEAKER unless lane owner names another; one owner per card; one ACTIVE card per member; ACTIVE cards have an ET deadline, QUEUED cards get one when activated. Only T6 touches shared nav/header/footer. Anything with money needs Leon's sign-off. A card is an idea until it ships with commit hash + live URL, desktop/mobile PASS. Sir Announcer may reassign/unassign owners at will (Leon, 06:15 UTC Nov 10).
+
+### T1 Sir datasheet
+- L01 · Invoice Generator (client-side PDF) — owner: Sir datasheet — T1 — path /t1/invoice-generator-client-side-pdf/ — live result: working page at preview URL /t1/invoice-generator-client-side-pdf/ on desktop+mobile — ACTIVE — deadline 2026-11-10 12:00 PM ET (internal 11:00 AM ET)
+- L02 · Business Card Designer — owner: Sir datasheet — T1 — path /t1/business-card-designer/ — live result: working page at preview URL /t1/business-card-designer/ on desktop+mobile — QUEUED
+- L03 · QR Code Studio — owner: Sir datasheet — T1 — path /t1/qr-code-studio/ — live result: working page at preview URL /t1/qr-code-studio/ on desktop+mobile — QUEUED
+- L04 · Email Signature Builder — owner: Sir datasheet — T1 — path /t1/email-signature-builder/ — live result: working page at preview URL /t1/email-signature-builder/ on desktop+mobile — QUEUED
+- L05 · Small-Biz Hours & Map Widget — owner: Sir datasheet — T1 — path /t1/small-biz-hours-map-widget/ — live result: working page at preview URL /t1/small-biz-hours-map-widget/ on desktop+mobile — QUEUED
+- L06 · Review Wall Embed — owner: Sir datasheet — T1 — path /t1/review-wall-embed/ — live result: working page at preview URL /t1/review-wall-embed/ on desktop+mobile — QUEUED
+- L07 · Menu Board for TV Screens — owner: Sir datasheet — T1 — path /t1/menu-board-for-tv-screens/ — live result: working page at preview URL /t1/menu-board-for-tv-screens/ on desktop+mobile — QUEUED
+- L08 · Appointment Reminder Text Templates — owner: Sir datasheet — T1 — path /t1/appointment-reminder-text-templates/ — live result: working page at preview URL /t1/appointment-reminder-text-templates/ on desktop+mobile — QUEUED
+- L09 · Brand Color Palette Picker — owner: Sir datasheet — T1 — path /t1/brand-color-palette-picker/ — live result: working page at preview URL /t1/brand-color-palette-picker/ on desktop+mobile — QUEUED
+- L10 · Logo Mockup Previewer — owner: Sir datasheet — T1 — path /t1/logo-mockup-previewer/ — live result: working page at preview URL /t1/logo-mockup-previewer/ on desktop+mobile — QUEUED
+- L11 · Testimonial Collector Form — owner: Sir datasheet — T1 — path /t1/testimonial-collector-form/ — live result: working page at preview URL /t1/testimonial-collector-form/ on desktop+mobile — QUEUED
+- L12 · Mini Storefront Catalog (no payments) — owner: Sir datasheet — T1 — path /t1/mini-storefront-catalog-no-payments/ — live result: working page at preview URL /t1/mini-storefront-catalog-no-payments/ on desktop+mobile — QUEUED
+- L13 · Local SEO Checklist Tool — owner: Sir datasheet — T1 — path /t1/local-seo-checklist-tool/ — live result: working page at preview URL /t1/local-seo-checklist-tool/ on desktop+mobile — QUEUED
+- L14 · Client Onboarding Checklist — owner: Sir datasheet — T1 — path /t1/client-onboarding-checklist/ — live result: working page at preview URL /t1/client-onboarding-checklist/ on desktop+mobile — QUEUED
+
+### T2 Hon. Sir Paperwork
+- L15 · Chess vs. Computer — owner: Hon. Sir Paperwork — T2 — path /t2/chess-vs-computer/ — live result: working page at preview URL /t2/chess-vs-computer/ on desktop+mobile — ACTIVE — deadline 2026-11-10 12:00 PM ET (internal 11:00 AM ET)
+- L16 · Checkers — owner: Hon. Sir Paperwork — T2 — path /t2/checkers/ — live result: working page at preview URL /t2/checkers/ on desktop+mobile — QUEUED
+- L17 · Mahjong Solitaire — owner: Hon. Sir Paperwork — T2 — path /t2/mahjong-solitaire/ — live result: working page at preview URL /t2/mahjong-solitaire/ on desktop+mobile — QUEUED
+- L18 · Minesweeper Deluxe — owner: Hon. Sir Paperwork — T2 — path /t2/minesweeper-deluxe/ — live result: working page at preview URL /t2/minesweeper-deluxe/ on desktop+mobile — QUEUED
+- L19 · Sudoku Daily — owner: Hon. Sir Paperwork — T2 — path /t2/sudoku-daily/ — live result: working page at preview URL /t2/sudoku-daily/ on desktop+mobile — QUEUED
+- L20 · Word Search Generator — owner: Hon. Sir Paperwork — T2 — path /t2/word-search-generator/ — live result: working page at preview URL /t2/word-search-generator/ on desktop+mobile — QUEUED
+- L21 · Crossword Mini — owner: Hon. Sir Paperwork — T2 — path /t2/crossword-mini/ — live result: working page at preview URL /t2/crossword-mini/ on desktop+mobile — QUEUED
+- L22 · Dominoes — owner: Hon. Sir Paperwork — T2 — path /t2/dominoes/ — live result: working page at preview URL /t2/dominoes/ on desktop+mobile — QUEUED
+- L23 · Battleship vs. AI — owner: Hon. Sir Paperwork — T2 — path /t2/battleship-vs-ai/ — live result: working page at preview URL /t2/battleship-vs-ai/ on desktop+mobile — QUEUED
+- L24 · Connect Four — owner: Hon. Sir Paperwork — T2 — path /t2/connect-four/ — live result: working page at preview URL /t2/connect-four/ on desktop+mobile — QUEUED
+- L25 · Spades Card Game — owner: Hon. Sir Paperwork — T2 — path /t2/spades-card-game/ — live result: working page at preview URL /t2/spades-card-game/ on desktop+mobile — QUEUED
+- L26 · Hearts Card Game — owner: Hon. Sir Paperwork — T2 — path /t2/hearts-card-game/ — live result: working page at preview URL /t2/hearts-card-game/ on desktop+mobile — QUEUED
+- L27 · Backgammon — owner: Hon. Sir Paperwork — T2 — path /t2/backgammon/ — live result: working page at preview URL /t2/backgammon/ on desktop+mobile — QUEUED
+- L28 · Pool/Billiards 2D — owner: Hon. Sir Paperwork — T2 — path /t2/pool-billiards-2d/ — live result: working page at preview URL /t2/pool-billiards-2d/ on desktop+mobile — QUEUED
+
+### T3 Sir Whiz
+- L29 · Pirate Ship Battle (timing game) — owner: Sir Whiz — T3 — path /t3/pirate-ship-battle-timing-game/ — live result: working page at preview URL /t3/pirate-ship-battle-timing-game/ on desktop+mobile — ACTIVE — deadline 2026-11-10 12:00 PM ET (internal 11:00 AM ET)
+- L30 · Dragon Rider Endless Flyer — owner: Sir Whiz — T3 — path /t3/dragon-rider-endless-flyer/ — live result: working page at preview URL /t3/dragon-rider-endless-flyer/ on desktop+mobile — QUEUED
+- L31 · Samurai Duel Reflex Game — owner: Sir Whiz — T3 — path /t3/samurai-duel-reflex-game/ — live result: working page at preview URL /t3/samurai-duel-reflex-game/ on desktop+mobile — QUEUED
+- L32 · Viking Raid Strategy Map — owner: Sir Whiz — T3 — path /t3/viking-raid-strategy-map/ — live result: working page at preview URL /t3/viking-raid-strategy-map/ on desktop+mobile — QUEUED
+- L33 · Wild West Quick-Draw — owner: Sir Whiz — T3 — path /t3/wild-west-quick-draw/ — live result: working page at preview URL /t3/wild-west-quick-draw/ on desktop+mobile — QUEUED
+- L34 · Gladiator Arena Brawler — owner: Sir Whiz — T3 — path /t3/gladiator-arena-brawler/ — live result: working page at preview URL /t3/gladiator-arena-brawler/ on desktop+mobile — QUEUED
+- L35 · Robin Hood Archery Range — owner: Sir Whiz — T3 — path /t3/robin-hood-archery-range/ — live result: working page at preview URL /t3/robin-hood-archery-range/ on desktop+mobile — QUEUED
+- L36 · Ninja Rooftop Runner — owner: Sir Whiz — T3 — path /t3/ninja-rooftop-runner/ — live result: working page at preview URL /t3/ninja-rooftop-runner/ on desktop+mobile — QUEUED
+- L37 · Medieval Castle Builder — owner: Sir Whiz — T3 — path /t3/medieval-castle-builder/ — live result: working page at preview URL /t3/medieval-castle-builder/ on desktop+mobile — QUEUED
+- L38 · Space Dogfight Arcade — owner: Sir Whiz — T3 — path /t3/space-dogfight-arcade/ — live result: working page at preview URL /t3/space-dogfight-arcade/ on desktop+mobile — QUEUED
+- L39 · Monster Hunter Rhythm Game — owner: Sir Whiz — T3 — path /t3/monster-hunter-rhythm-game/ — live result: working page at preview URL /t3/monster-hunter-rhythm-game/ on desktop+mobile — QUEUED
+- L40 · Treasure Map Puzzle Hunt — owner: Sir Whiz — T3 — path /t3/treasure-map-puzzle-hunt/ — live result: working page at preview URL /t3/treasure-map-puzzle-hunt/ on desktop+mobile — QUEUED
+- L41 · Knight-less Fantasy Comic Viewer — owner: Sir Whiz — T3 — path /t3/knight-less-fantasy-comic-viewer/ — live result: working page at preview URL /t3/knight-less-fantasy-comic-viewer/ on desktop+mobile — QUEUED
+- L42 · Boss Rush Mini-Game Pack — owner: Sir Whiz — T3 — path /t3/boss-rush-mini-game-pack/ — live result: working page at preview URL /t3/boss-rush-mini-game-pack/ on desktop+mobile — QUEUED
+
+### T4 Sir Announcer
+- L43 · Daily Weather Brief Page — owner: Sir Announcer — T4 — path /t4/daily-weather-brief-page/ — live result: working page at preview URL /t4/daily-weather-brief-page/ on desktop+mobile — ACTIVE — deadline 2026-11-10 12:00 PM ET (internal 11:00 AM ET)
+- L44 · Unit Converter — owner: Sir Announcer — T4 — path /t4/unit-converter/ — live result: working page at preview URL /t4/unit-converter/ on desktop+mobile — QUEUED
+- L45 · Tip & Bill Splitter — owner: Sir Announcer — T4 — path /t4/tip-bill-splitter/ — live result: working page at preview URL /t4/tip-bill-splitter/ on desktop+mobile — QUEUED
+- L46 · Budget Tracker (local storage) — owner: Sir Announcer — T4 — path /t4/budget-tracker-local-storage/ — live result: working page at preview URL /t4/budget-tracker-local-storage/ on desktop+mobile — QUEUED
+- L47 · Habit Tracker — owner: Sir Announcer — T4 — path /t4/habit-tracker/ — live result: working page at preview URL /t4/habit-tracker/ on desktop+mobile — QUEUED
+- L48 · Pomodoro Timer — owner: Sir Announcer — T4 — path /t4/pomodoro-timer/ — live result: working page at preview URL /t4/pomodoro-timer/ on desktop+mobile — QUEUED
+- L49 · Recipe Box — owner: Sir Announcer — T4 — path /t4/recipe-box/ — live result: working page at preview URL /t4/recipe-box/ on desktop+mobile — QUEUED
+- L50 · Workout Log — owner: Sir Announcer — T4 — path /t4/workout-log/ — live result: working page at preview URL /t4/workout-log/ on desktop+mobile — QUEUED
+- L51 · Grocery List with Sharing Link — owner: Sir Announcer — T4 — path /t4/grocery-list-with-sharing-link/ — live result: working page at preview URL /t4/grocery-list-with-sharing-link/ on desktop+mobile — QUEUED
+- L52 · Countdown Event Pages — owner: Sir Announcer — T4 — path /t4/countdown-event-pages/ — live result: working page at preview URL /t4/countdown-event-pages/ on desktop+mobile — QUEUED
+- L53 · Daily Quote Wall — owner: Sir Announcer — T4 — path /t4/daily-quote-wall/ — live result: working page at preview URL /t4/daily-quote-wall/ on desktop+mobile — QUEUED
+- L54 · Movie Night Picker — owner: Sir Announcer — T4 — path /t4/movie-night-picker/ — live result: working page at preview URL /t4/movie-night-picker/ on desktop+mobile — QUEUED
+- L55 · Book Reading Log — owner: Sir Announcer — T4 — path /t4/book-reading-log/ — live result: working page at preview URL /t4/book-reading-log/ on desktop+mobile — QUEUED
+- L56 · Password Strength Checker (offline) — owner: Sir Announcer — T4 — path /t4/password-strength-checker-offline/ — live result: working page at preview URL /t4/password-strength-checker-offline/ on desktop+mobile — QUEUED
+
+### T5 Sir Bert (PARKED)
+- L57 · Survival Crafting Sandbox — owner: Sir Bert — T5 — path /t5/survival-crafting-sandbox/ — live result: working page at preview URL /t5/survival-crafting-sandbox/ on desktop+mobile — PARKED (Ashfall first)
+- L58 · Zombie Defense Tower Game — owner: Sir Bert — T5 — path /t5/zombie-defense-tower-game/ — live result: working page at preview URL /t5/zombie-defense-tower-game/ on desktop+mobile — PARKED (Ashfall first)
+- L59 · Post-Apocalypse Radio Drama Player — owner: Sir Bert — T5 — path /t5/post-apocalypse-radio-drama-player/ — live result: working page at preview URL /t5/post-apocalypse-radio-drama-player/ on desktop+mobile — PARKED (Ashfall first)
+- L60 · Wasteland Trading Post Sim — owner: Sir Bert — T5 — path /t5/wasteland-trading-post-sim/ — live result: working page at preview URL /t5/wasteland-trading-post-sim/ on desktop+mobile — PARKED (Ashfall first)
+- L61 · Storm Chaser Driving Game — owner: Sir Bert — T5 — path /t5/storm-chaser-driving-game/ — live result: working page at preview URL /t5/storm-chaser-driving-game/ on desktop+mobile — PARKED (Ashfall first)
+- L62 · Bunker Escape Room — owner: Sir Bert — T5 — path /t5/bunker-escape-room/ — live result: working page at preview URL /t5/bunker-escape-room/ on desktop+mobile — PARKED (Ashfall first)
+- L63 · Choose-Your-Path Comic (art-first) — owner: Sir Bert — T5 — path /t5/choose-your-path-comic-art-first/ — live result: working page at preview URL /t5/choose-your-path-comic-art-first/ on desktop+mobile — PARKED (Ashfall first)
+- L64 · Desert Convoy Strategy — owner: Sir Bert — T5 — path /t5/desert-convoy-strategy/ — live result: working page at preview URL /t5/desert-convoy-strategy/ on desktop+mobile — PARKED (Ashfall first)
+- L65 · Night Watch Stealth Game — owner: Sir Bert — T5 — path /t5/night-watch-stealth-game/ — live result: working page at preview URL /t5/night-watch-stealth-game/ on desktop+mobile — PARKED (Ashfall first)
+- L66 · Survival Skills Trivia — owner: Sir Bert — T5 — path /t5/survival-skills-trivia/ — live result: working page at preview URL /t5/survival-skills-trivia/ on desktop+mobile — PARKED (Ashfall first)
+- L67 · Mutant Creature Field Guide — owner: Sir Bert — T5 — path /t5/mutant-creature-field-guide/ — live result: working page at preview URL /t5/mutant-creature-field-guide/ on desktop+mobile — PARKED (Ashfall first)
+- L68 · Rebuild-the-Town Idle Game — owner: Sir Bert — T5 — path /t5/rebuild-the-town-idle-game/ — live result: working page at preview URL /t5/rebuild-the-town-idle-game/ on desktop+mobile — PARKED (Ashfall first)
+
+### T6 Sir Pizzapan
+- L69 · LeonLink Changelog Page — owner: Sir Pizzapan — T6 — path /t6/leonlink-changelog-page/ — live result: working page at preview URL /t6/leonlink-changelog-page/ on desktop+mobile — ACTIVE — deadline 2026-11-10 12:00 PM ET (internal 11:00 AM ET)
+- L70 · Uptime/Status Ping Monitor — owner: Sir Pizzapan — T6 — path /t6/uptime-status-ping-monitor/ — live result: working page at preview URL /t6/uptime-status-ping-monitor/ on desktop+mobile — QUEUED
+- L71 · Broken Link Scanner Script — owner: Sir Pizzapan — T6 — path /t6/broken-link-scanner-script/ — live result: working page at preview URL /t6/broken-link-scanner-script/ on desktop+mobile — QUEUED
+- L72 · Image Optimizer Script — owner: Sir Pizzapan — T6 — path /t6/image-optimizer-script/ — live result: working page at preview URL /t6/image-optimizer-script/ on desktop+mobile — QUEUED
+- L73 · Lighthouse Score Tracker Page — owner: Sir Pizzapan — T6 — path /t6/lighthouse-score-tracker-page/ — live result: working page at preview URL /t6/lighthouse-score-tracker-page/ on desktop+mobile — QUEUED
+- L74 · Cookie/Privacy Notice Page — owner: Sir Pizzapan — T6 — path /t6/cookie-privacy-notice-page/ — live result: working page at preview URL /t6/cookie-privacy-notice-page/ on desktop+mobile — QUEUED
+- L75 · Newsletter Signup Page (no send yet) — owner: Sir Pizzapan — T6 — path /t6/newsletter-signup-page-no-send-yet/ — live result: working page at preview URL /t6/newsletter-signup-page-no-send-yet/ on desktop+mobile — QUEUED
+- L76 · RSS Feed for All Pages — owner: Sir Pizzapan — T6 — path /t6/rss-feed-for-all-pages/ — live result: working page at preview URL /t6/rss-feed-for-all-pages/ on desktop+mobile — QUEUED
+- L77 · Open Graph Card Generator — owner: Sir Pizzapan — T6 — path /t6/open-graph-card-generator/ — live result: working page at preview URL /t6/open-graph-card-generator/ on desktop+mobile — QUEUED
+- L78 · Favicon & App Icon Set — owner: Sir Pizzapan — T6 — path /t6/favicon-app-icon-set/ — live result: working page at preview URL /t6/favicon-app-icon-set/ on desktop+mobile — QUEUED
+- L79 · PWA Install (offline shell) — owner: Sir Pizzapan — T6 — path /t6/pwa-install-offline-shell/ — live result: working page at preview URL /t6/pwa-install-offline-shell/ on desktop+mobile — QUEUED
+- L80 · Keyboard Shortcuts Overlay — owner: Sir Pizzapan — T6 — path /t6/keyboard-shortcuts-overlay/ — live result: working page at preview URL /t6/keyboard-shortcuts-overlay/ on desktop+mobile — QUEUED
+- L81 · Print Stylesheet Pass — owner: Sir Pizzapan — T6 — path /t6/print-stylesheet-pass/ — live result: working page at preview URL /t6/print-stylesheet-pass/ on desktop+mobile — QUEUED
+- L82 · Language Toggle (EN/ES) Pilot — owner: Sir Pizzapan — T6 — path /t6/language-toggle-en-es-pilot/ — live result: working page at preview URL /t6/language-toggle-en-es-pilot/ on desktop+mobile — QUEUED
