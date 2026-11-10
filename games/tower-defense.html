@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tower Defense · LeonLink</title>
+<style>
+html,body{margin:0;height:100%;background:#0b0f1a;color:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;overflow:hidden;touch-action:none}
+#intro{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#000;z-index:10;transition:opacity .6s}
+#intro .t{font-size:clamp(16px,4vw,28px);letter-spacing:.3em;opacity:0;transition:opacity .6s}
+#intro .spin{width:90px;height:90px;margin:30px;opacity:0;transition:opacity .4s}
+#intro .spin svg{width:100%;height:100%;animation:sp 1s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+#intro h1{font-size:clamp(32px,9vw,64px);margin:0;opacity:0;transition:opacity .6s;color:#ffd447}
+#hud{position:fixed;top:0;left:0;right:0;display:flex;justify-content:space-between;padding:8px 12px;font-weight:600;background:#0008;z-index:2}
+canvas{display:block;margin:0 auto}
+#bar{position:fixed;bottom:0;left:0;right:0;display:flex;gap:8px;justify-content:center;padding:10px;background:#0008}
+button{font:inherit;font-weight:700;padding:12px 16px;border:0;border-radius:10px;background:#2A78D6;color:#fff;min-width:44px;min-height:44px}
+button.sel{outline:3px solid #ffd447}
+#msg{position:fixed;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;background:#000c;z-index:5;text-align:center}
+</style></head><body>
+<div id="intro"><div class="t" id="i1">LEONLINK PRESENTS</div>
+<div class="spin" id="i2"><svg viewBox="0 0 100 100"><polygon points="50,5 61,38 95,38 67,58 78,92 50,72 22,92 33,58 5,38 39,38" fill="#ffd447"/></svg></div>
+<h1 id="i3">TOWER DEFENSE</h1></div>
+<div id="hud"><span id="gold">Gold 100</span><span id="lives">Lives 20</span><span id="wave">Wave 0</span></div>
+<canvas id="c"></canvas>
+<div id="bar"><button id="b1" class="sel">Gun 50</button><button id="b2">Frost 70</button><button id="go">Next wave</button></div>
+<div id="msg"><h2 id="mt"></h2><button id="again">Play again</button></div>
+<script>
+// T7-04 Tower defense
+(function(){
+const intro=document.getElementById('intro');
+const show=(id,t)=>setTimeout(()=>document.getElementById(id).style.opacity=1,t);
+show('i1',200);show('i2',1400);show('i3',2400);
+setTimeout(()=>{intro.style.opacity=0;setTimeout(()=>intro.remove(),600)},3800);
+
+const cv=document.getElementById('c'),cx=cv.getContext('2d');
+const COLS=9,ROWS=14;let S=40;
+const path=[[0,1],[7,1],[7,4],[1,4],[1,7],[7,7],[7,10],[1,10],[1,12],[8,12]];
+const road=new Set();
+for(let i=0;i<path.length-1;i++){let[a,b]=path[i],[c,d]=path[i+1];
+ for(let x=Math.min(a,c);x<=Math.max(a,c);x++)for(let y=Math.min(b,d);y<=Math.max(b,d);y++)road.add(x+','+y);}
+function size(){const w=innerWidth,h=innerHeight-110;S=Math.floor(Math.min(w/COLS,h/ROWS));cv.width=S*COLS;cv.height=S*ROWS;cv.style.marginTop='44px';}
+addEventListener('resize',size);size();
+let gold,lives,wave,enemies,towers,shots,spawnLeft,spawnT,kind='gun',over;
+const T={gun:{cost:50,range:2.6,rate:0.5,dmg:3,col:'#2A78D6'},frost:{cost:70,range:2.2,rate:0.9,dmg:1,slow:0.5,col:'#7fe3ff'}};
+function reset(){gold=100;lives=20;wave=0;enemies=[];towers=[];shots=[];spawnLeft=0;spawnT=0;over=false;document.getElementById('msg').style.display='none';hud();}
+function hud(){gold_.textContent='Gold '+gold;lives_.textContent='Lives '+lives;wave_.textContent='Wave '+wave;}
+const gold_=document.getElementById('gold'),lives_=document.getElementById('lives'),wave_=document.getElementById('wave');
+const b1=document.getElementById('b1'),b2=document.getElementById('b2');
+b1.onclick=()=>{kind='gun';b1.classList.add('sel');b2.classList.remove('sel')};
+b2.onclick=()=>{kind='frost';b2.classList.add('sel');b1.classList.remove('sel')};
+document.getElementById('go').onclick=()=>{if(spawnLeft||enemies.length||over)return;wave++;spawnLeft=6+wave*2;hud();};
+document.getElementById('again').onclick=reset;
+cv.addEventListener('pointerdown',e=>{const r=cv.getBoundingClientRect();
+ const x=Math.floor((e.clientX-r.left)/S),y=Math.floor((e.clientY-r.top)/S);
+ if(x<0||y<0||x>=COLS||y>=ROWS||road.has(x+','+y))return;
+ if(towers.some(t=>t.x===x&&t.y===y))return;const d=T[kind];if(gold<d.cost)return;
+ gold-=d.cost;towers.push({x,y,k:kind,cd:0});hud();});
+function spawn(){const hp=4+wave*3;enemies.push({seg:0,t:0,x:path[0][0],y:path[0][1],hp,max:hp,sp:1.4+wave*0.08,slow:0});}
+function step(dt){
+ if(spawnLeft>0){spawnT-=dt;if(spawnT<=0){spawn();spawnLeft--;spawnT=0.8;}}
+ for(const e of enemies){let v=e.sp*(e.slow>0?0.5:1)*dt;e.slow-=dt;
+  while(v>0&&e.seg<path.length-1){const[tx,ty]=path[e.seg+1];const dx=tx-e.x,dy=ty-e.y,dd=Math.hypot(dx,dy);
+   if(dd<=v){e.x=tx;e.y=ty;e.seg++;v-=dd;}else{e.x+=dx/dd*v;e.y+=dy/dd*v;v=0;}}
+  if(e.seg>=path.length-1){e.done=true;lives--;}}
+ for(const t of towers){t.cd-=dt;if(t.cd>0)continue;const d=T[t.k];
+  let best=null;for(const e of enemies){if(e.done||e.hp<=0)continue;if(Math.hypot(e.x-t.x,e.y-t.y)<=d.range&&(!best||e.seg+e.t>best.seg))best=e;}
+  if(best){best.hp-=d.dmg;if(d.slow)best.slow=1.5;t.cd=d.rate;shots.push({x1:t.x,y1:t.y,x2:best.x,y2:best.y,life:0.1,col:d.col});}}
+ for(const e of enemies)if(e.hp<=0&&!e.done){e.done=true;gold+=5;}
+ enemies=enemies.filter(e=>!e.done);shots=shots.filter(s=>(s.life-=dt)>0);hud();
+ if(lives<=0&&!over){over=true;end('Game over · reached wave '+wave);}
+}
+function end(t){document.getElementById('mt').textContent=t;document.getElementById('msg').style.display='flex';}
+function draw(){cx.fillStyle='#1d3b26';cx.fillRect(0,0,cv.width,cv.height);
+ cx.fillStyle='#a8875a';road.forEach(k=>{const[x,y]=k.split(',').map(Number);cx.fillRect(x*S,y*S,S,S);});
+ for(const t of towers){cx.fillStyle=T[t.k].col;cx.beginPath();cx.arc((t.x+.5)*S,(t.y+.5)*S,S*.38,0,7);cx.fill();}
+ for(const s of shots){cx.strokeStyle=s.col;cx.lineWidth=3;cx.beginPath();cx.moveTo((s.x1+.5)*S,(s.y1+.5)*S);cx.lineTo((s.x2+.5)*S,(s.y2+.5)*S);cx.stroke();}
+ for(const e of enemies){const px=(e.x+.5)*S,py=(e.y+.5)*S;cx.fillStyle=e.slow>0?'#9be':'#e5484d';cx.beginPath();cx.arc(px,py,S*.3,0,7);cx.fill();
+  cx.fillStyle='#000';cx.fillRect(px-S*.35,py-S*.5,S*.7,4);cx.fillStyle='#4ade80';cx.fillRect(px-S*.35,py-S*.5,S*.7*e.hp/e.max,4);}}
+let last=performance.now();function loop(n){const dt=Math.min(.05,(n-last)/1000);last=n;if(!over)step(dt);draw();requestAnimationFrame(loop);}
+reset();requestAnimationFrame(loop);
+})();
+</script></body></html>
