@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markdown Notepad</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#fafaf9;color:#18181b}
+header{display:flex;gap:8px;align-items:center;padding:10px 12px;background:#18181b;color:#fff;flex-wrap:wrap}
+header h1{font-size:18px;margin:0;flex:1}button{padding:6px 10px;border:0;border-radius:6px;background:#2a78d6;color:#fff;cursor:pointer}
+#tabs{display:none}main{display:flex;height:calc(100vh - 52px)}
+textarea,#preview{flex:1;padding:12px;overflow:auto;font-size:15px}
+textarea{border:0;border-right:1px solid #ddd;resize:none;font-family:ui-monospace,monospace;background:#fff}
+#preview pre{background:#eee;padding:8px;overflow:auto}#preview code{background:#eee;padding:1px 4px}
+#status{font-size:12px;opacity:.7}
+@media(max-width:700px){#tabs{display:flex;gap:6px}main{height:calc(100vh - 92px)}main.edit #preview,main.prev textarea{display:none}textarea{border-right:0}}
+</style></head><body>
+<header><h1>Markdown Notepad</h1><span id="status">Saved</span>
+<div id="tabs"><button id="tE">Edit</button><button id="tP">Preview</button></div>
+<button id="dl">Download .md</button><button id="clr">Clear</button></header>
+<main id="m" class="edit"><textarea id="ed" spellcheck="false"></textarea><div id="preview"></div></main>
+<script>
+const K='b03-md-notepad',ed=document.getElementById('ed'),pv=document.getElementById('preview'),st=document.getElementById('status');
+const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+function inl(s){return esc(s).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/\*([^*]+)\*/g,'<em>$1</em>').replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');}
+function md(t){const L=t.split('\n');let o='',list=null,code=false,buf=[];
+const cl=()=>{if(list){o+='</'+list+'>';list=null}};
+for(const l of L){if(l.startsWith('```')){if(code){o+='<pre><code>'+esc(buf.join('\n'))+'</code></pre>';buf=[];code=false}else{cl();code=true}continue}
+if(code){buf.push(l);continue}let m;
+if(m=l.match(/^(#{1,6})\s+(.*)/)){cl();o+=`<h${m[1].length}>${inl(m[2])}</h${m[1].length}>`}
+else if(m=l.match(/^\s*[-*]\s+(.*)/)){if(list!=='ul'){cl();o+='<ul>';list='ul'}o+='<li>'+inl(m[1])+'</li>'}
+else if(m=l.match(/^\s*\d+\.\s+(.*)/)){if(list!=='ol'){cl();o+='<ol>';list='ol'}o+='<li>'+inl(m[1])+'</li>'}
+else if(m=l.match(/^>\s?(.*)/)){cl();o+='<blockquote>'+inl(m[1])+'</blockquote>'}
+else if(/^---+$/.test(l)){cl();o+='<hr>'}else if(!l.trim()){cl()}else{cl();o+='<p>'+inl(l)+'</p>'}}
+if(code)o+='<pre><code>'+esc(buf.join('\n'))+'</code></pre>';cl();return o}
+let tm;function render(){pv.innerHTML=md(ed.value)}
+ed.addEventListener('input',()=>{render();st.textContent='Saving…';clearTimeout(tm);tm=setTimeout(()=>{localStorage.setItem(K,ed.value);st.textContent='Saved'},300)});
+ed.value=localStorage.getItem(K)??'# Hello\n\nType **markdown** on the left, see the *preview* live.\n\n- Autosaves to localStorage\n- Download as .md\n';render();
+document.getElementById('dl').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([ed.value],{type:'text/markdown'}));a.download='note.md';a.click()};
+document.getElementById('clr').onclick=()=>{if(confirm('Clear note?')){ed.value='';localStorage.setItem(K,'');render()}};
+const m=document.getElementById('m');document.getElementById('tE').onclick=()=>m.className='edit';document.getElementById('tP').onclick=()=>m.className='prev';
+</script></body></html>
