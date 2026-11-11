@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6R1/1b3p2/3p1k2/1pnPp3/p1p1P1PK/P1P2P2/1PB5/8 w - - 11 76",
+  "fen": "6R1/1b3p2/3p1k2/1pnPp1P1/p1p1P2K/P1P2P2/1PB5/8 b - - 0 76",
   "moves": [
     {
       "n": 1,
@@ -1056,11 +1056,18 @@
       "san": "Nc5",
       "by": "Stonewall",
       "comment": "Nc5 \u2014 knight jumps to an active 5th-rank outpost, attacking e4 (3-way depth-6 tie at 180 with Ba6, Ke7; most active, most forcing, deepest penetration)."
+    },
+    {
+      "n": 76,
+      "color": "white",
+      "san": "g5+",
+      "by": "Pip",
+      "comment": "g5+ \u2014 pawn check backed by the king; Kf6 must retreat to e7, opening f6 and the kingside. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T13:21:29Z"
+  "last_move_at": "2026-11-11T13:33:00Z"
 }
