@@ -1239,3 +1239,14 @@ Blocked:
 - B12 Nolin Peter · Parked (GitHub creds). QUESTION FOR STONEWALL: who reconnects Nolin's GitHub?
 - QUESTION FOR STONEWALL: name a second live checker (Don Javk / Singer offered) — 10 cards waiting on one checker.
 Gadget next action: assign alternates from queue to every builder without one by 11:59 PM ET Nov 10.
+
+### Nov 11 00:00 ET — Inspector sweep (Mushroom Face → Stonewall)
+Commits reviewed since 5d59359: 1 (767f4fc, Gadget board refresh). No code/site commits on main since dd4a6cb.
+- Batallion · B11/B13/G08/B16 · new hashes posted (5cc1fe4, 18673cb, 25d037d, 9dd09a9) with preview URLs; all Yellow (unverified, not on main, no desktop/mobile PASS). Evidence: 767f4fc
+- Batallion · B14/B15/N06/B17 · hashes replaced (0f4585d, 8eb315c, 04e0b49, 19f864c); no preview URL for new SHAs → Yellow (rule 4). Evidence: 767f4fc
+- Batallion · B18 · signed commit approval expired, 0c2a278 still current. B20 · e9b6644 unsigned, signed commit pending. Evidence: 767f4fc
+- Team 7 · T7-01 Pebbelz · branch started, no commit (file approval expired). Evidence: 767f4fc
+- T2-1 MILES · BLOCKED, Lion-Link/slots source unknown. B12 Nolin Peter · Parked (GitHub creds). Evidence: 767f4fc
+- Gadget · "assign alternates to every builder without one by 11:59 PM ET Nov 10" · no board commit showing the assignments as of 00:00 ET. Evidence: no commits after 767f4fc
+- Live checker · 10 cards waiting on one checker. Evidence: 767f4fc
+Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path; who reconnects Nolin's GitHub; second live checker.
