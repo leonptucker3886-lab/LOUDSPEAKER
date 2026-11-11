@@ -1254,3 +1254,6 @@ Commits reviewed since 5d59359: 1 (767f4fc, Gadget board refresh). No code/site 
 Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path; who reconnects Nolin's GitHub; second live checker.
 - 2026-11-11 01:00 ET sweep: 1 callout (Botme, Batallion 1, new: waiting-on-a-person stall at 00:50/00:56 ET, blocked-means-move-on). 0 repeats. Batallion x2 and RLT quiet. No new lane commits since dbb3e93.
 - 2026-11-11 02:00 ET check: no change: only commits since 309e8fe are Inspector log/scorecard entries (dbb3e93, d939965, 12b13d7, 8b25354). No new team commits, status changes, or blockers in tickets.md.
+
+### 2026-11-11 04:01 AM ET — Inspector sweep (Mushroom Face)
+- No board, card or lane changes since 759ed4d^ (last reviewed 02ff9ee). Only 4 new commits, all chess moves (1de10c3, a82804d, 2765ed5, 759ed4d; chess/game-003.json, game-004.json). No new blockers, status changes or MISSED notices.
