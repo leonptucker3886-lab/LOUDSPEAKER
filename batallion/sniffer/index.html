@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sniff Out — Hidden Object Game</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#1d2b1f;color:#f4f1e8;display:flex;flex-direction:column;align-items:center;min-height:100vh}
+h1{margin:16px 0 4px;font-size:1.6rem}#hud{display:flex;gap:16px;margin:8px;flex-wrap:wrap;justify-content:center}
+#scene{position:relative;width:min(94vw,640px);aspect-ratio:4/3;background:linear-gradient(#7ec8e3 0 45%,#5a9b4a 45%);border-radius:14px;overflow:hidden;touch-action:manipulation}
+.obj{position:absolute;font-size:clamp(22px,5vw,34px);cursor:pointer;user-select:none;line-height:1;padding:6px;min-width:44px;min-height:44px;text-align:center}
+.obj.found{opacity:.25;pointer-events:none}.decoy{pointer-events:none;opacity:.85}
+#list{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:10px;max-width:640px}
+#list span{background:#2f4532;padding:6px 10px;border-radius:20px}#list span.done{text-decoration:line-through;opacity:.5}
+button{min-height:44px;padding:0 18px;border:0;border-radius:10px;background:#e8b04a;font-weight:700;font-size:1rem;cursor:pointer}
+#msg{min-height:1.5em;margin:6px}
+</style></head><body>
+<h1>🐶 Sniff Out</h1><div>Find all the hidden items before time runs out.</div>
+<div id="hud"><div>Found: <b id="found">0</b>/<b id="total">0</b></div><div>Time: <b id="time">60</b>s</div><button id="hint">Sniff (hint)</button><button id="new">New round</button></div>
+<div id="list"></div><div id="scene"></div><div id="msg"></div>
+<script>
+const POOL=["🦴","🧦","🔑","🍪","🎾","🧀","👟","🥕","🍎","📱","⚽","🧸","🕶️","🍩"];
+const DECOYS=["🌳","🌲","🌼","🪨","🌷","🍄","🌿","🏠","🌻","🪵"];
+const scene=document.getElementById('scene'),list=document.getElementById('list'),msg=document.getElementById('msg');
+let targets=[],found=0,t=60,timer;
+function rnd(a,b){return Math.random()*(b-a)+a}
+function place(e,cls){const d=document.createElement('div');d.className='obj '+cls;d.textContent=e;d.style.left=rnd(2,88)+'%';d.style.top=rnd(4,86)+'%';d.style.transform=`rotate(${rnd(-40,40)}deg)`;scene.appendChild(d);return d}
+function start(){clearInterval(timer);scene.innerHTML='';list.innerHTML='';msg.textContent='';found=0;t=60;
+ for(let i=0;i<18;i++)place(DECOYS[i%DECOYS.length],'decoy');
+ targets=[...POOL].sort(()=>Math.random()-.5).slice(0,6).map(e=>{const d=place(e,'');const s=document.createElement('span');s.textContent=e;list.appendChild(s);
+  d.onclick=()=>{d.classList.add('found');s.classList.add('done');found++;upd();if(found===targets.length)end(true)};return{d,s}});
+ upd();timer=setInterval(()=>{t--;upd();if(t<=0)end(false)},1000)}
+function upd(){document.getElementById('found').textContent=found;document.getElementById('total').textContent=targets.length;document.getElementById('time').textContent=t}
+function end(w){clearInterval(timer);msg.textContent=w?`🏆 Good nose! Found everything with ${t}s left.`:'⏰ Time\'s up! Tap New round to try again.';if(!w)targets.forEach(x=>x.d.style.pointerEvents='none')}
+document.getElementById('hint').onclick=()=>{const left=targets.find(x=>!x.d.classList.contains('found'));if(!left||t<=0)return;t=Math.max(0,t-5);upd();left.d.animate([{transform:'scale(1)'},{transform:'scale(1.8)'},{transform:'scale(1)'}],{duration:700,iterations:2})};
+document.getElementById('new').onclick=start;start();
+</script></body></html>
