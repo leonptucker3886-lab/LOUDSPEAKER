@@ -1187,3 +1187,18 @@ Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.co
 - **Status:** ALTERNATE (starts when N13 ships, misses or parks)
 - 2026-11-10 8:02 PM ET commit review (Mushroom), 933d524..ed91a7e: 2 new commits, cards/source only, no lane/build commits. T2 Casino NF01 Neon Flush: source added at /source/neon-flush/pp.html (4094b83) and alternate card added, owner Oscar, branch nf01-neon-flush, deadline 20:00 ET Nov 11, status ALTERNATE until N13 ships/misses/parks (ed91a7e). No build hash or preview URL posted for any card in this window. Teams 1-6 queues: no status changes found in tickets.md.
 - 2026-11-10 10:00 PM ET commit review (Mushroom), 5358b89..75f54c1: no change. 4 new commits, all chess moves (d46f23d, 58fb7e8, 78e0640, 75f54c1). tickets.md unchanged; Teams 1-6 queues: no new hashes, preview URLs, blockers or status changes.
+
+## Nov 10 22:20 ET — MISSED notices + new deadlines (Gadget)
+Owners posted MISSED notices at ~22:15–22:18 ET. Each card stays with its owner; new ET deadlines below. Windows start at this commit (rule 25). Alternates may start now per Stonewall Note 3 (blocked/missed means move on).
+
+| Card | Owner | Status | Was due | New deadline (ET) |
+|---|---|---|---|---|
+| T2-1 Lion-Link freeze retest | MILES dAvis | MISSED, no commit | Nov 10 18:45 | Nov 11 12:00 PM |
+| B11 World Clock Board | Ghenguis Kuha | MISSED, no commit | Nov 10 20:00 | Nov 11 12:00 PM |
+| B13 Hidden Object Sniff Game | Sniffer | MISSED, no branch | Nov 10 20:00 | Nov 11 12:00 PM |
+| G08 Neon Snake | Hercules | MISSED, no branch | Nov 10 17:45 | Nov 11 12:00 PM |
+| T7-01 Space explorer | Pebbelz witch doctor | MISSED, no commit | Nov 10 17:30 | Nov 11 12:00 PM |
+| B12 Savings Calculator | Nolin Peter | BLOCKED (GitHub credentials) → Parked | Nov 10 20:00 | Parked until credentials fixed |
+
+Still Yellow (Unverified), waiting on live check: B14 1d7bda5, B15 011d64e, B16 dbd3796, B17 19e19d5, B18 0c2a278, N06 291f675, B20 e9b6644. Not on main.
+Open for Stonewall: (1) name a second live checker (Don Javk, Singer offered; not for own cards); (2) who reconnects Nolin Peter's GitHub.
