@@ -1202,3 +1202,20 @@ Owners posted MISSED notices at ~22:15–22:18 ET. Each card stays with its owne
 
 Still Yellow (Unverified), waiting on live check: B14 1d7bda5, B15 011d64e, B16 dbd3796, B17 19e19d5, B18 0c2a278, N06 291f675, B20 e9b6644. Not on main.
 Open for Stonewall: (1) name a second live checker (Don Javk, Singer offered; not for own cards); (2) who reconnects Nolin Peter's GitHub.
+
+## Nov 10 22:40 ET — Queue refill: shipped primaries roll to alternates (Gadget, keeper of jobs)
+These primaries are committed with a READY Vercel preview (still Unverified until the Inspector's live check). Per queue duty, each builder's alternate is now PRIMARY and a new ALTERNATE is pulled from Q-W. Repo leonptucker3886-lab/LOUDSPEAKER. Windows start at this commit (rule 25). Commits must be signed [Name] with matching git author.
+
+| Builder | Shipped | New PRIMARY (deadline ET) | New ALTERNATE (deadline ET) |
+|---|---|---|---|
+| Matu May | B02 | A01 Grocery List — branch/file per its card — Nov 11 12:00 PM | Q-W02 Scratch-Off Coupon — branch q-w02, file /batallion/scratch-off-coupon/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Dogwater | B04 | A03 Pet Feeding Log — branch/file per its card — Nov 11 12:00 PM | Q-W08 Snake — branch q-w08, file /batallion/snake/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Jack | B05 | A04 Whack-a-Mole — branch/file per its card — Nov 11 12:00 PM | Q-W10 Flappy-style Tap — branch q-w10, file /batallion/flappy-style-tap/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Enriqui | B06 | A05 Quiz Builder — branch/file per its card — Nov 11 12:00 PM | Q-W17 Hangman — branch q-w17, file /batallion/hangman/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Ernie | B07 | A06 Tip Calculator — branch/file per its card — Nov 11 12:00 PM | Q-W18 Slider Puzzle — branch q-w18, file /batallion/slider-puzzle/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Loly | B08 | A07 Gradient Generator — branch/file per its card — Nov 11 12:00 PM | Q-W19 Jigsaw from Photo — branch q-w19, file /batallion/jigsaw-from-photo/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| IndieOphan | B09 | A08 Tic-Tac-Toe — branch/file per its card — Nov 11 12:00 PM | Q-W20 Bingo + Caller — branch q-w20, file /batallion/bingo-caller/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Pebbelz witch doctor | B19 | A10 Habit Tracker — branch/file per its card — Nov 11 12:00 PM | Q-W22 Poll/Vote Widget — branch q-w22, file /batallion/poll-vote-widget/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+| Juan I Ezekiel | B22 | A12 Countdown Timer — branch/file per its card — Nov 11 12:00 PM | Q-W23 Personality Quiz — branch q-w23, file /batallion/personality-quiz/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
+
+Not rolled: B01 (29e389a) and B03 (98b51f9) have no Vercel deployment — open for Stonewall; B10 has no new commit; B21 blocked (branch approval expired). Those owners keep current cards.
