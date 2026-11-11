@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tide &amp; Moon Calendar</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#0b1a2e;color:#e8eef7}
+main{max-width:560px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:.2em 0 .6em;text-align:center}
+.card{background:#132a47;border-radius:12px;padding:14px;margin-bottom:14px}
+label{font-size:.9rem}
+input[type=date]{font-size:1rem;padding:6px;border-radius:6px;border:0;width:100%;margin-top:4px}
+.today{display:flex;align-items:center;gap:14px;margin-top:12px}
+.big{font-size:3.4rem;line-height:1}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.nav button{background:#24507f;color:#fff;border:0;border-radius:6px;padding:6px 12px;font-size:1rem;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.dow{font-size:.75rem;opacity:.7}
+.day{background:#1b3a5e;border-radius:6px;padding:4px 0;cursor:pointer;min-height:48px}
+.day .n{font-size:.75rem}.day .m{font-size:1.3rem}
+.day.sel{outline:2px solid #ffd76a}
+.empty{visibility:hidden}
+small{opacity:.7}
+</style>
+</head>
+<body>
+<main>
+<h1>🌊 Tide &amp; Moon Calendar</h1>
+<div class="card">
+<label for="d">Pick any date</label>
+<input type="date" id="d">
+<div class="today"><div class="big" id="emoji"></div><div><b id="pname"></b><br><span id="pinfo"></span><br><small id="tide"></small></div></div>
+</div>
+<div class="card">
+<div class="nav"><button id="prev" aria-label="Previous month">‹</button><b id="mlabel"></b><button id="next" aria-label="Next month">›</button></div>
+<div class="grid" id="grid"></div>
+</div>
+<small>Moon phase calculated from the mean synodic month (29.53 days). Tide note is an estimate: spring tides near new/full moon, neap tides near quarters.</small>
+</main>
+<script>
+(function(){
+var SYN=29.530588853, REF=Date.UTC(2000,0,6,18,14);
+var NAMES=["New Moon","Waxing Crescent","First Quarter","Waxing Gibbous","Full Moon","Waning Gibbous","Last Quarter","Waning Crescent"];
+var EM=["🌑","🌒","🌓","🌔","🌕","🌖","🌗","🌘"];
+function age(y,m,d){var a=((Date.UTC(y,m,d,12)-REF)/864e5)%SYN;return a<0?a+SYN:a;}
+function idx(a){return Math.floor((a/SYN)*8+0.5)%8;}
+function illum(a){return Math.round((1-Math.cos(2*Math.PI*a/SYN))/2*100);}
+function tide(i){return (i===0||i===4)?"Spring tides likely (larger range)":(i===2||i===6)?"Neap tides likely (smaller range)":"Moderate tidal range";}
+var inp=document.getElementById("d"),grid=document.getElementById("grid");
+var now=new Date(),sel={y:now.getFullYear(),m:now.getMonth(),d:now.getDate()},view={y:sel.y,m:sel.m};
+function pad(n){return(n<10?"0":"")+n;}
+function show(){
+ var a=age(sel.y,sel.m,sel.d),i=idx(a);
+ document.getElementById("emoji").textContent=EM[i];
+ document.getElementById("pname").textContent=NAMES[i];
+ document.getElementById("pinfo").textContent=illum(a)+"% illuminated · day "+a.toFixed(1)+" of cycle";
+ document.getElementById("tide").textContent=tide(i);
+ inp.value=sel.y+"-"+pad(sel.m+1)+"-"+pad(sel.d);
+ render();
+}
+function render(){
+ document.getElementById("mlabel").textContent=new Date(view.y,view.m,1).toLocaleString("en-US",{month:"long",year:"numeric"});
+ grid.innerHTML="";
+ ["Su","Mo","Tu","We","Th","Fr","Sa"].forEach(function(t){var e=document.createElement("div");e.className="dow";e.textContent=t;grid.appendChild(e);});
+ var first=new Date(view.y,view.m,1).getDay(),days=new Date(view.y,view.m+1,0).getDate();
+ for(var k=0;k<first;k++){var e=document.createElement("div");e.className="day empty";grid.appendChild(e);}
+ for(var d=1;d<=days;d++){
+  var c=document.createElement("div"),i=idx(age(view.y,view.m,d));
+  c.className="day"+(view.y===sel.y&&view.m===sel.m&&d===sel.d?" sel":"");
+  c.title=NAMES[i];
+  c.innerHTML='<div class="n">'+d+'</div><div class="m">'+EM[i]+'</div>';
+  (function(dd){c.onclick=function(){sel={y:view.y,m:view.m,d:dd};show();};})(d);
+  grid.appendChild(c);
+ }
+}
+inp.onchange=function(){if(!inp.value)return;var p=inp.value.split("-");sel={y:+p[0],m:p[1]-1,d:+p[2]};view={y:sel.y,m:sel.m};show();};
+document.getElementById("prev").onclick=function(){view.m--;if(view.m<0){view.m=11;view.y--;}render();};
+document.getElementById("next").onclick=function(){view.m++;if(view.m>11){view.m=0;view.y++;}render();};
+show();
+})();
+</script>
+</body>
+</html>
