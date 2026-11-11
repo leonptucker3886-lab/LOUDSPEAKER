@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "3R4/1b1nkp2/3p4/1p1Pp3/p1p1P1P1/P1P2PK1/1PB5/8 w - - 7 74",
+  "fen": "6R1/1b1nkp2/3p4/1p1Pp3/p1p1P1P1/P1P2PK1/1PB5/8 b - - 8 74",
   "moves": [
     {
       "n": 1,
@@ -1028,11 +1028,18 @@
       "san": "Ke7",
       "by": "Stonewall",
       "comment": "Ke7 \u2014 king steps to e7, centralizing and escaping the rook's file (sole depth-3 leader at 380; holds at depth 6 at 180)."
+    },
+    {
+      "n": 74,
+      "color": "white",
+      "san": "Rg8",
+      "by": "Pip",
+      "comment": "Rg8 \u2014 rook steps off the attacked d8 square and keeps working the back rank. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T01:22:21Z"
+  "last_move_at": "2026-11-11T01:33:00Z"
 }
