@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B17 Arcade Space Shooter</title>
+<style>
+html,body{margin:0;height:100%;background:#05060f;color:#fff;font-family:system-ui,sans-serif;overflow:hidden;touch-action:none}
+#hud{position:fixed;top:8px;left:12px;right:12px;display:flex;justify-content:space-between;font-size:18px;z-index:2}
+canvas{display:block;width:100vw;height:100vh}
+#ov{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,.6);z-index:3;text-align:center}
+#ov.h{display:none}
+button{font-size:22px;padding:14px 32px;border:0;border-radius:10px;background:#2a78d6;color:#fff;margin-top:16px}
+</style></head><body>
+<div id="hud"><span id="sc">Score: 0</span><span id="lv">Lives: 3</span></div>
+<canvas id="c"></canvas>
+<div id="ov"><h1>Arcade Space Shooter</h1><p id="msg">Keyboard: ← → / A D to move, Space to fire.<br>Touch: drag to move, auto-fire.</p><button id="go">Start</button></div>
+<script>
+(function(){
+var c=document.getElementById('c'),x=c.getContext('2d'),W,H;
+function rs(){W=c.width=innerWidth;H=c.height=innerHeight;}addEventListener('resize',rs);rs();
+var p,b,e,st,score,lives,run=false,keys={},cd=0,sp=0,touchX=null;
+var stars=[];for(var i=0;i<80;i++)stars.push({x:Math.random(),y:Math.random(),s:Math.random()*2+.5});
+function reset(){p={x:W/2,y:H-60,w:36};b=[];e=[];score=0;lives=3;sp=0;upd();}
+function upd(){document.getElementById('sc').textContent='Score: '+score;document.getElementById('lv').textContent='Lives: '+lives;}
+addEventListener('keydown',function(ev){keys[ev.key]=true;if(ev.key===' ')ev.preventDefault();});
+addEventListener('keyup',function(ev){keys[ev.key]=false;});
+c.addEventListener('touchstart',function(ev){touchX=ev.touches[0].clientX;ev.preventDefault();},{passive:false});
+c.addEventListener('touchmove',function(ev){touchX=ev.touches[0].clientX;ev.preventDefault();},{passive:false});
+c.addEventListener('touchend',function(){touchX=null;});
+document.getElementById('go').onclick=function(){reset();run=true;document.getElementById('ov').className='h';};
+function over(){run=false;document.getElementById('msg').innerHTML='Game over<br>Score: '+score;document.getElementById('go').textContent='Restart';document.getElementById('ov').className='';}
+function step(){
+ x.fillStyle='#05060f';x.fillRect(0,0,W,H);x.fillStyle='#fff';
+ stars.forEach(function(s){s.y+=s.s/600;if(s.y>1)s.y=0;x.fillRect(s.x*W,s.y*H,s.s,s.s);});
+ if(run){
+  var v=6;if(keys.ArrowLeft||keys.a||keys.A)p.x-=v;if(keys.ArrowRight||keys.d||keys.D)p.x+=v;
+  if(touchX!==null)p.x+=(touchX-p.x)*.25;p.x=Math.max(p.w/2,Math.min(W-p.w/2,p.x));p.y=H-60;
+  cd--;if((keys[' ']||touchX!==null)&&cd<=0){b.push({x:p.x,y:p.y-20});cd=12;}
+  sp--;if(sp<=0){e.push({x:20+Math.random()*(W-40),y:-20,v:1.5+Math.random()*1.5+score/400});sp=Math.max(18,50-score/20);}
+  b.forEach(function(o){o.y-=9;});b=b.filter(function(o){return o.y>-10;});
+  e.forEach(function(o){o.y+=o.v;});
+  for(var i=e.length-1;i>=0;i--){var o=e[i],hit=false;
+   for(var j=b.length-1;j>=0;j--){if(Math.abs(b[j].x-o.x)<18&&Math.abs(b[j].y-o.y)<18){b.splice(j,1);hit=true;break;}}
+   if(hit){e.splice(i,1);score+=10;upd();continue;}
+   if(o.y>H+20||(Math.abs(o.x-p.x)<26&&Math.abs(o.y-p.y)<22)){e.splice(i,1);lives--;upd();if(lives<=0){over();break;}}
+  }
+  x.fillStyle='#4fd1ff';x.beginPath();x.moveTo(p.x,p.y-20);x.lineTo(p.x-18,p.y+16);x.lineTo(p.x+18,p.y+16);x.fill();
+  x.fillStyle='#ffe066';b.forEach(function(o){x.fillRect(o.x-2,o.y-8,4,12);});
+  x.fillStyle='#ff4d6d';e.forEach(function(o){x.fillRect(o.x-14,o.y-12,28,24);});
+ }
+ requestAnimationFrame(step);
+}
+step();
+})();
+</script></body></html>
