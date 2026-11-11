@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "8/1B5P/Pk6/4b3/6K1/8/8/8 b - - 4 75",
+  "fen": "8/kB5P/P7/4b3/6K1/8/8/8 w - - 5 76",
   "moves": [
     {
       "n": 1,
@@ -1049,11 +1049,18 @@
       "san": "Kg4",
       "by": "Stonewall",
       "comment": "Kg4 \u2014 king centralizes to g4, most active of the tied king walks (4-way depth-6 tie at 200 with Bc8, Kh4, Kg2; bishop stays on b7 defending the a6 pawn and the a8 promotion square)."
+    },
+    {
+      "n": 75,
+      "color": "black",
+      "san": "Ka7",
+      "by": "Pip",
+      "comment": "Ka7 \u2014 king blockades the a-pawn while Be5 still guards h8. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T13:21:36Z"
+  "last_move_at": "2026-11-11T13:33:00Z"
 }
