@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pet Feeding Log</title>
+<style>body{font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;padding:16px;background:#fafaf9;color:#18181b}h1{font-size:1.5rem}form{display:flex;flex-wrap:wrap;gap:8px}input,select,button{font-size:1rem;padding:8px;border:1px solid #ccc;border-radius:6px}input{flex:1 1 120px}button{background:#2a78d6;color:#fff;border:none;cursor:pointer}ul{list-style:none;padding:0}li{display:flex;justify-content:space-between;align-items:center;padding:8px;border-bottom:1px solid #ddd}li button{background:#c33;padding:4px 8px}.sum{margin:12px 0;font-weight:600}</style></head><body>
+<h1>🐾 Pet Feeding Log</h1>
+<form id="f"><input id="pet" placeholder="Pet name" required><input id="food" placeholder="Food / amount" required><select id="meal"><option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option></select><button>Log feeding</button></form>
+<div class="sum" id="sum"></div><ul id="list"></ul><button id="clr">Clear all</button>
+<script>
+const K='petFeedingLog';let log=JSON.parse(localStorage.getItem(K)||'[]');
+const save=()=>localStorage.setItem(K,JSON.stringify(log));
+function render(){const l=document.getElementById('list');l.innerHTML='';const today=new Date().toDateString();
+document.getElementById('sum').textContent='Fed today: '+log.filter(e=>new Date(e.t).toDateString()===today).length;
+log.slice().reverse().forEach(e=>{const li=document.createElement('li');const s=document.createElement('span');
+s.textContent=new Date(e.t).toLocaleString()+' — '+e.pet+': '+e.meal+' ('+e.food+')';const b=document.createElement('button');b.textContent='✕';
+b.onclick=()=>{log=log.filter(x=>x.t!==e.t);save();render()};li.append(s,b);l.append(li)})}
+document.getElementById('f').onsubmit=ev=>{ev.preventDefault();log.push({t:Date.now(),pet:pet.value.trim(),food:food.value.trim(),meal:meal.value});save();food.value='';render()};
+document.getElementById('clr').onclick=()=>{if(confirm('Clear all entries?')){log=[];save();render()}};render();
+</script></body></html>
