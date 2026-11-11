@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Celebration</title>
+<style>
+:root{--accent:#b5838d;--ink:#2d2a32;--bg:#fdf8f5}
+*{box-sizing:border-box}body{margin:0;font-family:Georgia,serif;color:var(--ink);background:var(--bg);line-height:1.6}
+header{min-height:80vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;background:linear-gradient(160deg,#e5989b,#ffcdb2)}
+h1{font-size:clamp(2.2rem,8vw,4rem);margin:.2em 0}nav{position:sticky;top:0;background:#fff;display:flex;justify-content:center;gap:1rem;padding:.75rem;flex-wrap:wrap;box-shadow:0 1px 4px #0001}
+nav a{color:var(--ink);text-decoration:none;font-family:system-ui,sans-serif}section{max-width:720px;margin:auto;padding:3rem 1.25rem}
+h2{color:var(--accent);text-align:center}.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.card{background:#fff;border-radius:12px;padding:1.25rem;box-shadow:0 2px 8px #0001}ol{list-style:none;padding:0}ol li{border-left:3px solid var(--accent);padding:.5rem 1rem;margin:.5rem 0;background:#fff}
+form{display:grid;gap:.75rem}input,select,textarea,button{font:inherit;padding:.8rem;border:1px solid #ccc;border-radius:8px;width:100%}
+button{background:var(--accent);color:#fff;border:0;min-height:48px;cursor:pointer}#thanks{display:none;text-align:center;font-size:1.2rem}
+footer{text-align:center;padding:2rem;font-size:.9rem;opacity:.7}
+</style>
+</head>
+<body>
+<header><p>Together with their families</p><h1 data-field="names">Alex &amp; Jordan</h1><p data-field="date">Saturday, June 12</p></header>
+<nav><a href="#details">Details</a><a href="#schedule">Schedule</a><a href="#rsvp">RSVP</a></nav>
+<section id="details"><h2>Details</h2><div class="cards">
+<div class="card"><strong>Where</strong><p>The Garden Venue<br>123 Main Street</p></div>
+<div class="card"><strong>When</strong><p>Ceremony at 4:00 PM</p></div>
+<div class="card"><strong>Dress</strong><p>Garden formal</p></div></div></section>
+<section id="schedule"><h2>Schedule</h2><ol>
+<li><b>4:00 PM</b> Ceremony</li><li><b>5:00 PM</b> Cocktail hour</li><li><b>6:30 PM</b> Dinner</li><li><b>8:00 PM</b> Dancing</li></ol></section>
+<section id="rsvp"><h2>RSVP</h2>
+<form id="f"><input name="name" placeholder="Your name" required>
+<select name="attend" required><option value="">Will you attend?</option><option>Joyfully accepts</option><option>Regretfully declines</option></select>
+<input name="guests" type="number" min="0" max="10" placeholder="Number of guests">
+<textarea name="note" rows="3" placeholder="Message or dietary needs"></textarea>
+<button type="submit">Send RSVP</button></form><p id="thanks">Thank you! Your RSVP was saved.</p></section>
+<footer>White-label event microsite</footer>
+<script>
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();
+var d=Object.fromEntries(new FormData(this));var a=JSON.parse(localStorage.getItem('rsvps')||'[]');a.push(d);
+localStorage.setItem('rsvps',JSON.stringify(a));this.style.display='none';document.getElementById('thanks').style.display='block';});
+</script>
+</body>
+</html>
