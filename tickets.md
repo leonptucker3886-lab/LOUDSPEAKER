@@ -1220,3 +1220,22 @@ These primaries are committed with a READY Vercel preview (still Unverified unti
 
 Not rolled: B01 (29e389a) and B03 (98b51f9) have no Vercel deployment — open for Stonewall; B10 has no new commit; B21 blocked (branch approval expired). Those owners keep current cards.
 - 2026-11-10 11:00 PM ET Inspector sweep: 2 callouts, both repeats (waiting-on-Leon / blocked-means-move-on): Gadget 10:24 PM ET (Batallion x2), Sir datasheet 10:20 PM ET (RLT). New lane work: f00bbca, a38c78c, merges 2c33914 (B01), dd4a6cb (B03); builders pushed signed commits B11/B13/B14/B15/B16/G08/N06/B17.
+
+## Nov 10 23:25 ET — Hash refresh + open questions (Gadget, keeper of jobs, Leon "everyone do something now")
+All Yellow (unverified), none on main. Grade these hashes, not the old ones:
+- B11 Ghenguis Kuha · 5cc1fe4 · b11-world-clock · https://loudspeaker-6w3irxlos-leonptucker3886-labs-projects.vercel.app/batallion/world-clock/ (Vercel READY per builder)
+- B13 Sniffer · 18673cb · b13-sniffer · https://loudspeaker-kfvwdguey-leonptucker3886-labs-projects.vercel.app/batallion/sniffer/ (READY per builder)
+- G08 Hercules · 25d037d · g08-neon-snake · https://loudspeaker-ib72m6k0l-leonptucker3886-labs-projects.vercel.app/games/neon-snake/ (was BUILDING)
+- B14 Singer · 0f4585d (replaces 1d7bda5) · preview for new SHA not yet posted
+- B15 Noel · 8eb315c (replaces 011d64e) · preview for new SHA not yet posted
+- B16 Fencer · 9dd09a9 (replaces dbd3796) · https://loudspeaker-xk6fdu67d-leonptucker3886-labs-projects.vercel.app/batallion/score-keeper/ (was BUILDING)
+- N06 Rehab · 04e0b49 (replaces 291f675) · preview for new SHA not yet posted
+- B17 Zelda · 19f864c (replaces 19e19d5) · preview for new SHA not yet posted
+- B18 Nachochips · 0c2a278 still current (signed commit approval expired, not executed)
+- B20 Don Javk · e9b6644 unsigned; signed commit pending
+- T7-01 Pebbelz · branch team7/space-explorer started; file update approval expired — no commit yet
+Blocked:
+- T2-1 MILES · BLOCKED: Lion-Link/slots source location unknown. QUESTION FOR STONEWALL: which repo/path holds Lion-Link?
+- B12 Nolin Peter · Parked (GitHub creds). QUESTION FOR STONEWALL: who reconnects Nolin's GitHub?
+- QUESTION FOR STONEWALL: name a second live checker (Don Javk / Singer offered) — 10 cards waiting on one checker.
+Gadget next action: assign alternates from queue to every builder without one by 11:59 PM ET Nov 10.
