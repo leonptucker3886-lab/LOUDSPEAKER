@@ -1,0 +1,25 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Tic-Tac-Toe</title>
+<style>body{font-family:system-ui,sans-serif;background:#111;color:#eee;margin:0;padding:16px}main{max-width:560px;margin:auto;text-align:center}
+#b{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}#b button{aspect-ratio:1;font-size:3rem;background:#222;color:#fff;border:2px solid #444;border-radius:10px;cursor:pointer}
+#b button.w{background:#2a78d6}.r{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}.r button{padding:10px 16px;font-size:1rem;border-radius:8px;border:0;cursor:pointer}</style></head>
+<body><main><h1>Tic-Tac-Toe</h1><p id="s"></p><div id="b"></div>
+<div class="r"><button id="n">New game</button><button id="m"></button><button id="z">Reset score</button></div><p id="sc"></p></main>
+<script>
+const L=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+let g,t,o,cpu=localStorage.tttCpu!=='0',sc=JSON.parse(localStorage.tttScore||'{"X":0,"O":0,"D":0}');
+const B=document.getElementById('b'),S=document.getElementById('s');
+for(let i=0;i<9;i++){const c=document.createElement('button');c.onclick=()=>play(i);B.appendChild(c)}
+function win(a){for(const l of L)if(a[l[0]]&&a[l[0]]===a[l[1]]&&a[l[0]]===a[l[2]])return l;return null}
+function play(i){if(o||g[i])return;g[i]=t;t=t==='X'?'O':'X';draw();if(!o&&cpu&&t==='O')setTimeout(ai,250)}
+function ai(){const e=g.map((v,i)=>v?null:i).filter(v=>v!==null);
+for(const p of['O','X'])for(const i of e){const c=g.slice();c[i]=p;if(win(c))return play(i)}
+if(!g[4])return play(4);play(e[Math.floor(Math.random()*e.length)])}
+function draw(){const w=win(g);[...B.children].forEach((c,i)=>{c.textContent=g[i];c.className=w&&w.includes(i)?'w':''});
+if(w&&!o){o=1;sc[g[w[0]]]++;S.textContent=g[w[0]]+' wins!'}else if(!w&&g.every(Boolean)&&!o){o=1;sc.D++;S.textContent='Draw'}else if(!o)S.textContent=t+' to move';
+localStorage.tttScore=JSON.stringify(sc);document.getElementById('sc').textContent=`X ${sc.X} · O ${sc.O} · Draws ${sc.D}`;
+document.getElementById('m').textContent=cpu?'Mode: vs CPU':'Mode: 2 players'}
+function reset(){g=Array(9).fill('');t='X';o=0;draw()}
+document.getElementById('n').onclick=reset;
+document.getElementById('m').onclick=()=>{cpu=!cpu;localStorage.tttCpu=cpu?'1':'0';reset()};
+document.getElementById('z').onclick=()=>{sc={X:0,O:0,D:0};reset()};reset();
+</script></body></html>
