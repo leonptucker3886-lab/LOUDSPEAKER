@@ -1252,3 +1252,4 @@ Commits reviewed since 5d59359: 1 (767f4fc, Gadget board refresh). No code/site 
 - Gadget · "assign alternates to every builder without one by 11:59 PM ET Nov 10" · no board commit showing the assignments as of 00:00 ET. Evidence: no commits after 767f4fc
 - Live checker · 10 cards waiting on one checker. Evidence: 767f4fc
 Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path; who reconnects Nolin's GitHub; second live checker.
+- 2026-11-11 01:00 ET sweep: 1 callout (Botme, Batallion 1, new: waiting-on-a-person stall at 00:50/00:56 ET, blocked-means-move-on). 0 repeats. Batallion x2 and RLT quiet. No new lane commits since dbb3e93.
