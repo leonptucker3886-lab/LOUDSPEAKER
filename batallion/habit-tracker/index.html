@@ -1,0 +1,24 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Habit Tracker</title>
+<style>body{font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;padding:16px;background:#faf9f6;color:#18181b}
+form{display:flex;gap:8px}input{flex:1;padding:10px;font-size:16px}button{padding:10px 14px;font-size:16px;cursor:pointer}
+.h{background:#fff;border:1px solid #ddd;border-radius:8px;padding:10px;margin:10px 0}.row{display:flex;justify-content:space-between;align-items:center}
+.days{display:flex;gap:4px;margin-top:8px}.d{flex:1;text-align:center;padding:8px 0;border-radius:6px;background:#eee;font-size:12px;cursor:pointer;user-select:none}.d.on{background:#2a78d6;color:#fff}
+.del{background:none;border:none;color:#c00}</style></head><body>
+<h1>Habit Tracker</h1><form id="f"><input id="n" placeholder="New habit" required><button>Add</button></form><div id="list"></div>
+<script>
+const K='a10-habits';let H=JSON.parse(localStorage.getItem(K)||'[]');
+const save=()=>localStorage.setItem(K,JSON.stringify(H));
+const key=d=>d.toISOString().slice(0,10);
+function days(){const a=[];for(let i=6;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);a.push(d)}return a}
+function streak(h){let s=0,d=new Date();while(h.done[key(d)]){s++;d.setDate(d.getDate()-1)}return s}
+function render(){const L=document.getElementById('list');L.innerHTML='';
+H.forEach((h,i)=>{const e=document.createElement('div');e.className='h';
+e.innerHTML='<div class="row"><b></b><span>🔥 '+streak(h)+' <button class="del">✕</button></span></div><div class="days"></div>';
+e.querySelector('b').textContent=h.name;
+e.querySelector('.del').onclick=()=>{H.splice(i,1);save();render()};
+days().forEach(d=>{const k=key(d),c=document.createElement('div');c.className='d'+(h.done[k]?' on':'');
+c.textContent='SMTWTFS'[d.getDay()]+' '+d.getDate();c.onclick=()=>{h.done[k]?delete h.done[k]:h.done[k]=1;save();render()};e.querySelector('.days').appendChild(c)});
+L.appendChild(e)})}
+document.getElementById('f').onsubmit=ev=>{ev.preventDefault();const n=document.getElementById('n');H.push({name:n.value.trim(),done:{}});n.value='';save();render()};
+render();
+</script></body></html>
