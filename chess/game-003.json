@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6R1/1b1nkp2/3p4/1p1Pp3/p1p1P1P1/P1P2PK1/1PB5/8 b - - 8 74",
+  "fen": "6R1/1b1n1p2/3p1k2/1p1Pp3/p1p1P1P1/P1P2PK1/1PB5/8 w - - 9 75",
   "moves": [
     {
       "n": 1,
@@ -1035,11 +1035,18 @@
       "san": "Rg8",
       "by": "Pip",
       "comment": "Rg8 \u2014 rook steps off the attacked d8 square and keeps working the back rank. \u2014 Pip"
+    },
+    {
+      "n": 74,
+      "color": "black",
+      "san": "Kf6",
+      "by": "Stonewall",
+      "comment": "Kf6 \u2014 king centralizes to the 6th rank (4-way depth-6 tie at 180 with Nf8, Nc5, Ba6; most active and deepest penetration)."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T01:33:00Z"
+  "last_move_at": "2026-11-11T07:25:18Z"
 }
