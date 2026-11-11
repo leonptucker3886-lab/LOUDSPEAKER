@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Builder</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#f4f4f7;color:#18181b}
+.wrap{max-width:560px;margin:0 auto;padding:16px}
+h1{font-size:1.5rem}.card{background:#fff;border-radius:12px;padding:14px;margin:12px 0;box-shadow:0 1px 3px #0002}
+input,button{font:inherit;padding:10px;border-radius:8px;border:1px solid #ccc;box-sizing:border-box}
+input{width:100%;margin:4px 0}button{background:#2a78d6;color:#fff;border:0;cursor:pointer;margin:4px 4px 0 0}
+button.sec{background:#888}.opt{display:flex;gap:6px;align-items:center}.opt input[type=text]{flex:1}
+.ans{display:block;width:100%;text-align:left;background:#eef;color:#18181b;margin:6px 0}
+.ok{background:#bfe8bf!important}.bad{background:#f5c0c0!important}li{margin:6px 0}
+</style></head><body><div class="wrap">
+<h1>Quiz Builder</h1>
+<div class="card" id="build">
+<h2>Add a question</h2>
+<input id="q" placeholder="Question">
+<div id="opts"></div>
+<small>Pick the radio next to the correct answer.</small><br>
+<button id="add">Add question</button>
+<ol id="list"></ol>
+<button id="start">Take quiz</button><button class="sec" id="clear">Clear all</button>
+</div>
+<div class="card" id="play" hidden></div>
+</div>
+<script>
+const KEY='quizBuilder.v1';let qs=JSON.parse(localStorage.getItem(KEY)||'[]');
+const $=id=>document.getElementById(id);
+function save(){localStorage.setItem(KEY,JSON.stringify(qs))}
+$('opts').innerHTML=[0,1,2,3].map(i=>`<div class="opt"><input type="radio" name="c" value="${i}" ${i?'':'checked'}><input type="text" id="o${i}" placeholder="Answer ${i+1}${i>1?' (optional)':''}"></div>`).join('');
+function render(){$('list').innerHTML=qs.map((q,i)=>`<li>${esc(q.q)} <button class="sec" data-i="${i}">Delete</button></li>`).join('');}
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+$('list').onclick=e=>{if(e.target.dataset.i){qs.splice(+e.target.dataset.i,1);save();render()}};
+$('add').onclick=()=>{const q=$('q').value.trim();const c=+document.querySelector('input[name=c]:checked').value;
+let opts=[],ci=-1;[0,1,2,3].forEach(i=>{const v=$('o'+i).value.trim();if(v){if(i===c)ci=opts.length;opts.push(v)}});
+if(!q||opts.length<2||ci<0){alert('Need a question, 2+ answers, and the correct one filled in.');return}
+qs.push({q,opts,ci});save();render();$('q').value='';[0,1,2,3].forEach(i=>$('o'+i).value='')};
+$('clear').onclick=()=>{if(confirm('Delete all questions?')){qs=[];save();render()}};
+let idx,score;
+$('start').onclick=()=>{if(!qs.length){alert('Add a question first.');return}idx=0;score=0;$('build').hidden=true;$('play').hidden=false;show()};
+function show(){const p=$('play');if(idx>=qs.length){p.innerHTML=`<h2>Score: ${score} / ${qs.length}</h2><button id="back">Back to builder</button>`;$('back').onclick=()=>{p.hidden=true;$('build').hidden=false};return}
+const q=qs[idx];p.innerHTML=`<p>Question ${idx+1} of ${qs.length}</p><h2>${esc(q.q)}</h2>`+q.opts.map((o,i)=>`<button class="ans" data-i="${i}">${esc(o)}</button>`).join('');
+p.querySelectorAll('.ans').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;if(i===q.ci)score++;p.querySelectorAll('.ans').forEach((x,j)=>{x.disabled=true;if(j===q.ci)x.classList.add('ok');else if(j===i)x.classList.add('bad')});setTimeout(()=>{idx++;show()},800)})}
+render();
+</script></body></html>
