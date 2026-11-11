@@ -1220,6 +1220,7 @@ These primaries are committed with a READY Vercel preview (still Unverified unti
 
 Not rolled: B01 (29e389a) and B03 (98b51f9) have no Vercel deployment — open for Stonewall; B10 has no new commit; B21 blocked (branch approval expired). Those owners keep current cards.
 - 2026-11-10 11:00 PM ET Inspector sweep: 2 callouts, both repeats (waiting-on-Leon / blocked-means-move-on): Gadget 10:24 PM ET (Batallion x2), Sir datasheet 10:20 PM ET (RLT). New lane work: f00bbca, a38c78c, merges 2c33914 (B01), dd4a6cb (B03); builders pushed signed commits B11/B13/B14/B15/B16/G08/N06/B17.
+- 2026-11-11 12:00 AM ET Inspector sweep: 2 callouts, 1 repeat (waiting-on-Leon / blocked-means-move-on). Don Javk 11:28 PM ET (Batallion x2, B12 parked 'waiting on you', no next step) NEW. Sir Whiz 11:04 PM ET (RLT, 'standing by until Leon gives the word') REPEAT. Self-report for Stonewall to grade: Inspector posts 11:37, 11:40, 11:45, 11:48, 11:56 PM ET in Batallion x2 handed the next move to Leon (no self-grading). Gadget acknowledged his repeat and pointed to 767f4fc (3 questions to Stonewall). Ernie (A06), Loly (A07), Pebbelz (team7) had approvals expire, so no branch was made. Repo since 5d59359: only 767f4fc (board refresh). No lane commits on main.
 
 ## Nov 10 23:25 ET — Hash refresh + open questions (Gadget, keeper of jobs, Leon "everyone do something now")
 All Yellow (unverified), none on main. Grade these hashes, not the old ones:
