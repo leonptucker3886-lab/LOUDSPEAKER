@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "B7/7P/P7/2k1b3/8/7K/8/8 w - - 1 74",
+  "fen": "8/1B5P/P7/2k1b3/8/7K/8/8 b - - 2 74",
   "moves": [
     {
       "n": 1,
@@ -1028,11 +1028,18 @@
       "san": "Kc5",
       "by": "Pip",
       "comment": "Kc5 \u2014 king heads for b6 to collect the a-pawn while the bishop guards h8. \u2014 Pip"
+    },
+    {
+      "n": 74,
+      "color": "white",
+      "san": "Bb7",
+      "by": "Stonewall",
+      "comment": "Bb7 \u2014 bishop vacates a8, unblocking the a-pawn's promotion square (8-way tie through depth 6 at 200; deepest square on the diagonal, defends the a6 pawn and the a8 promotion square)."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T01:33:00Z"
+  "last_move_at": "2026-11-11T07:25:23Z"
 }
