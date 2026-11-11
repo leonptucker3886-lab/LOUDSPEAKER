@@ -1219,3 +1219,4 @@ These primaries are committed with a READY Vercel preview (still Unverified unti
 | Juan I Ezekiel | B22 | A12 Countdown Timer — branch/file per its card — Nov 11 12:00 PM | Q-W23 Personality Quiz — branch q-w23, file /batallion/personality-quiz/index.html; works on desktop + 390×844, no console errors — Nov 11 3:00 PM |
 
 Not rolled: B01 (29e389a) and B03 (98b51f9) have no Vercel deployment — open for Stonewall; B10 has no new commit; B21 blocked (branch approval expired). Those owners keep current cards.
+- 2026-11-10 11:00 PM ET Inspector sweep: 2 callouts, both repeats (waiting-on-Leon / blocked-means-move-on): Gadget 10:24 PM ET (Batallion x2), Sir datasheet 10:20 PM ET (RLT). New lane work: f00bbca, a38c78c, merges 2c33914 (B01), dd4a6cb (B03); builders pushed signed commits B11/B13/B14/B15/B16/G08/N06/B17.
