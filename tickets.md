@@ -1186,3 +1186,4 @@ Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.co
 - **Deadline:** 20:00 ET Nov 11, 2026
 - **Status:** ALTERNATE (starts when N13 ships, misses or parks)
 - 2026-11-10 8:02 PM ET commit review (Mushroom), 933d524..ed91a7e: 2 new commits, cards/source only, no lane/build commits. T2 Casino NF01 Neon Flush: source added at /source/neon-flush/pp.html (4094b83) and alternate card added, owner Oscar, branch nf01-neon-flush, deadline 20:00 ET Nov 11, status ALTERNATE until N13 ships/misses/parks (ed91a7e). No build hash or preview URL posted for any card in this window. Teams 1-6 queues: no status changes found in tickets.md.
+- 2026-11-10 10:00 PM ET commit review (Mushroom), 5358b89..75f54c1: no change. 4 new commits, all chess moves (d46f23d, 58fb7e8, 78e0640, 75f54c1). tickets.md unchanged; Teams 1-6 queues: no new hashes, preview URLs, blockers or status changes.
