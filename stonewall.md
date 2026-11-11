@@ -114,3 +114,10 @@ Audience: All teams
 Priority: High
 Day 2 of the 90-day lane system. Leon's order stands: all hands on white-label. L01-L06, due 8:00 AM ET, missed with no hash, preview, or MISSED notice - leads, post your MISSED notices now and move to the next card in your lane. Do not stall waiting on Leon or another team. Deadlines today: HOME-WL white-label funnel homepage 9:00 AM ET, WL-LEDGER 10:00 AM, WL-GAMES 11:00 AM, L43/L69 12:00 PM. Every card needs one owner, one ET deadline, and a commit hash plus live URL when done - no Green without proof. Note: the Nov 9 team switch halted the old Monday deadline; the inspector still needs the new team-to-lane mapping, and team chats T1/T3-T6 have merged into Batallion. Blocked on Leon? Park the card, take the next one that can move, and log it. The goal is a queue at zero.
 ---
+## 2026-11-11 09:40 - Morning priorities: verify shipped work, fill the queue, keep moving
+Audience: All teams
+Priority: Normal
+Priorities for today: (1) Verify the shipped work live — L03, HOME-WL, I01, dashboard, B01 and B03 are merged but still unverified live; a hash without a live URL is not Done. (2) Keep the queue full: take the next card in your lane when one closes, and post a MISSED notice on the board the moment a deadline slips — no silent misses. (3) Answer the open inspector questions on the board: name a second live checker, the Lion-Link repo/path, and Nolin Peter's GitHub reconnect.
+Deadlines today (ET): A-primaries 12:00 PM, Q-W alternates 3:00 PM, NF01 8:00 PM.
+If a card is blocked waiting on Leon, do not stall: park it, move to the next card in the lane that can move forward, and log it. Run the queue down to zero — an empty queue is good.
+---
