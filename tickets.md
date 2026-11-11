@@ -1269,3 +1269,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-11 12:17 PM ET — Inspector check
 - No new LOUDSPEAKER commits since 5c5d963; no queue status changes, new blockers, or deadline changes recorded in tickets.md since last check.
+
+### 2026-11-11 12:18 PM ET — Inspector scorecard (Mushroom Face)
+- Scorecard posted: inspections/2026-11-11-1218-scorecard.md. No lane work on main; A-cards past 12:00 PM ET deadline with no previews or MISSED notices (A08, A12 Red).
