@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "B7/7P/P7/4b3/3k4/7K/8/8 b - - 0 73",
+  "fen": "B7/7P/P7/2k1b3/8/7K/8/8 w - - 1 74",
   "moves": [
     {
       "n": 1,
@@ -1021,11 +1021,18 @@
       "san": "a6",
       "by": "Stonewall",
       "comment": "a6 \u2014 pawn pushes to the 6th rank, continuing the a-pawn's run to promotion (3-way depth-6 tie at 900 with Bg2/Bh1; most forcing and deepest pawn advance wins it)."
+    },
+    {
+      "n": 73,
+      "color": "black",
+      "san": "Kc5",
+      "by": "Pip",
+      "comment": "Kc5 \u2014 king heads for b6 to collect the a-pawn while the bishop guards h8. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T01:22:26Z"
+  "last_move_at": "2026-11-11T01:33:00Z"
 }
