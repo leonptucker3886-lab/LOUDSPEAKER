@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown Timer</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#111827;color:#f9fafb;display:flex;justify-content:center;padding:24px 16px}
+main{width:100%;max-width:560px}
+h1{font-size:1.6rem;margin:0 0 16px;text-align:center}
+.card{background:#1f2937;border-radius:14px;padding:18px;margin-bottom:16px}
+label{display:block;font-size:.9rem;margin:8px 0 4px;color:#d1d5db}
+input{width:100%;padding:12px;font-size:1rem;border-radius:8px;border:1px solid #374151;background:#111827;color:#f9fafb}
+.row{display:flex;gap:10px;margin-top:14px}
+button{flex:1;padding:12px;font-size:1rem;border:0;border-radius:8px;cursor:pointer;background:#2563eb;color:#fff}
+button.sec{background:#374151}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center}
+.unit{background:#111827;border-radius:10px;padding:12px 4px}
+.num{font-size:2rem;font-weight:700;font-variant-numeric:tabular-nums}
+.lbl{font-size:.75rem;color:#9ca3af;text-transform:uppercase}
+#msg{text-align:center;margin-top:12px;color:#fbbf24;min-height:1.2em}
+</style>
+</head>
+<body>
+<main>
+<h1>Countdown Timer</h1>
+<div class="card">
+<label for="title">Event name</label>
+<input id="title" type="text" placeholder="e.g. Launch day">
+<label for="target">Target date &amp; time</label>
+<input id="target" type="datetime-local">
+<div class="row"><button id="start">Start</button><button id="reset" class="sec">Reset</button></div>
+</div>
+<div class="card">
+<div id="name" style="text-align:center;margin-bottom:10px;font-weight:600"></div>
+<div class="grid">
+<div class="unit"><div class="num" id="d">0</div><div class="lbl">Days</div></div>
+<div class="unit"><div class="num" id="h">00</div><div class="lbl">Hours</div></div>
+<div class="unit"><div class="num" id="m">00</div><div class="lbl">Min</div></div>
+<div class="unit"><div class="num" id="s">00</div><div class="lbl">Sec</div></div>
+</div>
+<div id="msg"></div>
+</div>
+</main>
+<script>
+(function(){
+var KEY='a12-countdown';var timer=null;
+var $=function(id){return document.getElementById(id)};
+function pad(n){return String(n).padStart(2,'0')}
+function render(t){
+  var diff=t-Date.now();
+  if(diff<=0){$('d').textContent='0';$('h').textContent=$('m').textContent=$('s').textContent='00';$('msg').textContent="Time's up!";clearInterval(timer);timer=null;return}
+  var sec=Math.floor(diff/1000);
+  $('d').textContent=Math.floor(sec/86400);
+  $('h').textContent=pad(Math.floor(sec%86400/3600));
+  $('m').textContent=pad(Math.floor(sec%3600/60));
+  $('s').textContent=pad(sec%60);
+  $('msg').textContent='';
+}
+function start(t,title){
+  if(timer)clearInterval(timer);
+  $('name').textContent=title||'';
+  render(t);if(t>Date.now())timer=setInterval(function(){render(t)},1000);
+}
+$('start').addEventListener('click',function(){
+  var v=$('target').value;if(!v){$('msg').textContent='Pick a date and time first.';return}
+  var t=new Date(v).getTime();var title=$('title').value.trim();
+  try{localStorage.setItem(KEY,JSON.stringify({v:v,title:title}))}catch(e){}
+  start(t,title);
+});
+$('reset').addEventListener('click',function(){
+  if(timer)clearInterval(timer);timer=null;
+  try{localStorage.removeItem(KEY)}catch(e){}
+  $('target').value='';$('title').value='';$('name').textContent='';$('msg').textContent='';
+  $('d').textContent='0';$('h').textContent=$('m').textContent=$('s').textContent='00';
+});
+try{var saved=JSON.parse(localStorage.getItem(KEY)||'null');
+  if(saved&&saved.v){$('target').value=saved.v;$('title').value=saved.title||'';start(new Date(saved.v).getTime(),saved.title)}}catch(e){}
+})();
+</script>
+</body>
+</html>
