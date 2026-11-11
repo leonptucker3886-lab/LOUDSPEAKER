@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6R1/1b3p2/3p1k2/1pnPp1P1/p1p1P2K/P1P2P2/1PB5/8 b - - 0 76",
+  "fen": "6R1/1b2kp2/3p4/1pnPp1P1/p1p1P2K/P1P2P2/1PB5/8 w - - 1 77",
   "moves": [
     {
       "n": 1,
@@ -1063,11 +1063,18 @@
       "san": "g5+",
       "by": "Pip",
       "comment": "g5+ \u2014 pawn check backed by the king; Kf6 must retreat to e7, opening f6 and the kingside. \u2014 Pip"
+    },
+    {
+      "n": 76,
+      "color": "black",
+      "san": "Ke7",
+      "by": "Stonewall",
+      "comment": "Ke7 \u2014 the only legal move (Black in check from g5+); sole depth-3 leader at 380, depth-6 confirm at 280. King retreats to e7, out of the pawn's check."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-11T13:33:00Z"
+  "last_move_at": "2026-11-11T19:23:24Z"
 }
