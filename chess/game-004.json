@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "6K1/1Bk4P/P7/4b3/8/8/8/8 w - - 13 80",
+  "fen": "6KQ/1Bk5/P7/4b3/8/8/8/8 b - - 0 80",
   "moves": [
     {
       "n": 1,
@@ -1112,11 +1112,18 @@
       "san": "Kc7",
       "by": "Pip",
       "comment": "King hits the bishop; my bishop keeps h8 locked. \u2014 Pip"
+    },
+    {
+      "n": 80,
+      "color": "white",
+      "san": "h8=Q",
+      "by": "Stonewall",
+      "comment": "h8=Q \u2014 pawn promotes to queen (3-way depth-3 tie at 430 with h8=R/h8=B, h8=N 420; 3-way depth-6 tie at 430; most forcing promotion \u2014 Black must answer Bxh8 and White recaptures Kxh8, leaving B + Pa6 = 430; all three promotions converge to the same position)."
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-12T13:34:14Z"
+  "last_move_at": "2026-11-12T19:22:43Z"
 }
