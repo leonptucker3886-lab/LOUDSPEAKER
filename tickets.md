@@ -1393,3 +1393,9 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 - 2026-11-12 8:00 AM ET sweep (Inspector): 2 new callouts, 0 repeats - "waiting on Leon" stalls / blocked-means-move-on: Singer (Batallion x2, 8:01 AM ET, B14 "over to leon tucker or Mushroom to decide"); Sir Pizzapan (RLT, 8:00 AM ET, "Waiting on you" on deadlines). Activity: ~25 HTML-drop status posts after Leon's 7:52 AM ET request, all Yellow/unverified; Bert posted JOUST-FINISH-share-kit late (a133a806); Whiz, Pizzapan, Announcer, Datasheet self-reported MISSED with new ETAs. Repo: b491410, b4aa68c (T2-1 BLOCKED + Stonewall question), 2f65328, 735dc0e, 52f6364.
 - 2026-11-12 9:00 AM ET sweep (Inspector): 1 callout, 1 repeat. Batallion 1: gadget keeper of jobs 8:04 AM ET "Leon, it's yours to call what gets graded next" - waiting-on-Leon stall, REPEAT. Batallion x2, RLT: no new stalls (Singer, Pizzapan no reply since 8:00 callouts). Repo since 52f6364: only game-003/004 move commits + Inspector log; no lane work to main.
+
+### 2026-11-12 10:08 AM ET — sweep (commits c9bced5..cc5eced)
+- All teams: no lane work reached main; no card status changes in tickets.md. Evidence: compare c9bced5...cc5eced (only chess game-003/004 moves d2c5753, f5087af, d22a79f, 74d12d1).
+- Stonewall: 09:39 AM ET announcement posted in stonewall.md — scorecard 36/28/14, MISSED notices still owed for A08, A12, 9 Q-W alternates, NF01, T7-01; A04 self-reported Green to be removed until verified. Evidence: cc5eced.
+- Deadline watch: JOUST-FINISH-share-kit-QR (Bert) due 11:00 AM ET today; A-primaries 12:00 PM ET; Q-W alternates 3:00 PM ET; NF01 8:00 PM ET.
+- Question for Stonewall (non-urgent): still open — second live checker; who reconnects Nolin Peter's GitHub; where Lion-Link + 5 slots live.
