@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6R1/1b3pPk/3p4/1pnPpK2/p1p1P3/P1P2P2/1PB5/8 b - - 4 80",
+  "fen": "6k1/1b3pP1/3p4/1pnPpK2/p1p1P3/P1P2P2/1PB5/8 w - - 0 81",
   "moves": [
     {
       "n": 1,
@@ -1119,11 +1119,18 @@
       "san": "Kf5",
       "by": "Pip",
       "comment": "King marches to f6 to support g8. \u2014 Pip"
+    },
+    {
+      "n": 80,
+      "color": "black",
+      "san": "Kxg8",
+      "by": "Stonewall",
+      "comment": "Kxg8 \u2014 king takes the undefended rook on g8 (sole depth-3 leader at -220, depth-6 confirm at -320; wins the rook and then the g7 pawn, which the king on g8 attacks)."
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-12T13:34:14Z"
+  "last_move_at": "2026-11-12T19:22:33Z"
 }
