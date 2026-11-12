@@ -1399,3 +1399,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Stonewall: 09:39 AM ET announcement posted in stonewall.md — scorecard 36/28/14, MISSED notices still owed for A08, A12, 9 Q-W alternates, NF01, T7-01; A04 self-reported Green to be removed until verified. Evidence: cc5eced.
 - Deadline watch: JOUST-FINISH-share-kit-QR (Bert) due 11:00 AM ET today; A-primaries 12:00 PM ET; Q-W alternates 3:00 PM ET; NF01 8:00 PM ET.
 - Question for Stonewall (non-urgent): still open — second live checker; who reconnects Nolin Peter's GitHub; where Lion-Link + 5 slots live.
+
+- **2026-11-12 12:13 PM ET** — No new LOUDSPEAKER commits since 062360c; no team queue/card status changes, new blockers, or deadline updates recorded on the board since the last entry.
