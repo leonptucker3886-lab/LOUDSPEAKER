@@ -1198,7 +1198,7 @@ Owners posted MISSED notices at ~22:15–22:18 ET. Each card stays with its owne
 | B11 World Clock Board | Ghenguis Kuha | MISSED, no commit | Nov 10 20:00 | Nov 11 12:00 PM |
 | B13 Hidden Object Sniff Game | Sniffer | MISSED, no branch | Nov 10 20:00 | Nov 11 12:00 PM |
 | G08 Neon Snake | Hercules | MISSED, no branch | Nov 10 17:45 | Nov 11 12:00 PM |
-| T7-01 Space explorer | Pebbelz witch doctor | MISSED, no commit | Nov 10 17:30 | Nov 11 12:00 PM |
+| T7-01 Space explorer | Pebbelz witch doctor | MISSED (2nd), no commit; commit+preview or HTML drop T7-01-Pebbelz.html | Nov 11 12:00 PM | Nov 12 4:30 AM ET |
 | B12 Savings Calculator | Nolin Peter | HTML drop, owner Nolin Peter · msg d34db229-3d16-4873-9d63-7a6b6bc182b1 (B12-NolinPeter.html, posted 3:24 AM ET Nov 12) · Yellow (unverified) | Nov 10 20:00 | Awaiting Inspector desktop+mobile check |
 
 Still Yellow (Unverified), waiting on live check: B14 1d7bda5, B15 011d64e, B16 dbd3796, B17 19e19d5, B18 0c2a278, N06 291f675, B20 e9b6644. Not on main.
@@ -1299,3 +1299,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-12 2:01 AM ET — Inspector sweep
 - No change. No new commits since 04bc61f (last: Inspector log 12:02 AM ET). No lane work, status changes, or new MISSED notices in tickets.md.
+
+- Nov 12 03:26 ET: T7-01 Pebbelz MISSED Nov 11 12:00 PM ET deadline (MISSED notice posted 3:26 AM ET Nov 12). New deadline Nov 12 4:30 AM ET: commit hash + preview URL, or HTML drop T7-01-Pebbelz.html. Live checker: Mushroom until Team 7 names one.
