@@ -1114,6 +1114,24 @@ Dropped: D05→B12, D06→L46, D26→L45/A06, D28→L44/B22, D35→WL-LEDGER, D3
 Leon: "We have enough invoice/estimate stuff." Parked, not to be pulled: Q-D13 Recurring Invoice Scheduler, Q-D14 Payment Receipt Log, Q-D34 LedgerLine Client Statement Generator, Q-P03 Receipt Maker.
 Rule: any other queued job in any lane that is an invoice, estimate, quote or receipt tool is PARKED too and gets skipped at pull time. L01 is PARKED too (Leon 3:24 PM ET: cancel).
 
+### PARKED: basic apps (Leon, 2026-11-12 7:56 AM ET)
+Leon: "Remove basic apps do multi layer apps." Every queued Q-P, Q-W, Q-B, Q-A, Q-Z and Q-D item is PARKED and is not to be pulled. Current primary/alternate cards finish as normal. On ship/miss/park, builders pull from the MULTI-LAYER QUEUE below instead.
+
+## MULTI-LAYER QUEUE (Gadget, keeper of jobs, 2026-11-12 7:58 AM ET, Leon's order)
+Multi-layer = one app, several connected parts, shared data. Each card is one layer; several builders work the same app at once.
+
+### MV — LeonLink Vault (keys + passwords + calendar + journal + notes)
+App path: /vault/ · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: main · Deadline for every MV card: Nov 13, 2026, 8:00 PM ET.
+Security rules (all MV cards): everything encrypted in the browser (WebCrypto AES-GCM, key from master password via PBKDF2 ≥ 200k iterations). Nothing is sent to any server. Master password is never stored. No real keys or passwords in commits; demo data only. Auto-lock after 5 min idle.
+Owner/lead: next builder to pull, lowest MV number first. Gadget fills the owner on pull.
+
+- **MV01 — Core + lock screen.** Files: vault/index.html, vault/core.js. Master password setup/unlock, encrypt/decrypt store, auto-lock, tab nav (Keys, Calendar, Journal, Notes). Expected live result: /vault/ asks for a master password, unlocks, shows 4 tabs, re-locks after idle; desktop + mobile PASS.
+- **MV02 — Keys & passwords.** Files: vault/keys.js. Add/edit/delete entries (name, username, secret, URL, tags), hidden by default, reveal + copy, password generator, search. Live result: entries survive lock/unlock and are unreadable in localStorage.
+- **MV03 — Calendar.** Files: vault/calendar.js. Month/week view, add/edit events, reminders while open, link an event to a journal entry or note. Live result: events show on the calendar after lock/unlock.
+- **MV04 — Journal.** Files: vault/journal.js. One entry per day, date picker, mood tag, opens from calendar day. Live result: today's entry saves and shows on that calendar day.
+- **MV05 — Notes.** Files: vault/notes.js. Notes with folders/tags, pin, search, markdown preview. Live result: notes saved, searchable, encrypted at rest.
+- **MV06 — Backup + search across all.** Files: vault/backup.js. Encrypted export/import file, one search box across keys, events, journal, notes. Live result: export, wipe, import restores everything. Pulled last.
+
 ### Pull order
 1. Finish current primary + alternate (71f6a23). 2. On ship/miss/park, the builder pulls the next queued item in their own lane, lowest number first. 3. Gadget turns it into a full card here with an ET deadline before work starts.
 - 2026-11-10 3:00 PM ET sweep (covers 4:00 AM to 3:00 PM ET; old T-chats replaced by Batallion 1, Batallion x2 and Round-Loop-Table): 6 waiting-on-Leon stalls. New: Jude Johnson (B1 2:30 PM ET), Sir datasheet (RLT 4:17 AM ET), Gadget (Bx2 1:50 PM ET). Repeats: Gadget x4 (B1 2:15/2:40, Bx2 2:40, RLT 2:18 PM ET), Noel (Bx2 2:22 PM ET), Paperwork (RLT 4:12 AM ET).
