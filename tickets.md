@@ -1194,7 +1194,7 @@ Owners posted MISSED notices at ~22:15–22:18 ET. Each card stays with its owne
 
 | Card | Owner | Status | Was due | New deadline (ET) |
 |---|---|---|---|---|
-| T2-1 Lion-Link freeze retest | MILES dAvis | MISSED, no commit | Nov 10 18:45 | Nov 11 12:00 PM |
+| T2-1 Lion-Link freeze retest | MILES dAvis | BLOCKED (no source), no commit/no file | Nov 10 18:45 | Nov 11 12:00 PM (passed; new ET deadline pending source) |
 | B11 World Clock Board | Ghenguis Kuha | MISSED, no commit | Nov 10 20:00 | Nov 11 12:00 PM |
 | B13 Hidden Object Sniff Game | Sniffer | MISSED, no branch | Nov 10 20:00 | Nov 11 12:00 PM |
 | G08 Neon Snake | Hercules | MISSED, no branch | Nov 10 17:45 | Nov 11 12:00 PM |
@@ -1311,3 +1311,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-12 6:00 AM ET (Inspector)
 - No changes since last entry (f085566). No new commits, card status changes, or new blockers on the board.
+
+- Nov 12 7:56 AM ET (Gadget): T2-1 MILES dAvis · BLOCKED (no source). Not Green, no commit, no HTML drop. MILES reports (last checked 10:36 PM ET Nov 10) no miles/lion-link-mobile-fix branch and no Lion-Link/slots source on LOUDSPEAKER main. QUESTION FOR STONEWALL: which repo and path hold Lion-Link and its 5 slots, or who has its HTML file? MILES next step: if no source by 9:00 AM ET Nov 12, take next open card from tickets.md and post ID + scope. Note: MILES's stated drop deadline (12:00 PM ET Nov 11) has passed; new T2-1 ET deadline set when source arrives.
