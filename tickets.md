@@ -1117,6 +1117,49 @@ Rule: any other queued job in any lane that is an invoice, estimate, quote or re
 ### PARKED: basic apps (Leon, 2026-11-12 7:56 AM ET)
 Leon: "Remove basic apps do multi layer apps." Every queued Q-P, Q-W, Q-B, Q-A, Q-Z and Q-D item is PARKED and is not to be pulled. Current primary/alternate cards finish as normal. On ship/miss/park, builders pull from the MULTI-LAYER QUEUE below instead.
 
+### FINAL 40: basic-queue cut (Leon, 2026-11-12 7:57 AM ET: "finish the list... cut it down to 40")
+These 40 Q- items are back to READY (heavier, multi-part tools). Every other Q- item stays PARKED. Pull order: MV cards first, then this list top to bottom. Invoice/estimate/receipt and hub pages stay out. Leon will send the next list.
+1. Q-D31 LedgerLine Transaction Import (CSV)
+2. Q-D33 LedgerLine Category Rules Editor
+3. Q-D32 LedgerLine Monthly Summary Report (print/PDF)
+4. Q-D36 LedgerLine Export Pack (CSV/JSON)
+5. Q-D38 LedgerLine Mobile Quick-Add Expense
+6. Q-D15 Bank Statement CSV Categorizer
+7. Q-D16 CSV to Chart Maker
+8. Q-D17 CSV Cleaner
+9. Q-D19 KPI Dashboard Builder
+10. Q-D20 Sales Pipeline Tracker (kanban)
+11. Q-D30 Survey Results Visualizer
+12. Q-D03 Cash Flow Forecast (12-week)
+13. Q-D01 Profit & Loss Statement Builder
+14. Q-D11 Accounts Receivable Aging Report
+15. Q-Z07 Rebrand Preview Tool
+16. Q-Z01 White-Label Sales Page Template
+17. Q-Z22 Multi-Step Lead Form Builder
+18. Q-Z30 Sales Funnel Map Visualizer
+19. Q-Z38 Lead Inbox Viewer (admin demo)
+20. Q-Z05 Reseller Program Page
+21. Q-Z29 Demo Booking Page
+22. Q-Z34 Waitlist Page with Referral Position
+23. Q-P06 Simple Contract Builder
+24. Q-P09 Proposal Builder
+25. Q-P13 Timesheet Generator
+26. Q-P14 Expense Report Builder
+27. Q-P18 Customer Intake Form Builder
+28. Q-P23 Shift Schedule Maker
+29. Q-P37 PDF Stamp/Signature Placer
+30. Q-P39 Document Expiry Tracker
+31. Q-B06 Bulk QR Generator (CSV in, ZIP out)
+32. Q-B08 Dynamic-style QR Landing Page Builder
+33. Q-B29 Restaurant Menu Builder (print + QR)
+34. Q-B23 Coupon Maker with QR redeem code
+35. Q-B38 Print Bleed/Margin Checker
+36. Q-A35 Digital Signage Slideshow Builder
+37. Q-A16 Link-in-Bio Page Builder
+38. Q-A22 Media Kit / One-Sheet Builder
+39. Q-A19 Content Calendar Planner
+40. Q-W34 Leaderboard Widget (shared by all W-games)
+
 ## MULTI-LAYER QUEUE (Gadget, keeper of jobs, 2026-11-12 7:58 AM ET, Leon's order)
 Multi-layer = one app, several connected parts, shared data. Each card is one layer; several builders work the same app at once.
 
