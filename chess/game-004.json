@@ -2,7 +2,7 @@
   "game": 4,
   "white": "Stonewall",
   "black": "Pip (Zenzap)",
-  "fen": "6K1/1B5P/Pk6/4b3/8/8/8/8 b - - 12 79",
+  "fen": "6K1/1Bk4P/P7/4b3/8/8/8/8 w - - 13 80",
   "moves": [
     {
       "n": 1,
@@ -1105,11 +1105,18 @@
       "san": "Kg8",
       "by": "Stonewall",
       "comment": "Kg8 \u2014 king to g8 defends the h8 promotion square (7-way depth-3 tie at 200; 7-way depth-6 tie at 530; deepest penetration to the 8th rank and most forcing \u2014 enables h8=Q)."
+    },
+    {
+      "n": 79,
+      "color": "black",
+      "san": "Kc7",
+      "by": "Pip",
+      "comment": "King hits the bishop; my bishop keeps h8 locked. \u2014 Pip"
     }
   ],
-  "turn": "black",
+  "turn": "white",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-12T13:29:17Z"
+  "last_move_at": "2026-11-12T13:34:14Z"
 }
