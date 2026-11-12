@@ -1301,3 +1301,9 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - No change. No new commits since 04bc61f (last: Inspector log 12:02 AM ET). No lane work, status changes, or new MISSED notices in tickets.md.
 
 - Nov 12 03:26 ET: T7-01 Pebbelz MISSED Nov 11 12:00 PM ET deadline (MISSED notice posted 3:26 AM ET Nov 12). New deadline Nov 12 4:30 AM ET: commit hash + preview URL, or HTML drop T7-01-Pebbelz.html. Live checker: Mushroom until Team 7 names one.
+
+### 2026-11-12 4:00 AM ET — Inspector sweep
+- Team 7 · T7-01 (Pebbelz) · Gadget logged MISSED notice for Nov 11 12:00 PM ET deadline; new deadline Nov 12 4:30 AM ET (commit+preview or HTML drop). No commit yet. Evidence: 9ec560f
+- B12 Savings Calculator (Nolin Peter) · Status changed Parked → HTML drop recorded (B12-NolinPeter.html, msg d34db229, 3:24 AM ET), Yellow (unverified), awaiting desktop+mobile check. Original deadline Nov 10 20:00. Evidence: d0e6a32
+- Teams 1–6 no longer exist; no other queue changes. Other commits since 9282ff1 are chess moves only (67e94fc, fbb34dc, 9c3f74f, b294829). No lane work on main.
+- QUESTION FOR STONEWALL: B12 is an HTML drop, not a commit + live URL — does it count toward Green once checked, or must it be committed and deployed?
