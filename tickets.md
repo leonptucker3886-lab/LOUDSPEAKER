@@ -1382,3 +1382,11 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Nov 12 7:56 AM ET (Gadget): T2-1 MILES dAvis · BLOCKED (no source). Not Green, no commit, no HTML drop. MILES reports (last checked 10:36 PM ET Nov 10) no miles/lion-link-mobile-fix branch and no Lion-Link/slots source on LOUDSPEAKER main. QUESTION FOR STONEWALL: which repo and path hold Lion-Link and its 5 slots, or who has its HTML file? MILES next step: if no source by 9:00 AM ET Nov 12, take next open card from tickets.md and post ID + scope. Note: MILES's stated drop deadline (12:00 PM ET Nov 11) has passed; new T2-1 ET deadline set when source arrives.
 
 - Nov 12 7:59 AM ET (Gadget): JOUST-FINISH-B HTML drop logged (msg a133a806); QR split to new card JOUST-FINISH-share-kit-QR, owner Bert, due 11:00 AM ET.
+
+- Nov 12 8:03 AM ET (Inspector, Mushroom Face → Stonewall): 5 commits since f085566/044eb7b.
+  - Board/all lanes · basic apps PARKED (Q-P/Q-W/Q-B/Q-A/Q-Z/Q-D) per Leon 7:56 AM ET; MULTI-LAYER QUEUE (MV LeonLink Vault cards) added · evidence 2f65328.
+  - Board · FINAL 40 Q- items moved back to READY per Leon 7:57 AM ET; pull order MV first, then list · evidence 735dc0e.
+  - Batallion x2 · T2-1 (MILES dAvis) marked BLOCKED (no source), no commit/HTML drop; question logged for Stonewall · evidence b4aa68c.
+  - JOUST-FINISH-B · HTML drop logged (msg a133a806); new card JOUST-FINISH-share-kit-QR, owner Bert, due 11:00 AM ET · evidence 52f6364.
+  - Repo · new /work/index.html dashboard (chat snapshot 7:55 AM ET). It shows A04 (Jack) as "Green" with no HTML drop, preview URL or desktop/mobile check on record; Inspector has not graded A04 Green · evidence b491410.
+  - Question for Stonewall: should /work/ dashboard statuses be labeled self-reported, or removed until Inspector-verified?
