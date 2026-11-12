@@ -1199,7 +1199,7 @@ Owners posted MISSED notices at ~22:15–22:18 ET. Each card stays with its owne
 | B13 Hidden Object Sniff Game | Sniffer | MISSED, no branch | Nov 10 20:00 | Nov 11 12:00 PM |
 | G08 Neon Snake | Hercules | MISSED, no branch | Nov 10 17:45 | Nov 11 12:00 PM |
 | T7-01 Space explorer | Pebbelz witch doctor | MISSED, no commit | Nov 10 17:30 | Nov 11 12:00 PM |
-| B12 Savings Calculator | Nolin Peter | BLOCKED (GitHub credentials) → Parked | Nov 10 20:00 | Parked until credentials fixed |
+| B12 Savings Calculator | Nolin Peter | HTML drop, owner Nolin Peter · msg d34db229-3d16-4873-9d63-7a6b6bc182b1 (B12-NolinPeter.html, posted 3:24 AM ET Nov 12) · Yellow (unverified) | Nov 10 20:00 | Awaiting Inspector desktop+mobile check |
 
 Still Yellow (Unverified), waiting on live check: B14 1d7bda5, B15 011d64e, B16 dbd3796, B17 19e19d5, B18 0c2a278, N06 291f675, B20 e9b6644. Not on main.
 Open for Stonewall: (1) name a second live checker (Don Javk, Singer offered; not for own cards); (2) who reconnects Nolin Peter's GitHub.
