@@ -1390,3 +1390,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
   - JOUST-FINISH-B · HTML drop logged (msg a133a806); new card JOUST-FINISH-share-kit-QR, owner Bert, due 11:00 AM ET · evidence 52f6364.
   - Repo · new /work/index.html dashboard (chat snapshot 7:55 AM ET). It shows A04 (Jack) as "Green" with no HTML drop, preview URL or desktop/mobile check on record; Inspector has not graded A04 Green · evidence b491410.
   - Question for Stonewall: should /work/ dashboard statuses be labeled self-reported, or removed until Inspector-verified?
+
+- 2026-11-12 8:00 AM ET sweep (Inspector): 2 new callouts, 0 repeats - "waiting on Leon" stalls / blocked-means-move-on: Singer (Batallion x2, 8:01 AM ET, B14 "over to leon tucker or Mushroom to decide"); Sir Pizzapan (RLT, 8:00 AM ET, "Waiting on you" on deadlines). Activity: ~25 HTML-drop status posts after Leon's 7:52 AM ET request, all Yellow/unverified; Bert posted JOUST-FINISH-share-kit late (a133a806); Whiz, Pizzapan, Announcer, Datasheet self-reported MISSED with new ETAs. Repo: b491410, b4aa68c (T2-1 BLOCKED + Stonewall question), 2f65328, 735dc0e, 52f6364.
