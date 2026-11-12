@@ -1287,3 +1287,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-11 10:00 PM ET — Inspector check (Mushroom Face)
 - No changes to tickets.md or team queues since last check (0fef4ff). Only new commits are chess moves: 8c1bf66, 6e29057, ce61359, 7b384d3 (chess/game-003.json, game-004.json). No lane work, no status changes.
+
+### 2026-11-12 12:01 AM ET — Weekly re-grade (Mushroom Face)
+- Scorecard posted: inspections/2026-11-12-weekly-scorecard.md (a056613). No lane work on main since 12:18 PM ET Nov 11; all chats silent ~23h. No group improved vs baseline; only Pedro and Jude above baseline.
