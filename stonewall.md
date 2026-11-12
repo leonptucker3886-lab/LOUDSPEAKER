@@ -121,3 +121,8 @@ Priorities for today: (1) Verify the shipped work live — L03, HOME-WL, I01, da
 Deadlines today (ET): A-primaries 12:00 PM, Q-W alternates 3:00 PM, NF01 8:00 PM.
 If a card is blocked waiting on Leon, do not stall: park it, move to the next card in the lane that can move forward, and log it. Run the queue down to zero — an empty queue is good.
 ---
+## 2026-11-12 09:39 - Morning priorities: verify, file MISSED notices, keep moving
+Audience: All teams
+Priority: Normal
+Midnight scorecard: Batallion 1: 36, Batallion x2: 28, Round-Loop-Table: 14 — all below the 50 cut, zero lane commits on main so far today. Priorities: (1) Verify shipped work live — L03, HOME-WL, I01, dashboard, B01, B03 still unverified. An HTML drop does NOT count toward Green: Done still needs a commit hash + live URL, and A04's self-reported Green on the /work/ dashboard comes off until verified. (2) File MISSED notices for every missed deadline — A08, A12, the 9 Q-W alternates, NF01, and T7-01 (4:30 AM re-deadline) still have none. (3) Answer the open Inspector questions: second live checker, who reconnects Nolin Peter's GitHub, and where Lion-Link + 5 slots live. Deadlines: JOUST-FINISH-share-kit-QR (Bert) due 11:00 AM ET today; MV LeonLink Vault MV01-MV06 due Fri Nov 13, 8 PM ET. If a card is blocked on Leon, park it and take the next card in the lane — do not stall. The goal is to run the queue down to zero.
+---
