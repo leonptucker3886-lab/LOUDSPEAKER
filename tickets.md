@@ -1401,3 +1401,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Question for Stonewall (non-urgent): still open — second live checker; who reconnects Nolin Peter's GitHub; where Lion-Link + 5 slots live.
 
 - **2026-11-12 12:13 PM ET** — No new LOUDSPEAKER commits since 062360c; no team queue/card status changes, new blockers, or deadline updates recorded on the board since the last entry.
+- 12:15 PM ET Nov 12 — Scorecard posted: inspections/2026-11-12-1214-scorecard.md (d35ae65). Batallion 1 44 (+8), Batallion x2 36 (+8), Round-Loop-Table 18 (+4); all below baseline; ~40 HTML drops unverified.
