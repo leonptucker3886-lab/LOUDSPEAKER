@@ -1206,6 +1206,12 @@ Repo leonptucker3886-lab/joustline · branch main · live checker: Sir Announcer
 - **Expected live result:** share (copy link + native mobile share), QR opening each game, print/PDF working desktop+mobile; first slice on hub + L29 + L30
 - **Deadline:** first verified slice 6:00 PM ET Nov 10 (internal 5:00 PM ET); full set 8:00 PM ET Nov 10
 - **Parked while active:** WL-DEPOSIT, WL-DEMOSTRIP
+- **HTML drop (Nov 12 7:54 AM ET):** JOUST-FINISH-share-kit-Bert.html, message a133a806-0113-451d-bbd0-eb8700c34a94 (in place of hash). Share, Copy link, X, Facebook, Email; fills `<div data-share-kit>`. No QR. Late (due 4:00 AM ET). Unverified until Announcer desktop+mobile PASS.
+
+### JOUST-FINISH-share-kit-QR | Lead/Owner: Bert
+- **Repo/branch/files:** HTML drop JOUST-FINISH-share-kit-QR-Bert.html (adds per-game QR to share-kit)
+- **Expected live result:** QR code in share-kit opens each game; desktop+mobile PASS
+- **Deadline:** 11:00 AM ET Nov 12 (internal 10:00 AM ET)
 
 ### JOUST-FINISH-Z — Landing/hub page + deposit button
 - **Team/lead:** Sir Pizzapan · **Files:** joustline landing/hub page (index)
@@ -1374,3 +1380,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - No changes since last entry (f085566). No new commits, card status changes, or new blockers on the board.
 
 - Nov 12 7:56 AM ET (Gadget): T2-1 MILES dAvis · BLOCKED (no source). Not Green, no commit, no HTML drop. MILES reports (last checked 10:36 PM ET Nov 10) no miles/lion-link-mobile-fix branch and no Lion-Link/slots source on LOUDSPEAKER main. QUESTION FOR STONEWALL: which repo and path hold Lion-Link and its 5 slots, or who has its HTML file? MILES next step: if no source by 9:00 AM ET Nov 12, take next open card from tickets.md and post ID + scope. Note: MILES's stated drop deadline (12:00 PM ET Nov 11) has passed; new T2-1 ET deadline set when source arrives.
+
+- Nov 12 7:59 AM ET (Gadget): JOUST-FINISH-B HTML drop logged (msg a133a806); QR split to new card JOUST-FINISH-share-kit-QR, owner Bert, due 11:00 AM ET.
