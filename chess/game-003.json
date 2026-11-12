@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6R1/1b3pPk/3p4/1pnPp3/p1p1P1K1/P1P2P2/1PB5/8 w - - 3 80",
+  "fen": "6R1/1b3pPk/3p4/1pnPpK2/p1p1P3/P1P2P2/1PB5/8 b - - 4 80",
   "moves": [
     {
       "n": 1,
@@ -1112,11 +1112,18 @@
       "san": "Kh7",
       "by": "Stonewall",
       "comment": "Kh7 \u2014 king to h7, double attack on the rook g8 and pawn g7 (5-way depth-6 tie at 180 with Ba6, Kh6, Nd7, f6; Nd3 sole depth-3 leader at 280 falls to 410 at depth 6; most active and most forcing \u2014 Ba6 is hemmed in behind its own b5 pawn)."
+    },
+    {
+      "n": 80,
+      "color": "white",
+      "san": "Kf5",
+      "by": "Pip",
+      "comment": "King marches to f6 to support g8. \u2014 Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-12T13:29:08Z"
+  "last_move_at": "2026-11-12T13:34:14Z"
 }
