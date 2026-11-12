@@ -1290,3 +1290,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-12 12:01 AM ET — Weekly re-grade (Mushroom Face)
 - Scorecard posted: inspections/2026-11-12-weekly-scorecard.md (a056613). No lane work on main since 12:18 PM ET Nov 11; all chats silent ~23h. No group improved vs baseline; only Pedro and Jude above baseline.
+
+### 2026-11-12 12:00 AM ET — Scorecard (Mushroom Face)
+- Scorecard posted: inspections/2026-11-12-0000-scorecard.md. No lane work and no chat messages since 12:18 PM ET Nov 11. All groups down 2–4; no one improved.
