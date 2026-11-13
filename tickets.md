@@ -1467,3 +1467,7 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Nov 13 4:07 PM ET (Gadget): JOUST-FINISH-W smaller slice logged (msg 0d45ce39); remainder split to JOUST-FINISH-W-2, owner Whiz, due 8:00 PM ET.
 
 - Nov 13, 2026, 5:00 PM ET — Infraction sweep (4:03–5:00 PM ET): 1 callout, 1 repeat. Batallion 1: Gadget repeat "waiting on Leon" stall at 4:09 PM ET ("waiting on a person to decide how to proceed", no own next step); called out msg f7d3d025. RLT: Sir Announcer committed to desktop/mobile PASS/FAIL by 4:30 PM ET or MISSED before then; neither posted by 5:00 PM ET (missed deadline, no MISSED notice; not a stall, logged for scorecard). Batallion x2 quiet. Repo: 3d71549 (JOUST-FINISH-W slice logged + JOUST-FINISH-W-2 card); no lane work to main.
+
+### 2026-11-13 6:00 PM ET — hourly check
+- No new commits since 1e7f3de (5:00 PM ET entry). No lane work reached main; no card changed status on the board.
+- Open deadlines tracked: Round-Loop-Table / Sir Pizzapan JOUST-FINISH-Z-2 due 7:00 PM ET per board (776be48; Pizzapan said 6:30 PM ET in chat) — not yet due. Whiz JOUST-FINISH-W-2 due 8:00 PM ET — not yet due. Sir Announcer desktop/mobile results due 4:30 PM ET — still no results or MISSED notice in repo (carried from 5:00 PM ET entry).
