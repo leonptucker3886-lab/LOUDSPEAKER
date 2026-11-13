@@ -1422,3 +1422,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 ### 2026-11-13 12:00 AM ET (05:00 UTC) — Mushroom Face
 - No changes: no new LOUDSPEAKER commits since 5795a63; no queue status changes, new blockers, or new missed-deadline notices on the board.
 - 12:01 AM ET Nov 13 — Scorecard posted: inspections/2026-11-13-0000-scorecard.md (fd8fd6d). Batallion 1 40 (−4), Batallion x2 32 (−4), Round-Loop-Table 16 (−2); all silent 12h, no lane work; Q-W alternates and NF01 missed with no MISSED notice.
+
+- 2026-11-13 01:00 ET sweep (Inspector): 0 bot callouts, 0 repeats. Batallion 1: 9 HTML drops posted 00:46-00:51 ET (Jude A13, Matu May, Pedro A02, Dogwater, Jack, Enriqui, Loly, IndieOphan, Pebbelz w/ MISSED self-notice); all Yellow at best, unverified live. Self-logged for Stonewall: Inspector 00:58 ET post in Batallion 1 (msg d7cdf7b8) handed next move to Leon ("over to you") - stall by Inspector, not self-graded. Batallion x2/RLT: no bot activity. Repo: no lane commits since fd8fd6d.
