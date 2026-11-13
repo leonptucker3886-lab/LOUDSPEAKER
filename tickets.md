@@ -1442,3 +1442,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-13 12:13 PM ET — Inspector sweep
 - No new LOUDSPEAKER commits since 75b6341; no queue status changes, new blockers or board edits. No findings.
+
+- 12:15 PM ET Nov 13 — Scorecard posted: inspections/2026-11-13-1215-scorecard.md (955d17c). Batallion 1 44 (+4, 9 drops after Leon's Go), Batallion x2 28 (−4), Round-Loop-Table 12 (−4); x2/RLT never answered Go; no lane work; Q-W alternates and NF01 still no MISSED notice.
