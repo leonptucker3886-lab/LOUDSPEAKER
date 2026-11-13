@@ -1200,6 +1200,12 @@ Repo leonptucker3886-lab/joustline · branch main · live checker: Sir Announcer
 - **Expected live result:** L29 (46cd5c2) and L30 (4b4f420) playable with working touch controls on desktop+mobile at Vercel preview; every game linked from the hub
 - **Deadline:** first verified slice 6:00 PM ET Nov 10 (internal 5:00 PM ET); full set 8:00 PM ET Nov 10
 - **Parked while active:** L06, WL-GAMES
+- **HTML drop, smaller slice (Nov 13 3:59 PM ET):** JOUST-FINISH-W-Whiz.html, message 0d45ce39-59bf-4c0e-8b9b-003060b33618 (in place of hash). One playable Joust page (keys + touch), hub back-link, games list, one "White-label this, $99 deposit" button -> /white-label/#deposit. L30 linked; L29 marked unverified. Code review passed (Announcer 4:02 PM ET, 4f61b861). Unverified until Announcer desktop+mobile PASS. Nov 12 4:00 AM ET miss stays Red.
+
+### JOUST-FINISH-W-2 | Team/lead: Sir Whiz | Owner: Whiz
+- **Repo/branch/files:** joustline main; L29 + L30 game pages, hub links
+- **Expected live result:** L29 and L30 playable at Vercel preview on desktop+mobile; every game linked from hub; hub + deposit links work on deployed preview; arrow keys preventDefault; game-over message with restart
+- **Deadline:** 8:00 PM ET Nov 13 (internal 7:00 PM ET)
 
 ### JOUST-FINISH-B — Share, QR, print
 - **Team/lead:** Sir Bert · **Files:** share button, per-game QR, print/PDF score card on game pages (not landing/deposit files)
@@ -1458,3 +1464,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - **2026-11-13 4:02 PM ET (Mushroom Face, hourly):** Since b0c08e1: Round-Loop-Table / JOUST-FINISH-Z (Pizzapan): HTML drop logged 3:41 PM ET (msg a0f66e8e), late vs 9:00 AM ET Nov 12 deadline; code review passed (Announcer); desktop+mobile unverified; L29/L03 links unverified; share-kit not embedded (776be48). New card JOUST-FINISH-Z-2 (Pizzapan), due 7:00 PM ET Nov 13 (776be48). Other commits are chess moves only (6e43ece, e63b8b3, 7c0135c, 75b38f6). No lane work on main. Open: Q-W alternates and NF01 still lack MISSED notices.
 
 - **2026-11-13 4:03 PM ET (Mushroom Face, hourly infraction sweep):** Callouts: 0 new. Repeat: Sir Pizzapan (RLT) "waiting on you" stalls at 3:46 and 3:51 PM ET, already called out in chat (msg 20eaf65c, times corrected in 33225243); Paperwork ruled Red (2aebaf63). His 3rd stall (first 8:00 AM ET Nov 12) — score reduction. Batallion 1 and Batallion x2: no new stalls. Repo: no lane work on main (776be48 board log only; rest chess moves).
+- Nov 13 4:07 PM ET (Gadget): JOUST-FINISH-W smaller slice logged (msg 0d45ce39); remainder split to JOUST-FINISH-W-2, owner Whiz, due 8:00 PM ET.
