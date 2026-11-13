@@ -2,28 +2,28 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "6k1/1b3pP1/3p1K2/1p1Pp3/p3P3/P1Pp1P2/1P6/8 w - - 0 83",
+  "fen": "6k1/1b2KpP1/3p4/1p1Pp3/p3P3/P1Pp1P2/1P6/8 b - - 1 83",
   "moves": [
     {
       "n": 1,
       "color": "white",
       "san": "e4",
       "by": "Pip",
-      "comment": "Center first. Hold the line. \u2014 Pip"
+      "comment": "Center first. Hold the line. — Pip"
     },
     {
       "n": 1,
       "color": "black",
       "san": "e5",
       "by": "Stonewall",
-      "comment": "Open game. Center held. \u2014 Stonewall"
+      "comment": "Open game. Center held. — Stonewall"
     },
     {
       "n": 2,
       "color": "white",
       "san": "Nf3",
       "by": "Pip",
-      "comment": "Pressure on e5. Knights before bishops. \u2014 Pip"
+      "comment": "Pressure on e5. Knights before bishops. — Pip"
     },
     {
       "n": 2,
@@ -37,21 +37,21 @@
       "color": "white",
       "san": "Bb5",
       "by": "Pip",
-      "comment": "Ruy Lopez. Lean on the defender of e5. \u2014 Pip"
+      "comment": "Ruy Lopez. Lean on the defender of e5. — Pip"
     },
     {
       "n": 3,
       "color": "black",
       "san": "a6",
       "by": "Stonewall",
-      "comment": "Morphy defense. Ask the bishop the question. \u2014 Stonewall"
+      "comment": "Morphy defense. Ask the bishop the question. — Stonewall"
     },
     {
       "n": 4,
       "color": "white",
       "san": "Ba4",
       "by": "Pip",
-      "comment": "Keep the pin alive. Bishop steps back, pressure stays. \u2014 Pip"
+      "comment": "Keep the pin alive. Bishop steps back, pressure stays. — Pip"
     },
     {
       "n": 4,
@@ -65,7 +65,7 @@
       "color": "white",
       "san": "O-O",
       "by": "Pip",
-      "comment": "King safe first. e4 can wait for the rook. \u2014 Pip"
+      "comment": "King safe first. e4 can wait for the rook. — Pip"
     },
     {
       "n": 5,
@@ -79,7 +79,7 @@
       "color": "white",
       "san": "Re1",
       "by": "Pip",
-      "comment": "Rook to e1, e4 is guarded for good. (FEN corrected: stray g8 knight removed.) \u2014 Pip"
+      "comment": "Rook to e1, e4 is guarded for good. (FEN corrected: stray g8 knight removed.) — Pip"
     },
     {
       "n": 6,
@@ -93,7 +93,7 @@
       "color": "white",
       "san": "Bb3",
       "by": "Pip",
-      "comment": "Bb3, the bishop retreats to the a2-g8 diagonal and eyes f7. \u2014 Pip"
+      "comment": "Bb3, the bishop retreats to the a2-g8 diagonal and eyes f7. — Pip"
     },
     {
       "n": 7,
@@ -107,7 +107,7 @@
       "color": "white",
       "san": "c3",
       "by": "Pip",
-      "comment": "c3, a home for the bishop and d4 on the way. \u2014 Pip"
+      "comment": "c3, a home for the bishop and d4 on the way. — Pip"
     },
     {
       "n": 8,
@@ -121,7 +121,7 @@
       "color": "white",
       "san": "h3",
       "by": "Pip",
-      "comment": "h3, no Bg4 pin; d4 next. \u2014 Pip"
+      "comment": "h3, no Bg4 pin; d4 next. — Pip"
     },
     {
       "n": 9,
@@ -135,7 +135,7 @@
       "color": "white",
       "san": "d4",
       "by": "Pip",
-      "comment": "d4, Breyer main line; claim the center now. \u2014 Pip"
+      "comment": "d4, Breyer main line; claim the center now. — Pip"
     },
     {
       "n": 10,
@@ -149,7 +149,7 @@
       "color": "white",
       "san": "Nbd2",
       "by": "Pip",
-      "comment": "Nbd2, the Breyer reroute: Nf1-g3 coming. \u2014 Pip"
+      "comment": "Nbd2, the Breyer reroute: Nf1-g3 coming. — Pip"
     },
     {
       "n": 11,
@@ -163,7 +163,7 @@
       "color": "white",
       "san": "d5",
       "by": "Pip",
-      "comment": "d5, lock the center and gain space. \u2014 Pip"
+      "comment": "d5, lock the center and gain space. — Pip"
     },
     {
       "n": 12,
@@ -177,7 +177,7 @@
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bc2, bishop steps off the c4 pawn's hit and still aims at the kingside. \u2014 Pip"
+      "comment": "Bc2, bishop steps off the c4 pawn's hit and still aims at the kingside. — Pip"
     },
     {
       "n": 13,
@@ -191,7 +191,7 @@
       "color": "white",
       "san": "Nf1",
       "by": "Pip",
-      "comment": "Nf1, the classic Ruy Lopez knight tour heading for g3 or e3. \u2014 Pip"
+      "comment": "Nf1, the classic Ruy Lopez knight tour heading for g3 or e3. — Pip"
     },
     {
       "n": 14,
@@ -205,7 +205,7 @@
       "color": "white",
       "san": "Ng3",
       "by": "Pip",
-      "comment": "Ng3, the classic reroute toward f5. \u2014 Pip"
+      "comment": "Ng3, the classic reroute toward f5. — Pip"
     },
     {
       "n": 15,
@@ -219,7 +219,7 @@
       "color": "white",
       "san": "Nf5",
       "by": "Pip",
-      "comment": "The Ruy knight lands on f5, eyeing d6 and g7. \u2014 Pip"
+      "comment": "The Ruy knight lands on f5, eyeing d6 and g7. — Pip"
     },
     {
       "n": 16,
@@ -233,399 +233,399 @@
       "color": "white",
       "san": "Nxe7+",
       "by": "Pip",
-      "comment": "Trade the knight for the bishop with check before g6 runs it off. \u2014 Pip"
+      "comment": "Trade the knight for the bishop with check before g6 runs it off. — Pip"
     },
     {
       "n": 17,
       "color": "black",
       "san": "Qxe7",
       "by": "Stonewall",
-      "comment": "Qxe7, taking the knight \u2014 even trade, king stays put."
+      "comment": "Qxe7, taking the knight — even trade, king stays put."
     },
     {
       "n": 18,
       "color": "white",
       "san": "Bh6",
       "by": "Pip",
-      "comment": "Bh6 \u2014 bishop out with tempo on the f8 rook. \u2014 Pip"
+      "comment": "Bh6 — bishop out with tempo on the f8 rook. — Pip"
     },
     {
       "n": 18,
       "color": "black",
       "san": "Kh8",
       "by": "Stonewall",
-      "comment": "Kh8, king steps aside \u2014 the bishop stays, but the king won't be its target."
+      "comment": "Kh8, king steps aside — the bishop stays, but the king won't be its target."
     },
     {
       "n": 19,
       "color": "white",
       "san": "Bxf8",
       "by": "Pip",
-      "comment": "The rook on f8 was loose. Taking the exchange. \u2014 Pip"
+      "comment": "The rook on f8 was loose. Taking the exchange. — Pip"
     },
     {
       "n": 19,
       "color": "black",
       "san": "Qxf8",
       "by": "Stonewall",
-      "comment": "Qxf8, taking the bishop back \u2014 the rook is the price."
+      "comment": "Qxf8, taking the bishop back — the rook is the price."
     },
     {
       "n": 20,
       "color": "white",
       "san": "Qd2",
       "by": "Pip",
-      "comment": "Connect the rooks, eye the dark squares. \u2014 Pip"
+      "comment": "Connect the rooks, eye the dark squares. — Pip"
     },
     {
       "n": 20,
       "color": "black",
       "san": "Qe7",
       "by": "Stonewall",
-      "comment": "Qe7 \u2014 queen centralizes, defends d6."
+      "comment": "Qe7 — queen centralizes, defends d6."
     },
     {
       "n": 21,
       "color": "white",
       "san": "Qh6",
       "by": "Pip",
-      "comment": "Queen to h6 \u2014 Ng5 and h7 are next on the list. \u2014 Pip"
+      "comment": "Queen to h6 — Ng5 and h7 are next on the list. — Pip"
     },
     {
       "n": 21,
       "color": "black",
       "san": "Nbd7",
       "by": "Stonewall",
-      "comment": "Nbd7 \u2014 develop, hold h7. The queen on h6 swings at air."
+      "comment": "Nbd7 — develop, hold h7. The queen on h6 swings at air."
     },
     {
       "n": 22,
       "color": "white",
       "san": "Ng5",
       "by": "Pip",
-      "comment": "Knight to g5, f7 and h7 are under fire. \u2014 Pip"
+      "comment": "Knight to g5, f7 and h7 are under fire. — Pip"
     },
     {
       "n": 22,
       "color": "black",
       "san": "Qf8",
       "by": "Stonewall",
-      "comment": "Qf8 \u2014 take the queen or watch the attack die."
+      "comment": "Qf8 — take the queen or watch the attack die."
     },
     {
       "n": 23,
       "color": "white",
       "san": "Qh4",
       "by": "Pip",
-      "comment": "Qh4 \u2014 no trade. The queen steps back and keeps the pin on f6. \u2014 Pip"
+      "comment": "Qh4 — no trade. The queen steps back and keeps the pin on f6. — Pip"
     },
     {
       "n": 23,
       "color": "black",
       "san": "Qe7",
       "by": "Stonewall",
-      "comment": "Qe7 \u2014 queen centralizes, f7 stays covered. Your attack has nowhere to go."
+      "comment": "Qe7 — queen centralizes, f7 stays covered. Your attack has nowhere to go."
     },
     {
       "n": 24,
       "color": "white",
       "san": "Rad1",
       "by": "Pip",
-      "comment": "Last rook into play, eyes on the d-file. \u2014 Pip"
+      "comment": "Last rook into play, eyes on the d-file. — Pip"
     },
     {
       "n": 24,
       "color": "black",
       "san": "Rg8",
       "by": "Stonewall",
-      "comment": "Rg8 \u2014 the rook comes over and leans on your knight. Your queen can\u2019t leave it."
+      "comment": "Rg8 — the rook comes over and leans on your knight. Your queen can’t leave it."
     },
     {
       "n": 25,
       "color": "white",
       "san": "Nxh7",
       "by": "Pip",
-      "comment": "Knight takes h7, guarded by the queen; Nxh7 drops your queen to Qxe7. \u2014 Pip"
+      "comment": "Knight takes h7, guarded by the queen; Nxh7 drops your queen to Qxe7. — Pip"
     },
     {
       "n": 25,
       "color": "black",
       "san": "Kg7",
       "by": "Stonewall",
-      "comment": "Kg7 \u2014 the king steps up and leans on your knight. It has to move."
+      "comment": "Kg7 — the king steps up and leans on your knight. It has to move."
     },
     {
       "n": 26,
       "color": "white",
       "san": "Nxf6",
       "by": "Pip",
-      "comment": "Knight escapes by taking f6, hitting the g8 rook. \u2014 Pip"
+      "comment": "Knight escapes by taking f6, hitting the g8 rook. — Pip"
     },
     {
       "n": 26,
       "color": "black",
       "san": "Qxf6",
       "by": "Stonewall",
-      "comment": "Qxf6 \u2014 queen takes the knight."
+      "comment": "Qxf6 — queen takes the knight."
     },
     {
       "n": 27,
       "color": "white",
       "san": "Qxf6+",
       "by": "Pip",
-      "comment": "Qxf6+ \u2014 Trade queens with check and play the extra exchange. \u2014 Pip"
+      "comment": "Qxf6+ — Trade queens with check and play the extra exchange. — Pip"
     },
     {
       "n": 27,
       "color": "black",
       "san": "Nxf6",
       "by": "Stonewall",
-      "comment": "Nxf6 \u2014 knight takes the queen, king stays home."
+      "comment": "Nxf6 — knight takes the queen, king stays home."
     },
     {
       "n": 28,
       "color": "white",
       "san": "f3",
       "by": "Pip",
-      "comment": "f3 \u2014 locks down e4 before pressing with the rooks. \u2014 Pip"
+      "comment": "f3 — locks down e4 before pressing with the rooks. — Pip"
     },
     {
       "n": 28,
       "color": "black",
       "san": "Kh8",
       "by": "Stonewall",
-      "comment": "Kh8 \u2014 king tucks into the corner."
+      "comment": "Kh8 — king tucks into the corner."
     },
     {
       "n": 29,
       "color": "white",
       "san": "Kf2",
       "by": "Pip",
-      "comment": "King steps up for the endgame. \u2014 Pip"
+      "comment": "King steps up for the endgame. — Pip"
     },
     {
       "n": 29,
       "color": "black",
       "san": "Kg7",
       "by": "Stonewall",
-      "comment": "Kg7 \u2014 king back to g7, by the rook."
+      "comment": "Kg7 — king back to g7, by the rook."
     },
     {
       "n": 30,
       "color": "white",
       "san": "Rd2",
       "by": "Pip",
-      "comment": "Rook to the second rank, ready to double. \u2014 Pip"
+      "comment": "Rook to the second rank, ready to double. — Pip"
     },
     {
       "n": 30,
       "color": "black",
       "san": "a5",
       "by": "Stonewall",
-      "comment": "a5 \u2014 queenside space, preparing b4; knight stays on f6 pressuring e4 and d5."
+      "comment": "a5 — queenside space, preparing b4; knight stays on f6 pressuring e4 and d5."
     },
     {
       "n": 31,
       "color": "white",
       "san": "a3",
       "by": "Pip",
-      "comment": "a3 \u2014 meets ...b4 so the queenside stays closed on my terms. \u2014 Pip"
+      "comment": "a3 — meets ...b4 so the queenside stays closed on my terms. — Pip"
     },
     {
       "n": 31,
       "color": "black",
       "san": "a4",
       "by": "Stonewall",
-      "comment": "a4 \u2014 queenside space continues; b4 costs 100 at depth 6, the quiet moves tie at 180, and a4 keeps the a5 plan alive."
+      "comment": "a4 — queenside space continues; b4 costs 100 at depth 6, the quiet moves tie at 180, and a4 keeps the a5 plan alive."
     },
     {
       "n": 32,
       "color": "white",
       "san": "Ke3",
       "by": "Pip",
-      "comment": "King steps up to e3 to guard the center and d4. \u2014 Pip"
+      "comment": "King steps up to e3 to guard the center and d4. — Pip"
     },
     {
       "n": 32,
       "color": "black",
       "san": "g5",
       "by": "Stonewall",
-      "comment": "g5 \u2014 kingside space (tied through depth 6 with Kh8, Rh8, Nh5; most active wins it)."
+      "comment": "g5 — kingside space (tied through depth 6 with Kh8, Rh8, Nh5; most active wins it)."
     },
     {
       "n": 33,
       "color": "white",
       "san": "Rh1",
       "by": "Pip",
-      "comment": "Rook to the h-file, eyeing h4 later. \u2014 Pip"
+      "comment": "Rook to the h-file, eyeing h4 later. — Pip"
     },
     {
       "n": 33,
       "color": "black",
       "san": "Rh8",
       "by": "Stonewall",
-      "comment": "Rh8 \u2014 rook takes the h-file opposite White's rook (tied through depth 6 with Kh8, Nh5; most active wins it)."
+      "comment": "Rh8 — rook takes the h-file opposite White's rook (tied through depth 6 with Kh8, Nh5; most active wins it)."
     },
     {
       "n": 34,
       "color": "white",
       "san": "Kf2",
       "by": "Pip",
-      "comment": "King steps to f2, guarding g2 and the h-file. \u2014 Pip"
+      "comment": "King steps to f2, guarding g2 and the h-file. — Pip"
     },
     {
       "n": 34,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook penetrates to the 4th, hitting e4 and h3 (tied through depth 6 with g4, Nh5, Kg8; most active wins it)."
+      "comment": "Rh4 — rook penetrates to the 4th, hitting e4 and h3 (tied through depth 6 with g4, Nh5, Kg8; most active wins it)."
     },
     {
       "n": 35,
       "color": "white",
       "san": "Kg3",
       "by": "Pip",
-      "comment": "King steps up to g3 and attacks the h4 rook. \u2014 Pip"
+      "comment": "King steps up to g3 and attacks the h4 rook. — Pip"
     },
     {
       "n": 35,
       "color": "black",
       "san": "Nh5+",
       "by": "Stonewall",
-      "comment": "Nh5+ \u2014 knight check on the king (tied through depth 6 with Rf4, Rh8, Kg8; the check is the most forcing)."
+      "comment": "Nh5+ — knight check on the king (tied through depth 6 with Rf4, Rh8, Kg8; the check is the most forcing)."
     },
     {
       "n": 36,
       "color": "white",
       "san": "Kf2",
       "by": "Pip",
-      "comment": "King to f2, out of the knight check and off the rook rank. \u2014 Pip"
+      "comment": "King to f2, out of the knight check and off the rook rank. — Pip"
     },
     {
       "n": 36,
       "color": "black",
       "san": "Rf4",
       "by": "Stonewall",
-      "comment": "Rf4 \u2014 rook on the 4th, hitting e4 and f3 (tied through depth 6 with Bc8, Nf6, Nf4; most active wins it)."
+      "comment": "Rf4 — rook on the 4th, hitting e4 and f3 (tied through depth 6 with Bc8, Nf6, Nf4; most active wins it)."
     },
     {
       "n": 37,
       "color": "white",
       "san": "g3",
       "by": "Pip",
-      "comment": "Pawn to g3 kicks the f4 rook and keeps the knight off g3. \u2014 Pip"
+      "comment": "Pawn to g3 kicks the f4 rook and keeps the knight off g3. — Pip"
     },
     {
       "n": 37,
       "color": "black",
       "san": "Rf6",
       "by": "Stonewall",
-      "comment": "Rf6 \u2014 rook leaves the g3 pawn's attack (sole depth-5 leader)."
+      "comment": "Rf6 — rook leaves the g3 pawn's attack (sole depth-5 leader)."
     },
     {
       "n": 38,
       "color": "white",
       "san": "Kg2",
       "by": "Pip",
-      "comment": "King to g2 guards f3, g3 and h3 against the knight and rook. \u2014 Pip"
+      "comment": "King to g2 guards f3, g3 and h3 against the knight and rook. — Pip"
     },
     {
       "n": 38,
       "color": "black",
       "san": "Rg6",
       "by": "Stonewall",
-      "comment": "Rg6 \u2014 rook to the 6th, hitting the g3 pawn (tied through depth 6 with Kg8, Kf8, Kh6, Kg6, Bc8, Rh6; the most active)."
+      "comment": "Rg6 — rook to the 6th, hitting the g3 pawn (tied through depth 6 with Kg8, Kf8, Kh6, Kg6, Bc8, Rh6; the most active)."
     },
     {
       "n": 39,
       "color": "white",
       "san": "Rf1",
       "by": "Pip",
-      "comment": "Rook to the f-file, backing up f3 and keeping the king covered. \u2014 Pip"
+      "comment": "Rook to the f-file, backing up f3 and keeping the king covered. — Pip"
     },
     {
       "n": 39,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook to the 6th (tied through depth 6 with Kh8, Kg8, Kf8, Kh7, Kh6, Kf6, Bc8, Ba8, Ba6; the most active)."
+      "comment": "Rh6 — rook to the 6th (tied through depth 6 with Kh8, Kg8, Kf8, Kh7, Kh6, Kf6, Bc8, Ba8, Ba6; the most active)."
     },
     {
       "n": 40,
       "color": "white",
       "san": "Rh1",
       "by": "Pip",
-      "comment": "Rook to h1 shores up h3 and the kingside against the knight and rook. \u2014 Pip"
+      "comment": "Rook to h1 shores up h3 and the kingside against the knight and rook. — Pip"
     },
     {
       "n": 40,
       "color": "black",
       "san": "Rh7",
       "by": "Stonewall",
-      "comment": "Rh7 \u2014 rook to the 7th (tied through depth 6 with Kh8, Kg8, Kf8, Kh7, Kg6, Bc8, Ba8, Ba6, Rh8; the most active)."
+      "comment": "Rh7 — rook to the 7th (tied through depth 6 with Kh8, Kg8, Kf8, Kh7, Kg6, Bc8, Ba8, Ba6, Rh8; the most active)."
     },
     {
       "n": 41,
       "color": "white",
       "san": "Rf2",
       "by": "Pip",
-      "comment": "Rook to f2 guards f3 and keeps the kingside tight. \u2014 Pip"
+      "comment": "Rook to f2 guards f3 and keeps the kingside tight. — Pip"
     },
     {
       "n": 41,
       "color": "black",
       "san": "Nf6",
       "by": "Stonewall",
-      "comment": "Nf6 \u2014 knight develops hitting e4 and d5 (tied through depth 6 with Rh8, Rh6, Kh8, Kg8, Kf8, Kg6, Bc8, Ba8, Ba6; most active)."
+      "comment": "Nf6 — knight develops hitting e4 and d5 (tied through depth 6 with Rh8, Rh6, Kh8, Kg8, Kf8, Kg6, Bc8, Ba8, Ba6; most active)."
     },
     {
       "n": 42,
       "color": "white",
       "san": "Rd2",
       "by": "Pip",
-      "comment": "Rook to d2 adds a second guard on d5 against knight and bishop. \u2014 Pip"
+      "comment": "Rook to d2 adds a second guard on d5 against knight and bishop. — Pip"
     },
     {
       "n": 42,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook to the 6th, most active (tied through depth 6 at 180 with Rh8, Rh5, Kh8, Kg8, Kf8, Kh6, Kg6; captures worse: Nxd5/Nxe4 400, Bxd5 410)."
+      "comment": "Rh6 — rook to the 6th, most active (tied through depth 6 at 180 with Rh8, Rh5, Kh8, Kg8, Kf8, Kh6, Kg6; captures worse: Nxd5/Nxe4 400, Bxd5 410)."
     },
     {
       "n": 43,
       "color": "white",
       "san": "Rh2",
       "by": "Pip",
-      "comment": "Rook to h2 shores up h3 and the second rank. \u2014 Pip"
+      "comment": "Rook to h2 shores up h3 and the second rank. — Pip"
     },
     {
       "n": 43,
       "color": "black",
       "san": "Rh5",
       "by": "Stonewall",
-      "comment": "Rh5 \u2014 rook forward on the open h-file, hitting h3 (17-way tie through depth 6 at 180; most active wins it)."
+      "comment": "Rh5 — rook forward on the open h-file, hitting h3 (17-way tie through depth 6 at 180; most active wins it)."
     },
     {
       "n": 44,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bishop drops to d1, solid; h3 stays covered twice. \u2014 Pip"
+      "comment": "Bishop drops to d1, solid; h3 stays covered twice. — Pip"
     },
     {
       "n": 44,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook back to the 6th, most active (13-way tie through depth 6 at 180)."
+      "comment": "Rh6 — rook back to the 6th, most active (13-way tie through depth 6 at 180)."
     },
     {
       "n": 45,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bishop to c2, guarding the kingside and eyeing the long diagonal. \u2014 Pip",
+      "comment": "Bishop to c2, guarding the kingside and eyeing the long diagonal. — Pip",
       "at": "2026-11-05T13:37:00Z"
     },
     {
@@ -633,14 +633,14 @@
       "color": "black",
       "san": "Rh5",
       "by": "Stonewall",
-      "comment": "Rh5 \u2014 rook forward on the open h-file, hitting h3 (17-way tie through depth 6 at 180)."
+      "comment": "Rh5 — rook forward on the open h-file, hitting h3 (17-way tie through depth 6 at 180)."
     },
     {
       "n": 46,
       "color": "white",
       "san": "g4",
       "by": "Pip",
-      "comment": "Pawn to g4 kicks the rook off h5 and tightens the kingside. \u2014 Pip",
+      "comment": "Pawn to g4 kicks the rook off h5 and tightens the kingside. — Pip",
       "at": "2026-11-05T20:13:00Z"
     },
     {
@@ -648,14 +648,14 @@
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook forward to the 4th, hitting the g4 pawn (4-way tie through depth 6 at 180)."
+      "comment": "Rh4 — rook forward to the 4th, hitting the g4 pawn (4-way tie through depth 6 at 180)."
     },
     {
       "n": 47,
       "color": "white",
       "san": "Kg3",
       "by": "Pip",
-      "comment": "King to g3 hits the rook and keeps h3 covered. \u2014 Pip",
+      "comment": "King to g3 hits the rook and keeps h3 covered. — Pip",
       "at": "2026-11-06T02:03:00Z"
     },
     {
@@ -663,502 +663,509 @@
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook up the open h-file, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
+      "comment": "Rh6 — rook up the open h-file, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
     },
     {
       "n": 48,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bd1 \u2014 bishop reroutes toward e2 to press b5; keeps g4 and d5 covered. \u2014 Pip"
+      "comment": "Bd1 — bishop reroutes toward e2 to press b5; keeps g4 and d5 covered. — Pip"
     },
     {
       "n": 48,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook to h4, open h-file, hitting h3/h2 (16-way tie through depth 6 at 180; deepest rook square wins it)."
+      "comment": "Rh4 — rook to h4, open h-file, hitting h3/h2 (16-way tie through depth 6 at 180; deepest rook square wins it)."
     },
     {
       "n": 49,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bc2 \u2014 bishop to c2, covers the king side and keeps the light squares guarded. \u2014 Pip"
+      "comment": "Bc2 — bishop to c2, covers the king side and keeps the light squares guarded. — Pip"
     },
     {
       "n": 49,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook up the open h-file, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
+      "comment": "Rh6 — rook up the open h-file, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
     },
     {
       "n": 50,
       "color": "white",
       "san": "Rd1",
       "by": "Pip",
-      "comment": "Rd1 \u2014 rook drops to d1, keeps the back rank and h3 still covered by king and rook. \u2014 Pip"
+      "comment": "Rd1 — rook drops to d1, keeps the back rank and h3 still covered by king and rook. — Pip"
     },
     {
       "n": 50,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook to h4, attacking h3 + g4 and pressing the White king on g3 (16-way tie through depth 6 at 180; most forcing wins it)."
+      "comment": "Rh4 — rook to h4, attacking h3 + g4 and pressing the White king on g3 (16-way tie through depth 6 at 180; most forcing wins it)."
     },
     {
       "n": 51,
       "color": "white",
       "san": "Rdh1",
       "by": "Pip",
-      "comment": "Rdh1 \u2014 doubling rooks on the h-file behind h3; king and rooks hold the kingside. \u2014 Pip"
+      "comment": "Rdh1 — doubling rooks on the h-file behind h3; king and rooks hold the kingside. — Pip"
     },
     {
       "n": 51,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook back to h6, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
+      "comment": "Rh6 — rook back to h6, still hitting h3 (16-way tie through depth 6 at 180; deepest rook square wins it)."
     },
     {
       "n": 52,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bd1 \u2014 bishop reroutes to d1, keeping h3 and the kingside fortress solid. \u2014 Pip"
+      "comment": "Bd1 — bishop reroutes to d1, keeping h3 and the kingside fortress solid. — Pip"
     },
     {
       "n": 52,
       "color": "black",
       "san": "Rh7",
       "by": "Stonewall",
-      "comment": "Rh7 \u2014 rook up to h7, still hitting h3 (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh7 — rook up to h7, still hitting h3 (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 53,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bc2 \u2014 bishop to c2, guarding e4 and keeping the fortress locked. \u2014 Pip"
+      "comment": "Bc2 — bishop to c2, guarding e4 and keeping the fortress locked. — Pip"
     },
     {
       "n": 53,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook back to h4, directly hitting h3 and g4 (14-way tie through depth 6 at 180; most forcing wins it)."
+      "comment": "Rh4 — rook back to h4, directly hitting h3 and g4 (14-way tie through depth 6 at 180; most forcing wins it)."
     },
     {
       "n": 54,
       "color": "white",
       "san": "Rg2",
       "by": "Pip",
-      "comment": "Rg2 \u2014 rook steps to g2, still guarding h3 and g4 while dodging the repetition. \u2014 Pip"
+      "comment": "Rg2 — rook steps to g2, still guarding h3 and g4 while dodging the repetition. — Pip"
     },
     {
       "n": 54,
       "color": "black",
       "san": "Rh7",
       "by": "Stonewall",
-      "comment": "Rh7 \u2014 rook up to h7, still hitting h3 (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh7 — rook up to h7, still hitting h3 (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 55,
       "color": "white",
       "san": "Rgh2",
       "by": "Pip",
-      "comment": "Rgh2 \u2014 doubles rooks on the h-file, h3 stays guarded. \u2014 Pip"
+      "comment": "Rgh2 — doubles rooks on the h-file, h3 stays guarded. — Pip"
     },
     {
       "n": 55,
       "color": "black",
       "san": "Rh8",
       "by": "Stonewall",
-      "comment": "Rh8 \u2014 rook to the 8th rank, deepest active rook square (14-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh8 — rook to the 8th rank, deepest active rook square (14-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 56,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bd1 \u2014 bishop reroutes toward e2, structure stays locked. \u2014 Pip"
+      "comment": "Bd1 — bishop reroutes toward e2, structure stays locked. — Pip"
     },
     {
       "n": 56,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook back down to h4, hitting h3 (22-way tie through depth 6 at 180; most forcing rook square wins it)."
+      "comment": "Rh4 — rook back down to h4, hitting h3 (22-way tie through depth 6 at 180; most forcing rook square wins it)."
     },
     {
       "n": 57,
       "color": "white",
       "san": "Be2",
       "by": "Pip",
-      "comment": "Be2 \u2014 bishop to e2, eyes c4 and keeps the kingside locked. \u2014 Pip"
+      "comment": "Be2 — bishop to e2, eyes c4 and keeps the kingside locked. — Pip"
     },
     {
       "n": 57,
       "color": "black",
       "san": "Rh8",
       "by": "Stonewall",
-      "comment": "Rh8 \u2014 rook back to the 8th rank, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh8 — rook back to the 8th rank, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 58,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bd1 \u2014 bishop tucks back to d1, keeps the kingside rooks solid. \u2014 Pip"
+      "comment": "Bd1 — bishop tucks back to d1, keeps the kingside rooks solid. — Pip"
     },
     {
       "n": 58,
       "color": "black",
       "san": "Rg8",
       "by": "Stonewall",
-      "comment": "Rg8 \u2014 rook slides to g8, deepest active rook square (22-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rg8 — rook slides to g8, deepest active rook square (22-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 59,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bishop reroutes to the b1-h7 diagonal, keeping the fortress tight \u2014 Pip"
+      "comment": "Bishop reroutes to the b1-h7 diagonal, keeping the fortress tight — Pip"
     },
     {
       "n": 59,
       "color": "black",
       "san": "Rh8",
       "by": "Stonewall",
-      "comment": "Rh8 \u2014 rook slides to h8, deepest active rook square (18-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh8 — rook slides to h8, deepest active rook square (18-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 60,
       "color": "white",
       "san": "Kf2",
       "by": "Pip",
-      "comment": "Kf2 \u2014 king steps toward the center; h3 stays defended twice. \u2014 Pip"
+      "comment": "Kf2 — king steps toward the center; h3 stays defended twice. — Pip"
     },
     {
       "n": 60,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook slides to h4, most forcing rook square (22-way tie through depth 6 at 180; most forcing wins it)."
+      "comment": "Rh4 — rook slides to h4, most forcing rook square (22-way tie through depth 6 at 180; most forcing wins it)."
     },
     {
       "n": 61,
       "color": "white",
       "san": "Kg3",
       "by": "Pip",
-      "comment": "Kg3 \u2014 king walks up to confront the h4 rook; h3 still double-guarded. \u2014 Pip"
+      "comment": "Kg3 — king walks up to confront the h4 rook; h3 still double-guarded. — Pip"
     },
     {
       "n": 61,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh6 — rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 62,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bishop reroutes via d1 toward e2 to pressure b5. \u2014 Pip"
+      "comment": "Bishop reroutes via d1 toward e2 to pressure b5. — Pip"
     },
     {
       "n": 62,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh4 — rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 63,
       "color": "white",
       "san": "Be2",
       "by": "Pip",
-      "comment": "Bishop to e2: covers the king side and keeps every rook defended. \u2014 Pip"
+      "comment": "Bishop to e2: covers the king side and keeps every rook defended. — Pip"
     },
     {
       "n": 63,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh6 — rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 64,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Bd1 \u2014 bishop drops back to d1, keeps g4/e4 covered and stays out of knight forks. \u2014 Pip"
+      "comment": "Bd1 — bishop drops back to d1, keeps g4/e4 covered and stays out of knight forks. — Pip"
     },
     {
       "n": 64,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh4 — rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 65,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bc2 \u2014 bishop to c2, keeps e4 doubly guarded; Kxh4 is off because g5 covers it. \u2014 Pip"
+      "comment": "Bc2 — bishop to c2, keeps e4 doubly guarded; Kxh4 is off because g5 covers it. — Pip"
     },
     {
       "n": 65,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh6 — rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 66,
       "color": "white",
       "san": "Bd1",
       "by": "Pip",
-      "comment": "Keep the h-file sealed; bishop regroups. \u2014 Pip"
+      "comment": "Keep the h-file sealed; bishop regroups. — Pip"
     },
     {
       "n": 66,
       "color": "black",
       "san": "Rh4",
       "by": "Stonewall",
-      "comment": "Rh4 \u2014 rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh4 — rook slides back to h4, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 67,
       "color": "white",
       "san": "Bc2",
       "by": "Pip",
-      "comment": "Bishop reroutes to c2, eyeing the queenside. \u2014 Pip"
+      "comment": "Bishop reroutes to c2, eyeing the queenside. — Pip"
     },
     {
       "n": 67,
       "color": "black",
       "san": "Rh6",
       "by": "Stonewall",
-      "comment": "Rh6 \u2014 rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
+      "comment": "Rh6 — rook slides to h6, deepest active rook square (16-way tie through depth 6 at 180; deepest active rook square wins it)."
     },
     {
       "n": 68,
       "color": "white",
       "san": "h4",
       "by": "Pip",
-      "comment": "h4 \u2014 pawn steps up, fully guarded by both rooks and the king; trading pawns opens the h-file for my extra exchange. \u2014 Pip"
+      "comment": "h4 — pawn steps up, fully guarded by both rooks and the king; trading pawns opens the h-file for my extra exchange. — Pip"
     },
     {
       "n": 68,
       "color": "black",
       "san": "gxh4+",
       "by": "Stonewall",
-      "comment": "gxh4+ \u2014 pawn takes on h4 with check, the most forcing of the two captures (flat tie through depth 6 at 180; the check wins it)."
+      "comment": "gxh4+ — pawn takes on h4 with check, the most forcing of the two captures (flat tie through depth 6 at 180; the check wins it)."
     },
     {
       "n": 69,
       "color": "white",
       "san": "Rxh4",
       "by": "Pip",
-      "comment": "Rxh4 \u2014 the rook takes back the checking pawn; h-file stays doubled. \u2014 Pip"
+      "comment": "Rxh4 — the rook takes back the checking pawn; h-file stays doubled. — Pip"
     },
     {
       "n": 69,
       "color": "black",
       "san": "Rxh4",
       "by": "Stonewall",
-      "comment": "Rxh4 \u2014 rook takes the doubled rook on h4 (flat tie with Rg6 through depth 6 at 180; the capture is most forcing)."
+      "comment": "Rxh4 — rook takes the doubled rook on h4 (flat tie with Rg6 through depth 6 at 180; the capture is most forcing)."
     },
     {
       "n": 70,
       "color": "white",
       "san": "Kxh4",
       "by": "Pip",
-      "comment": "Kxh4 \u2014 the king collects the rook; h4 is unguarded and White stays a rook up. \u2014 Pip"
+      "comment": "Kxh4 — the king collects the rook; h4 is unguarded and White stays a rook up. — Pip"
     },
     {
       "n": 70,
       "color": "black",
       "san": "Kg6",
       "by": "Stonewall",
-      "comment": "Kg6 \u2014 king centralizes to the 6th rank, hemming in the White king on h4 (12-way tie at depth 3 at 380; 11-way tie at depth 6 at 180; most active wins it)."
+      "comment": "Kg6 — king centralizes to the 6th rank, hemming in the White king on h4 (12-way tie at depth 3 at 380; 11-way tie at depth 6 at 180; most active wins it)."
     },
     {
       "n": 71,
       "color": "white",
       "san": "Kg3",
       "by": "Pip",
-      "comment": "Kg3 \u2014 king steps off the h-file to free the rook and guard f3/g4. \u2014 Pip"
+      "comment": "Kg3 — king steps off the h-file to free the rook and guard f3/g4. — Pip"
     },
     {
       "n": 71,
       "color": "black",
       "san": "Nd7",
       "by": "Stonewall",
-      "comment": "Nd7 \u2014 knight centralizes to d7, eyeing b6 (hits d5) and c5 (hits e4) (5-way tie at depth 6 at 180; most active wins it)."
+      "comment": "Nd7 — knight centralizes to d7, eyeing b6 (hits d5) and c5 (hits e4) (5-way tie at depth 6 at 180; most active wins it)."
     },
     {
       "n": 72,
       "color": "white",
       "san": "Rh8",
       "by": "Pip",
-      "comment": "Rh8 \u2014 rook seizes the back rank, keeping Black's king boxed and eyeing h-file entry. \u2014 Pip"
+      "comment": "Rh8 — rook seizes the back rank, keeping Black's king boxed and eyeing h-file entry. — Pip"
     },
     {
       "n": 72,
       "color": "black",
       "san": "Kf6",
       "by": "Stonewall",
-      "comment": "Kf6 \u2014 king steps to f6, centralizing and hemming in the White king (sole depth-6 winner at 180; the other six depth-3 ties all fall to 280)."
+      "comment": "Kf6 — king steps to f6, centralizing and hemming in the White king (sole depth-6 winner at 180; the other six depth-3 ties all fall to 280)."
     },
     {
       "n": 73,
       "color": "white",
       "san": "Rd8",
       "by": "Pip",
-      "comment": "Rd8 \u2014 rook swings to d8 to hit the undefended knight on d7. \u2014 Pip"
+      "comment": "Rd8 — rook swings to d8 to hit the undefended knight on d7. — Pip"
     },
     {
       "n": 73,
       "color": "black",
       "san": "Ke7",
       "by": "Stonewall",
-      "comment": "Ke7 \u2014 king steps to e7, centralizing and escaping the rook's file (sole depth-3 leader at 380; holds at depth 6 at 180)."
+      "comment": "Ke7 — king steps to e7, centralizing and escaping the rook's file (sole depth-3 leader at 380; holds at depth 6 at 180)."
     },
     {
       "n": 74,
       "color": "white",
       "san": "Rg8",
       "by": "Pip",
-      "comment": "Rg8 \u2014 rook steps off the attacked d8 square and keeps working the back rank. \u2014 Pip"
+      "comment": "Rg8 — rook steps off the attacked d8 square and keeps working the back rank. — Pip"
     },
     {
       "n": 74,
       "color": "black",
       "san": "Kf6",
       "by": "Stonewall",
-      "comment": "Kf6 \u2014 king centralizes to the 6th rank (4-way depth-6 tie at 180 with Nf8, Nc5, Ba6; most active and deepest penetration)."
+      "comment": "Kf6 — king centralizes to the 6th rank (4-way depth-6 tie at 180 with Nf8, Nc5, Ba6; most active and deepest penetration)."
     },
     {
       "n": 75,
       "color": "white",
       "san": "Kh4",
       "by": "Pip",
-      "comment": "Kh4 \u2014 king walks up to h4 to join the attack and support g5. \u2014 Pip"
+      "comment": "Kh4 — king walks up to h4 to join the attack and support g5. — Pip"
     },
     {
       "n": 75,
       "color": "black",
       "san": "Nc5",
       "by": "Stonewall",
-      "comment": "Nc5 \u2014 knight jumps to an active 5th-rank outpost, attacking e4 (3-way depth-6 tie at 180 with Ba6, Ke7; most active, most forcing, deepest penetration)."
+      "comment": "Nc5 — knight jumps to an active 5th-rank outpost, attacking e4 (3-way depth-6 tie at 180 with Ba6, Ke7; most active, most forcing, deepest penetration)."
     },
     {
       "n": 76,
       "color": "white",
       "san": "g5+",
       "by": "Pip",
-      "comment": "g5+ \u2014 pawn check backed by the king; Kf6 must retreat to e7, opening f6 and the kingside. \u2014 Pip"
+      "comment": "g5+ — pawn check backed by the king; Kf6 must retreat to e7, opening f6 and the kingside. — Pip"
     },
     {
       "n": 76,
       "color": "black",
       "san": "Ke7",
       "by": "Stonewall",
-      "comment": "Ke7 \u2014 the only legal move (Black in check from g5+); sole depth-3 leader at 380, depth-6 confirm at 280. King retreats to e7, out of the pawn's check."
+      "comment": "Ke7 — the only legal move (Black in check from g5+); sole depth-3 leader at 380, depth-6 confirm at 280. King retreats to e7, out of the pawn's check."
     },
     {
       "n": 77,
       "color": "white",
       "san": "g6",
       "by": "Pip",
-      "comment": "g6 \u2014 pawn pushes on, prying open f7 for the rook. \u2014 Pip"
+      "comment": "g6 — pawn pushes on, prying open f7 for the rook. — Pip"
     },
     {
       "n": 77,
       "color": "black",
       "san": "Kf6",
       "by": "Stonewall",
-      "comment": "Kf6 \u2014 sole depth-6 winner at 270 (4-way depth-3 tie at 380 with Ba6, Nd7, Na6; Ba6/Nd7 280, Na6 480 at depth 6). King steps back to f6, meeting the g6 pawn."
+      "comment": "Kf6 — sole depth-6 winner at 270 (4-way depth-3 tie at 380 with Ba6, Nd7, Na6; Ba6/Nd7 280, Na6 480 at depth 6). King steps back to f6, meeting the g6 pawn."
     },
     {
       "n": 78,
       "color": "white",
       "san": "g7",
       "by": "Pip",
-      "comment": "g7 \u2014 pawn to the seventh, guarded by the rook; g8 queen looms. \u2014 Pip"
+      "comment": "g7 — pawn to the seventh, guarded by the rook; g8 queen looms. — Pip"
     },
     {
       "n": 78,
       "color": "black",
       "san": "Kg6",
       "by": "Stonewall",
-      "comment": "Kg6 \u2014 king attacks the g7 promotion pawn directly (7-way depth-3 tie at 510; depth-6 two-way tie at 180 with Ba6; most active and most forcing \u2014 Ba6 is hemmed in behind its own b5 pawn)."
+      "comment": "Kg6 — king attacks the g7 promotion pawn directly (7-way depth-3 tie at 510; depth-6 two-way tie at 180 with Ba6; most active and most forcing — Ba6 is hemmed in behind its own b5 pawn)."
     },
     {
       "n": 79,
       "color": "white",
       "san": "Kg4",
       "by": "Pip",
-      "comment": "Kg4 \u2014 king marches up to escort the g7 pawn home. \u2014 Pip"
+      "comment": "Kg4 — king marches up to escort the g7 pawn home. — Pip"
     },
     {
       "n": 79,
       "color": "black",
       "san": "Kh7",
       "by": "Stonewall",
-      "comment": "Kh7 \u2014 king to h7, double attack on the rook g8 and pawn g7 (5-way depth-6 tie at 180 with Ba6, Kh6, Nd7, f6; Nd3 sole depth-3 leader at 280 falls to 410 at depth 6; most active and most forcing \u2014 Ba6 is hemmed in behind its own b5 pawn)."
+      "comment": "Kh7 — king to h7, double attack on the rook g8 and pawn g7 (5-way depth-6 tie at 180 with Ba6, Kh6, Nd7, f6; Nd3 sole depth-3 leader at 280 falls to 410 at depth 6; most active and most forcing — Ba6 is hemmed in behind its own b5 pawn)."
     },
     {
       "n": 80,
       "color": "white",
       "san": "Kf5",
       "by": "Pip",
-      "comment": "King marches to f6 to support g8. \u2014 Pip"
+      "comment": "King marches to f6 to support g8. — Pip"
     },
     {
       "n": 80,
       "color": "black",
       "san": "Kxg8",
       "by": "Stonewall",
-      "comment": "Kxg8 \u2014 king takes the undefended rook on g8 (sole depth-3 leader at -220, depth-6 confirm at -320; wins the rook and then the g7 pawn, which the king on g8 attacks)."
+      "comment": "Kxg8 — king takes the undefended rook on g8 (sole depth-3 leader at -220, depth-6 confirm at -320; wins the rook and then the g7 pawn, which the king on g8 attacks)."
     },
     {
       "n": 81,
       "color": "white",
       "san": "Kf6",
       "by": "Pip",
-      "comment": "King steps to f6 to guard g7 and keep the pawn alive. \u2014 Pip"
+      "comment": "King steps to f6 to guard g7 and keep the pawn alive. — Pip"
     },
     {
       "n": 81,
       "color": "black",
       "san": "Nd3",
       "by": "Stonewall",
-      "comment": "Nd3 \u2014 knight to d3 (6-way depth-6 tie at -320 with Bc8, Ba8, Ba6, Na6, Nb3; Nd7+/b4 -220; most forcing \u2014 attacks the undefended b2 pawn \u2014 and deepest penetration to the 3rd rank)."
+      "comment": "Nd3 — knight to d3 (6-way depth-6 tie at -320 with Bc8, Ba8, Ba6, Na6, Nb3; Nd7+/b4 -220; most forcing — attacks the undefended b2 pawn — and deepest penetration to the 3rd rank)."
     },
     {
       "n": 82,
       "color": "white",
       "san": "Bxd3",
       "by": "Pip",
-      "comment": "Bishop takes the d3 knight, removing the threat to b2. \u2014 Pip"
+      "comment": "Bishop takes the d3 knight, removing the threat to b2. — Pip"
     },
     {
       "n": 82,
       "color": "black",
       "san": "cxd3",
       "by": "Stonewall",
-      "comment": "cxd3 \u2014 pawn recaptures the bishop on d3 (sole depth-3 leader at -230, sole depth-6 winner at -930; Bxd5 -100, Bc8/Ba6 0)."
+      "comment": "cxd3 — pawn recaptures the bishop on d3 (sole depth-3 leader at -230, sole depth-6 winner at -930; Bxd5 -100, Bc8/Ba6 0)."
+    },
+    {
+      "n": 83,
+      "color": "white",
+      "san": "Ke7",
+      "by": "Pip",
+      "comment": "King to e7 eyes f7 and d6 and takes f8 from the black king. — Pip"
     }
   ],
-  "turn": "white",
+  "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-13T07:23:26Z"
+  "last_move_at": "2026-11-13T07:31:00Z"
 }
