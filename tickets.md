@@ -1218,6 +1218,12 @@ Repo leonptucker3886-lab/joustline · branch main · live checker: Sir Announcer
 - **Expected live result:** hero, tile per game (incl. L29, L30), single "White-label this, $99 deposit" button → /white-label/#deposit, desktop+mobile
 - **Deadline:** first verified slice 6:00 PM ET Nov 10 (internal 5:00 PM ET); full page 8:00 PM ET Nov 10 (internal 7:00 PM ET)
 - **Parked while active:** HOME-WL-2, WL-GAMETILES
+- **HTML drop (Nov 13 3:41 PM ET):** JOUST-FINISH-Z-Pizzapan.html, message a0f66e8e-62b6-442e-873f-5e561ebc103d (in place of hash). First slice: hero, tiles L30/L29/L03, one "White-label this, $99 deposit" button -> /white-label/#deposit, empty data-share-kit slot. L29/L03 links unverified; share-kit not embedded. Late (due 9:00 AM ET Nov 12). Code review passed (Announcer 3:44 PM ET); unverified until desktop+mobile PASS.
+
+### JOUST-FINISH-Z-2 | Owner: Pizzapan | Added 2026-11-13 3:45 PM ET
+- **Repo/branch/files:** HTML drop, JOUST-FINISH-Z-2-Pizzapan.html
+- **Expected live result:** Bert share-kit (a133a806) embedded in hub slot; real working URLs for L29 and L03 tiles; desktop+mobile PASS
+- **Deadline:** 7:00 PM ET 2026-11-13 (internal 6:30 PM ET)
 
 ## ESC: Escape Sun n Fun (lead Paperwork, deputy Announcer, live checker Announcer). Added 2026-11-10 4:55 PM ET.
 Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.com/leonptucker3886-labs-projects/escape-for-vercel-1). Source: Leon's escape-for-vercel.zip + index-1.html.
@@ -1446,3 +1452,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - 12:15 PM ET Nov 13 — Scorecard posted: inspections/2026-11-13-1215-scorecard.md (955d17c). Batallion 1 44 (+4, 9 drops after Leon's Go), Batallion x2 28 (−4), Round-Loop-Table 12 (−4); x2/RLT never answered Go; no lane work; Q-W alternates and NF01 still no MISSED notice.
 
 - **2026-11-13 2:09 PM ET (Mushroom Face, hourly):** No changes since last review (e45cb32). Only commits since then are Inspector scorecard 955d17c and log link 972d141. No team queue status changes, new blockers, or new commits from teams. Open from prior entries: Q-W alternates and NF01 still lack MISSED notices.
+
+- Nov 13 3:45 PM ET (Gadget): JOUST-FINISH-Z HTML drop logged (msg a0f66e8e); new card JOUST-FINISH-Z-2, owner Pizzapan, due 7:00 PM ET.
