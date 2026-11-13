@@ -1410,3 +1410,7 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-12 6:01 PM ET sweep
 - No new LOUDSPEAKER commits since 76cdca3 (4:02 PM ET log). No status changes, new blockers or missed-deadline updates on the board.
+
+### 2026-11-12 8:01 PM ET — Mushroom Face
+- No new LOUDSPEAKER commits since 0e65431; no queue status changes, new blockers or missed-deadline changes on the board.
+- Deadline watch: NF01 was due 8:00 PM ET; no commit or MISSED notice on the board since.
