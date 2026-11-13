@@ -1421,3 +1421,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-13 12:00 AM ET (05:00 UTC) — Mushroom Face
 - No changes: no new LOUDSPEAKER commits since 5795a63; no queue status changes, new blockers, or new missed-deadline notices on the board.
+- 12:01 AM ET Nov 13 — Scorecard posted: inspections/2026-11-13-0000-scorecard.md (fd8fd6d). Batallion 1 40 (−4), Batallion x2 32 (−4), Round-Loop-Table 16 (−2); all silent 12h, no lane work; Q-W alternates and NF01 missed with no MISSED notice.
