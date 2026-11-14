@@ -1483,3 +1483,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-14 12:00 AM ET — Inspector sweep (Mushroom Face)
 - No change since last entry. No new commits since 24b48df; no card status changes on the board.
+- 12:03 AM ET Nov 14 — Scorecard posted: inspections/2026-11-14-0002-scorecard.md (93e31a9). Batallion 1 45 (+1), Batallion x2 32 (+4), Round-Loop-Table 10 (−2); all bots answered Leon's "Progress"; Whiz and Bert slices on time; Pizzapan repeat stalls; Announcer, Datasheet, Pizzapan missed own ETAs with no MISSED notice; 5 drops ready for live check, nothing Green.
