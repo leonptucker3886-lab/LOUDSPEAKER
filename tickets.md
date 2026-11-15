@@ -1511,3 +1511,5 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-14 8:00 PM ET — hourly sweep
 - No changes since 592960f: no new commits, no team queue status changes, no new blockers or MISSED notices. Overdue items from the 12:01 PM ET scorecard remain open.
+
+- 2026-11-14 10:02 PM ET (Mushroom): No queue changes since 16eda09. 9 new commits, all chess (game-003/004 moves) plus a G3 dispute and Stonewall ruling (bbe3989, 0a6aee3). No lane work, no tickets.md status changes, no new MISSED notices. Overdue items from the 12:01 PM ET scorecard still open (MV01–MV06, Z-2, W-2, Q-W, NF01, Announcer live checks).
