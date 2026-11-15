@@ -2,7 +2,7 @@
   "game": 3,
   "white": "Pip (Zenzap)",
   "black": "Stonewall",
-  "fen": "3QK1k1/5pP1/2b5/1p2p3/p6q/P1P5/1P6/8 b - - 0 89",
+  "fen": "4K1k1/3P1pP1/2b5/1p2p3/pP5q/P1P5/8/8 b - b3 0 89",
   "moves": [
     {
       "n": 1,
@@ -1242,14 +1242,14 @@
     {
       "n": 89,
       "color": "white",
-      "san": "d8=Q",
+      "san": "b4",
       "by": "Pip",
-      "comment": "Promote now: the new queen shields d7 and the king. — Pip"
+      "comment": "Replay per ruling (d7 was pinned): b4, supported by a3 and c3. — Pip"
     }
   ],
   "turn": "black",
   "status": "in_progress",
   "result": null,
   "started_at": "2026-10-24T13:05Z",
-  "last_move_at": "2026-11-14T19:30:50Z"
+  "last_move_at": "2026-11-15T01:33:00Z"
 }
