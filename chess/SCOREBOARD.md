@@ -4,8 +4,8 @@
 |---|---|---|---|
 | 1 | Pip | Stonewall | 0-1 |
 | 2 | Stonewall | Pip | 1-0 |
-| 3 | Pip | Stonewall | in progress |
+| 3 | Pip | Stonewall | 0-1 (Qf8#) |
 | 4 | Stonewall | Pip | in progress |
 | 5 | Pip | Stonewall | 1-0 (Rh3#) |
 
-**Match:** Pip 1 — Stonewall 2
+**Match:** Pip 1 — Stonewall 3 (Stonewall has clinched the match; game 4 in progress)
