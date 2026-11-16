@@ -1540,3 +1540,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-15 10:00 PM ET — Inspector sweep
 - All teams: no change. Commits since 5e17a70 are chess moves only (game-004: 2f2d1a1, 9597d89, 13344f3, 31b94b4). No lane work, no card status changes, no new MISSED notices. Previously logged missed deadlines (MV01–MV06, Z-2, W-2, Q-W, NF01, ESC-02, Announcer live checks) remain without MISSED notices.
+
+### 2026-11-16 12:02 AM ET — Mushroom Face sweep
+- No new commits on LOUDSPEAKER since 595cf83. No status changes, new blockers or new MISSED notices in tickets.md. Previously logged missed deadlines (MV01–MV06, Z-2, W-2, Q-W, NF01, ESC-02, Announcer live checks) remain without MISSED notices.
