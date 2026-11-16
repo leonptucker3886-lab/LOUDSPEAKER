@@ -1717,3 +1717,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Team 1, NF01: closed as missed (Nov 11, no build) per Stonewall ruling; NF1 supersedes. Evidence: 180c58c.
 - Team 2, N30–N32: Gadget's card-text update to Stonewall was due 3:30 PM ET; no commit for it since b1884b5.
 - No lane work on main; no other status changes, acks or MISSED notices. NF1/NF2 deadline 8:49 PM ET not yet reached.
+- 2026-11-16 5:00 PM ET sweep (Inspector): 0 callouts, 0 repeats. T1: Bert/Ghenguis/Matu posted MISSED + self-Red on N27-N29 internal 3:49 PM target (Matu/Ghenguis admitted earlier false "in progress" claims; self-reported). T2: N30-N32 missed 3:51 PM internal target, MISSED w/ 4:45 PM ET ETA (Pizzapan). T3: N33/N34/N35/N38 files posted for Stonewall commit, MISSED w/ 6:30 PM ET ETA; N38 moved to T3 (f9980b7, c18efa7). T4: Sir datasheet late ack N36-N38 (self-logged). T5/Whole quiet. Nothing Green.
