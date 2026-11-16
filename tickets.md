@@ -111,8 +111,24 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 ### Team 2 — PIZZAPAN (17 cards)
 **ACTIVE — 3 (Joustline first):**
 1. N30 · Tournament Bracket Mode — /joustline/
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Jude Johnson · **Alternate card:** N17 Craps Table
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n30-tournament-bracket-mode
+   - **Files:** /joustline/tournament-bracket-mode/ (index.html + own JS/CSS + README.md)
+   - **Expected live result:** /joustline/tournament-bracket-mode/ shows a tournament bracket: add 4 or 8 jousters, tap a winner in each match to advance them round by round, and a champion is shown at the end, with a reset button. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
 2. N31 · Map of the Realm — /joustline/
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** MILES dAvis · **Alternate card:** N18 Baccarat
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n31-map-of-the-realm
+   - **Files:** /joustline/map-of-the-realm/ (index.html + own JS/CSS + README.md)
+   - **Expected live result:** /joustline/map-of-the-realm/ shows a map of the Joustline realm with labelled regions; tapping a region opens a panel with its name and a short description. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
 3. N32 · Canon Checker Script — /joustline/
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Juan I Ezekiel · **Alternate card:** N19 Casino Lobby 3D
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n32-canon-checker-script
+   - **Files:** /joustline/canon-checker-script/ (index.html, canon.json, checker JS/CSS + README.md)
+   - **Expected live result:** /joustline/canon-checker-script/ has a text box: paste Joustline text, press Check, and it lists every character, house and place name found, marking each as canon (present in canon.json) or unknown/misspelled with a suggested canon match. canon.json holds the canon names (characters, houses, places) used by N27–N29/N31. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
+   - **Note (Gadget, Nov 16):** /joustline/ does not exist on main yet; each card builds its own subfolder. Templates N77/N78/N79 not yet mapped to N30–N32 (setup blocker, not builders'). Open for Stonewall: confirm canon.json source list for N32.
 **BACKLOG — 14 (in order, Gadget assigns next when one is done):**
 4. N17 · Craps Table — /casino/
 5. N18 · Baccarat — /casino/
