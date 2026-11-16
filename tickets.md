@@ -115,9 +115,28 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 
 ### Team 3 — WHIZ (17 cards)
 **ACTIVE — 3 (Joustline first):**
-1. N33 · Horse & Armor Shop — /joustline/
-2. N34 · Lore Timeline — /joustline/
-3. N35 · Heraldry Builder — /joustline/
+1. N33 · Horse & Armor Shop — /joustline/ (PRIMARY)
+   - ID: N33 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Botme
+   - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n33-horse-armor-shop`
+   - Files: `/joustline/horse-armor-shop.html`
+   - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
+   - Deadline: 2026-11-16 3:45 PM ET
+2. N34 · Lore Timeline — /joustline/ (PRIMARY)
+   - ID: N34 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Oscar
+   - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n34-lore-timeline`
+   - Files: `/joustline/lore-timeline.html`
+   - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
+   - Deadline: 2026-11-16 3:45 PM ET
+3. N35 · Heraldry Builder — /joustline/ (PRIMARY)
+   - ID: N35 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Dogwater
+   - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n35-heraldry-builder`
+   - Files: `/joustline/heraldry-builder.html`
+   - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
+   - Deadline: 2026-11-16 3:45 PM ET
+**ALTERNATES (start if primary is blocked/parked; full card applies):**
+- N20 · Play-Money Wallet — Builder: Botme · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n20-play-money-wallet` · Files: `/casino/play-money-wallet.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
+- N21 · Daily Bonus Wheel — Builder: Oscar · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n21-daily-bonus-wheel` · Files: `/casino/daily-bonus-wheel.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
+- N22 · Leaderboard Page — Builder: Dogwater · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n22-leaderboard-page` · Files: `/casino/leaderboard-page.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
 **BACKLOG — 14 (in order, Gadget assigns next when one is done):**
 4. N20 · Play-Money Wallet — /casino/
 5. N21 · Daily Bonus Wheel — /casino/
