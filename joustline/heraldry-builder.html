@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heraldry Builder · Joustline</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:#1b1611;color:#f3e9d2}
+header,main,footer{max-width:900px;margin:0 auto;padding:16px}
+a{color:#e8c46a}
+h1{margin:.3em 0}
+.wrap{display:flex;flex-wrap:wrap;gap:24px}
+.preview{flex:1 1 260px;text-align:center}
+.controls{flex:1 1 260px}
+label{display:block;margin:12px 0 4px;font-weight:bold}
+select,input,button{font-size:16px;padding:8px;width:100%;box-sizing:border-box;border-radius:6px;border:1px solid #8a6d3b;background:#2a221a;color:#f3e9d2}
+button{margin-top:14px;cursor:pointer;background:#8a6d3b}
+svg{width:100%;max-width:300px;height:auto}
+#motto{font-style:italic;margin-top:8px}
+</style>
+</head>
+<body>
+<header><a href="/joustline/">← Back to Joustline</a><h1>Heraldry Builder</h1><p>Design your house coat of arms. Your design is saved in this browser.</p></header>
+<main class="wrap">
+<div class="preview">
+<svg viewBox="0 0 200 240" id="shield" aria-label="Coat of arms preview">
+<defs><clipPath id="c"><path d="M10 10H190V120Q190 200 100 232Q10 200 10 120Z"/></clipPath></defs>
+<g clip-path="url(#c)"><rect id="field" width="200" height="240"/><g id="div"></g></g>
+<text id="charge" x="100" y="140" text-anchor="middle" font-size="80"></text>
+<path d="M10 10H190V120Q190 200 100 232Q10 200 10 120Z" fill="none" stroke="#e8c46a" stroke-width="5"/>
+</svg>
+<div id="motto"></div>
+</div>
+<div class="controls">
+<label for="f">Field colour</label><select id="f"></select>
+<label for="d">Division</label><select id="d"><option value="none">Plain</option><option value="pale">Per pale (vertical)</option><option value="fess">Per fess (horizontal)</option><option value="bend">Bend (diagonal)</option><option value="chevron">Chevron</option></select>
+<label for="s">Second colour</label><select id="s"></select>
+<label for="ch">Charge</label><select id="ch"><option value="">None</option><option value="🦁">Lion</option><option value="🦅">Eagle</option><option value="🐉">Dragon</option><option value="🐴">Horse</option><option value="⚔️">Swords</option><option value="👑">Crown</option><option value="⭐">Star</option></select>
+<label for="m">Motto</label><input id="m" maxlength="40" placeholder="e.g. Fortis et Fidelis">
+<button id="r" type="button">Reset</button>
+</div>
+</main>
+<footer><a href="/joustline/">← Back to Joustline</a></footer>
+<script>
+var T={Gules:"#b22222",Azure:"#1f4fa3",Vert:"#2e7d32",Purpure:"#6a1b9a",Sable:"#111",Or:"#d4a017",Argent:"#e8e8e8"};
+var D={f:"Azure",d:"none",s:"Or",ch:"🦁",m:""},K="joustline-heraldry";
+var st=Object.assign({},D);try{Object.assign(st,JSON.parse(localStorage.getItem(K)||"{}"))}catch(e){}
+["f","s"].forEach(function(id){var el=document.getElementById(id);Object.keys(T).forEach(function(n){var o=document.createElement("option");o.value=n;o.textContent=n;el.appendChild(o)})});
+function draw(){var c=T[st.s],p={pale:'<rect x="100" width="100" height="240"/>',fess:'<rect y="110" width="200" height="130"/>',bend:'<polygon points="0,0 60,0 200,180 200,240 140,240 0,60"/>',chevron:'<polygon points="0,200 100,90 200,200 200,150 100,40 0,150"/>'}[st.d]||"";
+document.getElementById("field").setAttribute("fill",T[st.f]);var g=document.getElementById("div");g.setAttribute("fill",c);g.innerHTML=p;
+document.getElementById("charge").textContent=st.ch;document.getElementById("motto").textContent=st.m;
+["f","d","s","ch","m"].forEach(function(id){document.getElementById(id).value=st[id]});
+try{localStorage.setItem(K,JSON.stringify(st))}catch(e){}}
+["f","d","s","ch","m"].forEach(function(id){document.getElementById(id).addEventListener("input",function(e){st[id]=e.target.value;draw()})});
+document.getElementById("r").onclick=function(){st=Object.assign({},D);draw()};
+draw();
+</script>
+</body>
+</html>
