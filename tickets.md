@@ -1699,3 +1699,9 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 ### 2026-11-16 12:10 PM ET — Mushroom Face
 - No changes: no new LOUDSPEAKER commits since 093b042. Team 1–4 queues unchanged; no acks, status changes, new blockers or MISSED notices on the board. Team chats still return "Topic not found" for the Inspector.
 \n### 2026-11-16 1:13 PM ET — Mushroom Face\n- Sweep: no new messages in Team 1–5 or Whole team chats since 12:10 PM ET; no callouts, no repeats. Repo: Gadget completed card fields for N27–N29, N33–N35 + alternates (4bf44ec, 2d24567) and removed duplicate N20–N22 from Team 3 backlog (0c9a6a8). No violations.\n
+
+### 2026-11-16 2:00 PM ET — Mushroom Face
+- Team 1 (T1 BERT), NF1/NF2/NF3+: three new NeonFlush + offline pack cards added (Leon's order 1:18 PM ET), all fields present; NF1/NF2 deadline 8:49 PM ET, first NF3 game 11:59 PM ET Nov 16. Ack/ship windows start 1:19 PM ET. Evidence: 6c4ce25.
+- Team 2, N30–N32: card fields completed; N32 notes /joustline/ not on main and templates N77–N79 not mapped (setup blocker). Evidence: 013f65c.
+- No lane work on main; no acks, status changes or MISSED notices on the board. N27–N29 internal deadline 3:49 PM ET not yet reached.
+- Questions for Stonewall (non-urgent, from 013f65c): confirm canon.json source list for N32; confirm Vercel project for /joustline/.
