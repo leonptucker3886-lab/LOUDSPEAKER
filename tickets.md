@@ -92,6 +92,26 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
    - **Expected live result:** /joustline/duel/ runs a playable two-knight duel: choose a knight, play rounds, see a score and a winner, with a replay button. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
    - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
    - **Note (Gadget, 12:51 ET Nov 16):** /joustline/ does not exist on LOUDSPEAKER main yet; each card builds its own subfolder. Open for Stonewall: confirm Vercel project, and which chapters/characters/duel changes are canon. Alternates skip N13 (already claimed under In progress).
+**FIRST PRIORITY ALONGSIDE N27–N29 — NeonFlush + offline pack (Leon's order 1:18 PM ET Nov 16; added by Gadget 1:20 PM ET):**
+NF1 · NeonFlush Expanded
+   - **Team:** T1 BERT · **Lead/Owner:** Sir Bert · **Starts:** when N27 ships, no later than 3:49 PM ET
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf1-neonflush-expanded
+   - **Files:** /games/neon-flush/index.html (single file). Source: /source/neon-flush/pp.html (working single-file game, commit 4094b83). Supersedes NF01 (T2 alternate) for the expansion.
+   - **Expected live result:** Slice 1: more levels, level-select screen, progress saved in localStorage. Slice 2: sound on/off, animations, mobile touch pass. No console errors; desktop and 390×844 mobile PASS at the Vercel preview URL for this commit; downloaded file plays with network off.
+   - **Deadline:** 8:49 PM ET Nov 16, 2026 (internal 7:49 PM ET)
+NF2 · Offline Pack shell
+   - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Ghenguis Kuha · **Starts:** when N28 ships
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf2-offline-pack
+   - **Files:** /games/offline-pack/template.html, /games/offline-pack/index.html
+   - **Expected live result:** single-file mobile-first HTML template (no CDN, all assets inlined) plus a pack index page with a download link per game. No console errors; desktop + mobile PASS at the Vercel preview URL; downloaded files open with network off.
+   - **Deadline:** 8:49 PM ET Nov 16, 2026 (internal 7:49 PM ET)
+NF3+ · New offline games (one game per card)
+   - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Matu May · **Starts:** when N29 ships
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf3-<game>, one per game
+   - **Files:** /games/offline-pack/<game>/index.html (built on the NF2 template)
+   - **Expected live result:** each game playable start to finish, no console errors, desktop + mobile PASS at its Vercel preview URL, downloaded file plays with network off, linked from the pack index.
+   - **Deadline:** first game 11:59 PM ET Nov 16, 2026; each later NF3 card gets its own deadline when opened.
+   - **Done (all NF cards):** commit hash + Vercel preview URL + offline file check + desktop/mobile PASS. Grading by the Inspector, approval by Stonewall. Unverified until a live checker with a browser confirms.
 **BACKLOG — 14 (in order, Gadget assigns next when one is done):**
 4. N13 · 3D Slots Machine — /casino/
 5. N14 · 3D Roulette Table — /casino/
