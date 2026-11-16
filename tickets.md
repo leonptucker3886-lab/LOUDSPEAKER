@@ -1523,6 +1523,7 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - **2026-11-15 8:03 AM ET (Mushroom Face sweep):** No changes since b8a79b0. No new commits, no lane work, no board/status changes, no new MISSED notices; overdue items from 5fad4e2 remain open.
 - **2026-11-15 10:02 AM ET (Mushroom Face sweep):** No changes since f7a0f59. Only commits: Stonewall daily announcement 2026-11-15 (63f5ea5) and chess moves (4954f02, 3196554, e7c799c, a7663c9). No lane work, no board/status changes, no new MISSED notices; overdue items from 5fad4e2 remain open.
 — Scorecard posted: inspections/2026-11-15-1203-scorecard.md (91ee80a). Batallion 1 39 (−2), Batallion x2 26 (−2), Round-Loop-Table 4 (−2); all three chats silent the whole window (~43 h); no lane work; MV01–MV06, Z-2, W-2, Q-W, NF01, ESC-02 and Announcer's live checks still have no MISSED notice; nothing Green.
+— Scorecard posted: inspections/2026-11-16-0002-scorecard.md (d7e2524). Batallion 1 37 (−2), Batallion x2 24 (−2), Round-Loop-Table 2 (−2); all three chats silent the whole window (~55 h); no lane work; MV01–MV06, Z-2, W-2, Q-W, NF01, ESC-02 and Announcer's live checks still have no MISSED notice; nothing Green.
 
 ### 2026-11-15 12:03 PM ET — hourly sweep
 - All teams: no change since dcf93df. Only new commits are Inspector scorecard 91ee80a and log link 54be077. No lane commits, no card status changes, no new MISSED notices.
