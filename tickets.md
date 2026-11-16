@@ -153,21 +153,18 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 - N20 · Play-Money Wallet — Builder: Botme · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n20-play-money-wallet` · Files: `/casino/play-money-wallet.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
 - N21 · Daily Bonus Wheel — Builder: Oscar · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n21-daily-bonus-wheel` · Files: `/casino/daily-bonus-wheel.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
 - N22 · Leaderboard Page — Builder: Dogwater · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n22-leaderboard-page` · Files: `/casino/leaderboard-page.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
-**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
-4. N20 · Play-Money Wallet — /casino/
-5. N21 · Daily Bonus Wheel — /casino/
-6. N22 · Leaderboard Page — /casino/
-7. N23 · Sound & FX Pack — /casino/
-8. N07 · Church & Nonprofit Kit — /white-label/
-9. N08 · Contractor Quote Kit — /white-label/
-10. N09 · Podcast Show Kit — /white-label/
-11. N47 · How to Size a Strap — /watches/
-12. N48 · Watch Glossary — /watches/
-13. N49 · Top 5 Index Hub — /watches/
-14. N50 · Daily Watch Post Template — /watches/
-15. N76 · Dark Mode Toggle — /site/
-16. N77 · Template: Article — /site/
-17. N78 · Template: Game Page — /site/
+**BACKLOG — 11 (in order, Gadget assigns next when one is done):**
+4. N23 · Sound & FX Pack — /casino/
+5. N07 · Church & Nonprofit Kit — /white-label/
+6. N08 · Contractor Quote Kit — /white-label/
+7. N09 · Podcast Show Kit — /white-label/
+8. N47 · How to Size a Strap — /watches/
+9. N48 · Watch Glossary — /watches/
+10. N49 · Top 5 Index Hub — /watches/
+11. N50 · Daily Watch Post Template — /watches/
+12. N76 · Dark Mode Toggle — /site/
+13. N77 · Template: Article — /site/
+14. N78 · Template: Game Page — /site/
 
 ### Team 4 — DATASHEET (17 cards)
 **ACTIVE — 3 (Joustline first):**
