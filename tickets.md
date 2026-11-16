@@ -191,6 +191,7 @@ NF3+ · New offline games (one game per card)
    - Files: `/joustline/index.html`
    - Expected live result: /joustline/ loads on desktop and mobile at the live URL and links to N33 (/joustline/horse-armor-shop.html), N34 (/joustline/lore-timeline.html) and N35 (/joustline/heraldry-builder.html); Vercel deployment runs the graded commit.
    - Deadline: 2026-11-16 7:30 PM ET
+   - Ruling (Sir Whiz, lead, Nov 16 4:35 PM ET): until N38 is live, the 404 on the "← Back to Joustline" link in N33, N34 and N35 does not count against those cards.
 **ALTERNATES (start if primary is blocked/parked; full card applies):**
 - N20 · Play-Money Wallet — Builder: Botme · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n20-play-money-wallet` · Files: `/casino/play-money-wallet.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
 - N21 · Daily Bonus Wheel — Builder: Oscar · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n21-daily-bonus-wheel` · Files: `/casino/daily-bonus-wheel.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
