@@ -74,8 +74,24 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 ### Team 1 — BERT (17 cards)
 **ACTIVE — 3 (Joustline first):**
 1. N27 · Chapter Reader — /joustline/
+   - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Sir Bert · **Alternate card:** N14 3D Roulette Table
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n27
+   - **Files:** /joustline/reader/ (index.html + own JS/CSS)
+   - **Expected live result:** /joustline/reader/ shows a chapter list; picking a chapter shows its text with next/previous navigation. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
 2. N28 · Character Codex — /joustline/
+   - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Ghenguis Kuha · **Alternate card:** N15 Blackjack Table
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n28
+   - **Files:** /joustline/codex/ (index.html + own JS/CSS)
+   - **Expected live result:** /joustline/codex/ shows a grid of Joustline characters; tapping one opens a profile (name, house, role, short bio). Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
 3. N29 · Jousting Duel v2 — /joustline/
+   - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Matu May · **Alternate card:** N16 Video Poker
+   - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n29
+   - **Files:** /joustline/duel/ (index.html + own JS/CSS)
+   - **Expected live result:** /joustline/duel/ runs a playable two-knight duel: choose a knight, play rounds, see a score and a winner, with a replay button. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
+   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
+   - **Note (Gadget, 12:51 ET Nov 16):** /joustline/ does not exist on LOUDSPEAKER main yet; each card builds its own subfolder. Open for Stonewall: confirm Vercel project, and which chapters/characters/duel changes are canon. Alternates skip N13 (already claimed under In progress).
 **BACKLOG — 14 (in order, Gadget assigns next when one is done):**
 4. N13 · 3D Slots Machine — /casino/
 5. N14 · 3D Roulette Table — /casino/
