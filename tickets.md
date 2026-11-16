@@ -165,8 +165,8 @@ NF3+ · New offline games (one game per card)
 16. N74 · 404 Page — /site/
 17. N75 · Sitemap Generator — /site/
 
-### Team 3 — WHIZ (17 cards)
-**ACTIVE — 3 (Joustline first):**
+### Team 3 — WHIZ (18 cards)
+**ACTIVE — 4 (Joustline first):**
 1. N33 · Horse & Armor Shop — /joustline/ (PRIMARY)
    - ID: N33 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Botme
    - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n33-horse-armor-shop`
@@ -185,6 +185,12 @@ NF3+ · New offline games (one game per card)
    - Files: `/joustline/heraldry-builder.html`
    - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
    - Deadline: 2026-11-16 3:45 PM ET
+4. N38 · Joustline Landing Page (index) — /joustline/ (ADDED Nov 16, moved from Team 4 — unblocks N33–N35 back links)
+   - ID: N38 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Sir Whiz
+   - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `joustline-index`
+   - Files: `/joustline/index.html`
+   - Expected live result: /joustline/ loads on desktop and mobile at the live URL and links to N33 (/joustline/horse-armor-shop.html), N34 (/joustline/lore-timeline.html) and N35 (/joustline/heraldry-builder.html); Vercel deployment runs the graded commit.
+   - Deadline: 2026-11-16 7:30 PM ET
 **ALTERNATES (start if primary is blocked/parked; full card applies):**
 - N20 · Play-Money Wallet — Builder: Botme · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n20-play-money-wallet` · Files: `/casino/play-money-wallet.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
 - N21 · Daily Bonus Wheel — Builder: Oscar · Lead: Sir Whiz · Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n21-daily-bonus-wheel` · Files: `/casino/daily-bonus-wheel.html` · Expected: loads desktop+mobile, links back to /casino/, Vercel runs graded commit · Deadline: 2026-11-16 8:00 PM ET
@@ -202,13 +208,12 @@ NF3+ · New offline games (one game per card)
 13. N77 · Template: Article — /site/
 14. N78 · Template: Game Page — /site/
 
-### Team 4 — DATASHEET (17 cards)
+### Team 4 — DATASHEET (16 cards)
 **ACTIVE — 3 (Joustline first):**
 1. N36 · Joustline Soundtrack Page — /joustline/
 2. N37 · Story Quiz — /joustline/
-3. N38 · Joustline Landing Page — /joustline/
-**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
-4. N24 · Keno — /casino/
+3. N24 · Keno — /casino/ (promoted from backlog Nov 16; N38 moved to Team 3)
+**BACKLOG — 13 (in order, Gadget assigns next when one is done):**
 5. N25 · Casino Rules Hub — /casino/
 6. N26 · Responsible Play Page — /casino/
 7. N10 · Link-in-Bio Kit — /white-label/
