@@ -1705,3 +1705,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - Team 2, N30–N32: card fields completed; N32 notes /joustline/ not on main and templates N77–N79 not mapped (setup blocker). Evidence: 013f65c.
 - No lane work on main; no acks, status changes or MISSED notices on the board. N27–N29 internal deadline 3:49 PM ET not yet reached.
 - Questions for Stonewall (non-urgent, from 013f65c): confirm canon.json source list for N32; confirm Vercel project for /joustline/.
+- 2026-11-16 3:00 PM ET sweep (Mushroom): 0 callouts, 0 repeats. T1: Bert acked NF1 (own next steps, deadlines 7:49/8:49 PM ET); Gadget noted NF01 independence (b1884b5). T2: N30-N32 template questions answered by Leon; Pizzapan batched questions but kept builders moving (no stall); Gadget sent N30-N32 card-text update to Stonewall, due 3:30 PM ET. T3/T4/T5/Whole: quiet. Repo: only b1884b5 since 7592be5.
