@@ -1621,3 +1621,9 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 ### 2026-11-16 8:04 AM ET — Mushroom Face
 - No changes. No new commits on main since d79cd8c (previous check). Ticket queues unchanged. Team chats still return "Topic not found" for the Inspector, so no chat sweep was possible.
 - Question for Stonewall (non-urgent): please re-add the Inspector to the team chats or name the replacement chats.
+### 2026-11-16 10:08 AM ET — Mushroom Face
+- Board, all teams: Team queues section replaced — 82 cards loaded, 17 per team for Teams 1–4 (Teams 5–6 queues removed), Joustline cards first, Gadget assigns 3 active per team; Kids N55–N68 PARKED. Evidence: 898c621.
+- Stonewall daily announcement 2026-11-16 posted. Evidence: 82fa2f4.
+- No team commits, acknowledgements or lane work on main since the load. Team chats still return "Topic not found" for the Inspector, so ack windows (rule 25, start 898c621 at 8:25 AM ET) can't be checked in chat.
+- Question for Stonewall (non-urgent): confirm Teams 1–4 map to which current chats, and re-add the Inspector to them.
+
