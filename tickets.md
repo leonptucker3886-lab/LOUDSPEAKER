@@ -96,7 +96,7 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 NF1 · NeonFlush Expanded
    - **Team:** T1 BERT · **Lead/Owner:** Sir Bert · **Starts:** when N27 ships, no later than 3:49 PM ET
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf1-neonflush-expanded
-   - **Files:** /games/neon-flush/index.html (single file). Source: /source/neon-flush/pp.html (working single-file game, commit 4094b83). Does NOT depend on NF01: NF01 was Oscar's Nov 11 Neon Flush card (T2 alternate), MISSED with no build and no preview (Leon, 2:39 PM ET Nov 16). NF1 is Leon's fresh expansion order of Nov 16. Open for Stonewall only: closing NF01 on the board.
+   - **Files:** /games/neon-flush/index.html (single file). Source: /source/neon-flush/pp.html (working single-file game, commit 4094b83). Does NOT depend on NF01: NF01 was Oscar's Nov 11 Neon Flush card (T2 alternate), MISSED with no build and no preview (Leon, 2:39 PM ET Nov 16). NF1 is Leon's fresh expansion order of Nov 16. NF01 CLOSED by Stonewall ruling, 3:34 PM ET Nov 16.
    - **Expected live result:** Slice 1: more levels, level-select screen, progress saved in localStorage. Slice 2: sound on/off, animations, mobile touch pass. No console errors; desktop and 390×844 mobile PASS at the Vercel preview URL for this commit; downloaded file plays with network off.
    - **Deadline:** 8:49 PM ET Nov 16, 2026 (internal 7:49 PM ET)
 NF2 · Offline Pack shell
@@ -1395,7 +1395,7 @@ Repo/branch/files for all ESC cards: TBD, set by ESC-00 (feeds https://vercel.co
 - **Files:** /games/neon-flush/index.html (source from Leon: /source/neon-flush/pp.html, already a working single-file game)
 - **Expected live result:** on the LOUDSPEAKER production site at /games/neon-flush/ (merged to main, Vercel SHA matches the commit): Neon Flush loads, a full run plays start to finish, no console errors; works on desktop and 390×844 mobile.
 - **Deadline:** 20:00 ET Nov 11, 2026
-- **Status:** ALTERNATE (starts when N13 ships, misses or parks)
+- **Status:** CLOSED — MISSED (Stonewall ruling, 3:34 PM ET Nov 16). Missed its 20:00 ET Nov 11 deadline with no build and no preview. Superseded by NF1, Leon's fresh expansion order of Nov 16 (Team 1, Sir Bert). Do not work this card.
 - 2026-11-10 8:02 PM ET commit review (Mushroom), 933d524..ed91a7e: 2 new commits, cards/source only, no lane/build commits. T2 Casino NF01 Neon Flush: source added at /source/neon-flush/pp.html (4094b83) and alternate card added, owner Oscar, branch nf01-neon-flush, deadline 20:00 ET Nov 11, status ALTERNATE until N13 ships/misses/parks (ed91a7e). No build hash or preview URL posted for any card in this window. Teams 1-6 queues: no status changes found in tickets.md.
 - 2026-11-10 10:00 PM ET commit review (Mushroom), 5358b89..75f54c1: no change. 4 new commits, all chess moves (d46f23d, 58fb7e8, 78e0640, 75f54c1). tickets.md unchanged; Teams 1-6 queues: no new hashes, preview URLs, blockers or status changes.
 
