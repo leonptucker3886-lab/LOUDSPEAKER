@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horse &amp; Armor Shop · Joustline</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#1b1410;color:#f3e9d8}
+header{padding:16px;background:#3a2414;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+a{color:#f2c14e}h1{margin:0;font-size:1.4rem}.coins{font-weight:700}
+main{max-width:960px;margin:auto;padding:16px}h2{border-bottom:1px solid #6b4a2b;padding-bottom:4px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.card{background:#2a1d14;border:1px solid #6b4a2b;border-radius:10px;padding:12px}
+.card .icon{font-size:2rem}.card p{margin:4px 0;font-size:.9rem}
+button{width:100%;margin-top:8px;padding:10px;border:0;border-radius:6px;background:#f2c14e;color:#1b1410;font-weight:700;cursor:pointer}
+button:disabled{background:#6b6b6b;color:#ddd;cursor:default}
+#msg{min-height:1.4em;margin:12px 0}
+</style>
+</head>
+<body>
+<header><h1>🐎 Horse &amp; Armor Shop</h1><span class="coins">Play coins: <span id="coins">0</span></span><a href="/joustline/">← Back to Joustline</a></header>
+<main>
+<p>Play money only. No real purchases.</p>
+<div id="msg" role="status"></div>
+<h2>Horses</h2><div class="grid" id="horses"></div>
+<h2>Armor</h2><div class="grid" id="armor"></div>
+<button id="reset" style="max-width:220px">Reset shop</button>
+</main>
+<script>
+var ITEMS={horses:[{id:"pony",icon:"🐴",name:"Field Pony",cost:100,stat:"Speed +1"},{id:"courser",icon:"🐎",name:"Courser",cost:300,stat:"Speed +3"},{id:"destrier",icon:"🏇",name:"Destrier",cost:600,stat:"Power +5"}],
+armor:[{id:"leather",icon:"🧥",name:"Leather Jerkin",cost:80,stat:"Defense +1"},{id:"mail",icon:"⛓️",name:"Chain Mail",cost:250,stat:"Defense +3"},{id:"plate",icon:"🛡️",name:"Full Plate",cost:550,stat:"Defense +6"}]};
+var KEY="joustline-shop",s;
+function load(){try{s=JSON.parse(localStorage.getItem(KEY))}catch(e){}if(!s||typeof s.coins!=="number")s={coins:1000,owned:[]}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}}
+function render(){document.getElementById("coins").textContent=s.coins;
+["horses","armor"].forEach(function(k){var el=document.getElementById(k);el.innerHTML="";ITEMS[k].forEach(function(it){var own=s.owned.indexOf(it.id)>=0;
+var d=document.createElement("div");d.className="card";d.innerHTML='<div class="icon">'+it.icon+'</div><strong>'+it.name+'</strong><p>'+it.stat+'</p><p>'+it.cost+' coins</p>';
+var b=document.createElement("button");b.textContent=own?"Owned":(s.coins<it.cost?"Not enough coins":"Buy");b.disabled=own||s.coins<it.cost;
+b.onclick=function(){s.coins-=it.cost;s.owned.push(it.id);save();document.getElementById("msg").textContent="Bought "+it.name+".";render()};d.appendChild(b);el.appendChild(d)})})}
+document.getElementById("reset").onclick=function(){s={coins:1000,owned:[]};save();document.getElementById("msg").textContent="Shop reset.";render()};
+load();render();
+</script>
+</body>
+</html>
