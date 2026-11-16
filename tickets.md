@@ -96,7 +96,7 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
 NF1 · NeonFlush Expanded
    - **Team:** T1 BERT · **Lead/Owner:** Sir Bert · **Starts:** when N27 ships, no later than 3:49 PM ET
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** nf1-neonflush-expanded
-   - **Files:** /games/neon-flush/index.html (single file). Source: /source/neon-flush/pp.html (working single-file game, commit 4094b83). Supersedes NF01 (T2 alternate) for the expansion.
+   - **Files:** /games/neon-flush/index.html (single file). Source: /source/neon-flush/pp.html (working single-file game, commit 4094b83). Does NOT depend on NF01: NF01 was Oscar's Nov 11 Neon Flush card (T2 alternate), MISSED with no build and no preview (Leon, 2:39 PM ET Nov 16). NF1 is Leon's fresh expansion order of Nov 16. Open for Stonewall only: closing NF01 on the board.
    - **Expected live result:** Slice 1: more levels, level-select screen, progress saved in localStorage. Slice 2: sound on/off, animations, mobile touch pass. No console errors; desktop and 390×844 mobile PASS at the Vercel preview URL for this commit; downloaded file plays with network off.
    - **Deadline:** 8:49 PM ET Nov 16, 2026 (internal 7:49 PM ET)
 NF2 · Offline Pack shell
