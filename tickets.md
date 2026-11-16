@@ -78,19 +78,19 @@ The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every tea
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n27
    - **Files:** /joustline/reader/ (index.html + own JS/CSS)
    - **Expected live result:** /joustline/reader/ shows a chapter list; picking a chapter shows its text with next/previous navigation. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
-   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
+   - **Deadline:** 6:49 PM ET Nov 16, 2026 (internal 5:49 PM ET) — **MISSED** 3:49 PM internal and 4:49 PM ETA; no branch/commit/preview (Sir Bert, 5:35 PM ET). Slice for 6:49: one chapter that renders, with next/previous buttons; remainder goes to new cards. Branch + first commit hash due by 6:03 PM ET or card is reassigned.
 2. N28 · Character Codex — /joustline/
    - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Ghenguis Kuha · **Alternate card:** N15 Blackjack Table
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n28
    - **Files:** /joustline/codex/ (index.html + own JS/CSS)
    - **Expected live result:** /joustline/codex/ shows a grid of Joustline characters; tapping one opens a profile (name, house, role, short bio). Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
-   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
+   - **Deadline:** 6:49 PM ET Nov 16, 2026 (internal 5:49 PM ET) — **MISSED** 3:49 PM internal and 4:49 PM ETA; no branch/commit/preview (Sir Bert, 5:35 PM ET). Slice for 6:49: character grid with profiles that open; remainder goes to new cards. Branch + first commit hash due by 6:03 PM ET or card is reassigned.
 3. N29 · Jousting Duel v2 — /joustline/
    - **Team:** T1 BERT · **Lead:** Sir Bert · **Owner:** Matu May · **Alternate card:** N16 Video Poker
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n29
    - **Files:** /joustline/duel/ (index.html + own JS/CSS)
    - **Expected live result:** /joustline/duel/ runs a playable two-knight duel: choose a knight, play rounds, see a score and a winner, with a replay button. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
-   - **Deadline:** 4:49 PM ET Nov 16, 2026 (internal 3:49 PM ET)
+   - **Deadline:** 6:49 PM ET Nov 16, 2026 (internal 5:49 PM ET) — **MISSED** 3:49 PM internal and 4:49 PM ETA; no branch/commit/preview (Sir Bert, 5:35 PM ET). Slice for 6:49: one playable duel round; remainder goes to new cards. Branch + first commit hash due by 6:03 PM ET or card is reassigned.
    - **Note (Gadget, 12:51 ET Nov 16):** /joustline/ does not exist on LOUDSPEAKER main yet; each card builds its own subfolder. Open for Stonewall: confirm Vercel project, and which chapters/characters/duel changes are canon. Alternates skip N13 (already claimed under In progress).
 **FIRST PRIORITY ALONGSIDE N27–N29 — NeonFlush + offline pack (Leon's order 1:18 PM ET Nov 16; added by Gadget 1:20 PM ET):**
 NF1 · NeonFlush Expanded
