@@ -61,56 +61,119 @@ None.
 
 - Nov 1, 2026 — Notepad widget added to 3 journal posts — T-001 — verified by Stonewall.
 
-## Team queues — 3 scheduled tasks per team (Nov 4, 2026)
+## Team queues — 82 cards loaded (Nov 16, 2026)
 
-Each team keeps 3 tasks scheduled in advance here. Team leaders post their team's 3; Stonewall reads them off the GitHub watch and verifies live. Nothing counts done until Stonewall verifies it live.
+The 82 cards are loaded here. Even split — 17 per team, Teams 1–4. Every team works its 3 Joustline cards FIRST, then the other 14. Gadget (Card Keeper) assigns from here — 3 active per team, the rest queued behind in order. Kids N55–N68 are PARKED (no Kids Corner work). Teams submit finished files here, on the board, to Stonewall, who verifies and commits. Nothing counts done until Stonewall verifies it live (hash + Vercel preview URL + desktop/mobile PASS).
 
 ### URGENT — Leon's order, Nov 6, 2026, ~01:56 ET (work these first, above the 3-task queue)
 - **Priority 1 — Team 2 (casino):** Every casino game should have a LeonLink intro. Find one game that has it and put it in all casino games. After every casino game has one, do Arcadeline and the original bangers. Every game should have one.
-- **Priority 2 — Team 5 (Kids Corner):** Kids Corner should have a link in the navigation.
-- **Priority 3 — Team 6 (site design):** Every page on the site needs to be consistent with a theme. Now. Every page needs the same navigation, same header, same footer, same logo.
+- **Priority 2 — Team 5 (Kids Corner):** Kids Corner should have a link in the navigation. — **MOOT** (Kids Corner parked, Nov 16).
+- **Priority 3 — Team 6 (site design):** Every page on the site needs to be consistent with a theme. Now. Every page needs the same navigation, same header, same footer, same logo. — **MOOT** (Team 6 dissolved, Nov 16; site cards now split across Teams 1–4, N69–N82).
 
 
-### Team 1 — white-label software (Datasheet)
-1. **After-Hours AI Calls — lead storage + contact form QA** — repo datas-army-after-hours. Form (5a6b086) and /api/contact handler (f86fb8b) are live; homepage fix 84463df is live. Lead-storage code is being built to work with a Vercel Blob store or lead webhook. BLOCKED: creating the store is a new account (Leon's call, card pending). Done when: a test lead submitted at https://datas-army-after-hours.vercel.app/#contact is saved, a missing name/bad email is rejected, and a failed send shows an error.
-2. **Mission 2 party shell + Secret Santa modules** — repo datas-army-mission2-santa. Same-department fix (579f6a7, 3481c71) and milestone/work-anniversary tracker (6b7ce86, b19e821, 01563dd) are pushed; white-label shell in progress. Done when: on the live Pages site, Auto-assign never pairs same-department people over 3 runs, brand color applies and persists after reload, milestones.html loads and exports CSV/.ics, and mobile works at 375 px.
-3. **Browser-test PDF for live tester** — qa-test-sheet-2026-11-04.pdf (homepage re-test with test lead, Santa department/brand-color check, mobile 375 px) plus milestones.html. Our QA bot has no browser access, so these go to the live tester. Done when: every item is marked PASS/FAIL live.
+### Team 1 — BERT (17 cards)
+**ACTIVE — 3 (Joustline first):**
+1. N27 · Chapter Reader — /joustline/
+2. N28 · Character Codex — /joustline/
+3. N29 · Jousting Duel v2 — /joustline/
+**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
+4. N13 · 3D Slots Machine — /casino/
+5. N14 · 3D Roulette Table — /casino/
+6. N15 · Blackjack Table — /casino/
+7. N16 · Video Poker — /casino/
+8. N01 · Rebrand Config Wizard — /white-label/
+9. N02 · Restaurant Site Kit — /white-label/
+10. N03 · Barber/Salon Booking Kit — /white-label/
+11. N39 · Watch Database — /watches/
+12. N40 · Watch Detail Template — /watches/
+13. N41 · Top 5 Dive Watches Under $500 — /watches/
+14. N42 · Top 5 Dress Watches — /watches/
+15. N69 · Shared Nav v2 — /site/
+16. N70 · Shared Footer v2 — /site/
+17. N71 · Design Tokens File — /site/
 
-**NEXT UP (moved to Team 6, Nov 4 — Leon):** site-wide same-design rollout moved to Team 6's section below.
+### Team 2 — PIZZAPAN (17 cards)
+**ACTIVE — 3 (Joustline first):**
+1. N30 · Tournament Bracket Mode — /joustline/
+2. N31 · Map of the Realm — /joustline/
+3. N32 · Canon Checker Script — /joustline/
+**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
+4. N17 · Craps Table — /casino/
+5. N18 · Baccarat — /casino/
+6. N19 · Casino Lobby 3D — /casino/
+7. N04 · Real Estate Listing Kit — /white-label/
+8. N05 · Gym & Coach Kit — /white-label/
+9. N06 · Event/Wedding Microsite — /white-label/
+10. N43 · Top 5 Field Watches — /watches/
+11. N44 · Top 5 Smartwatches — /watches/
+12. N45 · Watch Compare Tool — /watches/
+13. N46 · How to Read Watch Specs — /watches/
+14. N72 · Homepage Redesign — /site/
+15. N73 · Site Search — /site/
+16. N74 · 404 Page — /site/
+17. N75 · Sitemap Generator — /site/
 
+### Team 3 — WHIZ (17 cards)
+**ACTIVE — 3 (Joustline first):**
+1. N33 · Horse & Armor Shop — /joustline/
+2. N34 · Lore Timeline — /joustline/
+3. N35 · Heraldry Builder — /joustline/
+**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
+4. N20 · Play-Money Wallet — /casino/
+5. N21 · Daily Bonus Wheel — /casino/
+6. N22 · Leaderboard Page — /casino/
+7. N23 · Sound & FX Pack — /casino/
+8. N07 · Church & Nonprofit Kit — /white-label/
+9. N08 · Contractor Quote Kit — /white-label/
+10. N09 · Podcast Show Kit — /white-label/
+11. N47 · How to Size a Strap — /watches/
+12. N48 · Watch Glossary — /watches/
+13. N49 · Top 5 Index Hub — /watches/
+14. N50 · Daily Watch Post Template — /watches/
+15. N76 · Dark Mode Toggle — /site/
+16. N77 · Template: Article — /site/
+17. N78 · Template: Game Page — /site/
 
-### Team 2 — casino (Paperwork)
-1. **Lion-Link + 5 slots freeze fix retest** — branch miles/lion-link-mobile-fix, head 3d96fc1 (includes shared freeze fix 08a79e9). Done when: Vercel preview of 3d96fc1 is up, SPIN no longer locks and wins credit to balance on Lion-Link and the 5 affected slots, and Leon's browser retest passes. Not merged to main until then.
-2. **Bottom menu covering game controls (shared mobile layout)** — fix in ag.css on its own branch: CSS variable for measured menu height plus safe-area inset. Done when: at 390×844 the bottom menu no longer covers Total Bet / SPIN on the newer-engine games (incl. Route 66, Lion-Link), and the Lion-Link-only padding rule is removed so it isn't doubled.
-3. **roulette3d — first browser build** — own branch, structured so Hare's 3D roulette engine can plug in. Done when: first commit is pushed, a Vercel preview loads the roulette3d page in a browser, and the link is added to Leon's testing PDF.
+### Team 4 — DATASHEET (17 cards)
+**ACTIVE — 3 (Joustline first):**
+1. N36 · Joustline Soundtrack Page — /joustline/
+2. N37 · Story Quiz — /joustline/
+3. N38 · Joustline Landing Page — /joustline/
+**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
+4. N24 · Keno — /casino/
+5. N25 · Casino Rules Hub — /casino/
+6. N26 · Responsible Play Page — /casino/
+7. N10 · Link-in-Bio Kit — /white-label/
+8. N11 · White-label Demo Gallery — /white-label/
+9. N12 · Offer & Pricing Page (draft) — /white-label/
+10. N51 · Top 5 Gaming Headsets — /watches/
+11. N52 · Top 5 Budget Phones — /watches/
+12. N53 · Watch Care How-To — /watches/
+13. N54 · Watch Quiz: Find Your Style — /watches/
+14. N79 · Template: Landing — /site/
+15. N80 · Accessibility Pass Script — /site/
+16. N81 · About & Contact Pages — /site/
+17. N82 · Status Board Page — /site/
 
-**NEXT UP: Casino exit — a visible way back to LeonLink** — repo afterglow. Players report once you're in the casino it's hard to get out. Add a prominent exit (one tap to leonlink.net) on the lobby (index.html) and on every game page (games/*.html). Suggested route: the game pages share the ll-intro.js loader (data-cat="casino") from leonlink.net — a casino-only exit there covers them all; do NOT load leonlink.net bottom-nav.js into Afterglow (its links are relative to leonlink.net and would break). If the shared route risks game loading, do it per-page instead. Done when: from the lobby and from a sample game page, one tap reaches leonlink.net, and Stonewall verifies live on one game page with game loading intact.
+### PARKED — Kids Corner (14 cards, N55–N68)
+Kids Corner is PARKED (Leon, Nov 16). No Kids Corner work. These cards are not assigned to any team. Team 5 (Bert) has no active queue.
+- N55 · Kids Story Library — /kids/
+- N56 · Bedtime Story Generator (offline) — /kids/
+- N57 · Alphabet Game — /kids/
+- N58 · Counting Game — /kids/
+- N59 · Coloring Pages — /kids/
+- N60 · Memory Match — /kids/
+- N61 · Shapes & Colors — /kids/
+- N62 · Kids Puzzle Jigsaw — /kids/
+- N63 · Spelling Bee Mini — /kids/
+- N64 · Ocean Explorer — /kids/
+- N65 · Space Explorer — /kids/
+- N66 · Kids Music Pad — /kids/
+- N67 · Parents Page — /kids/
+- N68 · Kids Hub Landing — /kids/
 
-### Team 3 — Joustline (Whiz + Pizzapan)
-1. Bug B1: load LeonProfile in joust.html, then the 4 canon fixes (Lord Bart Sheen, tournament rival rename, Montresor spelling, Bayard out of Ch1 roster) plus the "squire talks only to Bart" dialogue check. Owner: Pizzapan.
-2. Ch2 conflict commit: scripts follow Bible v0.4 on 5 points (Mildahouse, sword-moment order, Paris on screen, "Jack", Pouffe). Owner: Fencer; review by Jack, canon recheck by Noel; then Pizzapan builds Ch2 scenes 1, 2, 3, 5.
-3. Bugs B2, B5, B6, B7, B8, then the browser-test PDF (JoustLine_Browser_Testing.pdf, 18 items) goes to the live tester. Owner: Pizzapan, Whiz tracks.
-
-### Team 4 — watches / Top 5 (Chief)
-1. **Top 5 image fixes** — leonlink-home /lineup: replace missing images 3–5 on the Top 5 watch pages (3–4 on Rolex) and the duplicate bulova-5.jpg on the Bulova page. Approved by Leon Nov 4. Small logged commits, no deletions.
-2. **Top 5 gaps + price dates** — fill any Top 5 list with fewer than five picks (Amazon, Leon's tag, same category; each added pick logged openly) and add "last checked" dates to prices. No price changes.
-3. **Money-basics guides** — leonlink-home /how-to: publish the 10 money-basics guides over the "Guide publishing soon" placeholders. Approved by Leon Nov 4.
-
-### Team 5 — Kids Corner (Bert)
-1. **Pet page fix #2 — Little Kids mode (in progress).** Add a visible "Little Kids mode" label to the pet play lock (kids/pet/kids.js), and route economy.js's +1 care reward through `LeonLinkPet.addTokens(1)` so the coin sound plays. Live check: /kids/pet/ shows the Little Kids mode label; doing a care action plays the coin sound.
-2. **Live check of Kids menu fix + fix #3 sounds (pushed on leonlink-home main, needs Stonewall).** Live check: /kids/, /kids/kart/, /kids/songs/ and /kids/pet/ show no site bottom menu, no Casino link and no "Back to LeonLink" link. On /kids/pet/: tapping the pet plays the pat sound, a ✋ Pat button sits next to Hug, earning a coin plays the coin sound, Play has its own sound, and one mute silences both sounds and speech.
-3. **Pet tutorial fix — guide step pointing at a missing 5th nav button.** Remove that step or point it at a button that exists. Live check: the /kids/pet/ tutorial runs start to finish with every step pointing at a real button.
-
-**Team 5 device-test checklist for Stonewall (posted Nov 5, 2026).** Test on a real phone/computer, private tab first. Mark each item PASS or FAIL. Untested = not passed.
-- **A. Menu and links** (/kids/, /kids/pet/, /kids/kart/, /kids/songs/): no site bottom menu; no Casino or other site links, even after scrolling; only way out of Pet is 🏠 Kids Corner → /kids/; Pet bar shows only My pet, Shop, Homes, Play.
-- **B. Little Kids mode:** only one Little Kids badge shows (KNOWN FAIL until Bert pushes the single-badge fix); tapping ▶ starts play and the gate disappears; 🚪 exit works only when held.
-- **C + D. Coins, care, free apple:** each care action gives +1 coin with coin sound; after 10 care rewards a day, no more coins; coins stay after reload; free apple when hungry, no food and under 5 coins → 1 apple; no 2nd apple within 30 min, max 3 a day.
-- **E + F. Sounds and mute** (test mute on Pet, Kart and Songs separately — each has its own): head tap plays pat sound once (KNOWN FAIL until Bert pushes the scene3d.js:201 fix); body tap plays tickle, Play has its own sound; volume comfortable at medium; mute silences everything and stays after reload; unmute brings sound back.
-- **G + H. Phones and console:** sound starts after first tap (iPhone/Android); layout fits portrait and landscape; long-press opens no menu and text isn't selectable; no red console errors; economy.js and kids.js load with ?v=20261104a.
-Report results in this file or the Team 5 chat; Bert fixes every FAIL.
-
-### Team 6 — site design (Rehab)
-Leader posts the team's 3 here. Lane: site design — homepage + all leonlink-home pages, same design everywhere, mobile first. 1. **Site-wide same-design rollout** — repo leonlink-home. Moved from Team 1's queue Nov 4 (Leon). Full per-page list: LOUDSPEAKER audit-2026-11-04.md (157 pages, only index.html canonical; 62 duplicated, 93 variant, 1 missing). Order: Wave 0 — fix the 12 double-header pages (how-to x5, packs.html, games/moons.html, journal/why-do-we-dream.html, started-from-a-baby.html, roadmap.html + 2 roadmap-archive pages) AFTER the chrome-source call below; Wave 1 — lineup (40); Wave 2 — root hubs/tools/series; Wave 3 — journal family (48); Wave 4 — small groups + games-side (play UI intact; games-side changes still need Leon's word). Flagged, need Leon's word each before touching: wall.html, film-room.html, dating-profile.html. kimber-leon.html DELETED Nov 4 (Leon) — page, sitemap entry, and image folder removed; no longer in scope. CHROME-SOURCE CALL, pending Leon before Wave 0: static shared chrome with injectors retired, vs injectors updated to emit the new design — until one wins, adding static chrome to any nav.js page recreates double headers. Done when: every in-scope page carries the shared chrome with no duplicated headers/footers/navs, verified live by Stonewall page by page. Starting survey: LOUDSPEAKER audit-2026-11-04.md (157 pages, only the homepage canonical). Excluded: software apps, casino (Afterglow), Arcadeline, kids pages (chrome-free by design). Flagged, need Leon's word each before touching: wall.html, film-room.html, dating-profile.html. kimber-leon.html DELETED Nov 4 (Leon) — page, sitemap entry, and image folder removed; no longer in scope.
+### Team 6 — site design (DISSOLVED)
+Team 6 (Rehab) dissolved Nov 16 (Leon). The site cards now live in Teams 1–4 queues above (N69–N82). No Team 6 queue.
 
 ### Team 7 — Games (floating team; lead TL Pebbelz) — added Nov 6, 2026, ~09:27 ET
 Scope: games department of leonlink.net only — NOT the casino. All rules apply. Every game: HTML/JS, high quality and polished, **mobile first**, with a proper intro: "LEONLINK PRESENTS" + a spinning item, then the game title with graphics/flair. Repo **leonlink-home**, one branch per game, single file `games/<slug>.html` (+ `games/<slug>/` assets). One active card per member; next card starts when the active one goes to Leon for testing (Parked). Done = commit hash + Vercel preview URL + live URL, desktop + mobile PASS. **Deputy lead: Oscar** (runs the board if TL Pebbelz is silent 1h). **Live checker: IndieOphan** (desktop+mobile check of every Team 7 live URL; nobody checks their own card — Oscar checks T7-07). Named Nov 6, ~10:31 ET.
