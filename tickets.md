@@ -134,28 +134,37 @@ NF3+ · New offline games (one game per card)
 ### Team 2 — PIZZAPAN (17 cards)
 **ACTIVE — 3 (Joustline first):**
 1. N30 · Tournament Bracket Mode — /joustline/
-   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Jude Johnson · **Alternate card:** N17 Craps Table
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Sir Pizzapan (was Jude Johnson — reassigned 6:39 PM ET Nov 16; piece due 7:30 PM ET) · **Alternate card:** N17 Craps Table
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n30-tournament-bracket-mode
    - **Files:** /joustline/tournament-bracket-mode/ (index.html + own JS/CSS + README.md)
    - **Expected live result:** /joustline/tournament-bracket-mode/ shows a tournament bracket: add 4 or 8 jousters, tap a winner in each match to advance them round by round, and a champion is shown at the end, with a reset button. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
    - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
 2. N31 · Map of the Realm — /joustline/
-   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** MILES dAvis · **Alternate card:** N18 Baccarat
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Sir Pizzapan (was MILES dAvis — reassigned 6:39 PM ET Nov 16; piece due 7:30 PM ET) · **Alternate card:** N18 Baccarat
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n31-map-of-the-realm
    - **Files:** /joustline/map-of-the-realm/ (index.html + own JS/CSS + README.md)
    - **Expected live result:** /joustline/map-of-the-realm/ shows a map of the Joustline realm with labelled regions; tapping a region opens a panel with its name and a short description. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
    - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
 3. N32 · Canon Checker Script — /joustline/
-   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Juan I Ezekiel · **Alternate card:** N19 Casino Lobby 3D
+   - **Team:** T2 PIZZAPAN · **Lead:** Sir Pizzapan · **Owner:** Sir Pizzapan (was Juan I Ezekiel — reassigned 6:39 PM ET Nov 16; piece due 7:30 PM ET) · **Alternate card:** N19 Casino Lobby 3D
    - **Repo:** leonptucker3886-lab/LOUDSPEAKER · **Branch:** n32-canon-checker-script
    - **Files:** /joustline/canon-checker-script/ (index.html, canon.json, checker JS/CSS + README.md)
    - **Expected live result:** /joustline/canon-checker-script/ has a text box: paste Joustline text, press Check, and it lists every character, house and place name found, marking each as canon (present in canon.json) or unknown/misspelled with a suggested canon match. canon.json holds the canon names (characters, houses, places) used by N27–N29/N31. Loads with no console errors and works on desktop and mobile at the Vercel preview URL running this card's commit.
    - **Deadline:** reply 2:15 PM ET Nov 16, 2026 · submit to Stonewall 5:15 PM ET Nov 16, 2026 (1h / 4h from the commit adding this card, ~1:15 PM ET; Team 2 internal target 3:51 PM ET)
    - **Note (Gadget, Nov 16):** /joustline/ does not exist on main yet; each card builds its own subfolder. Templates N77/N78/N79 not yet mapped to N30–N32 (setup blocker, not builders'). Open for Stonewall: confirm canon.json source list for N32.
-**BACKLOG — 14 (in order, Gadget assigns next when one is done):**
-4. N17 · Craps Table — /casino/
-5. N18 · Baccarat — /casino/
-6. N19 · Casino Lobby 3D — /casino/
+### Team 2 reassignment — 2026-11-16 18:39 ET (Gadget, committed by Stonewall)
+- N30 Tournament Bracket Mode: owner Sir Pizzapan (was Jude). Piece due 19:30 ET.
+- N31 Map of the Realm: owner Sir Pizzapan (was MILES). Piece due 19:30 ET.
+- N32 Canon Checker Script: owner Sir Pizzapan (was Juan). Piece due 19:30 ET.
+- N17 Craps Table (/casino/): owner Jude Johnson. N18 Baccarat (/casino/): owner MILES dAvis. N19 Casino Lobby 3D (/casino/): owner Juan I Ezekiel.
+- N17–N19 must include the LeonLink intro (Leon's Priority 1). Deadlines: file name or diff by 19:10 ET; working piece to Stonewall by 20:40 ET; full card due 22:40 ET.
+- Team 2 queue next: N04, N05, N06.
+- Jude remains live checker for N30, N31, N32 (desktop + mobile once Stonewall posts each hash and preview URL).
+**ACTIVE (next) — 3 (assigned 6:39 PM ET Nov 16, Gadget):**
+4. N17 · Craps Table — /casino/ · **Owner:** Jude Johnson · file name or diff by 7:10 PM ET · working piece 8:40 PM ET · due 10:40 PM ET · must include LeonLink intro (Priority 1)
+5. N18 · Baccarat — /casino/ · **Owner:** MILES dAvis · file name or diff by 7:10 PM ET · working piece 8:40 PM ET · due 10:40 PM ET · must include LeonLink intro (Priority 1)
+6. N19 · Casino Lobby 3D — /casino/ · **Owner:** Juan I Ezekiel · file name or diff by 7:10 PM ET · working piece 8:40 PM ET · due 10:40 PM ET · must include LeonLink intro (Priority 1)
+**BACKLOG — 11 (in order, Gadget assigns next when one is done):**
 7. N04 · Real Estate Listing Kit — /white-label/
 8. N05 · Gym & Coach Kit — /white-label/
 9. N06 · Event/Wedding Microsite — /white-label/
