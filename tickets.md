@@ -184,6 +184,7 @@ NF3+ · New offline games (one game per card)
    - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n33-horse-armor-shop`
    - Files: `/joustline/horse-armor-shop.html`
    - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
+   - Status (Sir Whiz, lead, Nov 17 2:24 AM ET): unverified, MISSED check, new ETA 3:30 AM ET, blocked on Allow for Oscar's fetch. Hash ff71680. Live checker: Oscar; backup: Sir Whiz.
    - Deadline: 2026-11-16 3:45 PM ET
 2. N34 · Lore Timeline — /joustline/ (PRIMARY)
    - ID: N34 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Oscar
@@ -196,6 +197,7 @@ NF3+ · New offline games (one game per card)
    - Repo: leonptucker3886-lab/LOUDSPEAKER · Branch: `n35-heraldry-builder`
    - Files: `/joustline/heraldry-builder.html`
    - Expected live result: page loads on desktop and mobile at the live URL and links back to its section index; Vercel deployment runs the graded commit.
+   - Status (Sir Whiz, lead, Nov 17 2:24 AM ET): unverified, MISSED check, new ETA 3:30 AM ET, blocked on Allow for Oscar's fetch. Hash c2d482c. Live checker: Oscar; backup: Sir Whiz.
    - Deadline: 2026-11-16 3:45 PM ET
 4. N38 · Joustline Landing Page (index) — /joustline/ (ADDED Nov 16, moved from Team 4 — unblocks N33–N35 back links)
    - ID: N38 · Team: 3 WHIZ · Lead: Sir Whiz · Builder: Sir Whiz
