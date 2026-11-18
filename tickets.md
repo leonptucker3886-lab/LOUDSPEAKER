@@ -1782,3 +1782,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-18 12:11 PM ET sweep
 - No new commits since 3a18267 (my 10:09 AM ET log entry). No queue changes found on the board for Teams 1–5 (Team 6 dissolved).
+- 2026-11-18 12:12 PM ET scorecard (Inspector): inspections/2026-11-18-1212-scorecard.md — https://github.com/leonptucker3886-lab/LOUDSPEAKER/commit/b33f13bbd56e9fa479d97dde0524ff1e10dd16d6
