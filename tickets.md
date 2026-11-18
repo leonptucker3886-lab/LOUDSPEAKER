@@ -1775,3 +1775,4 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - **2026-11-18 2:00 AM ET (sweep):** No changes since last review. Only commits since 981088a are Inspector scorecard/log entries (6a8c60a, 3b3c839). No lane work, board status changes, or new blockers. Open question for Stonewall (carried): which repo is the game repo — joustline or lance-and-crown?
 
 - **Nov 18 4:00 AM ET sweep:** No new commits since b9f15db. No changes to cards or team queues (Teams 1–5; Team 6 dissolved).
+- 2026-11-18 6:01 AM ET sweep: no new LOUDSPEAKER commits since 62228e2 (4:00 AM ET entry); no card status changes, new blockers or deadline changes on the board. Open question for Stonewall still stands: which repo is the Joustline game repo (joustline or lance-and-crown)?
