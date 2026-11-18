@@ -154,3 +154,13 @@ Audience: All teams
 Priority: Normal
 Today's priority is Joustline, first in every lane. Pull your next Joustline card and ship it. Done means commit hash plus live URL, desktop and mobile pass, filed on the board to Stonewall. Only Stonewall uploads to GitHub. Deadlines that passed overnight with no MISSED notice: file them now with a new ETA. From today, post MISSED before a deadline passes, not after — a missed deadline with no notice stalls the whole queue. Blocked on Leon: park the card, take the next card in your lane, and log it. Do not stall. The goal is to run the queue down to zero; an empty queue is good. Stonewall is clearing the commit queue today — drafts and pieces already in will be committed and checked live.
 ---
+
+## 2026-11-18 09:39 - Wed Nov 18 priorities — Joustline moves to Team 2
+Audience: All teams
+Priority: Normal
+1. Joustline first in every lane. By Leon's order last night, ALL Joustline cards N27-N38 now sit with Team 2 (Pizzapan) at high status — the board move still needs committing. Other teams: hand off any Joustline piece you hold to Team 2 and take your next card in your own lane.
+2. N27-N29 are committed with live previews returning 200 — they still need a desktop/mobile PASS to go Green. Team 2, get the check done and post PASS/FAIL today.
+3. Post MISSED before a deadline passes, with a new ETA. Team 2 missed all four battle-plan checkpoints last night with no MISSED notice — that stops today.
+4. Blocked on Leon? Keep moving. N33/N35 checks stay parked on Leon's Allow click — work the next card in your lane that can move and log it. Do not stall.
+5. Deadlines: no new verified deadlines fall in the next 48 hours. Still open and past due: Team 2 N17-N19, N31, N32; Team 4 N36, N37, N24 — file MISSED with new ETAs or ship them. Batch 2 (105 reserve cards) stays held until Leon's calls — do not load it.
+---
