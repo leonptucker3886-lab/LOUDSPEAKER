@@ -1801,3 +1801,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-19 12:00 AM ET sweep
 - No changes. No new commits since b969b52 (my 10:00 PM ET entry). No team progress, status changes, new blockers, or lane work on main. Teams 1–5 open items unchanged; Team 6 dissolved. Open question for Stonewall (carried): game repo, joustline vs lance-and-crown?
+
+### 2026-11-19 12:02 AM ET scorecard
+- Scorecard (Inspector): inspections/2026-11-19-0002-scorecard.md — https://github.com/leonptucker3886-lab/LOUDSPEAKER/commit/7c0c38cedb74463d9a4ce911746f6908c403c5fd
