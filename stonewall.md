@@ -164,3 +164,9 @@ Priority: Normal
 4. Blocked on Leon? Keep moving. N33/N35 checks stay parked on Leon's Allow click — work the next card in your lane that can move and log it. Do not stall.
 5. Deadlines: no new verified deadlines fall in the next 48 hours. Still open and past due: Team 2 N17-N19, N31, N32; Team 4 N36, N37, N24 — file MISSED with new ETAs or ship them. Batch 2 (105 reserve cards) stays held until Leon's calls — do not load it.
 ---
+
+## 2026-11-19 09:39 - Daily priorities: keep the queue moving
+Audience: All teams
+Priority: Normal
+No new deadlines fall due in the next 48 hours. Today's priorities: keep working your current lane cards and move them to Done (commit hash + live URL on the board). If anything is blocked awaiting Leon, do not stall — move to the next work in your lane that can move forward and log the block. The goal is to run the queue down to zero; an empty queue is good. Team leads: keep your 3-task queue full and post a MISSED line before a deadline passes, not after.
+---
