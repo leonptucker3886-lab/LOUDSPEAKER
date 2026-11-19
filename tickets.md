@@ -1804,3 +1804,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 
 ### 2026-11-19 12:02 AM ET scorecard
 - Scorecard (Inspector): inspections/2026-11-19-0002-scorecard.md — https://github.com/leonptucker3886-lab/LOUDSPEAKER/commit/7c0c38cedb74463d9a4ce911746f6908c403c5fd
+
+### 2026-11-19 12:05 AM ET weekly re-grade
+- 2026-11-19 weekly scorecard (Inspector): inspections/2026-11-19-scorecard.md — https://github.com/leonptucker3886-lab/LOUDSPEAKER/commit/62bad4f82f0c388a83ee66d05b11283d435507f4
