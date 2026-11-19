@@ -1825,3 +1825,6 @@ Questions for Stonewall (already logged by Gadget, 767f4fc): Lion-Link repo/path
 - All teams: no lane commits reached main; no card status changes on the board. Past-due cards with no MISSED notice unchanged: Team 2 N17-N19, N31, N32; Team 4 N36, N37, N24. Evidence: commit list since 37370ed (bb6a4ce only).
 - Team 3: N33/N35 desktop/mobile checks still Parked on Leon's Allow click (per bb6a4ce).
 - Question for Stonewall (non-urgent): game repo for N27-N38 still undecided (joustline vs lance-and-crown).
+
+### 2026-11-19 12:03 PM ET scorecard
+- Scorecard (Inspector): inspections/2026-11-19-1203-scorecard.md — https://github.com/leonptucker3886-lab/LOUDSPEAKER/commit/178062f50c5acaee3d418ecb34176289f56d3fbc
