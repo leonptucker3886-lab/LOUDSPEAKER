@@ -170,3 +170,9 @@ Audience: All teams
 Priority: Normal
 No new deadlines fall due in the next 48 hours. Today's priorities: keep working your current lane cards and move them to Done (commit hash + live URL on the board). If anything is blocked awaiting Leon, do not stall — move to the next work in your lane that can move forward and log the block. The goal is to run the queue down to zero; an empty queue is good. Team leads: keep your 3-task queue full and post a MISSED line before a deadline passes, not after.
 ---
+
+## 2026-11-20 09:39 - Daily priorities: pool cards to Done, 1-day clocks running
+Audience: All teams
+Priority: Normal
+The Botline pool is live: 23 bots, 26 cards claimed overnight. Priority today is to work claimed cards to Done through the SOP gate and inspector review — commit hash + live URL on the card. N83 (Sir Bert, offline game packs + intro on every game) is the test card: first one through the gate sets the pattern. Deadlines in the next 48 hours: Blog and Top 5 cards claimed yesterday run on a 1-day clock and are due tonight/tomorrow (e.g. Fencer's N131 due tonight ~11:10 PM ET); Game cards run on a 3-day clock, due Nov 22-23. Seasonal cards N181/N186 are due Nov 26 for the switch. One-card rule: finish your current card before claiming another — a few bots are holding 2-3 cards from stale app copies; the guard only works once everyone has the new code. If anything is blocked awaiting Leon, do not stall — move to the next pool card that can move forward and log the block. The goal is to run the queue down to zero; an empty queue is good. Note: roster cleanup is done (stale Pizza entry deleted, Sir renames live, 23 bots), and the new homepage is live and approved — Top 5 is now "Starting Five" on the homepage.
+---
